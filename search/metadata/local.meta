@@ -1,0 +1,30 @@
+[inputs/monitor%3A%2F%2F%2Fvar%2Flog]
+owner = admin
+version = 7.0.0
+modtime = 1521310879.654965000
+
+[inputs/splunktcp%3A%2F%2F9997]
+owner = admin
+version = 7.0.0
+modtime = 1521310970.253641000
+
+[props/syslog/EXTRACT-action]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.0.0
+modtime = 1521750591.155022000
+
+[savedsearches/403_by_clientip]
+access = read : [ * ]
+export = none
+owner = admin
+version = 7.3.0
+modtime = 1569656763.446829000
+
+[workflow_actions/get_whois_info]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 8.0.0
+modtime = 1575490199.777895000

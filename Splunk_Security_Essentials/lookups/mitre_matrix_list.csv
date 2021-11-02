@@ -1,0 +1,292 @@
+Tactic,"Tactic_Order",Technique,"Technique_Order"
+"Initial Access",1,"Drive-by Compromise",1
+"Initial Access",1,"Exploit Public-Facing Application",2
+"Initial Access",1,"Hardware Additions",3
+"Initial Access",1,"Replication Through Removable Media",4
+"Initial Access",1,"Spearphishing Attachment",5
+"Initial Access",1,"Spearphishing Link",6
+"Initial Access",1,"Spearphishing via Service",7
+"Initial Access",1,"Supply Chain Compromise",8
+"Initial Access",1,"Trusted Relationship",9
+"Initial Access",1,"Valid Accounts",10
+Execution,2,AppleScript,1
+Execution,2,CMSTP,2
+Execution,2,"Command-Line Interface",3
+Execution,2,"Compiled HTML File",4
+Execution,2,"Control Panel Items",5
+Execution,2,"Dynamic Data Exchange",6
+Execution,2,"Execution through API",7
+Execution,2,"Execution through Module Load",8
+Execution,2,"Exploitation for Client Execution",9
+Execution,2,"Graphical User Interface",10
+Execution,2,InstallUtil,11
+Execution,2,"LSASS Driver",12
+Execution,2,Launchctl,13
+Execution,2,"Local Job Scheduling",14
+Execution,2,Mshta,15
+Execution,2,PowerShell,16
+Execution,2,"Regsvcs/Regasm",17
+Execution,2,Regsvr32,18
+Execution,2,Rundll32,19
+Execution,2,"Scheduled Task",20
+Execution,2,Scripting,21
+Execution,2,"Service Execution",22
+Execution,2,"Signed Binary Proxy Execution",23
+Execution,2,"Signed Script Proxy Execution",24
+Execution,2,Source,25
+Execution,2,"Space after Filename",26
+Execution,2,"Third-party Software",27
+Execution,2,Trap,28
+Execution,2,"Trusted Developer Utilities",29
+Execution,2,"User Execution",30
+Execution,2,"Windows Management Instrumentation",31
+Execution,2,"Windows Remote Management",32
+Execution,2,"XSL Script Processing",33
+Persistence,3,".bash_profile and .bashrc",1
+Persistence,3,"Accessibility Features",2
+Persistence,3,"Account Manipulation",3
+Persistence,3,"AppCert DLLs",4
+Persistence,3,"AppInit DLLs",5
+Persistence,3,"Application Shimming",6
+Persistence,3,"Authentication Package",7
+Persistence,3,"BITS Jobs",8
+Persistence,3,Bootkit,9
+Persistence,3,"Browser Extensions",10
+Persistence,3,"Change Default File Association",11
+Persistence,3,"Component Firmware",12
+Persistence,3,"Component Object Model Hijacking",13
+Persistence,3,"Create Account",14
+Persistence,3,"DLL Search Order Hijacking",15
+Persistence,3,"Dylib Hijacking",16
+Persistence,3,"External Remote Services",17
+Persistence,3,"File System Permissions Weakness",18
+Persistence,3,"Hidden Files and Directories",19
+Persistence,3,Hooking,20
+Persistence,3,Hypervisor,21
+Persistence,3,"Image File Execution Options Injection",22
+Persistence,3,"Kernel Modules and Extensions",23
+Persistence,3,"LC_LOAD_DYLIB Addition",24
+Persistence,3,"LSASS Driver",25
+Persistence,3,"Launch Agent",26
+Persistence,3,"Launch Daemon",27
+Persistence,3,Launchctl,28
+Persistence,3,"Local Job Scheduling",29
+Persistence,3,"Login Item",30
+Persistence,3,"Logon Scripts",31
+Persistence,3,"Modify Existing Service",32
+Persistence,3,"Netsh Helper DLL",33
+Persistence,3,"New Service",34
+Persistence,3,"Office Application Startup",35
+Persistence,3,"Path Interception",36
+Persistence,3,"Plist Modification",37
+Persistence,3,"Port Knocking",38
+Persistence,3,"Port Monitors",39
+Persistence,3,"Rc.common",40
+Persistence,3,"Re-opened Applications",41
+Persistence,3,"Redundant Access",42
+Persistence,3,"Registry Run Keys / Startup Folder",43
+Persistence,3,"SIP and Trust Provider Hijacking",44
+Persistence,3,"Scheduled Task",45
+Persistence,3,Screensaver,46
+Persistence,3,"Security Support Provider",47
+Persistence,3,"Service Registry Permissions Weakness",48
+Persistence,3,"Setuid and Setgid",49
+Persistence,3,"Shortcut Modification",50
+Persistence,3,"Startup Items",51
+Persistence,3,"System Firmware",52
+Persistence,3,"Time Providers",53
+Persistence,3,Trap,54
+Persistence,3,"Valid Accounts",55
+Persistence,3,"Web Shell",56
+Persistence,3,"Windows Management Instrumentation Event Subscription",57
+Persistence,3,"Winlogon Helper DLL",58
+"Privilege Escalation",4,"Access Token Manipulation",1
+"Privilege Escalation",4,"Accessibility Features",2
+"Privilege Escalation",4,"AppCert DLLs",3
+"Privilege Escalation",4,"AppInit DLLs",4
+"Privilege Escalation",4,"Application Shimming",5
+"Privilege Escalation",4,"Bypass User Account Control",6
+"Privilege Escalation",4,"DLL Search Order Hijacking",7
+"Privilege Escalation",4,"Dylib Hijacking",8
+"Privilege Escalation",4,"Exploitation for Privilege Escalation",9
+"Privilege Escalation",4,"Extra Window Memory Injection",10
+"Privilege Escalation",4,"File System Permissions Weakness",11
+"Privilege Escalation",4,Hooking,12
+"Privilege Escalation",4,"Image File Execution Options Injection",13
+"Privilege Escalation",4,"Launch Daemon",14
+"Privilege Escalation",4,"New Service",15
+"Privilege Escalation",4,"Path Interception",16
+"Privilege Escalation",4,"Plist Modification",17
+"Privilege Escalation",4,"Port Monitors",18
+"Privilege Escalation",4,"Process Injection",19
+"Privilege Escalation",4,"SID-History Injection",20
+"Privilege Escalation",4,"Scheduled Task",21
+"Privilege Escalation",4,"Service Registry Permissions Weakness",22
+"Privilege Escalation",4,"Setuid and Setgid",23
+"Privilege Escalation",4,"Startup Items",24
+"Privilege Escalation",4,Sudo,25
+"Privilege Escalation",4,"Sudo Caching",26
+"Privilege Escalation",4,"Valid Accounts",27
+"Privilege Escalation",4,"Web Shell",28
+"Defense Evasion",5,"Access Token Manipulation",1
+"Defense Evasion",5,"BITS Jobs",2
+"Defense Evasion",5,"Binary Padding",3
+"Defense Evasion",5,"Bypass User Account Control",4
+"Defense Evasion",5,CMSTP,5
+"Defense Evasion",5,"Clear Command History",6
+"Defense Evasion",5,"Code Signing",7
+"Defense Evasion",5,"Compiled HTML File",8
+"Defense Evasion",5,"Component Firmware",9
+"Defense Evasion",5,"Component Object Model Hijacking",10
+"Defense Evasion",5,"Control Panel Items",11
+"Defense Evasion",5,DCShadow,12
+"Defense Evasion",5,"DLL Search Order Hijacking",13
+"Defense Evasion",5,"DLL Side-Loading",14
+"Defense Evasion",5,"Deobfuscate/Decode Files or Information",15
+"Defense Evasion",5,"Disabling Security Tools",16
+"Defense Evasion",5,"Exploitation for Defense Evasion",17
+"Defense Evasion",5,"Extra Window Memory Injection",18
+"Defense Evasion",5,"File Deletion",19
+"Defense Evasion",5,"File Permissions Modification",20
+"Defense Evasion",5,"File System Logical Offsets",21
+"Defense Evasion",5,"Gatekeeper Bypass",22
+"Defense Evasion",5,HISTCONTROL,23
+"Defense Evasion",5,"Hidden Files and Directories",24
+"Defense Evasion",5,"Hidden Users",25
+"Defense Evasion",5,"Hidden Window",26
+"Defense Evasion",5,"Image File Execution Options Injection",27
+"Defense Evasion",5,"Indicator Blocking",28
+"Defense Evasion",5,"Indicator Removal from Tools",29
+"Defense Evasion",5,"Indicator Removal on Host",30
+"Defense Evasion",5,"Indirect Command Execution",31
+"Defense Evasion",5,"Install Root Certificate",32
+"Defense Evasion",5,InstallUtil,33
+"Defense Evasion",5,"LC_MAIN Hijacking",34
+"Defense Evasion",5,Launchctl,35
+"Defense Evasion",5,Masquerading,36
+"Defense Evasion",5,"Modify Registry",37
+"Defense Evasion",5,Mshta,38
+"Defense Evasion",5,"NTFS File Attributes",39
+"Defense Evasion",5,"Network Share Connection Removal",40
+"Defense Evasion",5,"Obfuscated Files or Information",41
+"Defense Evasion",5,"Plist Modification",42
+"Defense Evasion",5,"Port Knocking",43
+"Defense Evasion",5,"Process Doppelganging",44
+"Defense Evasion",5,"Process Hollowing",45
+"Defense Evasion",5,"Process Injection",46
+"Defense Evasion",5,"Redundant Access",47
+"Defense Evasion",5,"Regsvcs/Regasm",48
+"Defense Evasion",5,Regsvr32,49
+"Defense Evasion",5,Rootkit,50
+"Defense Evasion",5,Rundll32,51
+"Defense Evasion",5,"SIP and Trust Provider Hijacking",52
+"Defense Evasion",5,Scripting,53
+"Defense Evasion",5,"Signed Binary Proxy Execution",54
+"Defense Evasion",5,"Signed Script Proxy Execution",55
+"Defense Evasion",5,"Software Packing",56
+"Defense Evasion",5,"Space after Filename",57
+"Defense Evasion",5,"Template Injection",58
+"Defense Evasion",5,Timestomp,59
+"Defense Evasion",5,"Trusted Developer Utilities",60
+"Defense Evasion",5,"Valid Accounts",61
+"Defense Evasion",5,"Web Service",62
+"Defense Evasion",5,"XSL Script Processing",63
+"Credential Access",6,"Account Manipulation",1
+"Credential Access",6,"Bash History",2
+"Credential Access",6,"Brute Force",3
+"Credential Access",6,"Credential Dumping",4
+"Credential Access",6,"Credentials in Files",5
+"Credential Access",6,"Credentials in Registry",6
+"Credential Access",6,"Exploitation for Credential Access",7
+"Credential Access",6,"Forced Authentication",8
+"Credential Access",6,Hooking,9
+"Credential Access",6,"Input Capture",10
+"Credential Access",6,"Input Prompt",11
+"Credential Access",6,Kerberoasting,12
+"Credential Access",6,Keychain,13
+"Credential Access",6,"LLMNR/NBT-NS Poisoning",14
+"Credential Access",6,"Network Sniffing",15
+"Credential Access",6,"Password Filter DLL",16
+"Credential Access",6,"Private Keys",17
+"Credential Access",6,"Securityd Memory",18
+"Credential Access",6,"Two-Factor Authentication Interception",19
+Discovery,7,"Account Discovery",1
+Discovery,7,"Application Window Discovery",2
+Discovery,7,"Browser Bookmark Discovery",3
+Discovery,7,"File and Directory Discovery",4
+Discovery,7,"Network Service Scanning",5
+Discovery,7,"Network Share Discovery",6
+Discovery,7,"Network Sniffing",7
+Discovery,7,"Password Policy Discovery",8
+Discovery,7,"Peripheral Device Discovery",9
+Discovery,7,"Permission Groups Discovery",10
+Discovery,7,"Process Discovery",11
+Discovery,7,"Query Registry",12
+Discovery,7,"Remote System Discovery",13
+Discovery,7,"Security Software Discovery",14
+Discovery,7,"System Information Discovery",15
+Discovery,7,"System Network Configuration Discovery",16
+Discovery,7,"System Network Connections Discovery",17
+Discovery,7,"System Owner/User Discovery",18
+Discovery,7,"System Service Discovery",19
+Discovery,7,"System Time Discovery",20
+"Lateral Movement",8,AppleScript,1
+"Lateral Movement",8,"Application Deployment Software",2
+"Lateral Movement",8,"Distributed Component Object Model",3
+"Lateral Movement",8,"Exploitation of Remote Services",4
+"Lateral Movement",8,"Logon Scripts",5
+"Lateral Movement",8,"Pass the Hash",6
+"Lateral Movement",8,"Pass the Ticket",7
+"Lateral Movement",8,"Remote Desktop Protocol",8
+"Lateral Movement",8,"Remote File Copy",9
+"Lateral Movement",8,"Remote Services",10
+"Lateral Movement",8,"Replication Through Removable Media",11
+"Lateral Movement",8,"SSH Hijacking",12
+"Lateral Movement",8,"Shared Webroot",13
+"Lateral Movement",8,"Taint Shared Content",14
+"Lateral Movement",8,"Third-party Software",15
+"Lateral Movement",8,"Windows Admin Shares",16
+"Lateral Movement",8,"Windows Remote Management",17
+Collection,9,"Audio Capture",1
+Collection,9,"Automated Collection",2
+Collection,9,"Clipboard Data",3
+Collection,9,"Data Staged",4
+Collection,9,"Data from Information Repositories",5
+Collection,9,"Data from Local System",6
+Collection,9,"Data from Network Shared Drive",7
+Collection,9,"Data from Removable Media",8
+Collection,9,"Email Collection",9
+Collection,9,"Input Capture",10
+Collection,9,"Man in the Browser",11
+Collection,9,"Screen Capture",12
+Collection,9,"Video Capture",13
+Exfiltration,10,"Automated Exfiltration",1
+Exfiltration,10,"Data Compressed",2
+Exfiltration,10,"Data Encrypted",3
+Exfiltration,10,"Data Transfer Size Limits",4
+Exfiltration,10,"Exfiltration Over Alternative Protocol",5
+Exfiltration,10,"Exfiltration Over Command and Control Channel",6
+Exfiltration,10,"Exfiltration Over Other Network Medium",7
+Exfiltration,10,"Exfiltration Over Physical Medium",8
+Exfiltration,10,"Scheduled Transfer",9
+"Command and Control",11,"Commonly Used Port",1
+"Command and Control",11,"Communication Through Removable Media",2
+"Command and Control",11,"Connection Proxy",3
+"Command and Control",11,"Custom Command and Control Protocol",4
+"Command and Control",11,"Custom Cryptographic Protocol",5
+"Command and Control",11,"Data Encoding",6
+"Command and Control",11,"Data Obfuscation",7
+"Command and Control",11,"Domain Fronting",8
+"Command and Control",11,"Fallback Channels",9
+"Command and Control",11,"Multi-Stage Channels",10
+"Command and Control",11,"Multi-hop Proxy",11
+"Command and Control",11,"Multiband Communication",12
+"Command and Control",11,"Multilayer Encryption",13
+"Command and Control",11,"Port Knocking",14
+"Command and Control",11,"Remote Access Tools",15
+"Command and Control",11,"Remote File Copy",16
+"Command and Control",11,"Standard Application Layer Protocol",17
+"Command and Control",11,"Standard Cryptographic Protocol",18
+"Command and Control",11,"Standard Non-Application Layer Protocol",19
+"Command and Control",11,"Uncommonly Used Port",20
+"Command and Control",11,"Web Service",21

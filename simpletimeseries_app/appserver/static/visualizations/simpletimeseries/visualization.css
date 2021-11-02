@@ -1,0 +1,22 @@
+/*
+ * CSS rules for visualization.
+ * Class namespacing is good practice.
+ */
+
+.ttt {
+    position:absolute;
+    background: black;
+    color:white;
+    padding:3px;
+    display:none;
+}
+
+circle:hover {
+    cursor:pointer;
+}
+.timeseries-viz {
+    overflow:hidden;
+}
+.legend text {
+    cursor:pointer;
+}

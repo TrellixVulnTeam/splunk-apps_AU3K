@@ -1,0 +1,133 @@
+<!--
+
+If you require an encrypted credential in your configuration , then you can enter it on this setup page.
+
+Then in your configration stanza refer to it in the format {encrypted:somekey}
+
+Where "somekey" is any value you choose to enter on this setup page
+
+-->
+
+<setup>
+
+	<block title="REST API Modular Input Encryption">
+        <text>
+        If you require an encrypted credential in your configuration , then you can enter it here.&lt;br&gt;
+        &lt;br&gt;
+        Then in your configration stanza refer to it in the format &lt;code&gt;{encrypted:somekey}&lt;/code&gt;&lt;br&gt;
+        &lt;br&gt;
+        Where &lt;code&gt;somekey&lt;/code&gt; is any value you choose to enter on this setup page.
+
+        </text>
+    </block>
+
+<block title="Enter Your Encrypted Credentials">
+
+<text>&lt;div class="ck_div_input_fields"&gt;&lt;p class="helpText"&gt;&lt;a href="#" class="add_credential_keys"&gt;Click to add more Credentials&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</text>
+
+</block>> 
+
+    <block title="" endpoint="restmodinput/restmodinputsetup" entity="restmodinput">
+        
+
+        <text> 
+     <![CDATA[ <script type="text/javascript">
+        $(function() {  
+
+
+            $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_id"]').prop("type","password")
+           
+
+            $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_id"]').prop("type","hidden")
+            $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_key_id"]').prop("type","hidden")
+
+            $('label[for="/restmodinput/restmodinputsetup/restmodinput/credential_id"]').remove();
+            $('label[for="/restmodinput/restmodinputsetup/restmodinput/credential_key_id"]').remove();
+
+            function displayCredentials(){
+
+              var credentialKeyCommaString = $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_key_id"]').val()
+              var credentialCommaString = $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_id"]').val()
+
+              var credentialKeyItems = credentialKeyCommaString.split('::');
+              var credentialItems = credentialCommaString.split('::');
+
+              var ck_div = $(".ck_div_input_fields");
+
+              for(var i = 0; i < credentialKeyItems.length; i++) {
+
+                 $(ck_div).append('<div name="ck_input"><p class="helpText"><br>Credential Key<br><input type="text" size="20" name="mycredkey[]" value="'+credentialKeyItems[i]+'"/><a href="#" class="remove_field">Remove</a><br><br>Credential<br><input type="password" size="20" name="mycred[]" value="'+credentialItems[i]+'"/></p></div>');
+
+              }
+               
+              $(ck_div).append('<input type="hidden" name="spl-ctrl_redirect_override" value="/app/rest_ta/redirect_to_inputs">');
+              
+
+            }
+
+            
+            $(document).ready(function(){
+
+              displayCredentials();
+    
+            });
+
+            
+
+            var ck_div = $(".ck_div_input_fields");
+
+            var add_credential_keys = $(".add_credential_keys"); 
+
+            var submit = ck_div.closest('form').find(':submit');
+
+            submit.click(function() {
+              
+              var credential_key_string = ""
+              var credential_string = ""
+
+              $('input[name^="mycredkey"]').each(function() {
+                credential_key_string += $(this).val() + "::"              
+                credential_string += $(this).siblings('input').val() + "::"
+              });
+
+              $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_id"]').val(credential_string.substring(0, credential_string.length - 2))
+              $('input[id*="/restmodinput/restmodinputsetup/restmodinput/credential_key_id"]').val(credential_key_string.substring(0, credential_key_string.length - 2))
+
+              $('div[name^="ck_input"]').remove();
+              $(".ck_div_input_fields").append('<div name="saving_creds_msg" style="text-align: center;"><p class="helpText"><h3>Encrypting and Saving Credentials to <code>rest_ta/local/passwords.conf</code></h3></p></div>');
+
+            });
+
+  
+
+            $(add_credential_keys).click(function(e){ 
+            e.preventDefault();
+            
+            $(ck_div).append('<div name="ck_input"><p class="helpText"><br>Credential Key<br><input type="text" size="20" name="mycredkey[]"/><a href="#" class="remove_field">Remove</a><br><br>Credential<br><input type="password" size="20" name="mycred[]"/></p></div>'); 
+        
+            });
+    
+            $(ck_div).on("click",".remove_field", function(e){ 
+                e.preventDefault(); $(this).parent('p').parent('div').remove(); 
+            })
+
+         
+         });
+      </script> ]]>
+  </text>
+
+       
+        <input field="credential">
+        <label></label>
+        <type>text</type>
+        </input>
+        <input field="credential_key">
+        <label></label>
+        <type>text</type>
+        </input>
+
+      
+    </block>
+
+
+</setup>

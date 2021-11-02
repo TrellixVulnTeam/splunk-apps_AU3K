@@ -1,0 +1,64 @@
+<nav color="#5CC05C">
+    <collection label="Examples Hub" default="true">
+        <view name="example-hub-nav-visualizations"/>
+        <collection label="Visualizations">
+            <view name="example-hub-area-chart-visualization"/>
+            <view name="example-hub-bar-chart-visualization"/>
+            <view name="example-hub-bubble-chart-visualization"/>
+            <view name="example-hub-column-chart-visualization"/>
+            <view name="example-hub-choropleth-svg-visualization"/>
+            <view name="example-hub-us-map-visualization"/>
+            <view name="example-hub-world-map-visualization"/>
+            <view name="example-hub-filler-gauge-visualization"/>
+            <view name="example-hub-icon-visualization"/>
+            <view name="example-hub-image-visualization"/>
+            <view name="example-hub-line-chart-visualization"/>
+            <view name="example-hub-marker-gauge-visualization"/>
+            <view name="example-hub-pie-chart-visualization"/>
+            <view name="example-hub-punchcard-chart-visualization"/>
+            <view name="example-hub-scatter-chart-visualization"/>
+            <view name="example-hub-shape-visualization"/>
+            <view name="example-hub-single-value-visualization"/>
+            <view name="example-hub-single-value-radial-visualization"/>
+            <view name="example-hub-table-chart-visualization"/>
+            <view name="example-hub-text-visualization"/>
+        </collection>
+        <collection label="Search and Data">
+            <view name="example-hub-ad-hoc-data"/>
+            <view name="example-hub-base-chain-data"/>
+            <view name="example-hub-saved-data"/>
+            <view name="example-hub-test-data"/>
+        </collection>
+        <collection label="Interactivity">
+            <collection label="Inputs">
+                <view name="example-hub-cascading-inputs"/>
+                <view name="example-hub-dropdown-input"/>
+                <view name="example-hub-multiselect-input"/>
+                <view name="example-hub-text-input"/>
+            </collection>
+            <collection label="Drilldowns">
+                <view name="example-hub-custom-url-drilldown"/>
+            </collection>
+        </collection>
+        <collection label="Dashboard Defaults">
+            <view name="example-hub-visualization-datasource-defaults"/>
+        </collection>
+        <collection label="Complete Dashboards">
+            <view name="example-hub-airport-kpis-dashboard"/>
+            <view name="example-hub-assembly-line-dashboard"/>
+            <view name="example-hub-buttercup-games-dashboard"/>
+            <view name="example-hub-customer-satisfaction-dashboard"/>
+            <view name="example-hub-datacenter-dashboard"/>
+            <view name="example-hub-data-command-dashboard"/>
+            <view name="example-hub-data-streaming-dashboard"/>
+            <view name="example-hub-ecommerce-monitoring-dashboard"/>
+            <view name="example-hub-emergency-department-care-dashboard"/>
+            <view name="example-hub-europe-telecom-network-hub-dashboard"/>
+            <view name="example-hub-healthcare-dashboard"/>
+            <view name="example-hub-master-data-governance-dashboard"/>
+            <view name="example-hub-vpn-health-by-region-dashboard"/>
+            <view name="example-hub-workplace-readiness"/>
+            <view name="example-hub-workplace-readiness-detail"/>
+        </collection>
+    </collection>
+</nav>

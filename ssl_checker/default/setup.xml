@@ -1,0 +1,89 @@
+﻿<setup>
+ <block title="PLEASE READ THESE -> Instructions:">
+  <text>If you want, this app can automagically find .PEM files specified in your Splunk configuration files, and index their expiration dates.  For this, use the Automagic SSL Checker Input Configuration.  If you have certs on network paths, or not in Splunk configuration files on this server, you can manually specify paths to them as well.  For that, use the Manual SSL Checker Input Configuration, and specify the full paths to the certs you want to monitor.  Then click save and restart Splunk if you're enabling these for the first time.  
+  <![CDATA[<br><br><b>NOTE:</b>]]>
+  If you've already enabled the inputs and restarted splunk, and you're making changes to your existing configuration you can use the link below to reload the inputs without restarting.  <![CDATA[<a href="/debug/refresh?entity=admin/conf-inputs" target="_blank">Click Here to refresh input configurations without restarting - (OPENS IN NEW WINDOW)</a>]]> </text>
+ </block>
+ <block title="Automagic SSL Checker Input Configuration:" endpoint="configs/inputs/" entity='script://./bin/ssl_checker3.py' enabled="in-unix" old_style_disable="true">
+  <text>Configure the Automated SSL Cert Discovery and Checker scripted input for Linux/Unix here</text>
+   <input field="host">
+    <label>Host</label>
+    <type>string</type>
+   </input>
+   <input field="index">
+    <label>Index</label>
+    <type>string</type>
+   </input>
+   <input field="interval">
+    <label>Interval in Seconds or Cron Schedule</label>
+    <type>string</type>
+   </input>
+   <input field="disabled">
+     <label>Disabled</label>  
+     <type>bool</type>
+   </input>
+ </block> 
+ <block title="Manual SSL Checker Input Configuration:" endpoint="configs/inputs/" entity='script://./bin/ssl_checker2.py' enabled="in-unix" old_style_disable="true">
+  <text>Configure the SSL Checker scripted input for Linux/Unix here</text>
+   <input field="host">
+    <label>Host</label>
+    <type>string</type>
+   </input>
+   <input field="index">
+    <label>Index</label>
+    <type>string</type>
+   </input>
+   <input field="interval">
+    <label>Interval in Seconds or Cron Schedule</label>
+    <type>string</type>
+   </input>
+   <input field="disabled">
+     <label>Disabled</label>  
+     <type>bool</type>
+   </input>
+ </block>
+ <block title="Automagic SSL Checker Input Configuration:" endpoint="configs/inputs/" entity="script://.*ssl_checker3.py" enabled="in-windows" old_style_disable="true" mode="bulk">
+  <text>Configure the Automated SSL Cert Discovery and Checker scripted input for Windows here</text>
+   <input field="host">
+    <label>Host</label>
+    <type>string</type>
+   </input>
+   <input field="index">
+    <label>Index</label>
+    <type>string</type>
+   </input>
+   <input field="interval">
+    <label>Interval in Seconds or Cron Schedule</label>
+    <type>string</type>
+   </input>
+   <input field="disabled">
+     <label>Disabled</label>  
+     <type>bool</type>
+   </input>
+ </block> 
+ <block title="Manual SSL Checker Input Configuration:" endpoint="configs/inputs/" entity="script://.*ssl_checker2.py" enabled="in-windows" old_style_disable="true" mode="bulk">
+  <text>Configure the SSL Checker scripted input for Windows here</text>
+   <input field="host">
+    <label>Host</label>
+    <type>string</type>
+   </input>
+   <input field="index">
+    <label>Index</label>
+    <type>string</type>
+   </input>
+   <input field="interval">
+    <label>Interval in Seconds or Cron Schedule</label>
+    <type>string</type>
+   </input>
+   <input field="disabled">
+     <label>Disabled</label>  
+     <type>bool</type>
+   </input>
+ </block>
+ <block title="Manual SSL Checker Certificate Path(s) Configuration" endpoint="admin/conf-ssl" entity="SSLConfiguration">
+   <input field="certPaths">
+    <label>Enter a list of comma separated certificate paths here</label>
+    <type>string</type>
+   </input>
+ </block> 
+</setup>

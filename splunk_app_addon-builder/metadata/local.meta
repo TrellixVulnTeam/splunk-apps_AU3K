@@ -1,0 +1,46 @@
+[app/install/install_source_checksum]
+version = 8.0.0
+modtime = 1597593627.193166000
+
+[collections/ta_builder_meta_collection]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1597593646.793256000
+
+[collections/splunk_app_addon-builder]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1597593647.228573000
+
+[collections/ta_builder_event_collection]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1597593647.696916000
+
+[collections/_tab_internal_monitor_inputs_]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1597593652.159423000
+
+[ui-metrics-collector/collector]
+version = 8.0.0
+modtime = 1597593808.572269000
+
+[collections/TA-resttest]
+owner = admin
+version = 8.0.0
+modtime = 1597593847.998287000
+
+[collections/TA-apod]
+owner = admin
+version = 8.0.0
+modtime = 1597955969.017268000
+
+[collections/TA-covid19]
+owner = admin
+version = 8.0.0
+modtime = 1603448555.474079000
+
+[app/install/state]
+version = 8.0.0
+modtime = 1624394311.069653000

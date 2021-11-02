@@ -1,0 +1,2 @@
+Event Time,Host Name,Local IP,Local Port,Remote IP,Remote Host Name,Remote Port,Traffic Direction,Application Name,Action
+##Event_Time##,##Host_Name##,Local: ##Local_IP##,Local: ##Local_Port##,Remote: ##Remote_IP##,Remote: ##Remote_Host_Name##,Remote: ##Remote_Port##,##Traffic_Direction##,Application: ##Application_Name##,Action: ##Action##

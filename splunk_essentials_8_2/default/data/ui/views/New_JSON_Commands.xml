@@ -1,0 +1,20 @@
+<dashboard>
+
+  <label>New JSON Commands</label>
+
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+         <ul>
+           <li> <a href="https://docs.splunk.com/Documentation/SplunkCloud/8.1.2101/SearchReference/Tojson" target="_blank">"tojson"</a> converts events into JSON objects. You can specify which fields get converted by identifying them through exact match or through wildcard expressions. You can also apply specific JSON datatypes to field values using datatype functions. The tojson function converts multivalue fields into JSON arrays. </li>
+           <li> <a href="https://docs.splunk.com/Documentation/SplunkCloud/8.1.2101/SearchReference/JSONFunctions#json_array_to_mv.28.26lt.3Bjson_array.26gt.3B.2C_.26lt.3BBoolean.26gt.3B.29" target="_blank">"json_array_to_mv"</a> and <a href="https://docs.splunk.com/Documentation/SplunkCloud/8.1.2101/SearchReference/JSONFunctions#mv_to_json_array.28.26lt.3Bfield.26gt.3B.2C_.26lt.3BBoolean.26gt.3B.29" target="_blank">"mv_to_json_array"</a> functions to improve conversion between these formats. </li>
+         </ul>
+
+        </html>
+    </panel>
+  </row>
+</dashboard>

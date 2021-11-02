@@ -1,0 +1,6 @@
+[inputs/http%3A%2F%2Ffluentd]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 7.0.0
+modtime = 1541769919.312298000

@@ -1,0 +1,28 @@
+<dashboard>
+
+  <label>Federated Search Support for On-prem to On-prem Environments</label>
+  <row>
+    <panel>
+      <html>
+        <p><strong>Description</strong></p>
+
+        <p> There may be times when you would like to run searches that query datasets outside of the Splunk platform deployment that you typically log in to. This is where federated search comes to the rescue. From your local search head, federated search gives you a holistic view of datasets across multiple geographically distributed Splunk platform deployments.
+ </p>
+
+<ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/1_fed_search.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+<ul>
+<li> You cannot run federated searches until you create federated provider definitions for the remote Splunk platform deployments that you intend to search. See <a href="http://docs.splunk.com/Documentation/Splunk/8.2.0/Search/Defineafederatedprovider" target="_blank">Define a federated provider.</a> </li>
+<li> After you create your federated provider definitions, you must define federated indexes. Federated indexes live on the federated search head, which in turn resides on the local deployment for the federated search. Each federated index you define is mapped to a specific dataset on a federated provider. See <a href="http://docs.splunk.com/Documentation/Splunk/8.2.0/Search/Defineafederatedindex" target="_blank">Create a federated index.</a> </li>
+<li> For information about constructing and running federated searches, see <a href="http://docs.splunk.com/Documentation/Splunk/8.2.0/Search/Searchacrosslocalandremotedeployments" target="_blank">Run federated searches.</a> </li>
+</ul>
+
+ 	</html>
+    </panel>
+  </row>
+</dashboard>
+

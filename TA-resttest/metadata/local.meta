@@ -1,0 +1,32 @@
+[props/resttest%3Aipaddress]
+owner = admin
+version = 8.0.0
+modtime = 1597594156.707778000
+
+[props/source%3A%3A...ta-resttest%2A.log%2A]
+owner = admin
+version = 8.0.0
+modtime = 1597594159.811463000
+
+[props/source%3A%3A...ta_resttest%2A.log%2A]
+owner = admin
+version = 8.0.0
+modtime = 1597594162.070331000
+
+[inputs/myip%3A%2F%2FMYIP]
+owner = admin
+version = 8.0.0
+modtime = 1597594534.793902000
+
+[inputs/myip%3A%2F%2FAPOD]
+owner = admin
+version = 8.0.0
+modtime = 1597955917.403524000
+
+[ta_resttest_settings/logging]
+version = 8.0.0
+modtime = 1597955944.244080000
+
+[app/install/state]
+version = 8.0.0
+modtime = 1624393326.929507000

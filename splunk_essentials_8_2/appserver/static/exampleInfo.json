@@ -1,0 +1,82 @@
+[
+{
+    "id": "Federated_Search_Support_for_On-prem_to_On-prem_Environments",
+    "title": "Federated Search Support for On-prem to On-prem Environments",
+    "short-description": "New enhancement enables search functionality across multiple on-prem Splunk deployments.",
+    "category": "Performance, Scale, and Manageability"
+},
+{
+    "id": "Bucket_Merge_Functionality_for_Standalone_Instances",
+    "title": "Bucket Merge Functionality for Standalone Instances",
+    "short-description": "A new utility service is now available to help admins perform bucket merging to optimize stability and scalability. This feature is currently available for standalone instances.",
+    "category": "Performance, Scale, and Manageability"
+},
+
+{
+    "id": "Scheduler_Observability_and_Performance_Improvements",
+    "title": "Scheduler Observability and Performance Improvements",
+    "short-description": "New enhancements to the search scheduler performance and telemetry.",
+    "category": "Performance, Scale, and Manageability"
+},
+
+{
+    "id": "Performance_Improvements_for_Searchable_Rolling_Restarts",
+    "title": "Performance Improvements for Searchable Rolling Restarts",
+    "short-description": "New improvements significantly speed-up searchable rolling restarts, in some cases by an order of magnitude.",
+    "category": "Performance, Scale, and Manageability"
+},
+
+{
+    "id": "Durable_Scheduled_Searches",
+    "title": "Durable Scheduled Searches",
+    "short-description": "Make scheduled searches durable to prevent event loss.",
+    "category": "Performance, Scale, and Manageability"
+},
+
+{   
+	"id": "New_JSON_Commands",
+    "title": "New JSON Commands",
+    "short-description": "Additional functions for the eval command for working with JSON structured data.",
+    "category": "Performance, Scale, and Manageability"
+},
+
+{
+    "id": "Splunk_Operator_for_Kubernetes",
+    "title": "Splunk Operator for Kubernetes",
+    "short-description": "The Splunk Operator for Kubernetes (SOK) makes it easy for Splunk Administrators to deploy and operate Enterprise deployments in a Kubernetes infrastructure. Packaged as a container, it uses the operator pattern to manage Splunk-specific custom resources, following best practices to manage all the underlying Kubernetes objects for you.",
+    "category": "Performance, Scale, and Manageability"
+},
+
+{
+    "id": "Dashboard_Studio",
+    "title": "Dashboard Studio",
+    "short-description": "Dashboard Studio is a dashboard-building experience that offers advanced visualization tools and fully customizable layouts to easily create visually-compelling, interactive dashboards with an intuitive UI. Create new dashboards from the Dashboards listing page or save visualizations from Search.",
+    "category": "Faster, Easier, More Intuitive Analytics"
+},
+
+{
+    "id": "Health_Report_Improvements_and_Search_Head_Cluster_Health_Report_Capabilities",
+    "title": "Health Report Improvements and Search Head Cluster Health Report Capabilities",
+    "short-description": "The Splunk health report now captures feature health status across nodes in distributed environments, including search head cluster members.",
+    "category": "Administration and Monitoring"
+},
+
+{
+    "id": "Search_Restriction_by_Data_Age",
+    "title": "Search Restriction by Data Age",
+    "short-description": "Splunk Search now provides a way to restrict end user search results by age of the event.",
+    "category": "Administration and Monitoring"
+},
+
+{
+    "id": "License_Tracking_Enhancements",
+    "title": "License Tracking Enhancements",
+    "short-description": "New enhancement enables users to annotate personal notes to a specific license. This enables admins to easily track what a license was created for and how it’s being allocated, without using a third-party interface.",
+    "category": "Administration and Monitoring"
+}
+
+]
+
+
+
+

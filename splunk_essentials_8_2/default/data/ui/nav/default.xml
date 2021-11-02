@@ -1,0 +1,11 @@
+<nav color="#293E6A">
+  
+  <view name="contents" default='true' />
+
+  <view name="search" />
+  <view name="datasets" />
+  <view name="reports" />
+  <view name="alerts" />
+  <view name="dashboards" />
+
+</nav>

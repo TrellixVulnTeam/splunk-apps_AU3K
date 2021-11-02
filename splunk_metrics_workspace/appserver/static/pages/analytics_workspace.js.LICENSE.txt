@@ -1,0 +1,420 @@
+/*
+ * @version    1.4.0
+ * @date       2015-10-26
+ * @stability  3 - Stable
+ * @author     Lauri Rooden (https://github.com/litejs/natural-compare-lite)
+ * @license    MIT License
+ */
+
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  * $script.js Async loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz, Jacob Thornton 2011
+  * License: MIT
+  */
+
+/*!
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */
+
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
+ * Copyright (c) 2007-2016 Jason Gatt
+ * 
+ * Released under the MIT license:
+ * http://opensource.org/licenses/MIT
+ */
+
+/*!
+ * Copyright © 2018 Splunk Inc.
+ * SPLUNK CONFIDENTIAL – Use or disclosure of this material in whole or in part
+ * without a valid written license from Splunk Inc. is PROHIBITED.
+ */
+
+/*!
+ * JqTree 1.4.12
+ * 
+ * Copyright 2019 Marco Braak
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ */
+
+/*!
+ * Programatically add the following
+ */
+
+/*!
+ * Sizzle CSS Selector Engine v2.3.5
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2020-03-14
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * jQuery JavaScript Library v3.5.0
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2020-04-10T15:07Z
+ */
+
+/*!
+ * jQuery JavaScript Library v3.5.1
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2020-05-04T22:49Z
+ */
+
+/*!
+ * jQuery UI Datepicker 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/datepicker/
+ *
+ * Depends:
+ *	jquery.ui.core.js
+ */
+
+/*!
+ * jQuery UI Widget 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/jQuery.widget/
+ */
+
+/*!
+ * pascalcase <https://github.com/jonschlinkert/pascalcase>
+ *
+ * Copyright (c) 2015, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+/*!
+ * querystring
+ * Copyright(c) 2010 TJ Holowaychuk <tj@vision-media.ca>
+ * MIT Licensed
+ */
+
+/*!
+Copyright (C) 2014-2015 by WebReflection
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+*/
+
+/*! @license DOMPurify | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/2.2.2/LICENSE */
+
+/*! @preserve
+  * numeral.js
+  * version : 2.0.6
+  * author : Adam Draper
+  * license : MIT
+  * http://adamwdraper.github.com/Numeral-js/
+  */
+
+/*! @preserve
+ * numeral.js
+ * version : 2.0.6
+ * author : Adam Draper
+ * license : MIT
+ * http://adamwdraper.github.com/Numeral-js/
+ */
+
+/*! Simple JavaScript Inheritance
+ * By John Resig http://ejohn.org/
+ * MIT Licensed.
+ * Inspired by base2 and Prototype
+ */
+
+/*! http://mths.be/fromcodepoint v0.2.1 by @mathias */
+
+/*! http://mths.be/repeat v0.2.0 by @mathias */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*!*/
+
+/**
+   * @file Constructors cached from literals.
+   * @version 1.0.2
+   * @author Xotic750 <Xotic750@gmail.com>
+   * @copyright  Xotic750
+   * @license {@link <https://opensource.org/licenses/MIT> MIT}
+   * @module cached-constructors-x
+   */
+
+/**
+   * @file Convert a base-10 or scientific E-notation value to a decimal form string.
+   * @version 1.0.1
+   * @author Xotic750 <Xotic750@gmail.com>
+   * @copyright  Xotic750
+   * @license {@link <https://opensource.org/licenses/MIT> MIT}
+   * @module number-to-decimal-form-string-x
+   */
+
+/**
+   * @file ES6-compliant shim for ToString.
+   * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-tostring|7.1.12 ToString ( argument )}
+   * @version 1.4.5
+   * @author Xotic750 <Xotic750@gmail.com>
+   * @copyright  Xotic750
+   * @license {@link <https://opensource.org/licenses/MIT> MIT}
+   * @module to-string-x
+   */
+
+/**
+ * @file Constructors cached from literals.
+ * @version 1.0.2
+ * @author Xotic750 <Xotic750@gmail.com>
+ * @copyright  Xotic750
+ * @license {@link <https://opensource.org/licenses/MIT> MIT}
+ * @module cached-constructors-x
+ */
+
+/**
+ * @file Convert a base-10 or scientific E-notation value to a decimal form string.
+ * @version 1.0.1
+ * @author Xotic750 <Xotic750@gmail.com>
+ * @copyright  Xotic750
+ * @license {@link <https://opensource.org/licenses/MIT> MIT}
+ * @module number-to-decimal-form-string-x
+ */
+
+/**
+ * @file ES6-compliant shim for ToString.
+ * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-tostring|7.1.12 ToString ( argument )}
+ * @version 1.4.5
+ * @author Xotic750 <Xotic750@gmail.com>
+ * @copyright  Xotic750
+ * @license {@link <https://opensource.org/licenses/MIT> MIT}
+ * @module to-string-x
+ */
+
+/**
+ * @license Highcharts JS v7.2.2 (2020-08-24)
+ *
+ * Client side exporting module
+ *
+ * (c) 2015-2019 Torstein Honsi / Oystein Moseng
+ *
+ * License: www.highcharts.com/license
+ */
+
+/**
+ * @license Highcharts JS v7.2.2 (2020-08-24)
+ *
+ * Exporting module
+ *
+ * (c) 2010-2019 Torstein Honsi
+ *
+ * License: www.highcharts.com/license
+ */
+
+/**
+ * @license Highcharts JS v7.2.2 (2020-08-24)
+ *
+ * X-range series
+ *
+ * (c) 2010-2019 Torstein Honsi, Lars A. V. Cabrera
+ *
+ * License: www.highcharts.com/license
+ */
+
+/**
+ * @license Highmaps JS v7.2.2 (2020-08-24)
+ *
+ * (c) 2009-2019 Torstein Honsi
+ *
+ * License: www.highcharts.com/license
+ */
+
+/**
+* pretty-data - nodejs plugin to pretty-print or minify data in XML, JSON and CSS formats.
+*
+* Version - 0.40.1
+* Copyright (c) 2012 Vadim Kiryukhin
+* vkiryukhin @ gmail.com
+* http://www.eslinstructor.net/pretty-data/
+*
+* Dual licensed under the MIT and GPL licenses:
+*   http://www.opensource.org/licenses/mit-license.php
+*   http://www.gnu.org/licenses/gpl.html
+*
+*	pd.xml(data ) - pretty print XML;
+*	pd.json(data) - pretty print JSON;
+*	pd.css(data ) - pretty print CSS;
+*	pd.sql(data)  - pretty print SQL;
+*
+*	pd.xmlmin(data [, preserveComments] ) - minify XML;
+*	pd.jsonmin(data)                      - minify JSON;
+*	pd.cssmin(data [, preserveComments] ) - minify CSS;
+*	pd.sqlmin(data)                       - minify SQL;
+*
+* PARAMETERS:
+*
+*	@data  			- String; XML, JSON, CSS or SQL text to beautify;
+* 	@preserveComments	- Bool (optional, used in minxml and mincss only);
+*				  Set this flag to true to prevent removing comments from @text;
+*	@Return 		- String;
+*
+* USAGE:
+*
+*	var pd  = require('pretty-data').pd;
+*
+*	var xml_pp   = pd.xml(xml_text);
+*	var xml_min  = pd.xmlmin(xml_text [,true]);
+*	var json_pp  = pd.json(json_text);
+*	var json_min = pd.jsonmin(json_text);
+*	var css_pp   = pd.css(css_text);
+*	var css_min  = pd.cssmin(css_text [, true]);
+*	var sql_pp   = pd.sql(sql_text);
+*	var sql_min  = pd.sqlmin(sql_text);
+*
+* TEST:
+*	comp-name:pretty-data$ node ./test/test_xml
+*	comp-name:pretty-data$ node ./test/test_json
+*	comp-name:pretty-data$ node ./test/test_css
+*	comp-name:pretty-data$ node ./test/test_sql
+*/
+
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.8.3
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/*@cc_on //innerHTML is faster for IE
+            target.innerHTML = innerHTML;
+            return target;
+        @*/
+
+//! Copyright (c) JS Foundation and other contributors
+
+//! author : John Fischer : https://github.com/jfroffice
+
+//! github.com/moment/moment-timezone
+
+//! license : MIT
+
+//! locale : french (fr)
+
+//! moment-timezone-utils.js
+
+//! moment-timezone.js
+
+//! moment.js locale configuration
+
+//! version : 0.5.13

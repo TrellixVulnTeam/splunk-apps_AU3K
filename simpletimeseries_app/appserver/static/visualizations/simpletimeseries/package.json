@@ -1,0 +1,24 @@
+{
+  "name": "simpletimeseries",
+  "version": "1.0.0",
+  "description": "Simple Timeseries custom visualization for Splunk",
+  "main": "visualization.js",
+  "scripts": {
+    "build": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js",
+    "devbuild": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js --progress",
+    "watch": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js -d --watch --progress"
+  },
+  "author": "Patrick Wied",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "d3": "^4.3.0",
+    "webpack": "^1.12.6"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3"
+  }
+}

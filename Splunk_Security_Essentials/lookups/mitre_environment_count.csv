@@ -1,0 +1,127 @@
+Tactic,"Tactic_Total",Technique,"Technique_Total",Active,Available,"Needs data"
+"Adversary OPSEC",4,"",20,0,0,1
+"Adversary OPSEC",4,"Dynamic DNS",6,0,0,2
+"Adversary OPSEC",4,"Standard Application Layer Protocol",5,0,0,1
+Collection,20,"Commonly Used Port",31,0,2,0
+Collection,20,"Data Staged",2,0,0,2
+Collection,20,"Email Collection",2,0,1,1
+Collection,20,None,201,0,0,14
+"Command and Control",29,"",20,0,0,1
+"Command and Control",29,"Commonly Used Port",31,0,1,9
+"Command and Control",29,"Dynamic DNS",6,0,0,2
+"Command and Control",29,"Exfiltration Over Alternative Protocol",6,0,1,2
+"Command and Control",29,"Exfiltration Over Command and Control Channel",4,0,0,1
+"Command and Control",29,None,201,0,1,7
+"Command and Control",29,"Standard Application Layer Protocol",5,0,0,2
+"Command and Control",29,"Standard Non-Application Layer Protocol",1,0,1,0
+"Command and Control",29,"Web Service",2,0,0,1
+"Credential Access",34,"",20,0,0,2
+"Credential Access",34,"Account Manipulation",3,0,0,1
+"Credential Access",34,"Commonly Used Port",31,0,1,0
+"Credential Access",34,"Credential Dumping",3,0,0,3
+"Credential Access",34,"Network Sniffing",1,0,0,1
+"Credential Access",34,None,201,0,0,24
+"Credential Access",34,"Remote Desktop Protocol",4,0,0,1
+"Credential Access",34,"Valid Accounts",11,0,0,1
+"Defense Evasion",59,"",20,0,0,2
+"Defense Evasion",59,"Command-Line Interface",21,0,0,3
+"Defense Evasion",59,"Commonly Used Port",31,0,0,4
+"Defense Evasion",59,"Disabling Security Tools",15,0,0,7
+"Defense Evasion",59,"Exfiltration Over Command and Control Channel",4,0,0,2
+"Defense Evasion",59,"File Deletion",2,0,0,1
+"Defense Evasion",59,"Hidden Files and Directories",2,0,0,1
+"Defense Evasion",59,"Indicator Removal on Host",3,0,0,3
+"Defense Evasion",59,Masquerading,1,0,0,1
+"Defense Evasion",59,"Modify Existing Service",6,0,0,2
+"Defense Evasion",59,"Modify Registry",2,0,0,2
+"Defense Evasion",59,"New Service",7,0,0,2
+"Defense Evasion",59,None,201,0,0,26
+"Defense Evasion",59,"System Information Discovery",5,0,0,1
+"Defense Evasion",59,"Valid Accounts",11,0,0,1
+"Defense Evasion",59,"Web Service",2,0,0,1
+Discovery,17,"Command-Line Interface",21,0,0,1
+Discovery,17,"Disabling Security Tools",15,0,0,1
+Discovery,17,"Exploit Public-Facing Application",2,0,0,1
+Discovery,17,None,201,0,3,9
+Discovery,17,"System Information Discovery",5,0,0,2
+"Establish & Maintain Infrastructure",4,"",20,0,0,1
+"Establish & Maintain Infrastructure",4,"Dynamic DNS",6,0,0,2
+"Establish & Maintain Infrastructure",4,"Standard Application Layer Protocol",5,0,0,1
+Execution,89,"",20,0,0,3
+Execution,89,"Accessibility Features",4,0,0,1
+Execution,89,"Change Default File Association",5,0,0,2
+Execution,89,"Command-Line Interface",21,0,0,11
+Execution,89,"Commonly Used Port",31,0,0,1
+Execution,89,"Disabling Security Tools",15,0,0,2
+Execution,89,Execution,1,0,0,1
+Execution,89,"Exploitation for Client Execution",2,0,0,1
+Execution,89,"File Deletion",2,0,0,1
+Execution,89,"New Service",7,0,0,1
+Execution,89,None,201,0,0,34
+Execution,89,PowerShell,6,0,0,6
+Execution,89,"Remote Services",3,0,0,1
+Execution,89,Rundll32,1,0,0,1
+Execution,89,"Scheduled Task",9,0,0,4
+Execution,89,Scripting,8,0,0,7
+Execution,89,"Spearphishing Attachment",2,0,0,1
+Execution,89,"System Information Discovery",5,0,0,1
+Execution,89,"Windows Management Instrumentation",10,0,0,7
+Execution,89,"Windows Management Instrumentation Event Subscription",6,0,0,3
+Exfiltration,40,"",20,0,0,2
+Exfiltration,40,"Commonly Used Port",31,0,1,9
+Exfiltration,40,Exfiltration,1,0,0,1
+Exfiltration,40,"Exfiltration Over Alternative Protocol",6,0,1,2
+Exfiltration,40,"Exfiltration Over Command and Control Channel",4,0,0,1
+Exfiltration,40,"Exfiltration Over Physical Medium",1,0,0,1
+Exfiltration,40,None,201,0,3,18
+Exfiltration,40,"Standard Application Layer Protocol",5,0,0,1
+"Initial Access",17,"",20,0,0,3
+"Initial Access",17,"Account Manipulation",3,0,0,1
+"Initial Access",17,"Exploit Public-Facing Application",2,0,0,1
+"Initial Access",17,"Exploitation for Client Execution",2,0,0,1
+"Initial Access",17,None,201,0,0,7
+"Initial Access",17,"Spearphishing Attachment",2,0,0,1
+"Initial Access",17,"System Information Discovery",5,0,0,1
+"Initial Access",17,"Valid Accounts",11,0,0,2
+"Lateral Movement",28,"Commonly Used Port",31,0,2,0
+"Lateral Movement",28,None,201,0,0,19
+"Lateral Movement",28,"Pass the Hash",1,0,0,1
+"Lateral Movement",28,"Remote Desktop Protocol",4,0,1,2
+"Lateral Movement",28,"Remote Services",3,0,0,1
+"Lateral Movement",28,"Scheduled Task",9,0,0,2
+None,9,"Account Discovery",1,0,0,1
+None,9,"Commonly Used Port",31,0,1,0
+None,9,"Create Account",1,0,0,1
+None,9,"Third-party Software",1,0,0,1
+None,9,"Valid Accounts",11,0,2,3
+Persistence,55,"",20,0,0,2
+Persistence,55,"Accessibility Features",4,0,0,2
+Persistence,55,"AppInit DLLs",1,0,0,1
+Persistence,55,"Application Shimming",3,0,0,3
+Persistence,55,"Authentication Package",1,0,0,1
+Persistence,55,"Change Default File Association",5,0,0,3
+Persistence,55,"Command-Line Interface",21,0,0,6
+Persistence,55,"Disabling Security Tools",15,0,0,3
+Persistence,55,"Hidden Files and Directories",2,0,0,1
+Persistence,55,"Modify Existing Service",6,0,0,2
+Persistence,55,"New Service",7,0,0,2
+Persistence,55,None,201,0,0,15
+Persistence,55,"Port Monitors",2,0,0,1
+Persistence,55,"Registry Run Keys / Startup Folder",2,0,0,1
+Persistence,55,"Remote Services",3,0,0,1
+Persistence,55,"Scheduled Task",9,0,0,3
+Persistence,55,Scripting,8,0,0,1
+Persistence,55,"Valid Accounts",11,0,0,1
+Persistence,55,"Windows Management Instrumentation",10,0,0,3
+Persistence,55,"Windows Management Instrumentation Event Subscription",6,0,0,3
+"Privilege Escalation",37,"",20,0,0,3
+"Privilege Escalation",37,"Accessibility Features",4,0,0,1
+"Privilege Escalation",37,"Account Manipulation",3,0,0,1
+"Privilege Escalation",37,"Disabling Security Tools",15,0,0,2
+"Privilege Escalation",37,"Exploitation for Privilege Escalation",2,0,0,2
+"Privilege Escalation",37,"Modify Existing Service",6,0,0,2
+"Privilege Escalation",37,"New Service",7,0,0,2
+"Privilege Escalation",37,None,201,0,0,21
+"Privilege Escalation",37,"Port Monitors",2,0,0,1
+"Privilege Escalation",37,"Registry Run Keys / Startup Folder",2,0,0,1
+"Privilege Escalation",37,"Valid Accounts",11,0,0,1

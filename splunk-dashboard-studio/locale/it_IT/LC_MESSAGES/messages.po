@@ -1,0 +1,3381 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-05 10:50-0800\n"
+"PO-Revision-Date: 2021-03-19 15:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:102
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:106
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:338
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:342
+msgid " and "
+msgstr " e"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:100
+msgid " is currently being used by "
+msgstr "è attualmente in uso da parte di "
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:117
+msgid " is not being used by any visualizations, chain searches, or inputs. Are you sure you want to ${dataSourceRemoveVerb} this data source?"
+msgstr " non è in uso da parte di alcuna visualizzazione, ricerca concatenata o input. Si è sicuri di voler ${dataSourceRemoveVerb} questa source di dati?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:344
+msgid " will be updated"
+msgstr " verrà aggiornato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/FormatByTypeEditor.tsx:118
+msgid ""
+" || ''\n"
+"                                            }${rItr}_${iItr}"
+msgstr ""
+" || ''\n"
+"                                            }${rItr}_${iItr}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/utils/gridUtils.js:827
+msgid "\"${item.item}\" expected a viz or canvas edge directly ${positionType} at ${positionString}"
+msgstr "\"${item.item}\" prevedeva una visualizzazione o un bordo dell'area di disegno direttamente ${positionType} in corrispondenza di ${positionString}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DataSourceConfig.jsx:115
+msgid "${_('Data Configurations')}"
+msgstr "${_('Data Configurations')}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:217
+msgid "${key} (${schema.type.join(', ')})"
+msgstr "${key} (${schema.type.join(', ')})"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:352
+msgid "${msg} and ${lastKey} have the same token (${token})"
+msgstr "${msg} e ${lastKey} hanno lo stesso token (${token})"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:343
+msgid "${references} chained data sources exceeds the maximum of ${MAX_CHAIN_LENGTH}"
+msgstr "Le source di dati concatenate ${references} superano la lunghezza massima di ${MAX_CHAIN_LENGTH}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Inputs.jsx:75
+msgid "${type} Input"
+msgstr "Input ${type}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:99 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:162
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:183 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:226
+msgid "${type} is not defined"
+msgstr "Tipo ${type} non definito"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:133
+msgid "${upperFirst(dataSourceRemoveVerb)} '${dsName}'"
+msgstr "${upperFirst(dataSourceRemoveVerb)} '${dsName}'"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:760
+#, python-format
+msgid "%(earliestDateTime)s to %(latestDateTime)s"
+msgstr "Da %(earliestDateTime)s a %(latestDateTime)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:687
+#, python-format
+msgid "%(earliestMonth)s through %(latestMonth)s, %(inYear)s"
+msgstr "Da %(earliestMonth)s fino a %(latestMonth)s, %(inYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:775
+#, python-format
+msgid "%(earliestTime)s to %(latestTime)s, %(date)s"
+msgstr "Da %(earliestTime)s a %(latestTime)s, %(date)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:681
+#, python-format
+msgid "%(earliestYear)s through %(latestYear)s"
+msgstr "Da %(earliestYear)s fino a %(latestYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:696
+#, python-format
+msgid "%(month)s %(earliestDayOfMonth)s through %(latestDayOfMonth)s, %(inYear)s"
+msgstr "%(month)s, da %(earliestDayOfMonth)s a%(latestDayOfMonth)s, %(inYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:655
+#, python-format
+msgid "%(month)s %(year)s"
+msgstr "%(month)s %(year)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:957
+#, python-format
+msgid "%(numberOf)d days"
+msgstr "%(numberOf)d giorni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:958
+#, python-format
+msgid "%(numberOf)d hours"
+msgstr "%(numberOf)d ore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:963
+#, python-format
+msgid "%(numberOf)d milliseconds"
+msgstr "%(numberOf)d millisecondi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:959
+#, python-format
+msgid "%(numberOf)d minutes"
+msgstr "%(numberOf)d minuti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:956
+#, python-format
+msgid "%(numberOf)d months"
+msgstr "%(numberOf)d mesi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:960
+#, python-format
+msgid "%(numberOf)d seconds"
+msgstr "%(numberOf)d secondi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:955
+#, python-format
+msgid "%(numberOf)d years"
+msgstr "%(numberOf)d anni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:489
+#, python-format
+msgid "%(time)d day window"
+msgstr "Finestra di %(time)d giorno/i"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:488
+#, python-format
+msgid "%(time)d hour window"
+msgstr "Finestra di %(time)d ora/e"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:487
+#, python-format
+msgid "%(time)d minute window"
+msgstr "Finestra di %(time)d minuto/i"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:491
+#, python-format
+msgid "%(time)d month window"
+msgstr "Finestra di %(time)d mese/i"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:492
+#, python-format
+msgid "%(time)d quarter window"
+msgstr "Finestra di %(time)d trimestre/i"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:486
+#, python-format
+msgid "%(time)d second window"
+msgstr "Finestra di %(time)d secondo/i"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:490
+#, python-format
+msgid "%(time)d week window"
+msgstr "Finestra di %(time)d settimana/e"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:493
+#, python-format
+msgid "%(time)d year window"
+msgstr "Finestra di %(time)d anno/i"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ColumnSelectorFooterMessage.tsx:20
+msgid "%1 of %2 fields"
+msgstr "%1 di %2 campi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:108
+msgid ". Are you sure you want to ${dataSourceRemoveVerb} this data source?"
+msgstr ". Si è sicuri di voler ${dataSourceRemoveVerb} questa source di dati?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:31
+msgid "...Z"
+msgstr "...Z"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:459
+msgid "0 chain searches"
+msgstr "0 ricerche concatenate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:465
+msgid "0 inputs"
+msgstr "0 input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:453
+msgid "0 visualizations"
+msgstr "0 visualizzazioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:957
+msgid "1 day"
+msgstr "1 giorno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:958
+msgid "1 hour"
+msgstr "1 ora"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1052
+msgid "1 hour window"
+msgstr "finestra di 1 ora"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:962
+msgid "1 millisecond"
+msgstr "1 millisecondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:959
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1049
+msgid "1 minute window"
+msgstr "finestra di 1 minuto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:956
+msgid "1 month"
+msgstr "1 mese"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:960
+msgid "1 second"
+msgstr "1 secondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:955
+msgid "1 year"
+msgstr "1 anno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1051
+msgid "30 minute window"
+msgstr "finestra di 30 minuti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1048
+msgid "30 second window"
+msgstr "finestra di 30 secondi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1050
+msgid "5 minute window"
+msgstr "finestra di 5 minuti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:283
+msgid "A new builder to create visually-rich, customizable dashboards"
+msgstr "Un nuovo generatore per creare dashboard personalizzabili e dalla grafica sofisticata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:29
+msgid "A..."
+msgstr "A..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:30
+msgid "A...Z"
+msgstr "A...Z"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:206
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:156
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:54
+msgid "Absolute"
+msgstr "Assoluto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/VizStatusBar.jsx:73
+msgid "Action Required:"
+msgstr "Azione necessaria:"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:109 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/groups/ActionsGroup.tsx:23
+msgid "Actions"
+msgstr "Azioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:21
+msgid "Actual Size"
+msgstr "Dimensioni effettive"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddChart.jsx:10 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddChartDropdown.jsx:25
+msgid "Add Chart"
+msgstr "Aggiungi grafico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DrilldownList.jsx:1
+msgid "Add Drilldown"
+msgstr "Aggiungi drilldown"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddIcon.jsx:9 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddIconDropdown.jsx:8
+msgid "Add Icon"
+msgstr "Aggiungi icona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ImageGallery.jsx:10 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Image.jsx:30
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ImageGallery.jsx:26
+msgid "Add Image"
+msgstr "Aggiungi immagine"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddInput.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddInputDropdown.jsx:25
+msgid "Add Input"
+msgstr "Aggiungi input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/AddAndReverseRanges.tsx:1
+msgid "Add Range"
+msgstr "Aggiungi intervallo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddShape.jsx:10 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddShapeDropdown.jsx:25
+msgid "Add Shape"
+msgstr "Aggiungi forma"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Text.jsx:28
+msgid "Add Text"
+msgstr "Aggiungi testo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/AddThreshold.jsx:1
+msgid "Add threshold level"
+msgstr "Aggiungi livello soglia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:22
+msgid "Advanced Panel Settings"
+msgstr "Impostazioni pannello avanzate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:308 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:94
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:12
+msgid "After"
+msgstr "Dopo di"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutItemEditor.jsx:74
+msgid "Align"
+msgstr "Align"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignBottom.jsx:10
+msgid "Align Bottom"
+msgstr "Allinea in basso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignCenterHorizontal.jsx:10
+msgid "Align Center Horizontal"
+msgstr "Allinea al centro orizzontalmente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignCenterVertical.jsx:10
+msgid "Align Center Vertical"
+msgstr "Allinea al centro verticalmente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignLeft.jsx:8
+msgid "Align Left"
+msgstr "Allinea a sinistra"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignRight.jsx:8
+msgid "Align Right"
+msgstr "Allinea a destra"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignTop.jsx:8
+msgid "Align Top"
+msgstr "Allinea in alto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:235 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:149
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:32
+msgid "All"
+msgstr "Tutto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:124
+msgid "All Events"
+msgstr "Tutti gli eventi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:879 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1044
+msgid "All time"
+msgstr "Sempre"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1053
+msgid "All time (real-time)"
+msgstr "Sempre (tempo reale)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:186
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:111
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:87
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:151
+msgid "App"
+msgstr "App"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:5
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:59
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:60
+msgid "Area"
+msgstr "Area"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:44
+msgid "Arrows"
+msgstr "Frecce"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:69
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:78
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:67
+msgid "Auto"
+msgstr "Auto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:4
+msgid "Axes"
+msgstr "Assi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:183
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/DashboardSourceEditor.jsx:169
+msgid "Back"
+msgstr "Indietro"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:244 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:225
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:466
+msgid "Background"
+msgstr "Sfondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/BackgroundColor.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:85
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:53
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:66
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/BackgroundColorConfig.js:4
+msgid "Background Color"
+msgstr "Colore di sfondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:64
+msgid "Background Image"
+msgstr "Immagine di sfondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:64
+msgid "Bar"
+msgstr "Barra"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/FormatterEditor.tsx:174
+msgid "Based on"
+msgstr "In base a"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:391
+msgid "Because the user has navigated away from the dashboard, all running searches have been stopped. Please refresh the dashboard to rerun the searches."
+msgstr "L'utente è uscito dalla dashboard e tutte le ricerche in esecuzione sono state interrotte. Aggiornare la dashboard per rieseguire le ricerche."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:306 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:93
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:11
+msgid "Before"
+msgstr "Prima di"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:862
+#, python-format
+msgid "Before %(dateTime)s"
+msgstr "Prima del %(dateTime)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:865
+msgid "Before Date-time"
+msgstr "Prima della data/ora"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:307 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:172
+msgid "Below"
+msgstr "Sotto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:843
+msgid "Between Date-times"
+msgstr "Tra le date-ore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:66
+msgid "Bold"
+msgstr "Grassetto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:29
+msgid "Border"
+msgstr "Bordo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:16
+msgid "Bottom"
+msgstr "In basso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ArrowLayer.tsx:28
+msgid "Bottom range"
+msgstr "Intervallo parte inferiore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:119
+msgid "Bring to front"
+msgstr "Porta in primo piano"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:69
+msgid "Bubble"
+msgstr "A bolle"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:88
+msgid "Bubble Color"
+msgstr "Colore bolle"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:41
+msgid "Bubble Row Scale"
+msgstr "Scala riga bolle"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:54
+msgid "Bubble Scale"
+msgstr "Scala bolle"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1026
+msgid "Business week to date"
+msgstr "Inizio settimana lavorativa a oggi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:47
+msgid "By Row"
+msgstr "Per riga"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:6
+msgid "Can not parse data correctly."
+msgstr "Impossibile eseguire correttamente il parsing dei dati."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:162
+msgid "Can not upload icons to the standard icon provider."
+msgstr "Impossibile caricare le icone nel provider di icone standard."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:106
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:134
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:224
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:143
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:178 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:193
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:371
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:153
+msgid "Cancel"
+msgstr "Annulla"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:11
+msgid "Cannot create ${parameter} with name \"${name}\"."
+msgstr "Impossibile creare ${parameter} con nome \"${name}\"."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:167
+msgid "Cannot find parent dataSource: ${parentDataSourceId}"
+msgstr "Impossibile trovare dataSource padre: ${parentDataSourceId}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoRegistry.js:40
+msgid "Cannot get geoJson data."
+msgstr "Impossibile ottenere dati geoJson."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:140
+msgid "Cannot save dashboard"
+msgstr "Impossibile salvare la dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:12
+msgid "Canvas"
+msgstr "Area di disegno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:37
+msgid "Canvas Height"
+msgstr "Altezza area di disegno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:29
+msgid "Canvas Width"
+msgstr "Larghezza area di disegno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:381
+msgid "Canvas is not supported"
+msgstr "Area di disegno non supportata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:80
+msgid "Categorical"
+msgstr "Categoriale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:337
+msgid "Chain Search"
+msgstr "Ricerca concatenata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:179
+msgid "Chain Searches"
+msgstr "Ricerche concatenate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:327
+msgid "Chain data source ${dataSourceId} must have valid extend property"
+msgstr "La source di dati concatenata ${dataSourceId} deve avere una proprietà extend valida"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:36
+msgid "Choropleth Maps"
+msgstr "Mappe coropletiche"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:249
+msgid "Classic Dashboards"
+msgstr "Dashboard classiche"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/VizStatusBar.jsx:76
+msgid "Click here to review the query before running"
+msgstr "Fare clic qui per rivedere la query prima dell'esecuzione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/CloneButton.jsx:27 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Clone.jsx:8
+msgid "Clone"
+msgstr "Clona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:95
+msgid "Clone in Dashboard Studio"
+msgstr "Clona in Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:52
+msgid "Clones the report's search string and time range. The inline search exists only in the dashboard and has no external dependencies."
+msgstr "Clona la stringa di ricerca del report e l'intervallo temporale. La ricerca in linea esiste solo nella dashboard e non ha dipendenze esterne."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/CombinedCodeIdEditor.jsx:87
+msgid "Code"
+msgstr "Codice"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/CollapsibleGroup.jsx:41 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CollapsibleGroup.jsx:53
+msgid "Collapse"
+msgstr "Comprimi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:49
+msgid "Collapse Threshold"
+msgstr "Soglia di compressione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:45
+msgid "Collapse to Summary"
+msgstr "Comprimi fino al Sommario"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/CollapsibleToolbar.tsx:127
+msgid "Collapsed"
+msgstr "Compresso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:61
+msgid "Collapsed Slice Label"
+msgstr "Etichetta porzione compressa"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:11
+msgid "Color"
+msgstr "Colore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:69
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:74
+msgid "Color Mode"
+msgstr "Modalità di colorazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:127 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:316
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:255
+msgid "Coloring"
+msgstr "Colorazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:74
+msgid "Column"
+msgstr "Colonna"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/FormatByTypeEditor.tsx:1
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:450
+msgid "Column Formatting"
+msgstr "Formattazione delle colonne"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:66
+msgid "Columns"
+msgstr "Colonne"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:30
+msgid "Comparisons"
+msgstr "Confronti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Configuration.jsx:10 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Config.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:249 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:290
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:13
+msgid "Configured in source code beyond what can be shown here. Resetting to default will overwrite this custom configurations."
+msgstr "La configurazione nel codice sorgente è più dettagliata di quanto è mostrato qui. Se si reimpostano le impostazioni di default, queste configurazioni personalizzate verranno sovrascritte."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:21
+msgid "Connect"
+msgstr "Connetti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:142
+msgid "Connected Line"
+msgstr "Linea collegata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:26
+msgid "Contain"
+msgstr "Contiene"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ContentExport.jsx:10
+msgid "Content Export"
+msgstr "Esportazione contenuto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:186
+msgid "Continue Anyway"
+msgstr "Continua comunque"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:156
+msgid "Continue using the same standard Splunk visualizations and explore additional tools."
+msgstr "Consente di continuare utilizzando le stesse visualizzazioni Splunk standard ed esplorare strumenti aggiuntivi."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:112
+msgid "Convert & Save"
+msgstr "Converti e salva"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:28
+msgid "Cover"
+msgstr "Copertina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:138
+msgid "Create"
+msgstr "Crea"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:122
+msgid "Create New Dashboard"
+msgstr "Crea nuova dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:177
+msgid "Create new dashboard"
+msgstr "Crea nuova dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:182
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:145
+msgid "Creator"
+msgstr "Creatore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:153
+msgid "Ctrl Alt -"
+msgstr "Ctrl Alt -"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:129
+msgid "Ctrl Alt 0"
+msgstr "Ctrl Alt 0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:143
+msgid "Ctrl Alt ="
+msgstr "Ctrl Alt ="
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:153
+msgid "Ctrl Cmd -"
+msgstr "Ctrl Cmd -"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:129
+msgid "Ctrl Cmd 0"
+msgstr "Ctrl Cmd 0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:143
+msgid "Ctrl Cmd ="
+msgstr "Ctrl Cmd ="
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:1
+msgid "Currently referencing"
+msgstr "Riferimenti attuali a"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:57
+msgid "Currently using"
+msgstr "Utilizzo attuale di"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:53
+msgid "Currently using Untitled input"
+msgstr "Utilizzo attuale di input senza titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:37
+msgid "Currently using static time range"
+msgstr "Utilizzo attuale di un intervallo temporale statico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:27
+msgid "Custom"
+msgstr "Personalizzata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/advanced/examples/CustomIcon.jsx:8
+msgid "Custom Icon"
+msgstr "Icona personalizzata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:924
+msgid "Custom time"
+msgstr "Intervallo personalizzato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:162
+msgid "Custom visualizations & Trellis not yet supported"
+msgstr "Visualizzazioni personalizzate e Trellis non ancora supportati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "Customize with shapes,"
+msgstr "Personalizza con forme,"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:133
+msgid "Customize with shapes, images, and text without coding with Absolute layout."
+msgstr "Personalizza con forme, immagini e testo senza codifica con layout assoluto."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/CustomizedInSourceEditor.tsx:45
+msgid "Customized in source"
+msgstr "Personalizzazione nel source"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:153
+msgid "Dark"
+msgstr "Scuro"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:69
+msgid "Dash Style"
+msgstr "Stile dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:61
+msgid "Dashboard ID"
+msgstr "ID dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:19
+msgid "Dashboard ID can only use letters, numbers, dashes, & underscores."
+msgstr "Per l'ID dashboard è possibile utilizzare solo lettere, numeri, trattini e caratteri di sottolineatura."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:277
+msgid "Dashboard Studio"
+msgstr "Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:14 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:13
+msgid "Dashboard Studio does not support Trellis."
+msgstr "Dashboard Studio non supporta Trellis."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:19 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:17
+msgid "Dashboard Studio does not support categorical colors in Choropleth Maps."
+msgstr "Dashboard Studio non supporta colori categoriali nelle mappe coropletiche."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:9 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:9
+msgid "Dashboard Studio does not support the selected visualization type."
+msgstr "Dashboard studio non supporta il tipo di visualizzazione selezionato."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:30
+msgid "Dashboard Title"
+msgstr "Titolo dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:163
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:189
+msgid "Dashboards"
+msgstr "Dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:165
+msgid "Dashboards include searches, visualizations, and input controls that capture and present available data."
+msgstr "Le dashboard comprendono ricerche, visualizzazioni e controlli di input che acquisiscono e visualizzano i dati disponibili."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DataInput.jsx:8
+msgid "Data Icon"
+msgstr "Icona dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Data.jsx:9 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:254
+msgid "Data Overview"
+msgstr "Panoramica dei dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:6
+msgid "Data Settings"
+msgstr "Impostazioni dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:421
+msgid "Data Source ID"
+msgstr "ID source di dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:425
+msgid "Data Source IDs must start with \"ds_\" and contain only letters, numbers, dash, and underscore"
+msgstr "Gli ID source di dati devono iniziare con \"ds_\" e contenere solo lettere, numeri, trattini e caratteri di sottolineatura."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:269
+msgid "Data Source Name"
+msgstr "Nome source di dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:336
+msgid "Data source ${currentId} creates an invalid circular reference; check parent data sources referenced by extend property."
+msgstr "La source di dati ${currentId} crea un riferimento circolare non valido. Controllare le source di dati padre a cui fa riferimento la proprietà extend."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/FillerGauge.jsx:64
+msgid "Data type for \"${propInWrongType}\" encoding is incorrect. Expected: \"${expectedType}\", Received: \"${receivedType}\""
+msgstr "Il tipo di dati per la codifica \"${propInWrongType}\" non è corretto. Previsto: \"${expectedType}\", ricevuto: \"${receivedType}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/MarkerGauge.jsx:30
+msgid "Data type for value encoding is incorrect. Expected: \"number\", Received: \"${propsFromEncoding.valueType}\""
+msgstr "Il tipo di dati per la codifica del valore non è corretto. Previsto: numerico, ricevuto: \"${propsFromEncoding.valueType}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceController.js:291
+msgid "DataSource is not set up."
+msgstr "DataSource non impostato."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:826
+msgid "Date Range"
+msgstr "Intervallo di date"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/utils/OptionsDoc.jsx:47 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/OptionsDoc.jsx:43 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:220
+msgid "Default"
+msgstr "Default"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:134
+msgid "Default Text"
+msgstr "Testo di default"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/EnterpriseTimeRangePicker/EnterpriseTimeRangePicker.jsx:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:119 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:120
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/TimeRangePicker/TimeRangePicker.jsx:34
+msgid "Default Value"
+msgstr "Valore di default"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:103
+msgid "Default module used if no value specified."
+msgstr "Modulo di default utilizzato se non è specificato un valore."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:11
+msgid "Degrees"
+msgstr "Gradi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:113
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:131 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/DeleteButton.jsx:26
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/components/DataSourceItem.tsx:9
+msgid "Delete"
+msgstr "Elimina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:72
+msgid "Delta Font Size (px)"
+msgstr "Dimensione carattere delta (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/DescriptionEditor.jsx:22 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:179
+msgid "Description"
+msgstr "Descrizione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:8
+msgid "Digit Precision"
+msgstr "Precisione numerica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:16
+msgid "Display Mode"
+msgstr "Modalità di visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:35
+msgid "Distributions"
+msgstr "Distribuzioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:191
+msgid "Done"
+msgstr "Fine"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:16
+msgid "Donut"
+msgstr "Ad anello"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Download.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:126
+msgid "Download"
+msgstr "Download"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:87
+msgid "Drilldown"
+msgstr "Drilldown"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DrilldownList.jsx:71
+msgid "Drilldown Settings"
+msgstr "Impostazioni drilldown"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:93
+msgid "Drilldown is disabled when you save a visualization to a dashboard. After saving, open the dashboard editor to access configuration options for the visualization."
+msgstr "Il drilldown è disabilitato quando si salva una visualizzazione su una dashboard. Dopo aver salvato, aprire l'editor di dashboard per accedere alle opzioni di configurazione per la visualizzazione."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:144
+msgid "Dropdown"
+msgstr "Tendina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DropdownIcon.jsx:24
+msgid "Dropdown Icon"
+msgstr "Icona tendina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DropdownInput.jsx:27
+msgid "Dropdown Input"
+msgstr "Input a tendina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:155
+msgid "Dropdown Input Title"
+msgstr "Titolo input a tendina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:5
+msgid "Dynamic Background"
+msgstr "Sfondo dinamico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/DynamicColorEditor.tsx:117
+msgid "Dynamic Coloring"
+msgstr "Colorazione dinamica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:12
+msgid "Dynamic Coloring: Background"
+msgstr "Colorazione dinamica: sfondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:12
+msgid "Dynamic Coloring: Major Value"
+msgstr "Colorazione dinamica: valore principale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:12
+msgid "Dynamic Coloring: Trend"
+msgstr "Colorazione dinamica: tendenza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:274
+msgid "Dynamic Icon"
+msgstr "Icona dinamica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:5
+msgid "Dynamic Major Value"
+msgstr "Valore principale dinamico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:12
+msgid "Dynamic Option: Customized in source"
+msgstr "Opzione dinamica: personalizzazione nel source"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:5
+msgid "Dynamic Trend"
+msgstr "Tendenza dinamica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:21
+msgid "Dynamic options are being used by this input. Please edit in source mode."
+msgstr "Questo input utilizza opzioni dinamiche. Modificare in modalità source."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:105
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Edit.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ModeSwitch.jsx:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/EditableListItem.jsx:118 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/EditIcon.tsx:6
+msgid "Edit"
+msgstr "Modifica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:266
+msgid "Edit Data Source"
+msgstr "Modifica source di dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:41
+msgid "Edit ID"
+msgstr "Modifica ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/EditSourceButton.jsx:16
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/EditSourceButton.jsx:18
+msgid "Edit Source"
+msgstr "Modifica source"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:128 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:57
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:113
+msgid "Ellipse"
+msgstr "Ellisse"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:246
+msgid "Enable"
+msgstr "Abilita"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:227
+msgid "Encoding Settings"
+msgstr "Impostazioni di codifica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:63
+msgid ""
+"Encoding specifies which and what type of datasources and fields are supported for visualization.\n"
+"                Type of each encoding indicates the expected data type returned by the datasource for visualization.\n"
+"                Default indicates the default datasource and field for visualization if encoding is not specified.\n"
+"                Checking Examples tab on how to use encoding to specify datasource in each visualization."
+msgstr ""
+"La codifica specifica quali source di dati e campi e di quale tipo sono supportati per la visualizzazione.\n"
+"                Il tipo di ciascuna codifica indica il tipo di dati previsto che deve essere restituito dalla source di dati per la visualizzazione.\n"
+"                Il valore di default indica la source di dati e il campo di default per la visualizzazione se la codifica non è specificata.\n"
+"                Vedere la scheda Esempi per informazioni su come utilizzare la codifica per specificare la source di dati per ciascuna visualizzazione."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:58
+msgid "Ending Point"
+msgstr "Punto di fine"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:149
+msgid "Enter URL"
+msgstr "Immettere l'URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/Text.jsx:53
+msgid "Enter text here"
+msgstr "Immettere il testo qui"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:72
+msgid "Error encountered while downloading"
+msgstr "Si è verificato un errore durante il download"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:54
+msgid "Error retrieving ${url} from Image Registry, error was '${e.message}'"
+msgstr "Errore durante il recupero di ${url} dal registro delle immagini. Errore: '${e.message}'"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:349
+msgid "Error: Token duplicated across multiple inputs"
+msgstr "Errore: token duplicato su più input."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:374
+msgid "Error: Visualization duplicated in layout structure"
+msgstr "Errore: visualizzazione duplicata nella struttura di layout"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:384
+msgid "Error: Visualization in layout structure does not exist"
+msgstr "Errore: la visualizzazione nella struttura di layout non esiste"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:6 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:7
+msgid "Errors occurred during conversion"
+msgstr "Si sono verificati errori durante la conversione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:98
+msgid "Even Row Fill Color"
+msgstr "Colore riempimento righe pari"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:51
+msgid "Even Row Text Color"
+msgstr "Colore testo righe pari"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:117
+msgid "Event"
+msgstr "Evento"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/CollapsibleGroup.jsx:43 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CollapsibleGroup.jsx:55
+msgid "Expand"
+msgstr "Espandi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/CollapsibleToolbar.tsx:127
+msgid "Expanded"
+msgstr "Espanso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/ExportButton.jsx:68
+msgid "Export"
+msgstr "Esporta"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Eyedropper.jsx:10
+msgid "Eyedropper"
+msgstr "Contagocce"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:9
+msgid "Failed to add to existing dashboard"
+msgstr "Aggiunta alla dashboard esistente non riuscita"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:13
+msgid "Failed to clone dashboard"
+msgstr "Clonazione dashboard non riuscita"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:24 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:26
+msgid "Failed to fetch dashboard content for ${id}"
+msgstr "Recupero del contenuto della dashboard per ${id} non riuscito"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:11
+msgid "Failed to save to dashboard"
+msgstr "Salvataggio nella dashboard non riuscito"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:20
+msgid "Failed to update"
+msgstr "Aggiornamento non riuscito "
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:93
+msgid "Fetching dashboards"
+msgstr "Recupero delle dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:129
+msgid "Field to enter a number"
+msgstr "Campo in cui immettere un numero"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:131
+msgid "Field to enter text"
+msgstr "Campo in cui immettere testo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:81
+msgid "File size must be 16MB or smaller"
+msgstr "Il file deve avere una dimensione massima di 16 MB"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Threshold.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:62
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/Threshold.js:9
+msgid "Fill"
+msgstr "Riempi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FillerGauge.jsx:6 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:79
+msgid "Filler Gauge"
+msgstr "Contatore di riempimento"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Filter.jsx:10
+msgid "Filter"
+msgstr "Filtro"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:134
+msgid "Fit"
+msgstr "Adatta"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:22
+msgid "Fit to Width"
+msgstr "Adatta in larghezza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:427
+msgid "Fixed"
+msgstr "Fisso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:116
+msgid "Flexible layout options to freely place objects or organize & resize (Absolute and Grid)."
+msgstr "Opzioni di layout flessibili per posizionare liberamente gli oggetti o per l'organizzazione e il ridimensionamento (Assoluto e Griglia)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FlipHorizontal.jsx:10
+msgid "FlipHorizontal"
+msgstr "FlipHorizontal"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FlipVertical.jsx:10
+msgid "FlipVertical"
+msgstr "FlipVertical"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:26
+msgid "Font"
+msgstr "Carattere"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:58
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:21
+msgid "Font Settings"
+msgstr "Impostazioni carattere"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:42
+msgid "Font Size (px)"
+msgstr "Dimensione carattere (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:83
+msgid "Friday"
+msgstr "Venerdì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:83
+msgid "Fridays"
+msgstr "Venerdì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:206
+msgid "Full layout control"
+msgstr "Controllo completo layout"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/FullscreenButton.jsx:43 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Fullscreen.jsx:8
+msgid "Fullscreen"
+msgstr "Schermo intero"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FullscreenExit.jsx:9
+msgid "Fullscreen Exit"
+msgstr "Uscita da Schermo intero"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:19
+msgid "Gaps"
+msgstr "Interruzioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:33
+msgid "Gauge"
+msgstr "Contatore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:12
+msgid "Gauge Color"
+msgstr "Colore contatore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:13
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:10
+msgid "General"
+msgstr "Generale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:85
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:46
+msgid "Global"
+msgstr "Globale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:395
+msgid "Global Formatting"
+msgstr "Formattazione globale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:81
+msgid "Global Time Range"
+msgstr "Intervallo temporale globale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:212
+msgid "Grid"
+msgstr "Griglia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:73
+msgid "Grid Height"
+msgstr "Altezza griglia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:37
+msgid "Gridlines"
+msgstr "Linee griglia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:41
+msgid "Gridlines displayed"
+msgstr "Linee griglia visualizzate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:42
+msgid "Gridlines not displayed"
+msgstr "Linee griglia non visualizzate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:76
+msgid "Header Fill Color"
+msgstr "Colore riempimento intestazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:421
+msgid "Header Row"
+msgstr "Riga intestazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:29
+msgid "Header Text Color"
+msgstr "Colore testo intestazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:127
+msgid "Height"
+msgstr "Altezza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:428
+msgid "Hidden"
+msgstr "Nascosta"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Hide.jsx:8
+msgid "Hide"
+msgstr "Nascondi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:1
+msgid "Hide list"
+msgstr "Nascondi elenco"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/History.jsx:8
+msgid "History"
+msgstr "Cronologia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:28
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:230
+msgid "How do you want to build your dashboard?"
+msgstr "Come si desidera generare la dashboard?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:12
+msgid "ID already in use. Edit the ID or choose a different title."
+msgstr "ID già in uso. Modificare l'ID o scegliere un altro titolo."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:5
+msgid "ID cannot be empty."
+msgstr "L'ID non può essere vuoto."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/IdEditor.jsx:17
+msgid "ID does not match specified rules"
+msgstr "L'ID non soddisfa le regole specificate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/IdEditor.jsx:18
+msgid "ID duplicates an existing ID"
+msgstr "L'ID è un duplicato di un ID esistente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:213
+msgid "INPUT OPTIONS"
+msgstr "OPZIONI DI INPUT"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:167
+msgid "Icon"
+msgstr "Icona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:209
+msgid "Icon & Major Value"
+msgstr "Icona e valore principale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:7
+msgid "Icon Color"
+msgstr "Colore icona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:172
+msgid "If these commands are unexpected to you, you should not run this query without further investigation."
+msgstr "Se questi comandi non sono previsti, è consigliabile eseguire la query solo dopo ulteriore indagine."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:38 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:123
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/Image.jsx:10
+msgid "Image"
+msgstr "Immagine"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddImage.jsx:12
+msgid "Image Gallery"
+msgstr "Raccolta immagini"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:183
+msgid "Image Height"
+msgstr "Altezza immagine"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:174
+msgid "Image Width"
+msgstr "Larghezza immagine"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/RemoteImage.jsx:88
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/Image.jsx:121
+msgid "Image not found"
+msgstr "Immagine non trovata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:426
+msgid "Inline"
+msgstr "In linea"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:48
+msgid "Inline Search"
+msgstr "Ricerca in linea"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Input.jsx:24
+msgid "Input"
+msgstr "Input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:184
+msgid "Input ID"
+msgstr "ID input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:188
+msgid "Input IDs must start with \"input_\" and contain only letters, numbers, dash, and underscore"
+msgstr "Gli ID input devono iniziare con \"input_\" e contenere solo lettere, numeri, trattini e caratteri di sottolineatura."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:94
+msgid "Introducing Dashboard Studio"
+msgstr "Presentazione di Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:27
+msgid "Invalid Provider"
+msgstr "Provider non valido"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:22
+msgid "Invalid input for ${parameter}. Expected ${expectedType}, but received ${actualType}"
+msgstr "Input non valido per ${parameter}. Previsto ${expectedType}, ma ricevuto ${actualType}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:17
+msgid "Invalid layout field, requires \"absolute\" or \"grid\""
+msgstr "Campo layout non valido. È richiesto “Assoluto” o “Griglia”"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoJsonProvider.js:28
+msgid "Invalid mapId."
+msgstr "mapId non valido."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:124
+msgid "Invalid url"
+msgstr "URL non valido"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoRegistry.js:20
+msgid "Invalid url."
+msgstr "URL non valido."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:236 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:150
+msgid "Item 1"
+msgstr "Elemento 1"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:237 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:151
+msgid "Item 2"
+msgstr "Elemento 2"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:238
+msgid "Item 3"
+msgstr "Elemento 3"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:182
+msgid "Label"
+msgstr "Etichetta"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:24
+msgid "Labels"
+msgstr "Etichette"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:564
+#, python-format
+msgid "Last %(amount)d %(unit)s"
+msgstr "Ultima %(amount)d %(unit)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1038
+msgid "Last 15 minutes"
+msgstr "Ultimi 15 minuti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1041
+msgid "Last 24 hours"
+msgstr "Ultime 24 ore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1043
+msgid "Last 30 days"
+msgstr "Ultimi 30 giorni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1040
+msgid "Last 4 hours"
+msgstr "Ultime 4 ore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1039
+msgid "Last 60 minutes"
+msgstr "Ultimi 60 minuti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1042
+msgid "Last 7 days"
+msgstr "Ultimi 7 giorni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:164
+msgid "Last Edited"
+msgstr "Ultima modifica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:93 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Layers.jsx:8
+msgid "Layers"
+msgstr "Livelli"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/containers/layouts/LayoutContainer.jsx:116
+msgid "Layout ${type} is not defined"
+msgstr "Layout ${type} non definito"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/DynamicEditor.jsx:121
+msgid "Layout transformation failed"
+msgstr "Trasformazione layout non riuscita"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:175
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:209
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:177
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:53
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:167
+msgid "Learn More"
+msgstr "Ulteriori informazioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:265
+msgid "Learn More."
+msgstr "Ulteriori informazioni."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:14
+msgid "Left"
+msgstr "A sinistra"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:4
+msgid "Legend"
+msgstr "Legenda"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:152
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:67
+msgid "Light"
+msgstr "Light"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:84 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:133
+msgid "Line"
+msgstr "A linee"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:59
+msgid "Link to custom URL"
+msgstr "Link all'URL personalizzato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:68
+msgid "Loaded from report"
+msgstr "Caricato da report"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:40
+msgid "Loading Data Source..."
+msgstr "Caricamento source di dati in corso..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:136 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:21
+msgid "Loading menu items..."
+msgstr "Caricamento voci di menu in corso..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:42
+msgid "MENU CONFIGURATION"
+msgstr "CONFIGURAZIONE MENU"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:63
+msgid "Major Font Size (px)"
+msgstr "Dimensione carattere principale (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:200 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:181
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:302
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:32
+msgid "Major Value"
+msgstr "Valore principale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:228 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:292
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:242
+msgid "Major Value & Trend"
+msgstr "Valore principale e tendenza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:36
+msgid "Major Value Size (px)"
+msgstr "Dimensione valore principale (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:119
+msgid "Markdown"
+msgstr "Markdown"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/MarkerGauge.jsx:6 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:89
+msgid "Marker Gauge"
+msgstr "Contatore di rilevazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:103
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:33
+msgid "Max"
+msgstr "Max"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/FormatterEditor.tsx:162
+msgid "Method"
+msgstr "Metodo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:97
+msgid "Min"
+msgstr "Min"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:52
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:33
+msgid "Min/Max"
+msgstr "Min/Max"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:43
+msgid "Missing Image Context"
+msgstr "Contesto immagine mancante"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/components/MissingPropsMessage.tsx:51
+msgid "Missing property: ${missingProps.join(', ')}"
+msgstr "Proprietà mancante: ${missingProps.join(', ')}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:18
+msgid "Missing required parameters: id, simpleXmlDefinition"
+msgstr "Parametri obbligatori mancanti: id, simpleXmlDefinition"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:16
+msgid "Missing required parameters: id, simpleXmlVizDef"
+msgstr "Parametri obbligatori mancanti: id, simpleXmlVizDef"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/TestDataSourceEditor.jsx:14
+msgid "Mock Data"
+msgstr "Dati fittizi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:75
+msgid "Monday"
+msgstr "Lunedì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:75
+msgid "Mondays"
+msgstr "Lunedì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1027
+msgid "Month to date"
+msgstr "Inizio mese a oggi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:128
+msgid "Move backward"
+msgstr "Sposta indietro"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:110
+msgid "Move forward"
+msgstr "Sposta avanti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:230
+msgid "Multiselect"
+msgstr "Selezione multipla"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/MultiselectInput.jsx:29
+msgid "Multiselect Input"
+msgstr "Input selezione multipla"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:242
+msgid "Multiselect Input Title"
+msgstr "Titolo input selezione multipla"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:660
+msgid "My Dashboard"
+msgstr "La mia dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:278
+msgid "NEW"
+msgstr "NUOVO"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:273 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:282
+msgid "New Data Source"
+msgstr "Nuova source di dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:191
+msgid "Next"
+msgstr "Avanti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:204
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:175
+msgid "Next Scheduled Time"
+msgstr "Prossima ora pianificata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:96
+msgid "No Action"
+msgstr "Nessuna azione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/common/Charting.jsx:325
+msgid "No DataSource"
+msgstr "Nessuna DataSource"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/utils/enhancer.jsx:88
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/components/IconPlaceholder.tsx:61
+msgid "No DataSource Connected"
+msgstr "Nessuna DataSource connessa"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Choropleth/Choropleth.tsx:133
+msgid "No GeoRegistry provided in context"
+msgstr "Nessun GeoRegistry fornito in contesto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/PureSingleValueIcon/SingleValueIcon.jsx:85
+msgid "No Icon"
+msgstr "Nessuna icona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:158
+msgid "No Icons. Please upload icons."
+msgstr "Nessuna icona. Caricare le icone."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Inputs.jsx:111
+msgid "No Inputs"
+msgstr "Nessun input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/common/Charting.jsx:326
+msgid "No Result"
+msgstr "Nessun risultato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:89
+msgid "No action"
+msgstr "Nessuna azione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:97
+msgid "No dashboard"
+msgstr "Nessuna dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/PureTable.tsx:167
+msgid "No data!"
+msgstr "Nessun dato!"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:57
+msgid "No icon registry found"
+msgstr "Nessun registro icone trovato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:126
+msgid "No icons found."
+msgstr "Nessuna icona trovata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:223
+msgid "No icons. Please upload icons."
+msgstr "Nessuna icona. Caricare le icone."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:55
+msgid "No image registry found"
+msgstr "Nessun registro immagini trovato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:118
+msgid "No images found."
+msgstr "Nessuna immagine trovata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:142 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:210
+msgid "No images. Please upload images."
+msgstr "Nessuna immagine. Caricare le immagini."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/visualizations/SvgChoroplethDynamic/SvgChoroplethDynamic.tsx:15
+msgid "No literal SVG is provided"
+msgstr "Nessun SVG letterale specificato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/ChoroplethSvg.tsx:97
+msgid "No literal SVG or URL to SVG is provided"
+msgstr "Nessun SVG letterale o URL a SVG specificato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/VisualizationPicker.jsx:200
+msgid "No match found"
+msgstr "Nessuna corrispondenza trovata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:4
+msgid "No valid dataSources."
+msgstr "Nessun dataSource valido."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:5
+msgid "No valid encoding."
+msgstr "Nessuna codifica valida."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:136
+msgid "No valid provider was found. Please add a provider"
+msgstr "Nessun provider valido trovato. Aggiungere un provider"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:192 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:159
+msgid "None"
+msgstr "Nessuno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:65
+msgid "Normal"
+msgstr "Normale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:248 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:277
+msgid "Not a valid threshold. Must be a number"
+msgstr "Non è una soglia valida. Deve essere un numero"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:36
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:184
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:200
+msgid "Not stacked"
+msgstr "Non in stack"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:167
+msgid "Note: For any visualizations depending on real-time data, accuracy will be dependent on the progress of the search."
+msgstr "Nota: per qualsiasi visualizzazione dipendente da dati in tempo reale, la precisione dipende dall'avanzamento della ricerca."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/GalleryUpload.jsx:20 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:25
+msgid "Note: Uploaded image files can be accessed and deleted by others in your organization"
+msgstr "Nota: altri utenti dell'organizzazione possono accedere ai file di immagini caricati ed eliminarli"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:14
+msgid "Null Values"
+msgstr "Valori null"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:128
+msgid "Number"
+msgstr "Numero"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:4
+msgid "Number Formatting"
+msgstr "Formattazione dei numeri"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/NumberInput.jsx:25
+msgid "Number Input"
+msgstr "Input numerico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:134
+msgid "Number Input Title"
+msgstr "Titolo input numerico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:88
+msgid "Odd Row Fill Color"
+msgstr "Colore riempimento righe dispari"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:41
+msgid "Odd Row Text Color"
+msgstr "Colore testo righe dispari"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:50
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/ColumnColorEditor.tsx:223
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:305 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:516
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:55
+msgid "Off"
+msgstr "Off"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:517
+msgid "On"
+msgstr "On"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:108
+msgid "On Click"
+msgstr "Su clic"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/common/ErrorViz.jsx:34
+msgid "Oops! The dashboard that you tried to convert uses components that are not yet supported in Dashboard Studio. We apologize for any inconvenience."
+msgstr "La dashboard di cui si è tentata la conversione utilizza componenti non ancora supportati in Dashboard Studio. Ci scusiamo per il disagio."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:18
+msgid "Opacity"
+msgstr "Opacità"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:20
+msgid "Opacity (%)"
+msgstr "Opacità (%)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:152
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/OpenSearchButton.jsx:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:113
+msgid "Open in Search"
+msgstr "Apri in Ricerca"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:53
+msgid "Open in new tab"
+msgstr "Apri in una nuova scheda"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:50
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:153
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:127
+msgid "Optional"
+msgstr "Opzionale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:22
+msgid "Orientation"
+msgstr "Orientamento"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:29
+msgid "Original Size"
+msgstr "Dimensioni originali"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:173
+msgid "Outside"
+msgstr "Fuori"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:110
+msgid "Owner"
+msgstr "Proprietario"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:87
+msgid "Padding"
+msgstr "Spazio aggiuntivo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Pan.jsx:8
+msgid "Pan"
+msgstr "Muovi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:27
+msgid "Panel Powered By"
+msgstr "Pannello basato su"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:125
+msgid "Panel Title"
+msgstr "Titolo pannello"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:14
+msgid "Parameter \"${parameter}\" must be less than ${length} characters."
+msgstr "Il parametro \"${parameter}\" deve avere meno di ${length} caratteri."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:143
+msgid "Parent Search"
+msgstr "Ricerca padre"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:835
+msgid "Part of a Day"
+msgstr "Parte di un giorno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:101
+msgid "Path ID Field Formatting"
+msgstr "Formattazione campo ID percorso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:133
+msgid "Path ID Field Formatting: Value"
+msgstr "Formattazione campo ID percorso: valore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:155
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:53
+msgid "Percent"
+msgstr "Percentuale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:156
+msgid "Permission"
+msgstr "Autorizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:68
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:170
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:190
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:157
+msgid "Permissions"
+msgstr "Autorizzazioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:49
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:15
+msgid "Pie"
+msgstr "A torta"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:37
+msgid "Please set up valid Data Source to select"
+msgstr "Impostare una source di dati valida da selezionare"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:46
+msgid "Please upload a valid svg with viewBox attribute."
+msgstr "Caricare un SVG valido con attributo viewBox."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:23
+msgid "Position"
+msgstr "Posizione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutItemEditor.jsx:80
+msgid "Position & Size"
+msgstr "Posizione e dimensioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:503
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:26
+msgid "Precision"
+msgstr "Precisione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:76
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:53
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:90
+msgid "Preparing download..."
+msgstr "Preparazione del download in corso..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/editorConfig.js:17
+msgid "Preserve Aspect Ratio"
+msgstr "Mantieni proporzioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/Palettes/PresetPaletteTheme.tsx:25
+msgid "Preset Palette"
+msgstr "Tavolozza predefinita"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1032
+msgid "Previous business week"
+msgstr "Settimana lavorativa precedente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1036
+msgid "Previous month"
+msgstr "Mese precedente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1030
+msgid "Previous week"
+msgstr "Settimana precedente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1037
+msgid "Previous year"
+msgstr "Anno precedente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:55
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:132
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:161
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:89
+msgid "Private"
+msgstr "Privato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:83
+msgid "Provider not found"
+msgstr "Provider non trovato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:10
+msgid "Pulsate Max Value"
+msgstr "Valore max pulsazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Punchcard.jsx:7 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:54
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/Punchcard.jsx:7
+msgid "Punchcard"
+msgstr "Scheda perforata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:212
+msgid "Quick organization"
+msgstr "Organizzazione rapida"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/RadialGauge.jsx:6 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:99
+msgid "Radial Gauge"
+msgstr "Contatore radiale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:59
+msgid "Radius"
+msgstr "Raggio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:59
+msgid "Radius (px)"
+msgstr "Raggio (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:12
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:136 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:284
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:472
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:15
+msgid "Ranges"
+msgstr "Intervalli"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:516
+msgid "Real-time"
+msgstr "In tempo reale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:19
+msgid "Real-time search is running"
+msgstr "Ricerca in tempo reale in esecuzione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:133 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:59
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:121
+msgid "Rectangle"
+msgstr "Rettangolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Redo.jsx:8
+msgid "Redo"
+msgstr "Ripeti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:398
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/RefreshButton.jsx:46 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Refresh.jsx:8
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:108
+msgid "Refresh rates of less than 60 seconds might impact search performance."
+msgstr "Una frequenza di aggiornamento minore di 60 secondi può influire sulle prestazioni della ricerca."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:111
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Remove.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/EditableListItem.jsx:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/RemoveIcon.tsx:6
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:68
+msgid "Report"
+msgstr "Report"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:70
+msgid "Required"
+msgstr "Obbligatorio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:16
+msgid "Reset to default"
+msgstr "Reimposta i valori di default"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:13
+msgid "Right"
+msgstr "A destra"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:6
+msgid "Rotation"
+msgstr "Rotazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:410
+msgid "Row Numbers"
+msgstr "Numeri di riga"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:399
+msgid "Rows Displayed"
+msgstr "Righe visualizzate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:364
+msgid "Run & Save"
+msgstr "Esegui e salva"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:187
+msgid "Run Query"
+msgstr "Esegui query"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:159
+msgid "SVG (deprecated)"
+msgstr "SVG (obsoleto)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SvgChoropleth.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/ChoroplethSvg.jsx:7
+msgid "SVG Choropleth"
+msgstr "SVG coropletico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:84
+msgid "SVG Data"
+msgstr "Dati SVG"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:84
+msgid "Saturday"
+msgstr "Sabato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:84
+msgid "Saturdays"
+msgstr "Sabati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:365
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:159
+msgid "Save"
+msgstr "Salva"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:187
+msgid "Save Panel to Existing Dashboard"
+msgstr "Salva pannello in dashboard esistente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:122
+msgid "Save Panel to New Dashboard"
+msgstr "Salva pannello in nuova dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:138
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:231
+msgid "Save to Dashboard"
+msgstr "Salva nella dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSavedSearch.js:295
+msgid "Saved Search"
+msgstr "Ricerca salvata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:144
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:105
+msgid "Saved Search with SPL"
+msgstr "Ricerca salvata con SPL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:94
+msgid "Scatter"
+msgstr "A dispersione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Search.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/VisualizationPicker.jsx:187
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:695 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:337
+msgid "Search"
+msgstr "Ricerca"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:242
+msgid "Search By Title"
+msgstr "Ricerca per titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:239
+msgid "Search Icons"
+msgstr "Cerca icone"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:226
+msgid "Search Images"
+msgstr "Cerca immagini"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:40
+msgid "Search is not yet running, queued on client"
+msgstr "Ricerca non ancora in esecuzione, in coda sul client"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:28 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:31
+msgid "Search is not yet running, queued on server"
+msgstr "Ricerca non ancora in esecuzione, in coda sul server"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:30 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:22
+msgid "Search is running, but not enough data to render visualization"
+msgstr "Ricerca in esecuzione, ma dati insufficienti per il rendering della visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:36 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:34
+msgid "Search ran successfully, but no results were returned"
+msgstr "Ricerca eseguita correttamente ma nessun risultato restituito"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:194
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSearchEditor.jsx:45
+msgid "Search with SPL"
+msgstr "Cerca con SPL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:86
+msgid "Search with SPL2"
+msgstr "Cerca con SPL2"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:161
+msgid "Searches"
+msgstr "Ricerche"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Select.jsx:10
+msgid "Select"
+msgstr "Seleziona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:260
+msgid "Select Data"
+msgstr "Seleziona dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:145
+msgid "Select a single list value"
+msgstr "Selezionare un unico valore dall'elenco"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:173
+msgid "Select a time range"
+msgstr "Selezionare un intervallo temporale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:133 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:111
+msgid "Select a value"
+msgstr "Selezionare un valore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:215
+msgid "Select an Existing Dashboard"
+msgstr "Selezionare una dashboard esistente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:197
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:243
+msgid "Select layout mode"
+msgstr "Selezionare la modalità di layout"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:231
+msgid "Select multiple list values"
+msgstr "Selezionare più valori dall'elenco"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:261
+msgid "Selected Data Field"
+msgstr "Campo dati selezionati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:137
+msgid "Send to back"
+msgstr "Invia in fondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:79
+msgid "Sequential"
+msgstr "Sequenziale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:152
+msgid "Set Permission"
+msgstr "Imposta autorizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:34
+msgid "Set up Data Source to select"
+msgstr "Impostare la source di dati da selezionare"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Settings.jsx:8
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:39
+msgid "Shapes"
+msgstr "Forme"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Share.jsx:8 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ShareDashboard.jsx:8
+msgid "Share"
+msgstr "Condividi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:61
+msgid "Shared in App"
+msgstr "Condiviso in App"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:166
+msgid "Shared in app"
+msgstr "Condiviso nell'app"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:112
+msgid "Sharing"
+msgstr "Condivisione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Show.jsx:8
+msgid "Show"
+msgstr "Mostra"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:27
+msgid "Show Bubble Labels"
+msgstr "Mostra etichette bolle"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:45
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:26
+msgid "Show Data Values"
+msgstr "Mostra i valori dei dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:10
+msgid "Show Header"
+msgstr "Mostra intestazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:35
+msgid "Show Labels"
+msgstr "Mostra etichette"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:97
+msgid "Show Legend"
+msgstr "Mostra legenda"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:28
+msgid "Show Percent"
+msgstr "Mostra percentuale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:17
+msgid "Show Row Numbers"
+msgstr "Mostra numeri di riga"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:34
+msgid "Show Sparkline"
+msgstr "Mostra sparkline"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:80
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:56
+msgid "Show Title & Description"
+msgstr "Mostra titolo e descrizione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:11
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:11
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:143
+msgid "Show Trending Value"
+msgstr "Mostra valori tendenza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:8
+msgid "Show Value"
+msgstr "Mostra valore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Header.jsx:61
+msgid "Show less"
+msgstr "Mostra di meno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:1
+msgid "Show list"
+msgstr "Mostra elenco"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Header.jsx:67
+msgid "Show more"
+msgstr "Mostra di più"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:853
+#, python-format
+msgid "Since %(dateTime)s"
+msgstr "Dal %(dateTime)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:854
+msgid "Since Date-time"
+msgstr "Dalla data/ora"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SingleValueTrend.jsx:9 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/SingleValue.jsx:24 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/SingleValueTrend.jsx:8
+msgid "Single Value"
+msgstr "Valore singolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:104
+msgid "Single Value (deprecated)"
+msgstr "Valore singolo (obsoleto)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:109
+msgid "Single Value Icon (deprecated)"
+msgstr "Icona valore singolo (obsoleto)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SingleValueRadial.jsx:9 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:114
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/SingleValueRadial.jsx:8
+msgid "Single Value Radial"
+msgstr "Radiale valore singolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:125
+msgid "Some custom formatting and configurations to your dashboard may be lost during the cloning and conversion process. Your original dashboard will not be affected."
+msgstr "Alcune formattazioni e configurazioni personalizzate della dashboard possono andare perse durante il processo di clonazione e conversione. La dashboard originale non verrà interessata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:490
+msgid "Some external images can not be downloaded."
+msgstr "Alcune immagini esterne non possono essere scaricate."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:191
+msgid "Some visualizations have not loaded since we detected potential security risks. To learn more, click on the icon in the bottom-right corner of the visualization."
+msgstr "Alcune visualizzazioni non sono state caricate perché sono stati rilevati potenziali rischi per la sicurezza. Per ulteriori informazioni, fare clic sull'icona nell'angolo in basso a destra della visualizzazione."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:162
+msgid "Some visualizations will be incomplete or inaccurate. Are you sure you want to continue?"
+msgstr "Alcune visualizzazioni saranno incomplete o imprecise. Continuare?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:217
+msgid "Sort"
+msgstr "Ordina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Source.jsx:29
+msgid "Source"
+msgstr "Source"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:80
+msgid "Spacing"
+msgstr "Spaziatura"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:296
+msgid "Sparkline"
+msgstr "Sparkline"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:99
+msgid "Specify Data Source Module"
+msgstr "Specifica modulo source di dati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/main/resources/splunk/default/app.conf:3
+msgid "Splunk Dashboard Studio"
+msgstr "Splunk Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/main/resources/splunk/default/app.conf:8
+msgid "Splunk dashboard studio"
+msgstr "Splunk Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:14
+msgid "Stack Mode"
+msgstr "Modalità in stack"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:201
+msgid "Stacked"
+msgstr "In stack"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:186
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:202
+msgid "Stacked 100%"
+msgstr "100% in stack"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:39
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:171
+msgid "Standard"
+msgstr "Standard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:48
+msgid "Starting Point"
+msgstr "Punto di inizio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticBackgroundColorEditor.js:5
+msgid "Static Background"
+msgstr "Sfondo statico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticIconColorEditor.js:7
+msgid "Static Icon"
+msgstr "Icona statica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorColorEditor.js:5
+msgid "Static Major Value"
+msgstr "Valore principale statico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/ColumnColorEditor.tsx:248
+msgid "Static Text Color"
+msgstr "Colore testo statico"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticTrendColorEditor.js:5
+msgid "Static Trend"
+msgstr "Tendenza statica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:55
+msgid "Statistics Table"
+msgstr "Tabella statistiche"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusError.jsx:11
+msgid "Status Error"
+msgstr "Errore di stato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusInfo.jsx:11
+msgid "Status Info"
+msgstr "Informazioni sullo stato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusWarning.jsx:11
+msgid "Status Warning"
+msgstr "Avviso sullo stato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusOk.jsx:11
+msgid "Status ok"
+msgstr "Stato OK"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:109
+msgid "Step"
+msgstr "Passaggio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:5
+msgid "Stroke"
+msgstr "Tratto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:377
+msgid "Structure item ${idx} has the same key \"${item.item}\" as another structure item"
+msgstr "L'elemento struttura ${idx} ha la stessa chiave \"${item.item}\" di un altro elemento struttura"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:387
+msgid "Structure item ${idx} references a visualization \"${item.item}\" that does not exist"
+msgstr "L'elemento struttura ${idx} fa riferimento a una visualizzazione \"${item.item}\" che non esiste"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/SubmitButton.jsx:26
+msgid "Submit"
+msgstr "Invia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:8
+msgid "Successfully added to existing dashboard"
+msgstr "Aggiunta a una dashboard esistente completata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:12
+msgid "Successfully cloned dashboard"
+msgstr "Clonazione dashboard completata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:3 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:5
+msgid "Successfully converted dashboard"
+msgstr "Conversione dashboard completata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:4 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:6
+msgid "Successfully converted visualization"
+msgstr "Conversione visualizzazione completata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:10
+msgid "Successfully saved to dashboard"
+msgstr "Salvataggio nella dashboard completato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:74 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:85
+msgid "Sunday"
+msgstr "Domenica"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:74 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:85
+msgid "Sundays"
+msgstr "Domeniche"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:34
+msgid "Table"
+msgstr "Tabella"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:44
+msgid "Table (deprecated)"
+msgstr "Tabella (obsoleto)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Text.jsx:25 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:37 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:138
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:462
+msgid "Text"
+msgstr "Testo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:50
+msgid "Text Color"
+msgstr "Colore testo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:13
+msgid "Text Input"
+msgstr "Input testo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:327
+msgid "The \"collect\" command cannot be used in a base search. Use an ad-hoc search for data source ${this.context.id} to use the \"collect\" command."
+msgstr "Il comando \"collect\" non può essere utilizzato in una ricerca di base. Per utilizzare il comando \"collect\", usare una ricerca ad hoc per ${this.context.id} della source di dati."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:83
+msgid "The Dashboard ID \"${title.replace(/W/g, '_').toLowerCase()}\" is already taken."
+msgstr "L'ID dashboard \"${title.replace(/W/g, '_').toLowerCase()}\" è già utilizzato."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:64
+msgid ""
+"The Dashboard ID is used as the filename on disk.\n"
+"This cannot be changed later."
+msgstr ""
+"L'ID dashboard è utilizzato come nome di file sul disco.\n"
+"Non sarà possibile modificarlo in seguito."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:163
+msgid "The SPL query for this visualization contains commands that has been flagged as risky."
+msgstr "La query SPL per questa visualizzazione contiene comandi contrassegnati come rischiosi."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:55
+msgid "The dashboard you selected no longer exists."
+msgstr "La dashboard selezionata non esiste più."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/ImageRegistry.js:37
+msgid ""
+"The format of the uploaded file is not supported. Please upload ${validMediaType.join(\n"
+"                        ', '\n"
+"                    )}."
+msgstr ""
+"Il formato del file caricato non è supportato. Caricare ${validMediaType.join(\n"
+"                        ', '\n"
+"                    )}."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/IconRegistry.js:33
+msgid "The format of the uploaded file is not supported. Please upload svg file."
+msgstr "Il formato del file caricato non è supportato. Caricare un file svg."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoJsonProvider.js:38
+msgid "The geoJson is not found."
+msgstr "geoJson non trovato."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/RemoteIcon.jsx:149
+msgid "The icon cannot be colored properly."
+msgstr "Impossibile colorare correttamente l'icona."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:240 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:137
+msgid "The icon cannot be deleted."
+msgstr "Impossibile eliminare l'icona."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:66
+msgid "The icon cannot be uploaded. Please check whether your localStorage is full."
+msgstr "Impossibile caricare l'icona. Controllare se lo spazio in localStorage è esaurito."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:232 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:122
+msgid "The icon ids cannot be listed."
+msgstr "Impossibile elencare gli ID icona."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:173 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:79
+msgid "The icon is not found."
+msgstr "Icona non trovata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:82
+msgid "The ids cannot be listed."
+msgstr "Impossibile elencare gli ID."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:77
+msgid "The image cannot be deleted."
+msgstr "Impossibile eliminare l'immagine."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:36
+msgid "The image cannot be uploaded. Please check whether your localStorage is full."
+msgstr "Impossibile caricare l'immagine. Controllare se lo spazio in localStorage è esaurito."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:62
+msgid "The image ids cannot be listed."
+msgstr "Impossibile elencare gli ID immagine."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:50
+msgid "The image is not found."
+msgstr "Immagine non trovata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:35
+msgid "The inline search exists only in the dashboard and has no external dependencies."
+msgstr "La ricerca in linea esiste solo nella dashboard e non ha dipendenze esterne."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:32
+#, python-format
+msgid "The new dashboard experience has been integrated into the core Splunk platform as %(studio)s. As a result, the %(beta)s will no longer be receiving updates and we have disabled the ability to create new dashboards."
+msgstr "La nuova esperienza di dashboard è stata integrata nella piattaforma Splunk principale come %(studio)s. Di conseguenza, %(beta)s non riceverà più aggiornamenti ed è stata disabilitata la possibilità di creare nuove dashboard."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:95
+msgid "The obj cannot be deleted."
+msgstr "Impossibile eliminare l'oggetto."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:32
+msgid "The obj cannot be uploaded."
+msgstr "Impossibile caricare l'oggetto."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:43
+msgid "The obj is not found."
+msgstr "Oggetto non trovato."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:13
+msgid "The total size of a dashboard must be 7MB or smaller. Please remove some images and icons."
+msgstr "La dimensione totale di una dashboard deve essere 7 MB max. Rimuovere alcune immagini e icone."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:252
+msgid "The traditional Splunk dashboard builder"
+msgstr "Il generatore di dashboard Splunk tradizionale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:72
+msgid "The visualization and its configuration will be loaded from the report by default. It can be modified later within the dashboard or in the report itself."
+msgstr "La visualizzazione e la sua configurazione verranno caricate di default dal report. Potranno essere modificate in seguito all'interno della dashboard o del report stesso."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:247
+msgid "Theme"
+msgstr "Tema"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:51
+msgid "Thickness (px)"
+msgstr "Spessore (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DynamicItemEditor.jsx:51
+msgid "This input has dynamic items. Please edit in source mode."
+msgstr "Questo input contiene elementi dinamici. Modificare in modalità source."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/header/Description.jsx:79
+msgid "This is for the dashboard description."
+msgstr "Destinato alla descrizione della dashboard."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/GridLayoutConstants.js:3
+msgid "This panel is too small to be split into duplicates. Stretch or move the panel to make it bigger first."
+msgstr "Questo pannello è troppo piccolo per una suddivisione in duplicati. Estendere o spostare prima il pannello per renderlo più grande."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:152
+msgid "This visualization has a potential security risk"
+msgstr "Questa visualizzazione presenta un potenziale rischio per la sicurezza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:511
+msgid "Thousand Separators"
+msgstr "Separatore migliaia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/ThresholdEditor.jsx:85
+msgid "Threshold"
+msgstr "Soglia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Threshold.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/Threshold.js:4
+msgid "Threshold Settings"
+msgstr "Impostazioni soglia"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:82
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:82
+msgid "Thursdays"
+msgstr "Giovedì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:170
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:115
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:218
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSearchEditor.jsx:60
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:172
+msgid "Time Range"
+msgstr "Intervallo temporale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:178
+msgid "Time Range Input Title"
+msgstr "Titolo input intervallo temporale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:108 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/TitleEditor.jsx:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:165 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:214
+msgid "Title"
+msgstr "Titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:30
+msgid "Title (A - Z)"
+msgstr "Titolo (A - Z)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:35
+msgid "Title (Z - A)"
+msgstr "Titolo (Z - A)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:68
+msgid "Title and Description are not displayed"
+msgstr "Titolo e descrizione non visualizzati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:64
+msgid "Title and Description displayed"
+msgstr "Titolo e descrizione visualizzati"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:4
+msgid "Title cannot be empty."
+msgstr "Il titolo non può essere vuoto."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:57
+msgid "Title is required"
+msgstr "Il titolo è obbligatorio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:15 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:14
+msgid "To continue, remove Trellis."
+msgstr "Per continuare, rimuovere Trellis."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:20 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:18
+msgid "To continue, remove categorical colors or select another visualization such as 'Statistics Table'."
+msgstr "Per continuare, rimuovere i colori categoriali o selezionare un'altra visualizzazione, ad esempio 'Tabella statistiche'."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:10 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:10
+msgid "To continue, select another visualization such as 'Statistics Table'."
+msgstr "Per continuare, selezionare un'altra visualizzazione, ad esempio 'Tabella statistiche'."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:38
+#, python-format
+msgid "To ensure your current dashboards stay supported with the latest features, please move them out of the '%(beta)s' and into '%(search)s' or another app."
+msgstr "Per assicurarsi che le dashboard attuali siano ancora supportate con le funzioni più recenti, spostarle da '%(beta)s' in '%(search)s' o in un'altra app."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1024
+msgid "Today"
+msgstr "Oggi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/EnterpriseTimeRangePicker/EnterpriseTimeRangePicker.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:90 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:113
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/TimeRangePicker/TimeRangePicker.jsx:27
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:34
+msgid "Token Name"
+msgstr "Nome token"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/visualizations/FillerGauge/FillerGauge.jsx:83
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/PureSingleValue/SingleValue.jsx:120
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/PureSingleValueIcon/SingleValueIcon.jsx:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/PureSingleValueRadial/SingleValueRadial.jsx:73
+msgid "Too small to render content"
+msgstr "Dimensioni troppo piccole per il rendering del contenuto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:15
+msgid "Top"
+msgstr "In alto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ArrowLayer.tsx:29
+msgid "Top range"
+msgstr "Prime posizioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:214 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:306
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:24
+msgid "Trend"
+msgstr "Tendenza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:48
+msgid "Trend Display"
+msgstr "Visualizzazione tendenza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:150
+msgid "Trend Display as"
+msgstr "Visualizzazione tendenza come"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:166
+msgid "Trend Indicator Position"
+msgstr "Indicatore posizione tendenza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:61
+msgid "Trend Size (px)"
+msgstr "Dimensioni tendenza (px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:31
+msgid "Trends"
+msgstr "Tendenze"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:24
+msgid "Truncation"
+msgstr "Troncamento"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:76
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:76
+msgid "Tuesdays"
+msgstr "Martedì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/utils/OptionsDoc.jsx:46 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/OptionsDoc.jsx:42 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:219
+msgid "Type"
+msgstr "Tipo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:36
+msgid "URL"
+msgstr "URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/USMap.jsx:7
+msgid "US Map"
+msgstr "Mappa USA"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:147
+msgid "USA"
+msgstr "USA"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:668
+msgid "Unable to export the dashboard as ${fileType}"
+msgstr "Impossibile esportare la dashboard come ${fileType}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:578
+msgid "Unable to export the visualization  id=${vizId} type=${vizType} as png."
+msgstr "Impossibile esportare la visualizzazione con ID=${vizId} e tipo=${vizType} come png."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Undo.jsx:8
+msgid "Undo"
+msgstr "Annulla"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:18
+msgid "Unit"
+msgstr "Unità"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:100
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:18
+msgid "Unit Label"
+msgstr "Etichetta unità"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:88
+msgid "Units Position"
+msgstr "Posizione unità"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:83
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DefaultDataSourcePanel.tsx:266
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/components/DataSourceItem.tsx:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:172
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DataSourceConfig.jsx:72 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:501
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:701 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSavedSearch.js:302
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:343
+msgid "Unnamed"
+msgstr "Senza nome"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:51
+msgid "Unsupported MIME type ${mime} for url ${url}"
+msgstr "Tipo MIME ${mime} non supportato per l'URL ${url}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/utils/enhancer.jsx:163
+msgid "Untitled"
+msgstr "Senza titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/components/DashboardTitle.jsx:66
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/components/DashboardTitle.jsx:74 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/header/Title.jsx:77
+msgid "Untitled Dashboard"
+msgstr "Dashboard senza titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/DashboardSourceEditor.jsx:164
+msgid "Untitled Name"
+msgstr "Nome senza titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/DynamicEditor.jsx:130
+msgid "Untitled Section"
+msgstr "Sezione senza titolo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:23 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:25
+msgid "Updated ${time}"
+msgstr "${time} dopo aggiornamento"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:23
+msgid "Updating"
+msgstr "Aggiornando"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:48
+msgid "Updating live"
+msgstr "Aggiornamento live"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/editorConfig.js:10
+msgid "Upload SVG"
+msgstr "Carica SVG"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:283
+msgid "Upper boundary must exceed lower boundary"
+msgstr "Il limite superiore deve superare il limite inferiore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:10
+msgid "Use a relative URL or absolute URL, for example, /app/search/datasets, or https://www.splunk.com"
+msgstr "Usare un URL relativo o un URL assoluto, ad esempio, /app/search/datasets, o https://www.splunk.com"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:72
+msgid "Uses the report. Retains all report metadata such as schedule, acceleration, and permissions."
+msgstr "Utilizza il report. Mantiene tutti i metadati del report quali pianificazione, accelerazione e autorizzazioni."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:45
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:193 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:154
+msgid "Value"
+msgstr "Valore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:114
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:254
+msgid "Value already exists"
+msgstr "Il valore esiste già"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:27
+msgid "Vertical"
+msgstr "Verticale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:101
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ModeSwitch.jsx:18
+msgid "View"
+msgstr "Visualizza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:56
+msgid "Visible only to you"
+msgstr "Visibile solo all'utente"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:62
+msgid "Visible to app users"
+msgstr "Visibile agli utenti dell'app"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:172
+msgid "Visit the Splunk Documentation to learn more."
+msgstr "Visitare la documentazione Splunk per ulteriori informazioni."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:536
+msgid "Visualization ${vizType} not found."
+msgstr "Visualizzazione ${vizType} non trovata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/VizConfigPanel.jsx:219
+msgid "Visualization ID"
+msgstr "ID visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/VizConfigPanel.jsx:223
+msgid "Visualization IDs must start with \"viz_\" and contain only letters, numbers, dash, and underscore"
+msgstr "Gli ID visualizzazione devono iniziare con \"viz_\" e contenere solo lettere, numeri, trattini e caratteri di sottolineatura."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:155
+msgid "Visualization Options"
+msgstr "Opzioni visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:139
+msgid "Visualization Settings"
+msgstr "Impostazioni visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:102
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:43
+msgid "Visualization Type"
+msgstr "Tipo di visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/utils/token.ts:19
+msgid "Waiting for input..."
+msgstr "In attesa di input..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:168
+#, python-format
+msgid "We are no longer making updates to the %(beta)s. To ensure this dashboard stays supported with the latest features, please move it out of '%(beta)s' and into '%(search)s' or another app"
+msgstr "%(beta)s non riceverà più aggiornamenti. Per assicurarsi che questa dashboard sia ancora supportata con le funzioni più recenti, spostarla da '%(beta)s' in '%(search)s' o in un'altra app"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:176
+msgid "We can't find an image with this URL. Please enter a new URL."
+msgstr "Impossibile trovare un'immagine con questo URL. Immettere un nuovo URL."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:79
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:80
+msgid "Wednesdays"
+msgstr "Mercoledì"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1025
+msgid "Week to date"
+msgstr "Inizio settimana a oggi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:60
+msgid "Weight"
+msgstr "Peso"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:233
+msgid "What's this?"
+msgstr "Che cos'è?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:117
+msgid "Width"
+msgstr "Larghezza"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:153
+msgid "World"
+msgstr "Mondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/WorldMap.jsx:7
+msgid "World Map"
+msgstr "Mappa mondiale"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:8
+msgid "X Axis title"
+msgstr "Titolo asse X"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:92
+msgid "X Position"
+msgstr "Posizione X"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:15
+msgid "Y Axis title"
+msgstr "Titolo asse Y"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:204
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:104
+msgid "Y Position"
+msgstr "Posizione Y"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1028
+msgid "Year to date"
+msgstr "Inizio anno a oggi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1029
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:67
+msgid "You can use letters, numbers, dashes, and underscores."
+msgstr "È possibile utilizzare lettere, numeri, trattini e caratteri di sottolineatura."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:6
+msgid "You cannot use < or > in a dashboard name."
+msgstr "< or > non consentito nel nome di una dashboard."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:59
+msgid "You do not have the permissions or role to perform this action. Only those with the admin or power roles can remove images"
+msgstr "Non si dispone delle autorizzazioni o del ruolo per eseguire questa azione. Solo gli utenti con ruolo di amministratore o utente avanzato possono rimuovere immagini."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:14
+msgid "You do not have the permissions or role to perform this action. Only those with the admin or power roles can upload images"
+msgstr "Non si dispone delle autorizzazioni o del ruolo per eseguire questa azione. Solo gli utenti con ruolo di amministratore o utente avanzato possono caricare immagini."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:270
+msgid "You have no writable dashboards for the app: ${app}"
+msgstr "Nessuna dashboard scrivibile per l'app: ${app}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:8
+msgid "You must select a dashboard layout."
+msgstr "È necessario selezionare un layout di dashboard."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:7
+msgid "You must select a dashboard type."
+msgstr "È necessario selezionare un tipo di dashboard."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:9
+msgid "You must select an existing dashboard."
+msgstr "È necessario selezionare una dashboard esistente."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:157
+msgid "Your dashboard is still loading"
+msgstr "È ancora in corso il caricamento della dashboard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:61
+msgid "Your download has started"
+msgstr "Download iniziato"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:20
+msgid "Zero"
+msgstr "Zero"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ZoomIn.jsx:8
+msgid "Zoom In"
+msgstr "Zoom avanti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ZoomOut.jsx:8
+msgid "Zoom Out"
+msgstr "Zoom indietro"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:147
+msgid "Zoom in"
+msgstr "Zoom avanti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:179
+msgid "Zoom level"
+msgstr "Livello zoom"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:157
+msgid "Zoom out"
+msgstr "Zoom indietro"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:205
+msgid "[fieldName]:"
+msgstr "[fieldName]:"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:81
+msgid "and"
+msgstr "e"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:78
+msgid "and above"
+msgstr "e superiore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:32
+msgid "and greater"
+msgstr "e maggiore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:1
+msgid "below"
+msgstr "sotto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:44
+msgid "chain search"
+msgstr "ricerca concatenata"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:457
+msgid "chain search "
+msgstr "ricerca concatenata "
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:45
+msgid "chain searches"
+msgstr "ricerche concatenate"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:458
+msgid "chain searches "
+msgstr "ricerche concatenate "
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:198
+msgid "could not find parent SPL"
+msgstr "impossibile trovare SPL padre"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:14
+msgid "day"
+msgstr "giorno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:14
+msgid "days"
+msgstr "giorni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:77
+msgid "delete"
+msgstr "elimina"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:153
+msgid "explore additional tools."
+msgstr "esplorare strumenti aggiuntivi."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ErrorBoundary.jsx:48
+msgid "failed to render react component"
+msgstr "impossibile eseguire il rendering del componente react"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:114
+msgid "freely place objects"
+msgstr "posizionare liberamente gli oggetti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:13
+msgid "hour"
+msgstr "ora"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:13
+msgid "hours"
+msgstr "ore"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "images,"
+msgstr "immagini,"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/BaseContentExportClient.ts:10
+msgid "initiateExport() not implemented."
+msgstr "Implementazione di initiateExport() non effettuata."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:57 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:463
+msgid "input"
+msgstr "input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:47 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:464
+msgid "inputs"
+msgstr "input"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:61
+msgid "invalid Url"
+msgstr "URL non valido"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/utils/gridUtils.js:674
+msgid "is outside of canvas bounds"
+msgstr "è fuori dai limiti dell'area di disegno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:43
+msgid "isRequired"
+msgstr "isRequired"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:1
+msgid "less than"
+msgstr "minore di"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Gallery.jsx:67
+msgid "loading"
+msgstr "caricamento"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:10
+msgid "minute"
+msgstr "minuto"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:11
+msgid "minutes"
+msgstr "minuti"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:18
+msgid "month"
+msgstr "mese"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:19
+msgid "months"
+msgstr "mesi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:107
+msgid "or"
+msgstr "oppure"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:114
+msgid "organize & resize"
+msgstr "organizza e ridimensiona"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:23
+msgid "quarter"
+msgstr "trimestre"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:24
+msgid "quarters"
+msgstr "trimestri"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:5
+msgid "second"
+msgstr "secondo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:6
+msgid "seconds"
+msgstr "secondi"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:152
+msgid "standard Splunk visualizations"
+msgstr "visualizzazioni Splunk standard"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "text"
+msgstr "testo"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:1
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:64
+msgid "to"
+msgstr "a"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:39 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:451
+msgid "visualization"
+msgstr "visualizzazione"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:40 /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:452
+msgid "visualizations"
+msgstr "visualizzazioni"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:15
+msgid "week"
+msgstr "settimana"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:15
+msgid "weeks"
+msgstr "settimane"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:28
+msgid "year"
+msgstr "anno"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:29
+msgid "years"
+msgstr "anni"

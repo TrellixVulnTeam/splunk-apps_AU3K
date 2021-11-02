@@ -1,0 +1,18 @@
+[props/covid%3Acsv]
+owner = admin
+version = 8.0.0
+modtime = 1603449010.540988000
+
+[props/source%3A%3A...ta-covid19%2A.log%2A]
+owner = admin
+version = 8.0.0
+modtime = 1603449010.982988000
+
+[props/source%3A%3A...ta_covid19%2A.log%2A]
+owner = admin
+version = 8.0.0
+modtime = 1603449011.403210000
+
+[app/install/state]
+version = 8.0.0
+modtime = 1624393317.137505000

@@ -1,0 +1,3569 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-05 10:50-0800\n"
+"PO-Revision-Date: 2021-03-19 15:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:102
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:106
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:338
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:342
+msgid " and "
+msgstr "和"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:100
+msgid " is currently being used by "
+msgstr " 当前用于"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:117
+msgid ""
+" is not being used by any visualizations, chain searches, or inputs. Are you sure you "
+"want to ${dataSourceRemoveVerb} this data source?"
+msgstr " 当前未用于任何可视化、链搜索或输入。确定要 ${dataSourceRemoveVerb} 此数据源吗?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:344
+msgid " will be updated"
+msgstr " 将更新"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/FormatByTypeEditor.tsx:118
+msgid ""
+" || ''\n"
+"                                            }${rItr}_${iItr}"
+msgstr ""
+" || ''\n"
+"                                            }${rItr}_${iItr}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/utils/gridUtils.js:827
+msgid ""
+"\"${item.item}\" expected a viz or canvas edge directly ${positionType} at "
+"${positionString}"
+msgstr "\"${item.item}\" 直接预期 ${positionString} 处有可视化或画布边缘 ${positionType}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DataSourceConfig.jsx:115
+msgid "${_('Data Configurations')}"
+msgstr "${_('Data Configurations')}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:217
+msgid "${key} (${schema.type.join(', ')})"
+msgstr "${key} (${schema.type.join(', ')})"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:352
+msgid "${msg} and ${lastKey} have the same token (${token})"
+msgstr "${msg} 和 ${lastKey} 标记相同(${token})"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:343
+msgid "${references} chained data sources exceeds the maximum of ${MAX_CHAIN_LENGTH}"
+msgstr "${references} 链接的数据源超出 ${MAX_CHAIN_LENGTH} 的最大值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Inputs.jsx:75
+msgid "${type} Input"
+msgstr "${type} 输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:99
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:162
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:183
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:226
+msgid "${type} is not defined"
+msgstr "${type} 未定义"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:133
+msgid "${upperFirst(dataSourceRemoveVerb)} '${dsName}'"
+msgstr "${upperFirst(dataSourceRemoveVerb)} '${dsName}'"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:760
+#, python-format
+msgid "%(earliestDateTime)s to %(latestDateTime)s"
+msgstr "%(earliestDateTime)s 到 %(latestDateTime)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:687
+#, python-format
+msgid "%(earliestMonth)s through %(latestMonth)s, %(inYear)s"
+msgstr "%(earliestMonth)s 到 %(latestMonth)s，%(inYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:775
+#, python-format
+msgid "%(earliestTime)s to %(latestTime)s, %(date)s"
+msgstr "%(earliestTime)s 到 %(latestTime)s，%(date)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:681
+#, python-format
+msgid "%(earliestYear)s through %(latestYear)s"
+msgstr "%(earliestYear)s 至 %(latestYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:696
+#, python-format
+msgid "%(month)s %(earliestDayOfMonth)s through %(latestDayOfMonth)s, %(inYear)s"
+msgstr "%(month)s %(earliestDayOfMonth)s 到 %(latestDayOfMonth)s，%(inYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:655
+#, python-format
+msgid "%(month)s %(year)s"
+msgstr "%(month)s %(year)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:957
+#, python-format
+msgid "%(numberOf)d days"
+msgstr "%(numberOf)d 天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:958
+#, python-format
+msgid "%(numberOf)d hours"
+msgstr "%(numberOf)d 小时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:963
+#, python-format
+msgid "%(numberOf)d milliseconds"
+msgstr "%(numberOf)d 毫秒"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:959
+#, python-format
+msgid "%(numberOf)d minutes"
+msgstr "%(numberOf)d 分钟"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:956
+#, python-format
+msgid "%(numberOf)d months"
+msgstr "%(numberOf)d 个月"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:960
+#, python-format
+msgid "%(numberOf)d seconds"
+msgstr "%(numberOf)d 秒"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:955
+#, python-format
+msgid "%(numberOf)d years"
+msgstr "%(numberOf)d 年"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:489
+#, python-format
+msgid "%(time)d day window"
+msgstr "%(time)d 天时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:488
+#, python-format
+msgid "%(time)d hour window"
+msgstr "%(time)d 小时时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:487
+#, python-format
+msgid "%(time)d minute window"
+msgstr "%(time)d 分钟时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:491
+#, python-format
+msgid "%(time)d month window"
+msgstr "%(time)d 月时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:492
+#, python-format
+msgid "%(time)d quarter window"
+msgstr "%(time)d 季度时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:486
+#, python-format
+msgid "%(time)d second window"
+msgstr "%(time)d 秒时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:490
+#, python-format
+msgid "%(time)d week window"
+msgstr "%(time)d 周时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:493
+#, python-format
+msgid "%(time)d year window"
+msgstr "%(time)d 年时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ColumnSelectorFooterMessage.tsx:20
+msgid "%1 of %2 fields"
+msgstr "%2 个字段中的 %1 个"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:108
+msgid ". Are you sure you want to ${dataSourceRemoveVerb} this data source?"
+msgstr " 确定要 ${dataSourceRemoveVerb} 此数据源吗?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:31
+msgid "...Z"
+msgstr "...Z"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:459
+msgid "0 chain searches"
+msgstr "0 个链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:465
+msgid "0 inputs"
+msgstr "0 个输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:453
+msgid "0 visualizations"
+msgstr "0 个可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:957
+msgid "1 day"
+msgstr "1 天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:958
+msgid "1 hour"
+msgstr "1 小时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1052
+msgid "1 hour window"
+msgstr "1 小时窗口"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:962
+msgid "1 millisecond"
+msgstr "1 毫秒"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:959
+msgid "1 minute"
+msgstr "1 分钟"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1049
+msgid "1 minute window"
+msgstr "1 分钟窗口"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:956
+msgid "1 month"
+msgstr "1 个月"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:960
+msgid "1 second"
+msgstr "1 秒"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:955
+msgid "1 year"
+msgstr "1 年"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1051
+msgid "30 minute window"
+msgstr "30 分钟窗口"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1048
+msgid "30 second window"
+msgstr "30 秒窗口"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1050
+msgid "5 minute window"
+msgstr "5 分钟窗口"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:283
+msgid "A new builder to create visually-rich, customizable dashboards"
+msgstr "一个新的构建器，用于创建视觉效果丰富、可自定义的仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:29
+msgid "A..."
+msgstr "A..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:30
+msgid "A...Z"
+msgstr "A...Z"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:206
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:156
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:54
+msgid "Absolute"
+msgstr "绝对值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/VizStatusBar.jsx:73
+msgid "Action Required:"
+msgstr "需要操作:"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:109
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/groups/ActionsGroup.tsx:23
+msgid "Actions"
+msgstr "操作"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:21
+msgid "Actual Size"
+msgstr "实际大小"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddChart.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddChartDropdown.jsx:25
+msgid "Add Chart"
+msgstr "添加图表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DrilldownList.jsx:1
+msgid "Add Drilldown"
+msgstr "添加钻取"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddIcon.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddIconDropdown.jsx:8
+msgid "Add Icon"
+msgstr "添加图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ImageGallery.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Image.jsx:30
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ImageGallery.jsx:26
+msgid "Add Image"
+msgstr "添加图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddInput.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddInputDropdown.jsx:25
+msgid "Add Input"
+msgstr "添加输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/AddAndReverseRanges.tsx:1
+msgid "Add Range"
+msgstr "添加范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddShape.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddShapeDropdown.jsx:25
+msgid "Add Shape"
+msgstr "添加形状"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Text.jsx:28
+msgid "Add Text"
+msgstr "添加文本"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/AddThreshold.jsx:1
+msgid "Add threshold level"
+msgstr "添加阈值级别"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:22
+msgid "Advanced Panel Settings"
+msgstr "高级面板设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:308
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:94
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:12
+msgid "After"
+msgstr "在这之后"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutItemEditor.jsx:74
+msgid "Align"
+msgstr "对齐"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignBottom.jsx:10
+msgid "Align Bottom"
+msgstr "底端对齐"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignCenterHorizontal.jsx:10
+msgid "Align Center Horizontal"
+msgstr "水平居中"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignCenterVertical.jsx:10
+msgid "Align Center Vertical"
+msgstr "垂直居中"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignLeft.jsx:8
+msgid "Align Left"
+msgstr "左对齐"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignRight.jsx:8
+msgid "Align Right"
+msgstr "右对齐"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignTop.jsx:8
+msgid "Align Top"
+msgstr "顶端对齐"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:235
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:149
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:32
+msgid "All"
+msgstr "所有"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:124
+msgid "All Events"
+msgstr "所有事件"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:879
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1044
+msgid "All time"
+msgstr "所有时间"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1053
+msgid "All time (real-time)"
+msgstr "所有时间 (实时)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:186
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:111
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:87
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:151
+msgid "App"
+msgstr "应用"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:5
+msgid "Appearance"
+msgstr "外观"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:59
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:60
+msgid "Area"
+msgstr "区域"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:44
+msgid "Arrows"
+msgstr "箭头"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:69
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:78
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:67
+msgid "Auto"
+msgstr "自动"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:4
+msgid "Axes"
+msgstr "轴"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:183
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/DashboardSourceEditor.jsx:169
+msgid "Back"
+msgstr "上一步"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:244
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:225
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:466
+msgid "Background"
+msgstr "背景"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/BackgroundColor.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:85
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:53
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:66
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/BackgroundColorConfig.js:4
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:64
+msgid "Background Image"
+msgstr "背景图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:64
+msgid "Bar"
+msgstr "栏"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/FormatterEditor.tsx:174
+msgid "Based on"
+msgstr "基于"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:391
+msgid ""
+"Because the user has navigated away from the dashboard, all running searches have been "
+"stopped. Please refresh the dashboard to rerun the searches."
+msgstr "由于用户已离开仪表板，所有运行的搜索均已停止。请刷新仪表板以返回搜索。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:306
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:93
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:11
+msgid "Before"
+msgstr "在这之前"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:862
+#, python-format
+msgid "Before %(dateTime)s"
+msgstr "%(dateTime)s 之前"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:865
+msgid "Before Date-time"
+msgstr "Date-time 之前"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:307
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:172
+msgid "Below"
+msgstr "低于"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:843
+msgid "Between Date-times"
+msgstr "介于 Date-time"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:66
+msgid "Bold"
+msgstr "粗体"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:29
+msgid "Border"
+msgstr "边框"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:16
+msgid "Bottom"
+msgstr "底部"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ArrowLayer.tsx:28
+msgid "Bottom range"
+msgstr "底部范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:119
+msgid "Bring to front"
+msgstr "前置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:69
+msgid "Bubble"
+msgstr "气泡"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:88
+msgid "Bubble Color"
+msgstr "气泡颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:41
+msgid "Bubble Row Scale"
+msgstr "气泡行规模"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:54
+msgid "Bubble Scale"
+msgstr "气泡规模"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1026
+msgid "Business week to date"
+msgstr "工作周迄今"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:47
+msgid "By Row"
+msgstr "按行"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:6
+msgid "Can not parse data correctly."
+msgstr "无法正确解析数据。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:162
+msgid "Can not upload icons to the standard icon provider."
+msgstr "无法向标准图标提供程序上载图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:106
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:134
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:224
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:143
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:178
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:193
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:371
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:153
+msgid "Cancel"
+msgstr "取消"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:11
+msgid "Cannot create ${parameter} with name \"${name}\"."
+msgstr "无法创建名为 \"${name}\" 的 ${parameter}。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:167
+msgid "Cannot find parent dataSource: ${parentDataSourceId}"
+msgstr "未找到父级数据源: ${parentDataSourceId}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoRegistry.js:40
+msgid "Cannot get geoJson data."
+msgstr "无法获取 geoJson 数据。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:140
+msgid "Cannot save dashboard"
+msgstr "无法保存仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:12
+msgid "Canvas"
+msgstr "画布"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:37
+msgid "Canvas Height"
+msgstr "画布高度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:29
+msgid "Canvas Width"
+msgstr "画布宽度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:381
+msgid "Canvas is not supported"
+msgstr "画布不受支持"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:80
+msgid "Categorical"
+msgstr "分类"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:337
+msgid "Chain Search"
+msgstr "链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:179
+msgid "Chain Searches"
+msgstr "链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:327
+msgid "Chain data source ${dataSourceId} must have valid extend property"
+msgstr "链数据源 ${dataSourceId} 必须具备有效的扩展属性"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:36
+msgid "Choropleth Maps"
+msgstr "分级统计地图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:249
+msgid "Classic Dashboards"
+msgstr "典型仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/VizStatusBar.jsx:76
+msgid "Click here to review the query before running"
+msgstr "运行前单击此处检查查询"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/CloneButton.jsx:27
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Clone.jsx:8
+msgid "Clone"
+msgstr "复制"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:95
+msgid "Clone in Dashboard Studio"
+msgstr "克隆到 Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:52
+msgid ""
+"Clones the report's search string and time range. The inline search exists only in the "
+"dashboard and has no external dependencies."
+msgstr "复制报表的搜索字符串和时间范围。内联搜索仅存在于仪表板中，且没有外部相关项。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/CombinedCodeIdEditor.jsx:87
+msgid "Code"
+msgstr "代码"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/CollapsibleGroup.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CollapsibleGroup.jsx:53
+msgid "Collapse"
+msgstr "折叠"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:49
+msgid "Collapse Threshold"
+msgstr "折叠阈值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:45
+msgid "Collapse to Summary"
+msgstr "折叠摘要"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/CollapsibleToolbar.tsx:127
+msgid "Collapsed"
+msgstr "已折叠"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:61
+msgid "Collapsed Slice Label"
+msgstr "已折叠扇区标签"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:11
+msgid "Color"
+msgstr "颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:69
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:74
+msgid "Color Mode"
+msgstr "颜色模式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:127
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:316
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:255
+msgid "Coloring"
+msgstr "颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:74
+msgid "Column"
+msgstr "列"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/FormatByTypeEditor.tsx:1
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:450
+msgid "Column Formatting"
+msgstr "列格式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:66
+msgid "Columns"
+msgstr "列"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:30
+msgid "Comparisons"
+msgstr "比较"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Configuration.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Config.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:249
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:290
+msgid "Configuration"
+msgstr "配置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:13
+msgid ""
+"Configured in source code beyond what can be shown here. Resetting to default will "
+"overwrite this custom configurations."
+msgstr "在源代码中配置了超出此处显示范围的内容。重设置为默认将覆盖此自定义配置。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:21
+msgid "Connect"
+msgstr "连接"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:142
+msgid "Connected Line"
+msgstr "已连接的线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:26
+msgid "Contain"
+msgstr "包含"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ContentExport.jsx:10
+msgid "Content Export"
+msgstr "内容导出"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:186
+msgid "Continue Anyway"
+msgstr "仍然继续"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:156
+msgid ""
+"Continue using the same standard Splunk visualizations and explore additional tools."
+msgstr "继续使用相同的标准 Splunk 可视化并浏览其他工具。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:112
+msgid "Convert & Save"
+msgstr "转换并保存"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:28
+msgid "Cover"
+msgstr "封面"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:138
+msgid "Create"
+msgstr "新建"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:122
+msgid "Create New Dashboard"
+msgstr "新建新仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:177
+msgid "Create new dashboard"
+msgstr "新建新仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:182
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:145
+msgid "Creator"
+msgstr "新建者"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:153
+msgid "Ctrl Alt -"
+msgstr "Ctrl Alt -"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:129
+msgid "Ctrl Alt 0"
+msgstr "Ctrl Alt 0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:143
+msgid "Ctrl Alt ="
+msgstr "Ctrl Alt ="
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:153
+msgid "Ctrl Cmd -"
+msgstr "Ctrl Cmd -"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:129
+msgid "Ctrl Cmd 0"
+msgstr "Ctrl Cmd 0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:143
+msgid "Ctrl Cmd ="
+msgstr "Ctrl Cmd ="
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:1
+msgid "Currently referencing"
+msgstr "当前引用"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:57
+msgid "Currently using"
+msgstr "当前使用"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:53
+msgid "Currently using Untitled input"
+msgstr "当前使用无标题输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:37
+msgid "Currently using static time range"
+msgstr "当前使用静态时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:27
+msgid "Custom"
+msgstr "自定义"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/advanced/examples/CustomIcon.jsx:8
+msgid "Custom Icon"
+msgstr "自定义图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:924
+msgid "Custom time"
+msgstr "自定义时间"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:162
+msgid "Custom visualizations & Trellis not yet supported"
+msgstr "尚不支持自定义可视化和棚架"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "Customize with shapes,"
+msgstr "通过形状进行自定义，"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:133
+msgid "Customize with shapes, images, and text without coding with Absolute layout."
+msgstr "通过形状、图像和文本进行自定义，而无需使用 Absolute layout 进行编码。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/CustomizedInSourceEditor.tsx:45
+msgid "Customized in source"
+msgstr "已在来源中进行自定义"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:153
+msgid "Dark"
+msgstr "暗"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:69
+msgid "Dash Style"
+msgstr "虚线线型"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:61
+msgid "Dashboard ID"
+msgstr "仪表板 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:19
+msgid "Dashboard ID can only use letters, numbers, dashes, & underscores."
+msgstr "仪表板 ID 只能包含字母、数字、短划线和下划线。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:277
+msgid "Dashboard Studio"
+msgstr "Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:13
+msgid "Dashboard Studio does not support Trellis."
+msgstr "Dashboard Studio 不支持棚架。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:17
+msgid "Dashboard Studio does not support categorical colors in Choropleth Maps."
+msgstr "Dashboard Studio 不支持分级统计地图中的分类颜色。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:9
+msgid "Dashboard Studio does not support the selected visualization type."
+msgstr "Dashboard Studio 不支持所选可视化类型。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:30
+msgid "Dashboard Title"
+msgstr "仪表板标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:163
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:189
+msgid "Dashboards"
+msgstr "仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:165
+msgid ""
+"Dashboards include searches, visualizations, and input controls that capture and "
+"present available data."
+msgstr "仪表板包含搜索、可视化和用于捕获并显示现有数据的输入控制。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DataInput.jsx:8
+msgid "Data Icon"
+msgstr "数据图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Data.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:254
+msgid "Data Overview"
+msgstr "数据概览"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:6
+msgid "Data Settings"
+msgstr "数据设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:421
+msgid "Data Source ID"
+msgstr "数据源 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:425
+msgid ""
+"Data Source IDs must start with \"ds_\" and contain only letters, numbers, dash, and "
+"underscore"
+msgstr "数据源 ID 必须以 \"ds_\" 开始，且仅包含字母、数字、短划线和下划线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:269
+msgid "Data Source Name"
+msgstr "数据源名称"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:336
+msgid ""
+"Data source ${currentId} creates an invalid circular reference; check parent data "
+"sources referenced by extend property."
+msgstr "数据源 ${currentId} 创建了无效的循环引用; 查看扩展属性引用的父级数据源。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/FillerGauge.jsx:64
+msgid ""
+"Data type for \"${propInWrongType}\" encoding is incorrect. Expected: "
+"\"${expectedType}\", Received: \"${receivedType}\""
+msgstr ""
+"\"${propInWrongType}\" 编码的数据类型错误。需要: \"${expectedType}\"，收到: "
+"\"${receivedType}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/MarkerGauge.jsx:30
+msgid ""
+"Data type for value encoding is incorrect. Expected: \"number\", Received: "
+"\"${propsFromEncoding.valueType}\""
+msgstr ""
+"值编码的数据类型编码错误。需要: \"number\"，收到: \"${propsFromEncoding.valueType}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceController.js:291
+msgid "DataSource is not set up."
+msgstr "未设置数据源。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:826
+msgid "Date Range"
+msgstr "日期范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/utils/OptionsDoc.jsx:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/OptionsDoc.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:220
+msgid "Default"
+msgstr "默认"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:134
+msgid "Default Text"
+msgstr "默认文本"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/EnterpriseTimeRangePicker/EnterpriseTimeRangePicker.jsx:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:119
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:120
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/TimeRangePicker/TimeRangePicker.jsx:34
+msgid "Default Value"
+msgstr "默认值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:103
+msgid "Default module used if no value specified."
+msgstr "未指定任何值的情况下使用的默认模块。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:11
+msgid "Degrees"
+msgstr "度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:113
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:131
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/DeleteButton.jsx:26
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/components/DataSourceItem.tsx:9
+msgid "Delete"
+msgstr "删除"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:72
+msgid "Delta Font Size (px)"
+msgstr "Delta 字体大小(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/DescriptionEditor.jsx:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:179
+msgid "Description"
+msgstr "描述"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:8
+msgid "Digit Precision"
+msgstr "数字精度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:16
+msgid "Display Mode"
+msgstr "显示模式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:35
+msgid "Distributions"
+msgstr "分布"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:191
+msgid "Done"
+msgstr "完成"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:16
+msgid "Donut"
+msgstr "环形"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Download.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:126
+msgid "Download"
+msgstr "下载"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:87
+msgid "Drilldown"
+msgstr "钻取"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DrilldownList.jsx:71
+msgid "Drilldown Settings"
+msgstr "钻取设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:93
+msgid ""
+"Drilldown is disabled when you save a visualization to a dashboard. After saving, open "
+"the dashboard editor to access configuration options for the visualization."
+msgstr ""
+"将可视化保存到仪表板时钻取为禁用状态。保存之后，打开仪表板编辑器访问可视化配置选项。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:144
+msgid "Dropdown"
+msgstr "下拉"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DropdownIcon.jsx:24
+msgid "Dropdown Icon"
+msgstr "下拉图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DropdownInput.jsx:27
+msgid "Dropdown Input"
+msgstr "下拉输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:155
+msgid "Dropdown Input Title"
+msgstr "下拉输入标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:5
+msgid "Dynamic Background"
+msgstr "动态背景"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/DynamicColorEditor.tsx:117
+msgid "Dynamic Coloring"
+msgstr "动态颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:12
+msgid "Dynamic Coloring: Background"
+msgstr "动态颜色: 背景"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:12
+msgid "Dynamic Coloring: Major Value"
+msgstr "动态颜色: 主要值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:12
+msgid "Dynamic Coloring: Trend"
+msgstr "动态颜色: 趋势"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:274
+msgid "Dynamic Icon"
+msgstr "动态图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:5
+msgid "Dynamic Major Value"
+msgstr "动态主要值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:12
+msgid "Dynamic Option: Customized in source"
+msgstr "动态选项: 已在来源中进行自定义"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:5
+msgid "Dynamic Trend"
+msgstr "动态趋势"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:21
+msgid "Dynamic options are being used by this input. Please edit in source mode."
+msgstr "此输入使用动态选项。请在源模式中进行编辑。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:105
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Edit.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ModeSwitch.jsx:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/EditableListItem.jsx:118
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/EditIcon.tsx:6
+msgid "Edit"
+msgstr "编辑"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:266
+msgid "Edit Data Source"
+msgstr "编辑数据源"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:41
+msgid "Edit ID"
+msgstr "编辑 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/EditSourceButton.jsx:16
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/EditSourceButton.jsx:18
+msgid "Edit Source"
+msgstr "编辑来源"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:57
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:113
+msgid "Ellipse"
+msgstr "椭圆形"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:246
+msgid "Enable"
+msgstr "启用"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:227
+msgid "Encoding Settings"
+msgstr "编码设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:63
+msgid ""
+"Encoding specifies which and what type of datasources and fields are supported for "
+"visualization.\n"
+"                Type of each encoding indicates the expected data type returned by the "
+"datasource for visualization.\n"
+"                Default indicates the default datasource and field for visualization "
+"if encoding is not specified.\n"
+"                Checking Examples tab on how to use encoding to specify datasource in "
+"each visualization."
+msgstr ""
+"编码指定了可视化支持的数据源和字段及其类型。\n"
+"                每种编码的类型表示可视化数据源返回的预期数据类型。\n"
+"                默认表示未指定编码的情况下，默认的可视化数据源和字段。\n"
+"                查看”示例”选项卡了解如何使用编码指定每个可视化中的数据源。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:58
+msgid "Ending Point"
+msgstr "结束点"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:149
+msgid "Enter URL"
+msgstr "输入 URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/Text.jsx:53
+msgid "Enter text here"
+msgstr "在此处输入文本"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:72
+msgid "Error encountered while downloading"
+msgstr "下载时出现错误"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:54
+msgid "Error retrieving ${url} from Image Registry, error was '${e.message}'"
+msgstr "从图像注册表中检索 ${url} 时出错，错误是 '${e.message}'"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:349
+msgid "Error: Token duplicated across multiple inputs"
+msgstr "错误: 多个输入中存在重复标记"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:374
+msgid "Error: Visualization duplicated in layout structure"
+msgstr "错误: 布局结构中存在重复可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:384
+msgid "Error: Visualization in layout structure does not exist"
+msgstr "错误: 布局结构中的可视化不存在"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:7
+msgid "Errors occurred during conversion"
+msgstr "转换期间出错"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:98
+msgid "Even Row Fill Color"
+msgstr "偶数行填充颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:51
+msgid "Even Row Text Color"
+msgstr "偶数行文本颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:117
+msgid "Event"
+msgstr "事件"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/CollapsibleGroup.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CollapsibleGroup.jsx:55
+msgid "Expand"
+msgstr "展开"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/CollapsibleToolbar.tsx:127
+msgid "Expanded"
+msgstr "已展开"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/ExportButton.jsx:68
+msgid "Export"
+msgstr "导出"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Eyedropper.jsx:10
+msgid "Eyedropper"
+msgstr "取色器"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:9
+msgid "Failed to add to existing dashboard"
+msgstr "无法添加到现有仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:13
+msgid "Failed to clone dashboard"
+msgstr "无法克隆仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:26
+msgid "Failed to fetch dashboard content for ${id}"
+msgstr "无法获取 ${id} 的仪表板内容"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:11
+msgid "Failed to save to dashboard"
+msgstr "无法保存到仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:20
+msgid "Failed to update"
+msgstr "无法更新"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:93
+msgid "Fetching dashboards"
+msgstr "获取仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:129
+msgid "Field to enter a number"
+msgstr "用于输入数字的字段"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:131
+msgid "Field to enter text"
+msgstr "用于输入文本的字段"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:81
+msgid "File size must be 16MB or smaller"
+msgstr "文件大小必须小于等于 16MB"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Threshold.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:62
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/Threshold.js:9
+msgid "Fill"
+msgstr "填充"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FillerGauge.jsx:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:79
+msgid "Filler Gauge"
+msgstr "塞尺"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Filter.jsx:10
+msgid "Filter"
+msgstr "过滤器"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:134
+msgid "Fit"
+msgstr "适应"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:22
+msgid "Fit to Width"
+msgstr "适应宽度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:427
+msgid "Fixed"
+msgstr "已修复"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:116
+msgid ""
+"Flexible layout options to freely place objects or organize & resize (Absolute and "
+"Grid)."
+msgstr "灵活的布局选项，可自由放置对象并进行组织和重新调整大小(绝对和网格)。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FlipHorizontal.jsx:10
+msgid "FlipHorizontal"
+msgstr "水平翻转"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FlipVertical.jsx:10
+msgid "FlipVertical"
+msgstr "垂直翻转"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:26
+msgid "Font"
+msgstr "字体"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:58
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:21
+msgid "Font Settings"
+msgstr "字体设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:42
+msgid "Font Size (px)"
+msgstr "字体大小(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:83
+msgid "Friday"
+msgstr "星期五"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:83
+msgid "Fridays"
+msgstr "星期五"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:206
+msgid "Full layout control"
+msgstr "完整的布局控制"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/FullscreenButton.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Fullscreen.jsx:8
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FullscreenExit.jsx:9
+msgid "Fullscreen Exit"
+msgstr "退出全屏"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:19
+msgid "Gaps"
+msgstr "间隙"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:33
+msgid "Gauge"
+msgstr "仪表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:12
+msgid "Gauge Color"
+msgstr "仪表颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:13
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:10
+msgid "General"
+msgstr "常规"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:85
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:46
+msgid "Global"
+msgstr "全局"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:395
+msgid "Global Formatting"
+msgstr "全局格式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:81
+msgid "Global Time Range"
+msgstr "全局时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:212
+msgid "Grid"
+msgstr "网格"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:73
+msgid "Grid Height"
+msgstr "网格高度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:37
+msgid "Gridlines"
+msgstr "网格线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:41
+msgid "Gridlines displayed"
+msgstr "显示网格线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:42
+msgid "Gridlines not displayed"
+msgstr "未显示网格线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:76
+msgid "Header Fill Color"
+msgstr "标头填充颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:421
+msgid "Header Row"
+msgstr "标头行"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:29
+msgid "Header Text Color"
+msgstr "标头文本颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:127
+msgid "Height"
+msgstr "高度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:428
+msgid "Hidden"
+msgstr "已隐藏"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Hide.jsx:8
+msgid "Hide"
+msgstr "隐藏"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:1
+msgid "Hide list"
+msgstr "隐藏列表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/History.jsx:8
+msgid "History"
+msgstr "历史"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:28
+msgid "Horizontal"
+msgstr "水平"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:230
+msgid "How do you want to build your dashboard?"
+msgstr "您要如何构建仪表板?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:12
+msgid "ID already in use. Edit the ID or choose a different title."
+msgstr "ID 已被占用。编辑 ID 或选择其他标题。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:5
+msgid "ID cannot be empty."
+msgstr "ID 不能为空。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/IdEditor.jsx:17
+msgid "ID does not match specified rules"
+msgstr "ID 不匹配指定的规则"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/IdEditor.jsx:18
+msgid "ID duplicates an existing ID"
+msgstr "ID 与现有 ID 重复"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:213
+msgid "INPUT OPTIONS"
+msgstr "输入选项"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:167
+msgid "Icon"
+msgstr "图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:209
+msgid "Icon & Major Value"
+msgstr "图标和主要值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:7
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:172
+msgid ""
+"If these commands are unexpected to you, you should not run this query without further "
+"investigation."
+msgstr "如果这些对您来说是非预期命令，则进行进一步调查前不应运行此查询。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:123
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/Image.jsx:10
+msgid "Image"
+msgstr "图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddImage.jsx:12
+msgid "Image Gallery"
+msgstr "图像库"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:183
+msgid "Image Height"
+msgstr "图像高度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:174
+msgid "Image Width"
+msgstr "图像宽度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/RemoteImage.jsx:88
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/Image.jsx:121
+msgid "Image not found"
+msgstr "未找到图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:426
+msgid "Inline"
+msgstr "内联"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:48
+msgid "Inline Search"
+msgstr "内联搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Input.jsx:24
+msgid "Input"
+msgstr "输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:184
+msgid "Input ID"
+msgstr "输入 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:188
+msgid ""
+"Input IDs must start with \"input_\" and contain only letters, numbers, dash, and "
+"underscore"
+msgstr "输入 ID 必须以 \"input_\" 开始，且仅包含字母、数字、短划线和下划线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:94
+msgid "Introducing Dashboard Studio"
+msgstr "Dashboard Studio 介绍"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:27
+msgid "Invalid Provider"
+msgstr "无效提供程序"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:22
+msgid ""
+"Invalid input for ${parameter}. Expected ${expectedType}, but received ${actualType}"
+msgstr "${parameter} 的无效输入。需要 ${expectedType}，但收到 ${actualType}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:17
+msgid "Invalid layout field, requires \"absolute\" or \"grid\""
+msgstr "无效布局字段，需要 \"absolute\" 或 \"grid\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoJsonProvider.js:28
+msgid "Invalid mapId."
+msgstr "无效 MapId。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:124
+msgid "Invalid url"
+msgstr "无效 URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoRegistry.js:20
+msgid "Invalid url."
+msgstr "无效 URL。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:236
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:150
+msgid "Item 1"
+msgstr "项目 1"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:237
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:151
+msgid "Item 2"
+msgstr "项目 2"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:238
+msgid "Item 3"
+msgstr "项目 3"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:182
+msgid "Label"
+msgstr "标签"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:24
+msgid "Labels"
+msgstr "标签"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:564
+#, python-format
+msgid "Last %(amount)d %(unit)s"
+msgstr "前 %(amount)d %(unit)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1038
+msgid "Last 15 minutes"
+msgstr "前 15 分钟"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1041
+msgid "Last 24 hours"
+msgstr "前 24 小时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1043
+msgid "Last 30 days"
+msgstr "过去 30 天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1040
+msgid "Last 4 hours"
+msgstr "过去 4 小时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1039
+msgid "Last 60 minutes"
+msgstr "过去 60 分钟"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1042
+msgid "Last 7 days"
+msgstr "前 7 天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:164
+msgid "Last Edited"
+msgstr "最近编辑"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:93
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Layers.jsx:8
+msgid "Layers"
+msgstr "层"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/containers/layouts/LayoutContainer.jsx:116
+msgid "Layout ${type} is not defined"
+msgstr "未定义布局 ${type}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/DynamicEditor.jsx:121
+msgid "Layout transformation failed"
+msgstr "布局转换失败"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:175
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:209
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:177
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:53
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:167
+msgid "Learn More"
+msgstr "了解更多信息"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:265
+msgid "Learn More."
+msgstr "了解更多信息。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:14
+msgid "Left"
+msgstr "左"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:4
+msgid "Legend"
+msgstr "图例"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:152
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:67
+msgid "Light"
+msgstr "轻量"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:84
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:133
+msgid "Line"
+msgstr "折线图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:59
+msgid "Link to custom URL"
+msgstr "链接到自定义 URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:68
+msgid "Loaded from report"
+msgstr "从报表加载"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:40
+msgid "Loading Data Source..."
+msgstr "正在加载数据源..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:136
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:21
+msgid "Loading menu items..."
+msgstr "正在加载菜单项目..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:42
+msgid "MENU CONFIGURATION"
+msgstr "菜单配置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:63
+msgid "Major Font Size (px)"
+msgstr "主要字体大小(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:200
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:181
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:302
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:32
+msgid "Major Value"
+msgstr "主要值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:228
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:292
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:242
+msgid "Major Value & Trend"
+msgstr "主要值和趋势"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:36
+msgid "Major Value Size (px)"
+msgstr "主要值大小(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:119
+msgid "Markdown"
+msgstr "Markdown"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/MarkerGauge.jsx:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:89
+msgid "Marker Gauge"
+msgstr "标记规"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:103
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:33
+msgid "Max"
+msgstr "最大值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/FormatterEditor.tsx:162
+msgid "Method"
+msgstr "方法"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:97
+msgid "Min"
+msgstr "最小值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:52
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:33
+msgid "Min/Max"
+msgstr "最小/最大"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:43
+msgid "Missing Image Context"
+msgstr "缺少图像上下文"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/components/MissingPropsMessage.tsx:51
+msgid "Missing property: ${missingProps.join(', ')}"
+msgstr "缺少属性: ${missingProps.join(', ')}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:18
+msgid "Missing required parameters: id, simpleXmlDefinition"
+msgstr "缺少所需参数: id、simpleXmlDefinition"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:16
+msgid "Missing required parameters: id, simpleXmlVizDef"
+msgstr "缺少所需参数: id、simpleXmlVizDef"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/TestDataSourceEditor.jsx:14
+msgid "Mock Data"
+msgstr "模拟数据"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:75
+msgid "Monday"
+msgstr "星期一"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:75
+msgid "Mondays"
+msgstr "星期一"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1027
+msgid "Month to date"
+msgstr "本月迄今"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:128
+msgid "Move backward"
+msgstr "向后移动"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:110
+msgid "Move forward"
+msgstr "向前移动"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:230
+msgid "Multiselect"
+msgstr "多选"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/MultiselectInput.jsx:29
+msgid "Multiselect Input"
+msgstr "多选输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:242
+msgid "Multiselect Input Title"
+msgstr "多选输入标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:660
+msgid "My Dashboard"
+msgstr "我的仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:278
+msgid "NEW"
+msgstr "新"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:273
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:282
+msgid "New Data Source"
+msgstr "新数据源"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:191
+msgid "Next"
+msgstr "下一步"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:204
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:175
+msgid "Next Scheduled Time"
+msgstr "下一次计划时间"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:96
+msgid "No Action"
+msgstr "无操作"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/common/Charting.jsx:325
+msgid "No DataSource"
+msgstr "新数据源"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/utils/enhancer.jsx:88
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/components/IconPlaceholder.tsx:61
+msgid "No DataSource Connected"
+msgstr "未连接数据源"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Choropleth/Choropleth.tsx:133
+msgid "No GeoRegistry provided in context"
+msgstr "上下文中未提供 GeoRegistry"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/PureSingleValueIcon/SingleValueIcon.jsx:85
+msgid "No Icon"
+msgstr "无图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:158
+msgid "No Icons. Please upload icons."
+msgstr "无图标。请上载图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Inputs.jsx:111
+msgid "No Inputs"
+msgstr "无输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/common/Charting.jsx:326
+msgid "No Result"
+msgstr "无结果"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:89
+msgid "No action"
+msgstr "无操作"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:97
+msgid "No dashboard"
+msgstr "无仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/PureTable.tsx:167
+msgid "No data!"
+msgstr "无数据!"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:57
+msgid "No icon registry found"
+msgstr "未找到图标注册表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:126
+msgid "No icons found."
+msgstr "未找到图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:223
+msgid "No icons. Please upload icons."
+msgstr "无图标。请上载图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:55
+msgid "No image registry found"
+msgstr "未找到图像注册表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:118
+msgid "No images found."
+msgstr "未找到图像。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:142
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:210
+msgid "No images. Please upload images."
+msgstr "无图像。请上载图像。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/visualizations/SvgChoroplethDynamic/SvgChoroplethDynamic.tsx:15
+msgid "No literal SVG is provided"
+msgstr "未提供文本 SVG"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/ChoroplethSvg.tsx:97
+msgid "No literal SVG or URL to SVG is provided"
+msgstr "未提供文本 SVG 或 SVG URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/VisualizationPicker.jsx:200
+msgid "No match found"
+msgstr "未找到匹配项"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:4
+msgid "No valid dataSources."
+msgstr "无有效数据源。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:5
+msgid "No valid encoding."
+msgstr "无有效编码。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:136
+msgid "No valid provider was found. Please add a provider"
+msgstr "未找到有效提供程序。请添加提供程序"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:192
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:159
+msgid "None"
+msgstr "无"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:65
+msgid "Normal"
+msgstr "正常"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:248
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:277
+msgid "Not a valid threshold. Must be a number"
+msgstr "非有效阈值。必须是一个数字"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:36
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:184
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:200
+msgid "Not stacked"
+msgstr "未堆叠"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:167
+msgid ""
+"Note: For any visualizations depending on real-time data, accuracy will be dependent "
+"on the progress of the search."
+msgstr "注意: 对于基于实时数据的所有可视化来说，准确性取决于搜索的进度。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/GalleryUpload.jsx:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:25
+msgid ""
+"Note: Uploaded image files can be accessed and deleted by others in your organization"
+msgstr "注意: 组织中的其他人可以访问和删除上载的图像文件"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:14
+msgid "Null Values"
+msgstr "空值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:128
+msgid "Number"
+msgstr "数字"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:4
+msgid "Number Formatting"
+msgstr "数字格式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/NumberInput.jsx:25
+msgid "Number Input"
+msgstr "数字输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:134
+msgid "Number Input Title"
+msgstr "数字输入标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:88
+msgid "Odd Row Fill Color"
+msgstr "奇数行填充颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:41
+msgid "Odd Row Text Color"
+msgstr "奇数行文本颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:50
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/ColumnColorEditor.tsx:223
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:305
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:516
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:55
+msgid "Off"
+msgstr "关"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:517
+msgid "On"
+msgstr "开"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:108
+msgid "On Click"
+msgstr "单击时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/common/ErrorViz.jsx:34
+msgid ""
+"Oops! The dashboard that you tried to convert uses components that are not yet "
+"supported in Dashboard Studio. We apologize for any inconvenience."
+msgstr ""
+"糟糕! 您尝试转换的仪表板使用的组件不受 Dashboard Studio 支持。给您带来不便，我们深表歉"
+"意。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:18
+msgid "Opacity"
+msgstr "不透明度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:20
+msgid "Opacity (%)"
+msgstr "不透明度(%)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:152
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/OpenSearchButton.jsx:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:113
+msgid "Open in Search"
+msgstr "在搜索中打开"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:53
+msgid "Open in new tab"
+msgstr "打开新选项卡"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:50
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:153
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:127
+msgid "Optional"
+msgstr "可选"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:22
+msgid "Orientation"
+msgstr "方向"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:29
+msgid "Original Size"
+msgstr "原始大小"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:173
+msgid "Outside"
+msgstr "外部"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:110
+msgid "Owner"
+msgstr "所有者"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:87
+msgid "Padding"
+msgstr "填充"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Pan.jsx:8
+msgid "Pan"
+msgstr "平移"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:27
+msgid "Panel Powered By"
+msgstr "面板支持"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:125
+msgid "Panel Title"
+msgstr "面板标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:14
+msgid "Parameter \"${parameter}\" must be less than ${length} characters."
+msgstr "参数 \"${parameter}\" 必须少于 ${length} 个字符。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:143
+msgid "Parent Search"
+msgstr "父级搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:835
+msgid "Part of a Day"
+msgstr "一天中的一部分"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:101
+msgid "Path ID Field Formatting"
+msgstr "路径 ID 字段格式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:133
+msgid "Path ID Field Formatting: Value"
+msgstr "路径 ID 字段格式: 值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:155
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:53
+msgid "Percent"
+msgstr "百分比"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:156
+msgid "Permission"
+msgstr "权限"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:68
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:170
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:190
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:157
+msgid "Permissions"
+msgstr "权限"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:49
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:15
+msgid "Pie"
+msgstr "饼图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:37
+msgid "Please set up valid Data Source to select"
+msgstr "请设置有效的数据源以进行选择"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:46
+msgid "Please upload a valid svg with viewBox attribute."
+msgstr "请上载具有 viewBox 属性的有效 SVG。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:23
+msgid "Position"
+msgstr "位置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutItemEditor.jsx:80
+msgid "Position & Size"
+msgstr "位置和大小"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:503
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:26
+msgid "Precision"
+msgstr "精度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:76
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:53
+msgid "Preferences"
+msgstr "首选项"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:90
+msgid "Preparing download..."
+msgstr "正在准备下载..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/editorConfig.js:17
+msgid "Preserve Aspect Ratio"
+msgstr "保留纵横比"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/Palettes/PresetPaletteTheme.tsx:25
+msgid "Preset Palette"
+msgstr "预设调色板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1032
+msgid "Previous business week"
+msgstr "前一工作周"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1036
+msgid "Previous month"
+msgstr "上月"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1030
+msgid "Previous week"
+msgstr "前一周"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1037
+msgid "Previous year"
+msgstr "上一年"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:55
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:132
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:161
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:89
+msgid "Private"
+msgstr "专用"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:83
+msgid "Provider not found"
+msgstr "未找到提供程序"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:10
+msgid "Pulsate Max Value"
+msgstr "跳动最大值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Punchcard.jsx:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:54
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/Punchcard.jsx:7
+msgid "Punchcard"
+msgstr "打孔卡"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:212
+msgid "Quick organization"
+msgstr "快速整理"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/RadialGauge.jsx:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:99
+msgid "Radial Gauge"
+msgstr "径向仪表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:59
+msgid "Radius"
+msgstr "半径"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:59
+msgid "Radius (px)"
+msgstr "半径(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:12
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:136
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:284
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:472
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:15
+msgid "Ranges"
+msgstr "范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:516
+msgid "Real-time"
+msgstr "实时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:19
+msgid "Real-time search is running"
+msgstr "实时搜索正在运行"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:59
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:121
+msgid "Rectangle"
+msgstr "矩形"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Redo.jsx:8
+msgid "Redo"
+msgstr "恢复"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:398
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/RefreshButton.jsx:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Refresh.jsx:8
+msgid "Refresh"
+msgstr "刷新"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:108
+msgid "Refresh rates of less than 60 seconds might impact search performance."
+msgstr "刷新频率小于 60 秒可能影响搜索性能。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:111
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Remove.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/EditableListItem.jsx:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/RemoveIcon.tsx:6
+msgid "Remove"
+msgstr "删除"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:68
+msgid "Report"
+msgstr "报表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:70
+msgid "Required"
+msgstr "必填"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:16
+msgid "Reset to default"
+msgstr "重置为默认"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:13
+msgid "Right"
+msgstr "右"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:6
+msgid "Rotation"
+msgstr "旋转"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:410
+msgid "Row Numbers"
+msgstr "行号"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:399
+msgid "Rows Displayed"
+msgstr "显示的行"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:364
+msgid "Run & Save"
+msgstr "运行并保存"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:187
+msgid "Run Query"
+msgstr "运行查询"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:159
+msgid "SVG (deprecated)"
+msgstr "SVG (已弃用)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SvgChoropleth.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/ChoroplethSvg.jsx:7
+msgid "SVG Choropleth"
+msgstr "SVG 分级统计"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:84
+msgid "SVG Data"
+msgstr "SVG 数据"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:84
+msgid "Saturday"
+msgstr "星期六"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:84
+msgid "Saturdays"
+msgstr "星期六"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:365
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:159
+msgid "Save"
+msgstr "保存"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:187
+msgid "Save Panel to Existing Dashboard"
+msgstr "将面板保存到现有仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:122
+msgid "Save Panel to New Dashboard"
+msgstr "将面板保存到新仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:138
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:231
+msgid "Save to Dashboard"
+msgstr "保存到仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSavedSearch.js:295
+msgid "Saved Search"
+msgstr "保存的搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:144
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:105
+msgid "Saved Search with SPL"
+msgstr "通过 SPL 保存的搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:94
+msgid "Scatter"
+msgstr "散点图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Search.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/VisualizationPicker.jsx:187
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:695
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:337
+msgid "Search"
+msgstr "搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:242
+msgid "Search By Title"
+msgstr "按标题搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:239
+msgid "Search Icons"
+msgstr "搜索图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:226
+msgid "Search Images"
+msgstr "搜索图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:40
+msgid "Search is not yet running, queued on client"
+msgstr "搜索未运行，正在客户端排队"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:31
+msgid "Search is not yet running, queued on server"
+msgstr "搜索未运行，正在服务器排队"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:30
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:22
+msgid "Search is running, but not enough data to render visualization"
+msgstr "搜索正在运行，但数据不足以呈现可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:36
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:34
+msgid "Search ran successfully, but no results were returned"
+msgstr "搜索运行成功，但未返回任何结果"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:194
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSearchEditor.jsx:45
+msgid "Search with SPL"
+msgstr "借助 SPL 的搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:86
+msgid "Search with SPL2"
+msgstr "借助 SPL2 的搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:161
+msgid "Searches"
+msgstr "搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Select.jsx:10
+msgid "Select"
+msgstr "选择"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:260
+msgid "Select Data"
+msgstr "选择数据"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:145
+msgid "Select a single list value"
+msgstr "选择单个列表值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:173
+msgid "Select a time range"
+msgstr "选择时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:111
+msgid "Select a value"
+msgstr "选择一个值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:215
+msgid "Select an Existing Dashboard"
+msgstr "选择现有仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:197
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:243
+msgid "Select layout mode"
+msgstr "选择布局模式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:231
+msgid "Select multiple list values"
+msgstr "选择多个列表值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:261
+msgid "Selected Data Field"
+msgstr "所选数据字段"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:137
+msgid "Send to back"
+msgstr "发送到后台"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:79
+msgid "Sequential"
+msgstr "顺序"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:152
+msgid "Set Permission"
+msgstr "设置权限"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:34
+msgid "Set up Data Source to select"
+msgstr "设置数据源以进行选择"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Settings.jsx:8
+msgid "Settings"
+msgstr "设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:39
+msgid "Shapes"
+msgstr "形状"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Share.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ShareDashboard.jsx:8
+msgid "Share"
+msgstr "共享"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:61
+msgid "Shared in App"
+msgstr "在应用中共享"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:166
+msgid "Shared in app"
+msgstr "在应用中共享"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:112
+msgid "Sharing"
+msgstr "共享"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Show.jsx:8
+msgid "Show"
+msgstr "显示"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:27
+msgid "Show Bubble Labels"
+msgstr "显示气泡标签"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:45
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:26
+msgid "Show Data Values"
+msgstr "显示数据值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:10
+msgid "Show Header"
+msgstr "显示标头"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:35
+msgid "Show Labels"
+msgstr "显示标签"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:97
+msgid "Show Legend"
+msgstr "显示图例"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:28
+msgid "Show Percent"
+msgstr "对等百分比"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:17
+msgid "Show Row Numbers"
+msgstr "显示行号"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:34
+msgid "Show Sparkline"
+msgstr "显示迷你图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:80
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:56
+msgid "Show Title & Description"
+msgstr "显示标题和描述"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:11
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:11
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:143
+msgid "Show Trending Value"
+msgstr "显示趋势值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:8
+msgid "Show Value"
+msgstr "显示值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Header.jsx:61
+msgid "Show less"
+msgstr "显示较少"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:1
+msgid "Show list"
+msgstr "显示列表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Header.jsx:67
+msgid "Show more"
+msgstr "显示更多"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:853
+#, python-format
+msgid "Since %(dateTime)s"
+msgstr "自 %(dateTime)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:854
+msgid "Since Date-time"
+msgstr "Date-time 之后"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SingleValueTrend.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/SingleValue.jsx:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/SingleValueTrend.jsx:8
+msgid "Single Value"
+msgstr "单值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:104
+msgid "Single Value (deprecated)"
+msgstr "单值(已弃用)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:109
+msgid "Single Value Icon (deprecated)"
+msgstr "单值图标(已弃用)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SingleValueRadial.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:114
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/SingleValueRadial.jsx:8
+msgid "Single Value Radial"
+msgstr "单值径向"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:125
+msgid ""
+"Some custom formatting and configurations to your dashboard may be lost during the "
+"cloning and conversion process. Your original dashboard will not be affected."
+msgstr "克隆和转换过程中，某些自定义格式和仪表板配置可能丢失。不会影响您的原始仪表板。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:490
+msgid "Some external images can not be downloaded."
+msgstr "无法下载某些外部图像。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:191
+msgid ""
+"Some visualizations have not loaded since we detected potential security risks. To "
+"learn more, click on the icon in the bottom-right corner of the visualization."
+msgstr ""
+"我们检测到潜在的安全风险，因此未加载某些可视化。要了解更多信息，单击可视化右下角的图"
+"标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:162
+msgid ""
+"Some visualizations will be incomplete or inaccurate. Are you sure you want to "
+"continue?"
+msgstr "某些可视化会不完整或不准确。确定要继续吗?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:217
+msgid "Sort"
+msgstr "排序"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Source.jsx:29
+msgid "Source"
+msgstr "数据来源"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:80
+msgid "Spacing"
+msgstr "间距"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:296
+msgid "Sparkline"
+msgstr "迷你图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:99
+msgid "Specify Data Source Module"
+msgstr "指定数据源模块"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/main/resources/splunk/default/app.conf:3
+msgid "Splunk Dashboard Studio"
+msgstr "Splunk Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/main/resources/splunk/default/app.conf:8
+msgid "Splunk dashboard studio"
+msgstr "Splunk Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:14
+msgid "Stack Mode"
+msgstr "堆叠模式"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:201
+msgid "Stacked"
+msgstr "已堆叠"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:186
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:202
+msgid "Stacked 100%"
+msgstr "100% 堆叠"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:39
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:171
+msgid "Standard"
+msgstr "标准"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:48
+msgid "Starting Point"
+msgstr "起始点"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticBackgroundColorEditor.js:5
+msgid "Static Background"
+msgstr "静态背景"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticIconColorEditor.js:7
+msgid "Static Icon"
+msgstr "静态图标"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorColorEditor.js:5
+msgid "Static Major Value"
+msgstr "静态主要值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/ColumnColorEditor.tsx:248
+msgid "Static Text Color"
+msgstr "静态文本颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticTrendColorEditor.js:5
+msgid "Static Trend"
+msgstr "静态趋势"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:55
+msgid "Statistics Table"
+msgstr "统计表"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusError.jsx:11
+msgid "Status Error"
+msgstr "错误状态"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusInfo.jsx:11
+msgid "Status Info"
+msgstr "状态信息"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusWarning.jsx:11
+msgid "Status Warning"
+msgstr "警告状态"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusOk.jsx:11
+msgid "Status ok"
+msgstr "状态正常"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:109
+msgid "Step"
+msgstr "步骤"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:5
+msgid "Stroke"
+msgstr "笔划"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:377
+msgid "Structure item ${idx} has the same key \"${item.item}\" as another structure item"
+msgstr "结构项目 ${idx} 与另一结构项目有着相同的密钥 \"${item.item}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:387
+msgid ""
+"Structure item ${idx} references a visualization \"${item.item}\" that does not exist"
+msgstr "结构项目 ${idx} 引用的可视化 \"${item.item}\" 不存在"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/SubmitButton.jsx:26
+msgid "Submit"
+msgstr "提交"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:8
+msgid "Successfully added to existing dashboard"
+msgstr "已成功添加到现有仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:12
+msgid "Successfully cloned dashboard"
+msgstr "已成功克隆仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:3
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:5
+msgid "Successfully converted dashboard"
+msgstr "已成功转换仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:6
+msgid "Successfully converted visualization"
+msgstr "已成功转换可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:10
+msgid "Successfully saved to dashboard"
+msgstr "已成功保存到仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:85
+msgid "Sunday"
+msgstr "星期日"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:85
+msgid "Sundays"
+msgstr "星期日"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:34
+msgid "Table"
+msgstr "表格"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:44
+msgid "Table (deprecated)"
+msgstr "表格(已弃用)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Text.jsx:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:138
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:462
+msgid "Text"
+msgstr "文本"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:50
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:13
+msgid "Text Input"
+msgstr "文本输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:327
+msgid ""
+"The \"collect\" command cannot be used in a base search. Use an ad-hoc search for data "
+"source ${this.context.id} to use the \"collect\" command."
+msgstr ""
+"基本搜索中无法使用 \"collect\" 命令。对数据源 ${this.context.id} 使用临时搜索以使用 "
+"\"collect\" 命令。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:83
+msgid "The Dashboard ID \"${title.replace(/W/g, '_').toLowerCase()}\" is already taken."
+msgstr "仪表板 ID \"${title.replace(/W/g, '_').toLowerCase()}\" 已被占用。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:64
+msgid ""
+"The Dashboard ID is used as the filename on disk.\n"
+"This cannot be changed later."
+msgstr ""
+"仪表板 ID 已被用作磁盘上的文件名。\n"
+"之后无法更改。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:163
+msgid ""
+"The SPL query for this visualization contains commands that has been flagged as risky."
+msgstr "此可视化的 SPL 查询包含标记为有风险的命令。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:55
+msgid "The dashboard you selected no longer exists."
+msgstr "选定的仪表板不再存在。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/ImageRegistry.js:37
+msgid ""
+"The format of the uploaded file is not supported. Please upload ${validMediaType."
+"join(\n"
+"                        ', '\n"
+"                    )}."
+msgstr ""
+"不支持上载文件的格式。请上载 ${validMediaType.join(\n"
+"                        ', '\n"
+"                    )}。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/IconRegistry.js:33
+msgid "The format of the uploaded file is not supported. Please upload svg file."
+msgstr "不支持上载文件的格式。请上载 SVG 文件。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoJsonProvider.js:38
+msgid "The geoJson is not found."
+msgstr "未找到 geoJson。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/RemoteIcon.jsx:149
+msgid "The icon cannot be colored properly."
+msgstr "无法正确为此图标着色。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:240
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:137
+msgid "The icon cannot be deleted."
+msgstr "无法删除此图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:66
+msgid "The icon cannot be uploaded. Please check whether your localStorage is full."
+msgstr "无法上载此图标。请检查 localStorage 是否已满。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:232
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:122
+msgid "The icon ids cannot be listed."
+msgstr "无法列出图标 ID。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:173
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:79
+msgid "The icon is not found."
+msgstr "未找到图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:82
+msgid "The ids cannot be listed."
+msgstr "无法列出 ID。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:77
+msgid "The image cannot be deleted."
+msgstr "无法删除图像。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:36
+msgid "The image cannot be uploaded. Please check whether your localStorage is full."
+msgstr "无法上载图像。请检查 localStorage 是否已满。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:62
+msgid "The image ids cannot be listed."
+msgstr "无法列出图像 ID。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:50
+msgid "The image is not found."
+msgstr "未找到图像。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:35
+msgid "The inline search exists only in the dashboard and has no external dependencies."
+msgstr "内联搜索仅存在于仪表板中，且没有外部相关项。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:32
+#, python-format
+msgid ""
+"The new dashboard experience has been integrated into the core Splunk platform as "
+"%(studio)s. As a result, the %(beta)s will no longer be receiving updates and we have "
+"disabled the ability to create new dashboards."
+msgstr ""
+"新的仪表板体验已作为 %(studio)s 集成到 Splunk 核心平台。因此，%(beta)s 将不再接收更新，"
+"我们已禁用创建新仪表板的功能。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:95
+msgid "The obj cannot be deleted."
+msgstr "无法删除对象。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:32
+msgid "The obj cannot be uploaded."
+msgstr "无法上载对象。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:43
+msgid "The obj is not found."
+msgstr "未找到对象。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:13
+msgid ""
+"The total size of a dashboard must be 7MB or smaller. Please remove some images and "
+"icons."
+msgstr "仪表板总大小必须小于等于 7MB。请移除某些图像和图标。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:252
+msgid "The traditional Splunk dashboard builder"
+msgstr "传统的 Splunk 仪表板构建器"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:72
+msgid ""
+"The visualization and its configuration will be loaded from the report by default. It "
+"can be modified later within the dashboard or in the report itself."
+msgstr "默认将从报表加载可视化及其配置。之后可以在仪表板或报表中进行修改。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:247
+msgid "Theme"
+msgstr "主题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:51
+msgid "Thickness (px)"
+msgstr "厚度(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DynamicItemEditor.jsx:51
+msgid "This input has dynamic items. Please edit in source mode."
+msgstr "此输入有动态项目。请在源模式中进行编辑。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/header/Description.jsx:79
+msgid "This is for the dashboard description."
+msgstr "此项内容针对仪表板描述。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/GridLayoutConstants.js:3
+msgid ""
+"This panel is too small to be split into duplicates. Stretch or move the panel to make "
+"it bigger first."
+msgstr "此面板过小，无法拆分为重复项。首先拉伸或移动面板使其变大。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:152
+msgid "This visualization has a potential security risk"
+msgstr "此可视化有潜在的安全风险"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:511
+msgid "Thousand Separators"
+msgstr "千位分隔符"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/ThresholdEditor.jsx:85
+msgid "Threshold"
+msgstr "阈值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Threshold.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/Threshold.js:4
+msgid "Threshold Settings"
+msgstr "阈值设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:82
+msgid "Thursday"
+msgstr "星期四"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:82
+msgid "Thursdays"
+msgstr "星期四"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:170
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:115
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:218
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSearchEditor.jsx:60
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:172
+msgid "Time Range"
+msgstr "时间范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:178
+msgid "Time Range Input Title"
+msgstr "时间范围输入标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:108
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/TitleEditor.jsx:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:165
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:214
+msgid "Title"
+msgstr "标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:30
+msgid "Title (A - Z)"
+msgstr "标题(A - Z)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:35
+msgid "Title (Z - A)"
+msgstr "标题(Z - A)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:68
+msgid "Title and Description are not displayed"
+msgstr "未显示标题和描述"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:64
+msgid "Title and Description displayed"
+msgstr "已显示标题和描述"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:4
+msgid "Title cannot be empty."
+msgstr "标题不能为空。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:57
+msgid "Title is required"
+msgstr "标题为必填项"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:14
+msgid "To continue, remove Trellis."
+msgstr "要继续，需移除棚架。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:18
+msgid ""
+"To continue, remove categorical colors or select another visualization such as "
+"'Statistics Table'."
+msgstr "要继续，需移除分类颜色或选择其他可视化，例如”统计表”。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:10
+msgid "To continue, select another visualization such as 'Statistics Table'."
+msgstr "要继续，需选择其他可视化，例如”统计表”。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:38
+#, python-format
+msgid ""
+"To ensure your current dashboards stay supported with the latest features, please move "
+"them out of the '%(beta)s' and into '%(search)s' or another app."
+msgstr ""
+"为确保最新功能支持当前仪表板，请将其移出 '%(beta)s' 并移进 '%(search)s' 或其他应用。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1024
+msgid "Today"
+msgstr "今天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/EnterpriseTimeRangePicker/EnterpriseTimeRangePicker.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:90
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:113
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/TimeRangePicker/TimeRangePicker.jsx:27
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:34
+msgid "Token Name"
+msgstr "标记名称"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/visualizations/FillerGauge/FillerGauge.jsx:83
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/PureSingleValue/SingleValue.jsx:120
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/PureSingleValueIcon/SingleValueIcon.jsx:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/PureSingleValueRadial/SingleValueRadial.jsx:73
+msgid "Too small to render content"
+msgstr "太小而无法呈现内容"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:15
+msgid "Top"
+msgstr "主要"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ArrowLayer.tsx:29
+msgid "Top range"
+msgstr "首要范围"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:214
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:306
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:24
+msgid "Trend"
+msgstr "趋势"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:48
+msgid "Trend Display"
+msgstr "趋势显示"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:150
+msgid "Trend Display as"
+msgstr "趋势显示为"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:166
+msgid "Trend Indicator Position"
+msgstr "趋势指标位置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:61
+msgid "Trend Size (px)"
+msgstr "趋势大小(像素)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:31
+msgid "Trends"
+msgstr "趋势"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:24
+msgid "Truncation"
+msgstr "截断"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:76
+msgid "Tuesday"
+msgstr "星期二"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:76
+msgid "Tuesdays"
+msgstr "星期二"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/utils/OptionsDoc.jsx:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/OptionsDoc.jsx:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:219
+msgid "Type"
+msgstr "类型"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:36
+msgid "URL"
+msgstr "URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/USMap.jsx:7
+msgid "US Map"
+msgstr "美国地图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:147
+msgid "USA"
+msgstr "美国"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:668
+msgid "Unable to export the dashboard as ${fileType}"
+msgstr "无法将仪表板导出为 ${fileType}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:578
+msgid "Unable to export the visualization  id=${vizId} type=${vizType} as png."
+msgstr "无法将 ID 为 ${vizId}、类型为 ${vizType} 的可视化导出为 png。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Undo.jsx:8
+msgid "Undo"
+msgstr "撤消"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:18
+msgid "Unit"
+msgstr "单位"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:100
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:18
+msgid "Unit Label"
+msgstr "单位标签"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:88
+msgid "Units Position"
+msgstr "单位的位置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:83
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DefaultDataSourcePanel.tsx:266
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/components/DataSourceItem.tsx:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:172
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DataSourceConfig.jsx:72
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:501
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:701
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSavedSearch.js:302
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:343
+msgid "Unnamed"
+msgstr "未命名"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:51
+msgid "Unsupported MIME type ${mime} for url ${url}"
+msgstr "URL ${url} 不支持的 MIME 类型 ${mime}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/utils/enhancer.jsx:163
+msgid "Untitled"
+msgstr "无标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/components/DashboardTitle.jsx:66
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/components/DashboardTitle.jsx:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/header/Title.jsx:77
+msgid "Untitled Dashboard"
+msgstr "无标题仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/DashboardSourceEditor.jsx:164
+msgid "Untitled Name"
+msgstr "无标题名称"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/DynamicEditor.jsx:130
+msgid "Untitled Section"
+msgstr "无标题部分"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:25
+msgid "Updated ${time}"
+msgstr "已更新 ${time}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:23
+msgid "Updating"
+msgstr "更新中"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:48
+msgid "Updating live"
+msgstr "实时更新"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/editorConfig.js:10
+msgid "Upload SVG"
+msgstr "上载 SVG"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:283
+msgid "Upper boundary must exceed lower boundary"
+msgstr "上边界必须超出下边界"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:10
+msgid ""
+"Use a relative URL or absolute URL, for example, /app/search/datasets, or https://www."
+"splunk.com"
+msgstr "使用相对 URL 或绝对 URL，例如 /app/search/datasets 或 https://www.splunk.com"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:72
+msgid ""
+"Uses the report. Retains all report metadata such as schedule, acceleration, and "
+"permissions."
+msgstr "使用报表。保留所有报表元数据，如计划、加速和权限。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:45
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:193
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:154
+msgid "Value"
+msgstr "值"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:114
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:254
+msgid "Value already exists"
+msgstr "值已存在"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:27
+msgid "Vertical"
+msgstr "垂直"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:101
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ModeSwitch.jsx:18
+msgid "View"
+msgstr "查看"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:56
+msgid "Visible only to you"
+msgstr "仅对您可见"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:62
+msgid "Visible to app users"
+msgstr "对应用用户可见"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:172
+msgid "Visit the Splunk Documentation to learn more."
+msgstr "访问 Splunk 文档了解更多信息。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:536
+msgid "Visualization ${vizType} not found."
+msgstr "未找到可视化: ${vizType}。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/VizConfigPanel.jsx:219
+msgid "Visualization ID"
+msgstr "可视化 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/VizConfigPanel.jsx:223
+msgid ""
+"Visualization IDs must start with \"viz_\" and contain only letters, numbers, dash, "
+"and underscore"
+msgstr "可视化 ID 必须以 \"viz_\" 开始，且仅包含字母、数字、短划线和下划线"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:155
+msgid "Visualization Options"
+msgstr "可视化选项"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:139
+msgid "Visualization Settings"
+msgstr "可视化设置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:102
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:43
+msgid "Visualization Type"
+msgstr "可视化类型"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/utils/token.ts:19
+msgid "Waiting for input..."
+msgstr "正在等待输入..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:168
+#, python-format
+msgid ""
+"We are no longer making updates to the %(beta)s. To ensure this dashboard stays "
+"supported with the latest features, please move it out of '%(beta)s' and into "
+"'%(search)s' or another app"
+msgstr ""
+"我们不再更新 %(beta)s。为确保最新功能仍支持此仪表板，请将其移出 '%(beta)s' 并移进 "
+"'%(search)s' 或其他应用"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:176
+msgid "We can't find an image with this URL. Please enter a new URL."
+msgstr "通过此 URL 无法找到图像。请输入新的 URL。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:79
+msgid "Wednesday"
+msgstr "星期三"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:80
+msgid "Wednesdays"
+msgstr "星期三"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1025
+msgid "Week to date"
+msgstr "一周迄今"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:60
+msgid "Weight"
+msgstr "权重"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:233
+msgid "What's this?"
+msgstr "这是什么?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:117
+msgid "Width"
+msgstr "宽度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:153
+msgid "World"
+msgstr "世界"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/WorldMap.jsx:7
+msgid "World Map"
+msgstr "世界地图"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:8
+msgid "X Axis title"
+msgstr "X 轴标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:92
+msgid "X Position"
+msgstr "X 位置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:15
+msgid "Y Axis title"
+msgstr "Y 轴标题"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:204
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:104
+msgid "Y Position"
+msgstr "Y 位置"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1028
+msgid "Year to date"
+msgstr "年度迄今"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1029
+msgid "Yesterday"
+msgstr "昨天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:67
+msgid "You can use letters, numbers, dashes, and underscores."
+msgstr "您可以使用字母、数字、短划线和下划线。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:6
+msgid "You cannot use < or > in a dashboard name."
+msgstr "不可以在仪表板名称中使用 < or >。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:59
+msgid ""
+"You do not have the permissions or role to perform this action. Only those with the "
+"admin or power roles can remove images"
+msgstr "您没有执行此操作的权限或角色。仅管理员或有权利的角色可以移除图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:14
+msgid ""
+"You do not have the permissions or role to perform this action. Only those with the "
+"admin or power roles can upload images"
+msgstr "您没有执行此操作的权限或角色。仅管理员或有权利的角色可以上载图像"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:270
+msgid "You have no writable dashboards for the app: ${app}"
+msgstr "没有适用于应用的可写入仪表板: ${app}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:8
+msgid "You must select a dashboard layout."
+msgstr "必须选择仪表板布局。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:7
+msgid "You must select a dashboard type."
+msgstr "必须选择仪表板类型。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:9
+msgid "You must select an existing dashboard."
+msgstr "您必须选择现有仪表板。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:157
+msgid "Your dashboard is still loading"
+msgstr "仍在加载仪表板"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:61
+msgid "Your download has started"
+msgstr "已启动下载"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:20
+msgid "Zero"
+msgstr "零"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ZoomIn.jsx:8
+msgid "Zoom In"
+msgstr "放大"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ZoomOut.jsx:8
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:147
+msgid "Zoom in"
+msgstr "放大"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:179
+msgid "Zoom level"
+msgstr "缩放级别"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:157
+msgid "Zoom out"
+msgstr "缩小"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:205
+msgid "[fieldName]:"
+msgstr "[fieldName]:"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:81
+msgid "and"
+msgstr "和"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:78
+msgid "and above"
+msgstr "及以上"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:32
+msgid "and greater"
+msgstr "及更大"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:1
+msgid "below"
+msgstr "低于"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:44
+msgid "chain search"
+msgstr "链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:457
+msgid "chain search "
+msgstr "链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:45
+msgid "chain searches"
+msgstr "链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:458
+msgid "chain searches "
+msgstr "链搜索"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:198
+msgid "could not find parent SPL"
+msgstr "未找到父级 SPL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:14
+msgid "day"
+msgstr "天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:14
+msgid "days"
+msgstr "天"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:77
+msgid "delete"
+msgstr "删除"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:153
+msgid "explore additional tools."
+msgstr "浏览其他工具。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ErrorBoundary.jsx:48
+msgid "failed to render react component"
+msgstr "无法呈现 React 组件"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:114
+msgid "freely place objects"
+msgstr "自由放置对象"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:13
+msgid "hour"
+msgstr "小时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:13
+msgid "hours"
+msgstr "小时"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "images,"
+msgstr "图像，"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/BaseContentExportClient.ts:10
+msgid "initiateExport() not implemented."
+msgstr "未实施 initiateExport()。"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:57
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:463
+msgid "input"
+msgstr "个输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:464
+msgid "inputs"
+msgstr "个输入"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:61
+msgid "invalid Url"
+msgstr "无效 URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/utils/gridUtils.js:674
+msgid "is outside of canvas bounds"
+msgstr "在画布边界外"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:43
+msgid "isRequired"
+msgstr "isRequired"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:1
+msgid "less than"
+msgstr "小于"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Gallery.jsx:67
+msgid "loading"
+msgstr "正在加载"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:10
+msgid "minute"
+msgstr "分钟"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:11
+msgid "minutes"
+msgstr "分钟"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:18
+msgid "month"
+msgstr "月"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:19
+msgid "months"
+msgstr "月"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:107
+msgid "or"
+msgstr "或"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:114
+msgid "organize & resize"
+msgstr "组织和重新调整大小"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:23
+msgid "quarter"
+msgstr "季度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:24
+msgid "quarters"
+msgstr "季度"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:5
+msgid "second"
+msgstr "秒"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:6
+msgid "seconds"
+msgstr "秒"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:152
+msgid "standard Splunk visualizations"
+msgstr "标准 Splunk 可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "text"
+msgstr "文本"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:1
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:64
+msgid "to"
+msgstr "至"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:39
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:451
+msgid "visualization"
+msgstr "个可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:452
+msgid "visualizations"
+msgstr "个可视化"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:15
+msgid "week"
+msgstr "周"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:15
+msgid "weeks"
+msgstr "周"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:28
+msgid "year"
+msgstr "年"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:29
+msgid "years"
+msgstr "年"

@@ -1,0 +1,14 @@
+[props/apod]
+owner = admin
+version = 8.0.0
+modtime = 1597956087.630678000
+
+[props/source%3A%3A...ta-apod%2A.log%2A]
+owner = admin
+version = 8.0.0
+modtime = 1597956091.736866000
+
+[props/source%3A%3A...ta_apod%2A.log%2A]
+owner = admin
+version = 8.0.0
+modtime = 1597956094.826921000

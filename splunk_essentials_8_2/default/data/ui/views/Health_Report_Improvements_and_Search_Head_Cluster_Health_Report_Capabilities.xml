@@ -1,0 +1,54 @@
+<dashboard>
+
+  <label>Health Report Improvements and Search Head Cluster Health Report Capabilities</label>
+
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+
+        <p> The Splunk Enterprise health report records the health status of splunkd in a tree structure, where leaf nodes represent particular Splunk Enterprise features, and intermediary nodes categorize the various features. Feature health status is now color-coded in four states:</p>
+         <ul>
+          <li> Green: The feature is functioning properly. </li>
+          <li> Yellow: The feature is experiencing a problem. </li>
+          <li> Red: The feature has a severe issue and is negatively impacting the functionality of your deployment. </li>
+          <li> Grey: Health report is disabled for the feature. </li>
+         </ul>
+
+         <p> The feature is available by clicking on the icon in the global banner next to “Administrator”. Depending on the state of overall health, this icon could be green, yellow, red, or grey.</p>
+
+         <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/9_health_rep.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+
+         <p><strong> Splunkd health status viewpoint </strong></p>
+        <p> The splunkd health report shows the health of your Splunk Enterprise deployment from the viewpoint of the local instance on which you are monitoring. The <code>Mode: Standalone</code> label indicates a single-instance health report. For example, in an indexer cluster environment, the cluster master and peer nodes each show a different set of features contributing to the overall health of splunkd.
+        </p>
+
+        <p><strong> Distributed health report </strong></p>
+        <p> The new distributed health report now lets you monitor the overall health status of your distributed deployment from a single central instance, such as a search head, search head captain, or cluster manager. The <code>Mode: Distributed</code> label indicates a distributed health report. The distributed label differs from the single-instance health report, which shows feature health status from the viewpoint of the local instance only.
+        </p>
+
+          <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/10_health_rep.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+
+         <p><strong> Troubleshoot with integrated Splunk deployment health report </strong></p>
+        <p> The <a href="http://docs.splunk.com/Documentation/Splunk/8.1.1/DMC/Summary" target="_blank">Summary</a> dashboard in the Monitoring Console lets you troubleshoot health issues with your Splunk Enterprise deployment that the splunkd health report detects. The <code>Mode</code> label in each dashboard indicates a standalone or distributed instance associated with the Anomalies. 
+        </p>
+
+        <p> For more information, see <a href="http://docs.splunk.com/Documentation/Splunk/8.2.0/DMC/Aboutfeaturemonitoring#Splunk_Enterprise_health_report" target="_blank">Splunk Health Report</a> in the Monitoring Splunk Enterprise manual. </p>
+        
+        </html>
+    </panel>
+  </row>
+</dashboard>

@@ -1,0 +1,56 @@
+<dashboard>
+
+  <label>Search Restriction by Data Age</label>
+  
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+
+        <p> Admins can now configure the role of a user to prevent certain users from searching within a given time range. </p>
+
+         <p><strong>Accessing the Feature</strong></p>
+         <ol>
+           <li> Click on “Settings” in the global banner. In the Settings modal, click on “Roles”. </li>
+           <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/11_restrict_age.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+           <li> On any role listed in the dashboard, click on the “Edit” dropdown to make changes to a user role. </li>
+           <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/12_restrict_age.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+           <li> In the “Edit role user” modal, click on the “Resources” tab. </li>
+           <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/13_restrict_age.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+           <li> Scroll down to the bottom of the modal. Under the “Role search time window limit” section, you can now set the earliest searchable event time for this role. Inherited roles can override this setting. </li>
+           <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/14_restrict_age.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+
+           <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/15_restrict_age.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>      
+         </ol>
+        </html>
+    </panel>
+  </row>
+</dashboard>

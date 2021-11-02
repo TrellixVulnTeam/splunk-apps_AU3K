@@ -1,0 +1,1184 @@
+[props/splunkd_stdout-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310541.720063000
+
+[props/first_install-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310541.740415000
+
+[props/export_metrics-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310551.650295000
+
+[props/cloud-init-output-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310879.701435000
+
+[props/alternatives-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310879.712440000
+
+[props/cloud-init-2]
+owner = nobody
+version = 7.0.0
+modtime = 1521310879.793377000
+
+[sourcetypes/%2Fvar%2Flog%2Fcloud-init.log_Sat_Mar_17_19%3A21%3A19_2018_438979852]
+owner = nobody
+version = 7.0.0
+modtime = 1521310879.880731000
+
+[props/dpkg]
+owner = nobody
+version = 7.0.0
+modtime = 1521310879.934782000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Sat_Mar_17_19%3A21%3A19_2018_1719189475]
+owner = nobody
+version = 7.0.0
+modtime = 1521310880.001128000
+
+[props/bootstrap-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310880.010890000
+
+[props/history-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521310880.017193000
+
+[props/unix_configured_handler-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521313790.915476000
+
+[props/paladin-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521313894.063160000
+
+[props/scHeadlinesHandler-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521313894.099709000
+
+[props/splunk-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1521314542.171764000
+
+[props/cloud-init-output-2]
+owner = nobody
+version = 7.0.0
+modtime = 1521374105.738830000
+
+[sourcetypes/%2Fvar%2Flog%2Fcloud-init-output.log_Sun_Mar_18_12%3A55%3A05_2018_1533393606]
+owner = nobody
+version = 7.0.0
+modtime = 1521374106.032673000
+
+[props/history.log-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1522556702.036633000
+
+[props/dpkg-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1522556702.081780000
+
+[props/dpkg-3]
+owner = nobody
+version = 7.0.0
+modtime = 1531465022.497659000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Fri_Jul_13_08%3A57%3A02_2018_2117163058]
+owner = nobody
+version = 7.0.0
+modtime = 1531465022.701414000
+
+[props/alternatives.log-too_small]
+owner = nobody
+version = 7.0.0
+modtime = 1531542302.451229000
+
+[props/django_access-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564553630.410207000
+
+[props/django_error-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564553631.543282000
+
+[props/django_service-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564553632.252144000
+
+[props/splunk_instrumentation-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564553680.653070000
+
+[props/python_modular_input-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564554857.419497000
+
+[props/splunk_ta_paloalto_aperture-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564555037.552915000
+
+[props/splunk_ta_paloalto_autofocus_export-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564555038.193292000
+
+[props/Splunk_TA_paloalto_minemeld_feed-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564555038.742005000
+
+[props/stream_installer-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564556151.276402000
+
+[props/streamfwd-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564556167.116471000
+
+[props/splunk_app_stream-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564556170.521800000
+
+[props/splunk_app_stream-2]
+owner = admin
+version = 7.3.0
+modtime = 1564556467.999623000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_stream.log_Wed_Jul_31_09%3A01%3A08_2019_1498360897]
+owner = admin
+version = 7.3.0
+modtime = 1564556468.857940000
+
+[props/splunk_archiver-too_small]
+owner = admin
+version = 7.3.0
+modtime = 1564557423.110778000
+
+[props/streamfwd-2]
+owner = nobody
+version = 7.3.0
+modtime = 1564557717.645654000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fstreamfwd.log_Wed_Jul_31_09%3A21%3A58_2019_1268058577]
+owner = nobody
+version = 7.3.0
+modtime = 1564557718.505884000
+
+[props/splunk_ta_paloalto_autofocus_export-2]
+owner = nobody
+version = 7.3.0
+modtime = 1564558836.122998000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_ta_paloalto_autofocus_export.log_Wed_Jul_31_09%3A40%3A36_2019_922031039]
+owner = nobody
+version = 7.3.0
+modtime = 1564558837.096360000
+
+[props/splunk_app_stream.log-too_small]
+owner = nobody
+version = 7.3.0
+modtime = 1564701312.894780000
+
+[props/splunk_app_stream.log-2]
+owner = nobody
+version = 7.3.0
+modtime = 1564701316.151965000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_stream.log.2_Fri_Aug__2_01%3A15%3A16_2019_55714378]
+owner = nobody
+version = 7.3.0
+modtime = 1564701316.283311000
+
+[props/splunk_archiver-2]
+owner = nobody
+version = 7.3.0
+modtime = 1564927781.612706000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_archiver.log_Sun_Aug__4_16%3A09%3A41_2019_2025596493]
+owner = nobody
+version = 7.3.0
+modtime = 1564927782.535552000
+
+[props/streamfwd.log]
+owner = nobody
+version = 7.3.0
+modtime = 1569644639.376290000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fstreamfwd.log.1_Sat_Sep_28_06%3A23%3A59_2019_1400620391]
+owner = nobody
+version = 7.3.0
+modtime = 1569644639.946370000
+
+[props/splunk_ta_microsoft-cloudservices_azure_resource]
+owner = nobody
+version = 7.3.0
+modtime = 1569644880.017595000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_ta_microsoft-cloudservices_azure_resource.log_Sat_Sep_28_06%3A28%3A00_2019_135497773]
+owner = nobody
+version = 7.3.0
+modtime = 1569644880.316048000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_ta_microsoft-cloudservices_azure_resource.log_Sat_Sep_28_06%3A28%3A00_2019_1917540964]
+owner = nobody
+version = 7.3.0
+modtime = 1569644880.530651000
+
+[props/splunk_ta_microsoft-cloudservices_util-too_small]
+owner = nobody
+version = 7.3.0
+modtime = 1569644882.789445000
+
+[props/splunk_ta_microsoft-cloudservices_storage_blob-too_small]
+owner = nobody
+version = 7.3.0
+modtime = 1569644883.183249000
+
+[props/splunk_ta_microsoft-cloudservices_storage_table-too_small]
+owner = nobody
+version = 7.3.0
+modtime = 1569644883.663305000
+
+[props/splunk_ta_microsoft-cloudservices_ucc_lib-too_small]
+owner = nobody
+version = 7.3.0
+modtime = 1569644886.001112000
+
+[props/secure]
+owner = admin
+version = 7.3.0
+modtime = 1569647439.321963000
+
+[sourcetypes/Splunk_tutorialdata.zip%3A.%2Fwww1%2Fsecure.log_Sat_Sep_28_07%3A10%3A39_2019_791909287]
+owner = admin
+version = 7.3.0
+modtime = 1569647439.502294000
+
+[props/vendor_sales]
+owner = admin
+version = 7.3.0
+modtime = 1569647442.316751000
+
+[sourcetypes/Splunk_tutorialdata.zip%3A.%2Fvendor_sales%2Fvendor_sales.log_Sat_Sep_28_07%3A10%3A42_2019_1450268364]
+owner = admin
+version = 7.3.0
+modtime = 1569647442.595444000
+
+[props/dpkg-4]
+owner = nobody
+version = 7.3.0
+modtime = 1574160362.108653000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Tue_Nov_19_11%3A46%3A02_2019_663862008]
+owner = nobody
+version = 7.3.0
+modtime = 1574160362.201809000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Tue_Nov_19_11%3A46%3A02_2019_344968500]
+owner = nobody
+version = 7.3.0
+modtime = 1574160362.308323000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Tue_Nov_19_11%3A46%3A02_2019_460658836]
+owner = nobody
+version = 7.3.0
+modtime = 1574160362.415768000
+
+[props/main-too_small]
+owner = nobody
+version = 7.3.0
+modtime = 1574160364.227412000
+
+[props/dfm_stderr-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1574522790.398336000
+
+[props/dfm_stdout-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1574522792.285114000
+
+[props/splunk-47]
+owner = nobody
+version = 8.0.0
+modtime = 1574522797.215283000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk.log_Sat_Nov_23_16%3A26%3A37_2019_210758577]
+owner = nobody
+version = 8.0.0
+modtime = 1574522797.428045000
+
+[props/auth-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1574604376.876634000
+
+[props/term-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1574604377.420888000
+
+[props/unattended-upgrades-shutdown-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1574604377.856052000
+
+[props/term.log]
+owner = admin
+version = 8.0.0
+modtime = 1574604383.952944000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sun_Nov_24_15%3A06%3A24_2019_1471125696]
+owner = admin
+version = 8.0.0
+modtime = 1574604384.609607000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sun_Nov_24_15%3A06%3A24_2019_914221721]
+owner = admin
+version = 8.0.0
+modtime = 1574604384.919787000
+
+[props/term.log-2]
+owner = admin
+version = 8.0.0
+modtime = 1574604385.815056000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sun_Nov_24_15%3A06%3A25_2019_337047314]
+owner = admin
+version = 8.0.0
+modtime = 1574604386.211741000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sun_Nov_24_15%3A06%3A26_2019_569175663]
+owner = admin
+version = 8.0.0
+modtime = 1574604386.523240000
+
+[props/term.log-3]
+owner = admin
+version = 8.0.0
+modtime = 1574604388.074568000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.2_Sun_Nov_24_15%3A06%3A28_2019_1528550645]
+owner = admin
+version = 8.0.0
+modtime = 1574604388.410809000
+
+[props/term.log-4]
+owner = admin
+version = 8.0.0
+modtime = 1574604388.859683000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.2_Sun_Nov_24_15%3A06%3A29_2019_1176429871]
+owner = admin
+version = 8.0.0
+modtime = 1574604389.378102000
+
+[props/term.log-5]
+owner = admin
+version = 8.0.0
+modtime = 1574604392.468525000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.3_Sun_Nov_24_15%3A06%3A33_2019_1922403635]
+owner = admin
+version = 8.0.0
+modtime = 1574604394.012924000
+
+[props/term.log-6]
+owner = admin
+version = 8.0.0
+modtime = 1574604394.553959000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.3_Sun_Nov_24_15%3A06%3A35_2019_1024021668]
+owner = admin
+version = 8.0.0
+modtime = 1574604395.535089000
+
+[props/unattended-upgrades-shutdown.log-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1574604397.107663000
+
+[props/web_availability_modular_input-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1574605813.158425000
+
+[props/website_monitoring_rest_handler-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1574605813.471397000
+
+[props/python_modular_input-2]
+owner = nobody
+version = 8.0.0
+modtime = 1575106824.783610000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fpython_modular_input.log_Sat_Nov_30_10%3A40%3A24_2019_1038791201]
+owner = nobody
+version = 8.0.0
+modtime = 1575106824.888885000
+
+[props/dpkg-5]
+owner = nobody
+version = 8.0.0
+modtime = 1575107569.072635000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Sat_Nov_30_10%3A52%3A49_2019_292617695]
+owner = nobody
+version = 8.0.0
+modtime = 1575107569.161305000
+
+[props/term-8]
+owner = nobody
+version = 8.0.0
+modtime = 1575107569.591542000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Sat_Nov_30_10%3A52%3A49_2019_1278992768]
+owner = nobody
+version = 8.0.0
+modtime = 1575107569.679086000
+
+[props/dpkg-6]
+owner = nobody
+version = 8.0.0
+modtime = 1575109443.414456000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Sat_Nov_30_11%3A24%3A03_2019_788513350]
+owner = nobody
+version = 8.0.0
+modtime = 1575109443.505152000
+
+[props/term.log-7]
+owner = nobody
+version = 8.0.0
+modtime = 1578720301.810996000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sat_Jan_11_06%3A25%3A02_2020_1416851050]
+owner = nobody
+version = 8.0.0
+modtime = 1578720302.782472000
+
+[props/dpkg.log]
+owner = nobody
+version = 8.0.0
+modtime = 1578720302.955058000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sat_Jan_11_06%3A25%3A03_2020_306888988]
+owner = nobody
+version = 8.0.0
+modtime = 1578720303.233172000
+
+[props/dpkg-8]
+owner = nobody
+version = 8.0.0
+modtime = 1583913913.720277000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Wed_Mar_11_09%3A05%3A13_2020_1683025275]
+owner = nobody
+version = 8.0.0
+modtime = 1583913914.073856000
+
+[props/term-10]
+owner = nobody
+version = 8.0.0
+modtime = 1583913914.856448000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Wed_Mar_11_09%3A05%3A14_2020_409212767]
+owner = nobody
+version = 8.0.0
+modtime = 1583913915.163080000
+
+[props/kern-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1584249903.300196000
+
+[props/dpkg-9]
+owner = nobody
+version = 8.0.0
+modtime = 1589543033.981412000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Fri_May_15_13%3A43%3A54_2020_1488052792]
+owner = nobody
+version = 8.0.0
+modtime = 1589543034.344928000
+
+[props/term-11]
+owner = nobody
+version = 8.0.0
+modtime = 1589543035.628347000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Fri_May_15_13%3A43%3A55_2020_1452550693]
+owner = nobody
+version = 8.0.0
+modtime = 1589543036.011912000
+
+[props/dpkg-10]
+owner = admin
+version = 8.0.0
+modtime = 1592896749.578715000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Tue_Jun_23_09%3A19%3A09_2020_1245002525]
+owner = admin
+version = 8.0.0
+modtime = 1592896749.865234000
+
+[props/term-12]
+owner = admin
+version = 8.0.0
+modtime = 1592896750.796510000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Tue_Jun_23_09%3A19%3A10_2020_1495414166]
+owner = admin
+version = 8.0.0
+modtime = 1592896750.950641000
+
+[props/mail-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1592898091.740128000
+
+[props/mail.log-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1593318305.552476000
+
+[props/term.log-8]
+owner = nobody
+version = 8.0.0
+modtime = 1594441503.287399000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sat_Jul_11_06%3A25%3A03_2020_1844524742]
+owner = nobody
+version = 8.0.0
+modtime = 1594441503.539942000
+
+[props/dpkg-11]
+owner = nobody
+version = 8.0.0
+modtime = 1595912814.497895000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Tue_Jul_28_07%3A06%3A54_2020_5644785]
+owner = nobody
+version = 8.0.0
+modtime = 1595912814.753806000
+
+[props/term-14]
+owner = nobody
+version = 8.0.0
+modtime = 1595912816.167249000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Tue_Jul_28_07%3A06%3A56_2020_762548085]
+owner = nobody
+version = 8.0.0
+modtime = 1595912816.642858000
+
+[props/metric_collector-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597593629.850967000
+
+[props/ta-resttest_util-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597594142.196855000
+
+[props/ta-resttest_cloud_connect_engine-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597594142.804845000
+
+[props/ta_resttest_myip-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597594143.572283000
+
+[props/ta-apod_util-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597956064.376442000
+
+[props/ta-apod_cloud_connect_engine-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597956064.859081000
+
+[props/ta_apod_apod-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1597956065.317157000
+
+[props/metric_collector-2]
+owner = nobody
+version = 8.0.0
+modtime = 1597956111.278378000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fmetric_collector.log_Thu_Aug_20_22%3A41%3A51_2020_1077461862]
+owner = nobody
+version = 8.0.0
+modtime = 1597956111.692475000
+
+[props/dpkg-12]
+owner = nobody
+version = 8.0.0
+modtime = 1598555520.029089000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Thu_Aug_27_21%3A12%3A00_2020_1531131788]
+owner = nobody
+version = 8.0.0
+modtime = 1598555520.591648000
+
+[props/term-15]
+owner = nobody
+version = 8.0.0
+modtime = 1598555524.285783000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Thu_Aug_27_21%3A12%3A04_2020_1967781855]
+owner = nobody
+version = 8.0.0
+modtime = 1598555525.046960000
+
+[props/dpkg-13]
+owner = nobody
+version = 8.0.0
+modtime = 1599650062.494354000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Wed_Sep__9_13%3A14%3A22_2020_562508857]
+owner = nobody
+version = 8.0.0
+modtime = 1599650062.992784000
+
+[props/term-16]
+owner = nobody
+version = 8.0.0
+modtime = 1599650065.758907000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Wed_Sep__9_13%3A14%3A25_2020_395794407]
+owner = nobody
+version = 8.0.0
+modtime = 1599650066.015541000
+
+[props/phone-sample-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1599853714.717231000
+
+[props/term-17]
+owner = nobody
+version = 8.0.0
+modtime = 1603094909.304518000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Mon_Oct_19_10%3A08%3A29_2020_1086244696]
+owner = nobody
+version = 8.0.0
+modtime = 1603094909.830105000
+
+[props/ta-covid19_util-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1603448967.346095000
+
+[props/ta-covid19_cloud_connect_engine-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1603448967.604144000
+
+[props/ta_covid19_coviddata-too_small]
+owner = nobody
+version = 8.0.0
+modtime = 1603448967.935027000
+
+[props/dpkg-14]
+owner = nobody
+version = 8.0.0
+modtime = 1604310595.524294000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Mon_Nov__2_10%3A49%3A56_2020_1388742444]
+owner = nobody
+version = 8.0.0
+modtime = 1604310596.558888000
+
+[props/dpkg-15]
+owner = nobody
+version = 8.0.0
+modtime = 1607507307.037143000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Wed_Dec__9_10%3A48%3A27_2020_1752160718]
+owner = nobody
+version = 8.0.0
+modtime = 1607507307.644597000
+
+[props/term-18]
+owner = nobody
+version = 8.0.0
+modtime = 1610815767.265342000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Sat_Jan_16_17%3A49%3A27_2021_1603772854]
+owner = nobody
+version = 8.0.0
+modtime = 1610815767.655127000
+
+[props/apport-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1613162160.303080000
+
+[props/apport.log-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1613193901.931891000
+
+[props/dpkg-16]
+owner = admin
+version = 8.0.0
+modtime = 1616909358.794167000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Sun_Mar_28_07%3A29%3A18_2021_1967692810]
+owner = admin
+version = 8.0.0
+modtime = 1616909359.163673000
+
+[props/term-19]
+owner = admin
+version = 8.0.0
+modtime = 1616909361.392354000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Sun_Mar_28_07%3A29%3A22_2021_1383739850]
+owner = admin
+version = 8.0.0
+modtime = 1616909362.472021000
+
+[props/term.log-9]
+owner = admin
+version = 8.0.0
+modtime = 1619843103.210355000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log.1_Sat_May__1_06%3A25%3A03_2021_1085435567]
+owner = admin
+version = 8.0.0
+modtime = 1619843103.457133000
+
+[props/dpkg-17]
+owner = admin
+version = 8.0.0
+modtime = 1622890055.286345000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Sat_Jun__5_12%3A47%3A35_2021_2040328544]
+owner = admin
+version = 8.0.0
+modtime = 1622890055.812925000
+
+[props/term-21]
+owner = admin
+version = 8.0.0
+modtime = 1622890059.547270000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Sat_Jun__5_12%3A47%3A39_2021_705936970]
+owner = admin
+version = 8.0.0
+modtime = 1622890059.921933000
+
+[props/apt-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1622931695.978035000
+
+[props/apt-term-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1622931911.362234000
+
+[props/dpkg.log-2]
+owner = admin
+version = 8.0.0
+modtime = 1622953505.982659000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A06_2021_1365759825]
+owner = admin
+version = 8.0.0
+modtime = 1622953506.659103000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A06_2021_251648180]
+owner = admin
+version = 8.0.0
+modtime = 1622953506.802287000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A06_2021_1788830611]
+owner = admin
+version = 8.0.0
+modtime = 1622953507.013407000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A07_2021_701668870]
+owner = admin
+version = 8.0.0
+modtime = 1622953507.222029000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A07_2021_230503162]
+owner = admin
+version = 8.0.0
+modtime = 1622953507.463914000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A07_2021_534298073]
+owner = admin
+version = 8.0.0
+modtime = 1622953507.629382000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log.1_Sun_Jun__6_06%3A25%3A07_2021_1586104817]
+owner = admin
+version = 8.0.0
+modtime = 1622953507.893687000
+
+[props/lxd-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1622962737.971027000
+
+[props/xorg_fixup-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1622963006.219277000
+
+[props/dpkg-19]
+owner = admin
+version = 8.0.0
+modtime = 1622963177.236268000
+
+[sourcetypes/%2Fvar%2Flog%2Fdpkg.log_Sun_Jun__6_09%3A06%3A17_2021_1095638327]
+owner = admin
+version = 8.0.0
+modtime = 1622963177.521019000
+
+[props/main-2]
+owner = admin
+version = 8.0.0
+modtime = 1622963179.496697000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fmain.log_Sun_Jun__6_09%3A06%3A19_2021_2042814038]
+owner = admin
+version = 8.0.0
+modtime = 1622963179.822434000
+
+[props/apt-3]
+owner = admin
+version = 8.0.0
+modtime = 1622963180.353079000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fapt.log_Sun_Jun__6_09%3A06%3A20_2021_91444386]
+owner = admin
+version = 8.0.0
+modtime = 1622963180.454844000
+
+[props/eipp.log-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1622964235.652838000
+
+[props/main-3]
+owner = admin
+version = 8.0.0
+modtime = 1622965729.586253000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fmain.log_Sun_Jun__6_09%3A48%3A49_2021_1099336763]
+owner = admin
+version = 8.0.0
+modtime = 1622965729.946696000
+
+[props/apt-4]
+owner = admin
+version = 8.0.0
+modtime = 1622965731.635051000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fapt.log_Sun_Jun__6_09%3A48%3A51_2021_549122241]
+owner = admin
+version = 8.0.0
+modtime = 1622965731.809045000
+
+[sourcetypes/%2Fvar%2Flog%2Fmail.log.1_Sun_Jun_13_00%3A00%3A17_2021_641396923]
+owner = admin
+version = 8.0.0
+modtime = 1623535217.806222000
+
+[sourcetypes/%2Fvar%2Flog%2Fmail.log.1_Sun_Jun_20_00%3A00%3A37_2021_861987752]
+owner = admin
+version = 8.0.0
+modtime = 1624140038.367243000
+
+[props/alternatives-3]
+owner = admin
+version = 8.0.0
+modtime = 1624392841.034452000
+
+[sourcetypes/%2Fvar%2Flog%2Falternatives.log_Tue_Jun_22_22%3A14%3A03_2021_1339721929]
+owner = admin
+version = 8.0.0
+modtime = 1624392845.263290000
+
+[props/ta-resttest_myip_e337cbd8096c58576ad84db35b0480388fcc0d589b9a5e89daaf4a58e0e077a8.log]
+owner = admin
+version = 8.0.0
+modtime = 1624393380.356532000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fta-resttest_myip_e337cbd8096c58576ad84db35b0480388fcc0d589b9a5e89daaf4a58e0e077a8.log.3_Tue_Jun_22_22%3A23%3A02_2021_231398213]
+owner = admin
+version = 8.0.0
+modtime = 1624393386.151626000
+
+[props/ta-resttest_cloud_connect_engine-2]
+owner = admin
+version = 8.0.0
+modtime = 1624393539.508004000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fta-resttest_cloud_connect_engine.log_Tue_Jun_22_22%3A25%3A40_2021_353817481]
+owner = admin
+version = 8.0.0
+modtime = 1624393542.759715000
+
+[props/ta-resttest_util-2]
+owner = admin
+version = 8.0.0
+modtime = 1624393973.377586000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fta-resttest_util.log_Tue_Jun_22_22%3A32%3A53_2021_1785780562]
+owner = admin
+version = 8.0.0
+modtime = 1624393973.707462000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fta-resttest_util.log_Tue_Jun_22_22%3A32%3A53_2021_1975313277]
+owner = admin
+version = 8.0.0
+modtime = 1624393974.131499000
+
+[props/modinput_eventgen-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624393984.126386000
+
+[props/aptitude-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624393995.002503000
+
+[props/telemetry-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394003.373875000
+
+[props/lspci-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394003.646999000
+
+[props/screenlog]
+owner = admin
+version = 8.0.0
+modtime = 1624394004.569974000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A24_2021_902964136]
+owner = admin
+version = 8.0.0
+modtime = 1624394004.836734000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A24_2021_1263327591]
+owner = admin
+version = 8.0.0
+modtime = 1624394005.069299000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A25_2021_1538496179]
+owner = admin
+version = 8.0.0
+modtime = 1624394005.285259000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A25_2021_354616591]
+owner = admin
+version = 8.0.0
+modtime = 1624394005.493133000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A25_2021_1410389511]
+owner = admin
+version = 8.0.0
+modtime = 1624394005.714864000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A25_2021_831581198]
+owner = admin
+version = 8.0.0
+modtime = 1624394005.982214000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A26_2021_286712127]
+owner = admin
+version = 8.0.0
+modtime = 1624394006.347449000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A26_2021_2035358175]
+owner = admin
+version = 8.0.0
+modtime = 1624394006.934114000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A27_2021_1050398249]
+owner = admin
+version = 8.0.0
+modtime = 1624394007.366237000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A27_2021_1848740510]
+owner = admin
+version = 8.0.0
+modtime = 1624394007.606841000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A27_2021_836326641]
+owner = admin
+version = 8.0.0
+modtime = 1624394007.818890000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A27_2021_432980112]
+owner = admin
+version = 8.0.0
+modtime = 1624394008.085759000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A28_2021_1566488301]
+owner = admin
+version = 8.0.0
+modtime = 1624394008.343888000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A28_2021_1801211267]
+owner = admin
+version = 8.0.0
+modtime = 1624394008.632653000
+
+[sourcetypes/%2Fvar%2Flog%2Fdist-upgrade%2Fscreenlog.0_Tue_Jun_22_22%3A33%3A28_2021_1259077849]
+owner = admin
+version = 8.0.0
+modtime = 1624394008.910671000
+
+[props/sai_group_metadata_manager.log]
+owner = admin
+version = 8.0.0
+modtime = 1624394254.610113000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsai_group_metadata_manager.log.1_Tue_Jun_22_22%3A37%3A34_2021_1418049530]
+owner = admin
+version = 8.0.0
+modtime = 1624394255.004226000
+
+[props/sai_migration_controller-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394262.296982000
+
+[props/sai_rest_audit-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394263.572499000
+
+[props/sai_entity_class_manager-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394267.710382000
+
+[props/sai_entity_migration-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394270.223978000
+
+[props/splunk_app_addon-builder_validation_engine]
+owner = admin
+version = 8.0.0
+modtime = 1624394315.236498000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_addon-builder_validation_engine.log_Tue_Jun_22_22%3A38%3A35_2021_2071732374]
+owner = admin
+version = 8.0.0
+modtime = 1624394315.375813000
+
+[props/splunk_app_addon-builder_default_metric_events-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1624394317.943582000
+
+[props/splunk_app_addon-builder_ta_builder]
+owner = admin
+version = 8.0.0
+modtime = 1624394319.385985000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_addon-builder_ta_builder.log_Tue_Jun_22_22%3A38%3A39_2021_735138124]
+owner = admin
+version = 8.0.0
+modtime = 1624394319.738665000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_addon-builder_ta_builder.log_Tue_Jun_22_22%3A38%3A39_2021_1244750258]
+owner = admin
+version = 8.0.0
+modtime = 1624394320.098395000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_addon-builder_ta_builder.log_Tue_Jun_22_22%3A38%3A40_2021_159232628]
+owner = admin
+version = 8.0.0
+modtime = 1624394320.645502000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_addon-builder_ta_builder.log_Tue_Jun_22_22%3A38%3A41_2021_1808688176]
+owner = admin
+version = 8.0.0
+modtime = 1624394321.225413000
+
+[sourcetypes/%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fsplunk_app_addon-builder_ta_builder.log_Tue_Jun_22_22%3A38%3A41_2021_864450920]
+owner = admin
+version = 8.0.0
+modtime = 1624394321.499724000
+
+[props/term-22]
+owner = admin
+version = 8.0.0
+modtime = 1624465534.770631000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Wed_Jun_23_18%3A25%3A34_2021_442882892]
+owner = admin
+version = 8.0.0
+modtime = 1624465535.066243000
+
+[props/ufw-too_small]
+owner = admin
+version = 8.0.0
+modtime = 1635840255.572641000
+
+[props/splunk_secure_gateway_version_request_processor-too_small]
+owner = nobody
+version = 8.2.2
+modtime = 1635842749.208576000
+
+[props/cloudgateway_untracked-too_small]
+owner = nobody
+version = 8.2.2
+modtime = 1635842751.193827000
+
+[props/term-23]
+owner = admin
+version = 8.2.2
+modtime = 1635850585.605578000
+
+[sourcetypes/%2Fvar%2Flog%2Fapt%2Fterm.log_Tue_Nov__2_11%3A56%3A25_2021_1125995022]
+owner = admin
+version = 8.2.2
+modtime = 1635850585.722641000

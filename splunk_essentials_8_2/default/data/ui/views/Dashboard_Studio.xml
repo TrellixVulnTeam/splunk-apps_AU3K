@@ -1,0 +1,76 @@
+<dashboard>
+
+  <label>Dashboard Studio</label>
+
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+
+        <p> Dashboard Studio allows you to: </p>
+        <ol>
+          <li> Easily create powerful, story-telling dashboards with advanced visualization tools.</li>
+          <li> Efficiently build dashboards with a streamlined editing experience and fully customizable formats.</li>
+          <li> Empower more dashboard creators and users to get hands on with no custom code required.</li>
+        </ol>
+       <p> Formerly known as the popular Dashboard Beta App on Splunkbase, Dashboard Studio will now be integrated directly into Search &amp; Reporting and you can now enjoy two dashboard editor options - Classic Dashboards (our traditional Simple XML dashboards) and Dashboard Studio. Aspects of this dashboarding framework can also be experienced in ITSI’s Glass Tables and Mission Control.</p>
+         
+         <p><strong>Key Features Similar to Simple XML include</strong></p>
+         <ol>
+          <li> Data &amp; Searches: Support for in-line searches, saved searches (reports), and base/post-process searches </li>
+          <li> Visualizations: Standard charts like line, area, bar, column, pie, gauges, tables, maps, etc... </li>
+          <li> Inputs: Time range picker, selection lists, text boxes. </li>
+          <li> Tokens: Set tokens from inputs that dynamically update the dashboard. </li>
+          <li> Drilldown: Drilldown to a URL. </li>
+          <li> Examples: Examples of visualization configurations, data source options, complete dashboards and more. </li>
+          <li> UI Editor &amp; Source Code Editor: improved UI editor, and modern JSON source code. </li>
+         </ol>
+
+        <p><strong>Exclusive New Features include</strong></p>
+         <ol>
+          <li> Flexible layouts: Absolute layout for full control of positioning, layering, and sizing. Grid layout for snap-to alignment and panel resizing. </li>
+          <li> More objects: Support for images, icons, shapes, lines, and text boxes. </li>
+          <li> On-demand export to PNG/PDF: While maintaining the look &amp; feel of the dashboard! </li>
+          <li> Dashboard defaults: Set visualization options or query parameters once to apply across your dashboard. </li>
+          <li> Choropleth SVG: Upload custom images that are responsive to data. </li>
+          <li> Editor shortcuts &amp; bulk actions: Multi-select objects and align, resize, rearrange, or layer. </li>
+         </ol>
+
+         <p> For more information on using some of these new cool features, refer to <a href="https://www.splunk.com/en_us/blog/platform/dashboards-ga-introducing-splunk-dashboard-studio.html" target="_blank">this blog post</a> and check out the <a href="http://docs.splunk.com/Documentation/Splunk/8.2.0/DashStudio/IntroFrame" target="_blank">Splunk Dashboard Studio manual</a>.</p>
+         <br/>
+
+                <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/5_dash_studio.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+              
+                <ul>
+                 <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/6_dash_studio.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+             
+                <ul>
+                 <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/7_dash_studio.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+
+                  <ul>
+                 <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/8_dash_studio.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+         <br/>
+        </html>
+    </panel>
+  </row>
+</dashboard>

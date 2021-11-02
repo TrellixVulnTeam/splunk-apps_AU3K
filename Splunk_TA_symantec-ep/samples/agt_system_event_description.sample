@@ -1,0 +1,14 @@
+A LiveUpdate session encountered errors.  1 update(s) were available. 0 update(s) installed successfully. 1 update(s) failed to install.
+An update for Intrusion Prevention Signatures from LiveUpdate failed to install. Error: Postsession callback failed (208)
+Cannot assign a client authentication token. This client is over the maximum allocation of client authentication tokens.
+Downloaded new content update from the management server failed.     Remote file path: https://10.0.0.1:443/content/{XXXXXXB3-9282-482f-BBAA-6D515DXXXXXX}/150416033/xdelta150416033_To_150416052.dax
+Downloaded new content update from the management server failed.     Remote file path: https://sepxxxxx:443/content/{XXXXXXB3-9282-482f-BBAA-6D515DXXXXXX}/150416033/xdelta150416033_To_150416052.daxvbackend\packagescoproc update.19499926.exe'.
+Failed to contact server for more than 10 times.
+Symantec Endpoint Protection has determined that the virus definitions are missing on this computer. This computer will remain unprotected from viruses until virus definitions are downloaded to this computer.
+The Symantec Endpoint Protection is unable to download the newest policy from the Symantec Endpoint Protection Manager.
+[Antivirus advanced heuristic detection submission] Submitting file to Symantec failed.  File : 'C:\users\user_1\AppData\Local\Temp­3\G2MCoreInstExtractor.exe'.
+[Antivirus advanced heuristic detection submission] Submitting file to Symantec failed.  File : 'C:\Vlad\Software\WinSCP\winscp572setup.exe'.
+[Antivirus advanced heuristic detection submission] Submitting information to Symantec about file failed. File : 'C:\Vlad\Software\WinSCP\winscp572setup.exe'.
+[Client authentication token request] Submitting information to Symantec failed.
+[Intrusion prevention submission] Submitting information to Symantec failed.
+[SONAR heuristic Submission] Submitting file to Symantec failed.  File : 'c:\program files (x86)\Application!.0.2272.118\installer\setup.exe'.

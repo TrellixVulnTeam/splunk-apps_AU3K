@@ -1,0 +1,47 @@
+<dashboard>
+
+  <label>Durable Scheduled Searches</label>
+
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+
+        <p> Individual runs of scheduled reports sometimes develop errors. Sometimes these errors cause scheduled search jobs to return incomplete result sets. For example, a search might return incomplete results when an indexer fails to locate a bucket of events. Other times, scheduled report jobs encounter errors that prevent them from returning any results at all. For example, you will not see search results when a resource bottleneck causes the search scheduler to skip a run of a scheduled report. </p>
+       <p> Consider enabling durable search processing for a scheduled report that must return complete search results for each of its scheduled report runs. Durable search processing ensures that the scheduled report does not lose events over time, even when errors occur. It does this by scheduling backfill search jobs to replace the results of failed searches. </p>
+          <p><strong>Accessing the Feature for a Summary Index</strong> </p>
+          <ol>
+          <li> Click on “Settings” in the global navigation bar and select “Searches, reports, and alerts”. </li>
+          <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/2_dur_search.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+          <li>Edit any given row by clicking on the dropdown and selecting “Edit Summary Indexing” for a search that is already scheduled. </li>
+          <ul>
+          <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/3_dur_search.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+          <li>In the “Edit Summary Index” modal, click the checkbox for “Enable durable search” and choose the settings that fit your use case. </li>
+          <ul>
+          <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/4_dur_search.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+
+          <li>For more guidance, including setting up durable search for other kinds of scheduled searches via the UI, see the Splunk documentation <a href="https://docs.splunk.com/Documentation/Splunk/8.2.0/Report/Durablesearch" target="_blank">here</a>.</li>
+         </ol>
+
+        
+         <br/>
+        </html>
+    </panel>
+  </row>
+</dashboard>

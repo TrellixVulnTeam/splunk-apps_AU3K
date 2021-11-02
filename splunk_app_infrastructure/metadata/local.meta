@@ -1,0 +1,55 @@
+[app/install/install_source_checksum]
+version = 8.0.0
+modtime = 1594472009.959745000
+
+[sai_migration/metadata]
+version = 8.0.0
+modtime = 1614195483.898349000
+
+[savedsearches/Entity%20Class%20-%20aws_cloudwatch_ebs]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845363.521642000
+
+[savedsearches/Entity%20Class%20-%20aws_cloudwatch_ec2]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845363.985419000
+
+[savedsearches/Entity%20Class%20-%20aws_cloudwatch_elb]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845364.399651000
+
+[savedsearches/Entity%20Class%20-%20k8s_node]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845364.989592000
+
+[savedsearches/Entity%20Class%20-%20k8s_pod]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845365.345281000
+
+[savedsearches/Entity%20Class%20-%20os]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845365.655955000
+
+[savedsearches/Entity%20Class%20-%20perfmon]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845365.995791000
+
+[savedsearches/Entity%20Class%20-%20telegraf]
+owner = splunk-system-user
+version = 8.0.0
+modtime = 1611845366.490115000
+
+[inputs/em_entity_migration%3A%2F%2Fjob]
+version = 8.0.0
+modtime = 1594472026.005928000
+
+[app/install/state]
+version = 8.0.0
+modtime = 1624394237.319811000

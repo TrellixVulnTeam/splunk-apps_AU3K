@@ -1,0 +1,584 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */
+
+/*!
+ * Copyright © 2018 Splunk Inc.
+ * SPLUNK CONFIDENTIAL – Use or disclosure of this material in whole or
+ * in part without a valid written license from Splunk Inc. is PROHIBITED.
+ */
+
+/*!
+ * Copyright © 2018 Splunk Inc.
+ * SPLUNK CONFIDENTIAL – Use or disclosure of this material in whole or in part
+ * without a valid written license from Splunk Inc. is PROHIBITED.
+ */
+
+/*!
+ * Copyright © 2020 Splunk Inc.
+ * SPLUNK CONFIDENTIAL – Use or disclosure of this material in whole or
+ * in part without a valid written license from Splunk Inc. is PROHIBITED.
+ */
+
+/*!
+ * Programatically add the following
+ */
+
+/*!
+ * Sizzle CSS Selector Engine v2.3.5
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2020-03-14
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * https://github.com/Starcounter-Jack/JSON-Patch
+ * (c) 2017 Joachim Wester
+ * MIT license
+ */
+
+/*!
+ * jQuery JavaScript Library v3.5.1
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2020-05-04T22:49Z
+ */
+
+/*!
+ * pascalcase <https://github.com/jonschlinkert/pascalcase>
+ *
+ * Copyright (c) 2015, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+/*! ../Dialog */
+
+/*! ../Dialog/stylesAndData */
+
+/*! ../themes */
+
+/*! ./AbsoluteValue */
+
+/*! ./AbsoluteValueStyles */
+
+/*! ./Advanced */
+
+/*! ./DateRange */
+
+/*! ./DateTimeRange */
+
+/*! ./Dialog */
+
+/*! ./Dropdown */
+
+/*! ./Panel */
+
+/*! ./PresetLink */
+
+/*! ./Presets */
+
+/*! ./PresetsStyles */
+
+/*! ./RealTime */
+
+/*! ./Relative */
+
+/*! ./SplunkwebConnector */
+
+/*! ./Styles */
+
+/*! ./stylesAndData */
+
+/*! ./variables */
+
+/*! @preserve
+ * numeral.js
+ * version : 2.0.6
+ * author : Adam Draper
+ * license : MIT
+ * http://adamwdraper.github.com/Numeral-js/
+ */
+
+/*! @splunk/moment */
+
+/*! @splunk/moment/convertSplunkTimezone */
+
+/*! @splunk/react-ui/Accordion */
+
+/*! @splunk/react-ui/Button */
+
+/*! @splunk/react-ui/ControlGroup */
+
+/*! @splunk/react-ui/Date */
+
+/*! @splunk/react-ui/Dropdown */
+
+/*! @splunk/react-ui/Link */
+
+/*! @splunk/react-ui/Message */
+
+/*! @splunk/react-ui/Number */
+
+/*! @splunk/react-ui/RadioList */
+
+/*! @splunk/react-ui/Select */
+
+/*! @splunk/react-ui/StaticContent */
+
+/*! @splunk/react-ui/Text */
+
+/*! @splunk/react-ui/themes */
+
+/*! @splunk/splunk-utils/config */
+
+/*! @splunk/themes/enterprise */
+
+/*! @splunk/themes/enterpriseDark */
+
+/*! @splunk/themes/lite */
+
+/*! @splunk/themes/scp */
+
+/*! @splunk/time-range-utils/presets */
+
+/*! @splunk/time-range-utils/time */
+
+/*! @splunk/time-range-utils/timeParser */
+
+/*! @splunk/ui-utils/format */
+
+/*! @splunk/ui-utils/i18n */
+
+/*! @splunk/ui-utils/keyboard */
+
+/*! @splunk/ui-utils/promise */
+
+/*! exports provided: AdvancedInputType, FormInputType, possibleFormInputTypes, possibleAdvancedInputTypes, findPanelType, convertToISO, default */
+
+/*! exports provided: Styled */
+
+/*! exports provided: Styled, StyledColumn, StyledHeading */
+
+/*! exports provided: StyledError, StyledCGWrapper, StyledApplyContainer, StyledFromControl */
+
+/*! exports provided: default */
+
+/*! exports provided: default, AdvancedInputType, FormInputType, possibleFormInputTypes, possibleAdvancedInputTypes, findPanelType, convertToISO */
+
+/*! exports provided: enterprise, lite, enterpriseDark, scp, variable, mixin, themes */
+
+/*! http://mths.be/fromcodepoint v0.2.1 by @mathias */
+
+/*! http://mths.be/repeat v0.2.0 by @mathias */
+
+/*! https://mths.be/cssesc v3.0.0 by @mathias */
+
+/*! lodash */
+
+/*! lodash/defaultsDeep */
+
+/*! lodash/get */
+
+/*! no static exports found */
+
+/*! prop-types */
+
+/*! react */
+
+/*! styled-components */
+
+/*!***********************!*\
+  !*** ./src/helper.js ***!
+  \***********************/
+
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+
+/*!*************************!*\
+  !*** external "lodash" ***!
+  \*************************/
+
+/*!**************************!*\
+  !*** ./src/variables.js ***!
+  \**************************/
+
+/*!*****************************!*\
+  !*** ./src/Dialog/index.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/themes/index.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** external "lodash/get" ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** external "prop-types" ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/Dialog/Panel.tsx ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/Dialog/Styles.ts ***!
+  \******************************/
+
+/*!*******************************!*\
+  !*** ./src/Dialog/Dialog.tsx ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/Dropdown/index.ts ***!
+  \*******************************/
+
+/*!********************************!*\
+  !*** ./src/Dialog/Presets.tsx ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./src/Dialog/Advanced.tsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/Dialog/RealTime.tsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/Dialog/Relative.tsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** external "@splunk/moment" ***!
+  \*********************************/
+
+/*!**********************************!*\
+  !*** ./src/Dialog/DateRange.tsx ***!
+  \**********************************/
+
+/*!***********************************!*\
+  !*** ./src/Dialog/PresetLink.tsx ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/Dropdown/Dropdown.tsx ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+
+/*!*************************************!*\
+  !*** ./src/Dialog/PresetsStyles.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/Dialog/stylesAndData.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** external "@splunk/themes/scp" ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./src/Dialog/AbsoluteValue.tsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/Dialog/DateTimeRange.tsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** external "@splunk/themes/lite" ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** external "lodash/defaultsDeep" ***!
+  \**************************************/
+
+/*!****************************************!*\
+  !*** external "@splunk/react-ui/Date" ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** external "@splunk/react-ui/Link" ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** external "@splunk/react-ui/Text" ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** external "@splunk/ui-utils/i18n" ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/SplunkwebConnector/index.ts ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** external "@splunk/react-ui/Button" ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** external "@splunk/react-ui/Number" ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** external "@splunk/react-ui/Select" ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** external "@splunk/react-ui/themes" ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** external "@splunk/ui-utils/format" ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/Dialog/AbsoluteValueStyles.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** external "@splunk/react-ui/Message" ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** external "@splunk/ui-utils/promise" ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** external "@splunk/react-ui/Dropdown" ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** external "@splunk/themes/enterprise" ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** external "@splunk/ui-utils/keyboard" ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** external "@splunk/react-ui/Accordion" ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** external "@splunk/react-ui/RadioList" ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** external "@splunk/splunk-utils/config" ***!
+  \**********************************************/
+
+/*!************************************************!*\
+  !*** external "@splunk/react-ui/ControlGroup" ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** external "@splunk/themes/enterpriseDark" ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** external "@splunk/time-range-utils/time" ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** external "@splunk/react-ui/StaticContent" ***!
+  \*************************************************/
+
+/*!***************************************************!*\
+  !*** external "@splunk/time-range-utils/presets" ***!
+  \***************************************************/
+
+/*!******************************************************!*\
+  !*** external "@splunk/time-range-utils/timeParser" ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./src/SplunkwebConnector/SplunkwebConnector.tsx ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** external "@splunk/moment/convertSplunkTimezone" ***!
+  \*******************************************************/
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/**
+ * @license Highcharts JS v7.2.2 (2020-08-24)
+ *
+ * (c) 2009-2018 Torstein Honsi
+ *
+ * License: www.highcharts.com/license
+ */
+
+/**
+ * chroma.js - JavaScript library for color conversions
+ *
+ * Copyright (c) 2011-2019, Gregor Aisch
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *
+ * 3. The name Gregor Aisch may not be used to endorse or promote products
+ * derived from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL GREGOR AISCH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * -------------------------------------------------------
+ *
+ * chroma.js includes colors from colorbrewer2.org, which are released under
+ * the following license:
+ *
+ * Copyright (c) 2002 Cynthia Brewer, Mark Harrower,
+ * and The Pennsylvania State University.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+ * either express or implied. See the License for the specific
+ * language governing permissions and limitations under the License.
+ *
+ * ------------------------------------------------------
+ *
+ * Named colors are taken from X11 Color Names.
+ * http://www.w3.org/TR/css3-color/#svg-color
+ *
+ * @preserve
+ */
+
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react-dom-server.browser.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.8.6
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license URI.js v4.2.1 (c) 2011 Gary Court. License: http://github.com/garycourt/uri-js */
+
+//! Copyright (c) JS Foundation and other contributors
+
+//! github.com/moment/moment-timezone
+
+//! license : MIT
+
+//! moment-timezone-utils.js
+
+//! moment-timezone.js
+
+//! moment.js
+
+//! moment.js locale configuration
+
+//! version : 0.5.13
+
+//! version : 0.5.28
+
+//! version : 0.5.32

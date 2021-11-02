@@ -1,0 +1,13 @@
+Major,"Portscan",Inbound,C:/Windows/System32/example_x.exe,Portscan
+Major,Informational: HTTP PE Download,Inbound,C:/Windows/System32/example_x.exe,Informational: HTTP PE Download
+Major,"Web Attack: Mass Iframe Injection Website 17",Outbound,C:/Windows/System32/example_x.exe,Web Attack: Mass Iframe Injection Website 17
+Major,"Web Attack: Fake Scan Webpage 7",Inbound,C:/Windows/System32/example_x.exe,Web Attack: Fake Scan Webpage 7
+Major,"Web Attack: Fake Flash Update Download 2",Inbound,C:/Windows/System32/example_x.exe,Web Attack: Fake Flash Update Download 2
+Major,"Brute force remote login",Inbound,C:/Windows/System32/example_y.EXE,Brute force remote login
+Major,Web Attack: Malicious SWF Download 31,Inbound,C:/Windows/System32/example_y.EXE,Web Attack: Malicious SWF Download 31
+Major,Web Attack: Plugin Detect Research,Inbound,C:/Windows/System32/example_y.EXE,Web Attack: Plugin Detect Research
+Major,Web Attack: Malicious Website Accessed 3,Outbound,C:/Windows/System32/example_y.EXE,Web Attack: Malicious Website Accessed 3
+Major,System Infected: Trojan Backdoor Activity 39,Inbound,C:/Windows/System32/example_y.EXE,System Infected: Trojan Backdoor Activity 39
+Major,Web Attack : Malvertisement Website Redirect,Inbound,C:/Windows/System32/example_y.EXE,Web Attack : Malvertisement Website Redirect
+Major,Web Attack: Fakebook Manual Share 44,Inbound,C:/Windows/System32/example_y.EXE,Web Attack: Fakebook Manual Share 44
+Critical,[SID: 27430] Web Attack: Anguler Exploit Kit Website 6 attack blocked. Traffic has been blocked for this application: \DEVICE\HARDDISKVOLUME2\PROGRAM FILES (X86)\example.EXE,Inbound,C:/Windows/System32/example_y.EXE,[SID: 27430] Web Attack: Anguler Exploit Kit Website 6 attack blocked. Traffic has been blocked for this application: \DEVICE\HARDDISKVOLUME2\PROGRAM FILES (X86)\example.EXE

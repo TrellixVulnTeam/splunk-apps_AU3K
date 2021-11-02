@@ -1,0 +1,17 @@
+<dashboard>
+
+  <label>Splunk Operator for Kubernetes</label>
+  <row>
+    <panel>
+      <html>      
+
+        <p><strong>Description</strong></p>
+        <ul>
+        <li> See <a href="https://github.com/splunk/splunk-operator/blob/develop/docs/README.md" target="_blank">"Getting Started with the Splunk Operator for Kubernetes"</a>.</li>
+        <li> What is an <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/" target="_blank">operator pattern</a>?</li>
+        <li> What is a <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/" target="_blank">custom resource</a>?</li>
+        </ul>
+        </html>
+    </panel>
+  </row>
+</dashboard>

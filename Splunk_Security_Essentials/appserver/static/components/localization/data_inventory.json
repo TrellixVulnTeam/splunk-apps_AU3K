@@ -1,0 +1,1326 @@
+{
+    "DS001MAIL": {
+        "description": "Email is a significant component of day-to-day business (and personal) activity and can be accessible not only on corporate desktop computers but also mobile devices, including personal devices, which introduces new vulnerabilities and has become a critical part of enterprise cybersecurity efforts. Email messages and activity logs across these endpoints can provide critical insights into communication activity that might warrant more in-depth investigation. For example, attackers may be sending emails with malicious code attached in a file or embedding a link to a website where the malicious code is hosted, targeting recipients, in order to obtain intellectual property or personally identifiable information/personal data, as well as command and control. In addition, internal threats leveraging email may include transmitting data to external email accounts.",
+        "eventtypes": {
+            "DS001MAIL-ET01Access": {
+                "common_product_names": [],
+                "description": "Event indicates a specific message has been accessed by a user from a specific source system. Relevant data sources include all the devices or users generating email protocol traffic on the network captured from vulnerability scanners and packet analysis tools such as Splunk Stream and the Bro network security monitor.",
+                "name": "Email Access/Open",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS001MAIL-ET02Receive": {
+                "common_product_names": [],
+                "description": "Inbound messages are messages that the mail servers receive into the network via the Simple Mail Transfer Protocol (SMTP). Relevant data sources include all the devices or users generating email protocol traffic on the network captured from message trace logs or protocol-specific wire data sources like Splunk Stream, Bro/Zeek, or a network analysis solution like ExtraHop.",
+                "name": "Incoming Messages",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS001MAIL-ET03Send": {
+                "common_product_names": [],
+                "description": "Outbound messages are messages that the mail servers send out of the network via the Simple Mail Transfer Protocol (SMTP). Relevant data sources include all the devices or users generating email protocol traffic on the network captured from message trace logs or protocol-specific wire data sources like Splunk Stream, Bro/Zeek, or a network analysis solution like ExtraHop.",
+                "name": "Outgoing Messages",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Email"
+    },
+    "DS002DNS": {
+        "description": "The Domain Name System (DNS) is the Internet's phone book/contact list, that translates (maps) a domain name into an IP address (A and AAAA records), which computers/devices use to communicate with each other. It is a distributed directory that also contains, but is not limited to, information where emails should be delivered (MX records), alias to another hostname (CNAME records), authoritative name servers (NS records), associate an IP address with a hostname (PTR records), and even associate arbitrary text with a domain (TXT records). Inspecting DNS traffic for patterns, anomalies, and deviations between client devices and the DNS server(s) could reveal misconfigured DNS endpoints and the presence of security threats, such as using DNS for data exfiltration, denial of service attack, or for remote access and control.",
+        "eventtypes": {
+            "DS002DNS-ET01Query": {
+                "common_product_names": [],
+                "description": "A DNS query (or request) and response (or answer) transaction should be captured in the same log message; otherwise, it would be limiting for investigations. A paired DNS query and response is the ideal way to capture the DNS transaction and can come from debug-level logs, although this method incurs considerable load on the servers and usually requires additional filtering, or from protocol-specific wire data sources like Splunk Stream, Bro/Zeek, or a network analysis solution like ExtraHop. DNS query composition or request patterns offer signs of malicious activity, such as unusual domain name requests, unauthorized queries (spoofing), suspicious top-level domains (characteristics common to domain generation algorithms), off hours communication, an abnormal volume of DNS queries (data exfiltration), and more.",
+                "name": "Paired DNS Queries and Responses",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    },
+                    "streamdns": {
+                        "basesearch": "index=netdns sourcetype=stream:dns query=* src_ip=*",
+                        "errordescription": "...",
+                        "name": "Stream:DNS",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS002DNS-ET01QueryRequest": {
+                "common_product_names": [],
+                "description": "A DNS query (or request) identifies the domain or subdomain that was requested by the client. The DNS query can come from debug-level logs, although this method incurs considerable load on the servers and usually requires additional filtering, or from protocol-specific wire data sources like Splunk Stream, Bro/Zeek, or a network analysis solution like ExtraHop. The request message at a minimum should contain a timestamp, the fully qualified domain name (FQDN) of the requested resource, the type of record that the client is trying to resolve, and the source and destination IP addresses. DNS query composition or request patterns offer signs of malicious activity, such as suspicious or blacklisted domain name requests, unauthorized queries (spoofing), unusual query lengths (characteristics common to domain generation algorithms), off hours communication, an abnormal volume of DNS queries, and more.",
+                "name": "DNS Queries",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS002DNS-ET01QueryResponse": {
+                "common_product_names": [],
+                "description": "Logging the DNS query is only half of the story. A DNS response (or answer) identifies where the DNS query is resolving to. The DNS response can come from debug-level logs, although this method incurs considerable load on the servers and usually requires additional filtering, or from protocol-specific wire data sources like Splunk Stream, Bro/Zeek, or a network analysis solution like ExtraHop. The response message at a minimum should contain a timestamp, the fully qualified domain name (FQDN) of the requested resource, the type of record that the client is trying to resolve, and the source and destination IP addresses. DNS responses can offer signs of server misconfiguration (e.g., excessive failures) or malicious activity, such as brand infringement, malicious data being delivered to endpoints (identified by response length or size), resolution from unauthorized/suspicious IP addresses, and more.",
+                "name": "DNS Responses",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "DNS"
+    },
+    "DS003Authentication": {
+        "description": "Authentication is the basis for all access in an environment and the basis of lateral movement, as well as access to assets and intellectual property. Patterns found within authentication events can point to unusual or malicious activity, such as brute force attempts, or attempts to discover internal or external resources (either as a stepping stone to a more valuable asset, or with the intent to take over administrative control), or for identifying authentications to specific systems outside of work hours.",
+        "eventtypes": {
+            "DS003Authentication-ET01Success": {
+                "common_product_names": [],
+                "description": "Authentication logs can tell you when and from where users are successfully accessing systems and applications and can help identify not only unauthorized use but also point to a misconfiguration in account permissions (e.g., successful authentication from former employees). Furthermore, since most successful attacks eventually include the use of valid credentials, this data is critical in helping to tell the difference between a valid login and an account takeover. Authentication logs come from but are not limited to: host devices, domain controllers, directory servers, network devices, network access, application logs, cloud identity & access management, and many others. At a minimum, the logs should contain the timestamp, source IP, user account, type of authentication event and the result (i.e., success or failure).",
+                "name": "Successful Authentication",
+                "products": {
+                    "cim": {
+                        "basesearch": "tag=auth action=success",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS003Authentication-ET02Failure": {
+                "common_product_names": [],
+                "description": "Authentication logs can tell you when and from where users are failing to access systems and applications and can help identify brute force access attempts, but also point to a misconfiguration in account permissions (e.g., user accounts set up via automation but misconfigured the associated password). Authentication logs come from but are not limited to: host devices, domain controllers, directory servers, network devices, network access, application logs, cloud identity & access management, and many others. At a minimum, the logs should contain the timestamp, source IP, user account, type of authentication event and the result (i.e., success or failure).",
+                "name": "Failed Authentication",
+                "products": {
+                    "cim": {
+                        "basesearch": "tag=auth action=success",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS003Authentication-ET02FailureBadFactor": {
+                "common_product_names": [],
+                "description": "This will occur when there is a successful authentication but the two factor authentication fails",
+                "name": "Authentication with Failed Two Factor",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS003Authentication-ET02FailureError": {
+                "common_product_names": [],
+                "description": "Failures in the actual authentication system, rather than incorrect credentials",
+                "name": "Authentication with an Unknown Failure",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS003Authentication-ET02FailureUnknownAccount": {
+                "common_product_names": [],
+                "description": "Authentication attempts for accounts that don't exist.",
+                "name": "Authentication Against Unknown Accounts",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Authentication"
+    },
+    "DS004EndPointAntiMalware": {
+        "description": "Anti-virus and anti-malware solutions provide malware discovery and quarantine activities on endpoints, such as workstations, business servers, virtual desktops, and mobile devices. They look for specific files and behaviors that indicate presence or the attempted installation of malicious software (e.g., Trojans, worms, ransomware, spyware, rootkits, viruses). Anti-virus and anti-malware help prevent, detect and quarantine/remove malicious software that has been downloaded and activated.",
+        "eventtypes": {
+            "DS004EndPointAntiMalware-ET01SigDetected": {
+                "common_product_names": [],
+                "description": "Anti-virus and anti-malware solutions produce scan activity logs each time a scan executes. When malware is detected during a scan, the endpoint anti-virus or anti-malware software provides visibility into the scan results and details regarding the malware detected.",
+                "name": "Malware Detected",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS004EndPointAntiMalware-ET02UpdatedSig": {
+                "common_product_names": [],
+                "description": "It is essential that the malware definition database, which contains signatures (or code samples) used to identify known malware, is comprehensive and regularly updated with new definitions in order to detect the latest malware variants. Endpoint log files or vendor-specific databases from the anti-virus or anti-malware management tool contain individual endpoint information and provide insights into whether the endpoints have updated definitions.",
+                "name": "Malware Definition Updates",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS004EndPointAntiMalware-ET03UpdatedEng": {
+                "common_product_names": [],
+                "description": "To scan and assess a file for malware in real time requires a detection engine. Regular updates to the anti-virus or anti-malware detection engine ensure the engine detects the latest malware variants. Endpoint log files or vendor-specific databases from the anti-virus or anti-malware management tool contain individual endpoint information and provide insights into whether the detection engine was updated.",
+                "name": "Detection Engine Updated",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Anti-Virus / Anti-Malware"
+    },
+    "DS005WebProxyRequest": {
+        "description": "Web proxies and next-generation firewalls (NGFW) are designed as intermediary layers between clients and applications, to accelerate resource access as well as provide defense against advanced web-based threats. They examine traffic between users and HTTP/HTTPS sites, and identify, allow, block or limit the applications and URLs, but also what a specific user is allowed to send and receive according to policies. User web activity can often be an indicator of possible compromise, phishing attempts, malware command and control, abuse, and outdated software.",
+        "eventtypes": {
+            "DS005WebProxyRequest-ET01Requested": {
+                "common_product_names": ["Cisco IronPort WSA", "Blue Coat ProxySG"],
+                "description": "Access logs and events (via syslog or API) from the web proxy and NGFW provide details into the requests made by users and applications on the network, including web site requests by users, but also application or service requests made to the Internet. At a minimum, the logs should contain the timestamp, target IP/hostname and port, client IP and source port, content type, user agent, HTTP request method, action taken by the proxy, and the HTTP status code of the reply.",
+                "name": "Proxy Requests",
+                "products": {
+                    "checkpoint": {
+                        "basesearch": "index=netproxy sourcetype=opsec product=URL*",
+                        "errordescription": "...",
+                        "name": "Check Point",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    },
+                    "cim": {
+                        "basesearch": "tag=web tag=proxy",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    },
+                    "pan": {
+                        "basesearch": "index=pan_logs sourcetype=pan:traffic",
+                        "errordescription": "...",
+                        "name": "Palo Alto Networks",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS005WebProxyRequest-ET01RequestedWebAppAware": {
+                "common_product_names": [],
+                "description": "Web proxies and next-generation firewalls offer application awareness by looking at the contents of the data packets, rather than just the port, source and destination IP address, and protocol. Application awareness refers to the capability of permitting or denying the use of specific applications, such as peer to peer file sharing or to restrict how applications are used.",
+                "name": "Application Awareness",
+                "products": {
+                    "checkpoint": {
+                        "basesearch": "index=netproxy sourcetype=opsec product=App*",
+                        "errordescription": "...",
+                        "name": "Check Point",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    },
+                    "cim": {
+                        "basesearch": "tag=web tag=proxy app=*",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    },
+                    "pan": {
+                        "basesearch": "index=pan_logs sourcetype=pan:traffic app=*",
+                        "errordescription": "...",
+                        "name": "Palo Alto Networks",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Web Proxy / NGFW"
+    },
+    "DS006UserActivity": {
+        "description": "Users and devices need to be audited for create, read, update, delete (CRUD), and search operations on records, as well as changes to security roles. The purpose of this is to be aware of any critical events taking place to users and devices that could affect data access, particularly when it comes to sensitive data.",
+        "eventtypes": {
+            "DS006UserActivity-ET01List": {
+                "common_product_names": [],
+                "description": "An audit-record for a user listing data.",
+                "name": "List Activity",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS006UserActivity-ET02Read": {
+                "common_product_names": [],
+                "description": "An audit-record for a user reading data.",
+                "name": "Read Activity",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS006UserActivity-ET03Create": {
+                "common_product_names": [],
+                "description": "An audit-record for the creation of a user.",
+                "name": "Create Activity",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS006UserActivity-ET04Update": {
+                "common_product_names": [],
+                "description": " An audit-record for a user updating data.",
+                "name": "Update Activity",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS006UserActivity-ET05Delete": {
+                "common_product_names": [],
+                "description": "An audit-record for the deletion of a user.",
+                "name": "Delete Activity",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS006UserActivity-ET06Search": {
+                "common_product_names": [],
+                "description": "User search activity",
+                "name": "Search events",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS006UserActivity-ET07ExecuteAs": {
+                "common_product_names": [],
+                "description": "Activity where user is executing as another user",
+                "name": "Execute As Events",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "User Activity Audit"
+    },
+    "DS007AuditTrail": {
+        "description": "Audit trail events represent a special class of events which can be triggered based on automated or user interaction with systems and indicate a condition has occurred where the integrity of the source is suspect at a point in time.",
+        "eventtypes": {
+            "DS007AuditTrail-ET01Clear": {
+                "common_product_names": [],
+                "description": "User clears the audit log",
+                "name": "Clearing Audit Log",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS007AuditTrail-ET02Alter": {
+                "common_product_names": [],
+                "description": "User alters the audit log",
+                "name": "Altering Audit Log",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS007AuditTrail-ET03TimeSync": {
+                "common_product_names": [],
+                "description": "Indications of altering the timestamp of a system to fool event logging",
+                "name": "Time Sync Events",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Generic Audit Log"
+    },
+    "DS008IdentityAndAccount": {
+        "description": "Master Data system for Human Resources or corporate identity management solution (IDM)  may publish an event indicating critical changes impacting people in an organization. Human Resources records include the entire employee lifecycle including recruitment, selection, hiring, job position and classification, promotion, salary, and bonuses, performance and ratings, disciplinary actions, training and certifications, and separation or retirement. For hourly employees, HR data often includes time and attendance records. HR systems often feed payroll and finance systems for processing salary and benefits. HR records provide the definitive source of employee information for identity management systems and enterprise directories, making them an important source for authentication and authorization data. Although HR data traditionally has been textual, it increasingly includes images and biometric information such as an employee's portrait, fingerprints, and iris scans.",
+        "eventtypes": {
+            "DS008HRMasterData-ET01Joined": {
+                "common_product_names": [],
+                "description": "New Employees / Contractors Added",
+                "name": "Joined Users",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS008HRMasterData-ET02SeparationNotice": {
+                "common_product_names": [],
+                "description": "Initial notice of separation events (terminations, employees resigning, etc.)",
+                "name": "Separation Notice Given",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS008HRMasterData-ET03SeperationImmediate": {
+                "common_product_names": [],
+                "description": "Immediate separation events (e.g., termination and escorted out, user resigning effective immediately)",
+                "name": "Immediate Separate Events",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "HR System"
+    },
+    "DS009EndPointIntel": {
+        "description": "Endpoint Detection and Response (EDR) solutions monitor endpoints (servers, laptops, desktops, and mobile devices) for suspicious activity like malware and other cyber threats that are more complex than a simple signature or pattern and evade traditional anti-virus/anti-malware. Endpoints provide critical forensic data including process actions, file access information, network events, and endpoint configuration changes. The EDR can filter, enrich and monitor the data for signs of malicious behavior.",
+        "eventtypes": {
+            "DS009EndPointIntel-ET01ObjectChange": {
+                "common_product_names": [],
+                "description": "An object, such as a file, directory, registry key, or other artifact was created, modified, accessed or deleted.",
+                "name": "Object Change",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS009EndPointIntel-ET01ProcessLaunch": {
+                "common_product_names": [],
+                "description": "A process launch event includes information about the time of the event, user, operation, process path, process ID, and parent process ID. This information is useful for identifying what ran in the environment, parent-child process relationship(s), and under what user context.",
+                "name": "Process Launch",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS009EndPointIntel-ET03ProcessLaunchwithCLI": {
+                "common_product_names": [],
+                "description": "A process launch event with CLI includes additional information about the command line and parent command line for both the current and parent processes. This information is useful for identifying evidence of persistence, command and control, and obfuscation and evasion techniques.",
+                "name": "Process Launch with CLI",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS009EndPointIntel-ET04ProcessLaunchWithHash": {
+                "common_product_names": [],
+                "description": "A process launch event with executable hash includes the hash (MD5, SHA1, or SHA256) of the process image. This information is useful for identifying file manipulation, potentially malicious code hiding as legitimate executable, and other file integrity analysis efforts.",
+                "name": "Process Launch with Executable Hash",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS009EndPointIntel-ET05ObjectChangeRemovableStorage": {
+                "common_product_names": [],
+                "description": "An object, such as a file, on an external storage device (e.g., USB drive, external hard drive) was created, modified, accessed or deleted.",
+                "name": "Object Change on Removable Storage",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS009EndPointIntel-ET06ListeningPorts": {
+                "common_product_names": [],
+                "description": "Monitor active network connections and listening ports for new connections, anomalous communication, and malicious usage.",
+                "name": "Listening Port(s)",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Endpoint Detection and Response"
+    },
+    "DS010NetworkCommunication": {
+        "description": "Network monitoring is essential for detecting threats originating from both outside and inside the network. Network communication data is a record of communication associated with core networks or data centers, but also distribution networks, WAN connections, and local area networks. Network data can be collected at the network perimeter (e.g., IDS/IPS, firewall logs), via internal networks (e.g., WANs, remote offices), Netflow, packet capture, deep packet inspection, and endpoint forensic data.",
+        "eventtypes": {
+            "DS010NetworkCommunication-ET01Traffic": {
+                "common_product_names": [],
+                "description": "Network activity data can be recorded by many technologies including host operating systems, firewalls, switches, routers, intrusion detection and prevention systems, and wire data sources. At a minimum, the event record should include the source IP address, source port number, destination IP address, destination port number, and the protocol used.",
+                "name": "Basic Traffic Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS010NetworkCommunication-ET01TrafficAppAware": {
+                "common_product_names": [],
+                "description": "Application-aware firewalls, or firewalls that go beyond just monitoring ports and protocols, and application-aware wire data sources like Splunk Stream, Bro/Zeek, or a network analysis solution like ExtraHop are capable of inspecting the contents of network traffic at the application level.",
+                "name": "Application-aware Traffic Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS010NetworkCommunication-ET02State": {
+                "common_product_names": [],
+                "description": "Event indicating the state of the firewall has changed, e.g., start, stop, stop blocking, go into no blocking mode.",
+                "name": "State Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS010NetworkCommunication-ET03UserAware": {
+                "common_product_names": [],
+                "description": "Awareness of user identity and group information is critical to secure access to resources and data. Traditionally, firewalls use IP addresses to monitor traffic and are unaware of the user and computer identities behind those IP addresses. Traffic logs from a user-aware device, such as a next-generation firewall, map users and computer identities.",
+                "name": "User-aware Traffic Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Network Communication"
+    },
+    "DS011MalwareDetonation": {
+        "description": "Malware analysis systems, commonly known as sandboxes, is another way for anti-malware solutions to detect malware. The goal of malware analysis is to obtain an understanding of how a specific piece of malware functions so that defenses can be built against it. Malware analysis systems execute (or \"detonate\") potentially malicious software and website links in an isolated computing environment where it can't cause any harm to the host device, and monitor its behavior for indicators of compromise (IOCs) that can be used to write signatures for anti-malware and intrusion detection/prevention systems to alert on. The malware analysis systems track network, registry, API calls, file activity, conduct complete memory analysis, collect screenshots of the malware as it runs, perform static analysis of submitted files, and more. If the suspicious file or URL demonstrates malicious behavior, the anti-malware will remove or terminate the malware artifact(s).",
+        "eventtypes": {
+            "DS011MalwareDetonation-ET01Detection": {
+                "common_product_names": [],
+                "description": "Logs or event messages (via syslog or REST API) from the analysis sandbox provide a detailed report outlining the behavior of the potentially malicious file or URL when executed and determine whether it classifies as malware.",
+                "name": "Malware Analysis Results",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Malware Analysis"
+    },
+    "DS012NetworkIntrusionDetection": {
+        "description": "Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) detect and prevent malicious activity by analyzing network packets and comparing the contents to a database of known threats. An IPS actively accepts and rejects a packet based on a ruleset. An IDS examines mirrored data packets from different points within the network and can only detect an attack, but does not take action on its own. The goal is to correctly identify malicious traffic before it can proceed further into the network.",
+        "eventtypes": {
+            "DS012NetworkIntrusionDetection-ET01SigDetection": {
+                "common_product_names": [],
+                "description": "When the IDS/IPS detects abnormal or suspicious activity, it generates an alert indicating a potential threat.",
+                "name": "IDS / IPS Alerts",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "IDS / IPS"
+    },
+    "DS013TicketManagement": {
+        "description": "A ticket management system, specifically one that handles, manages, records, and evaluates security threats or incidents, can provide a comprehensive view of any security issues within an organization. Analysis of service tickets can discover trends (e.g., social engineering, end-user complaints concerning application behavior and OS performance) that would indicate a problem, determine its scope, assess damages, and help improve overall cybersecurity.",
+        "eventtypes": {
+            "DS013TicketManagement-ET01": {
+                "common_product_names": [],
+                "description": "Analyzing the status of service tickets can help identify a sudden spike in issues, recurring issues, reduce false positives, and consolidate related events.",
+                "name": "Ticket Status",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS013TicketManagement-ET02LowLevelEvents": {
+                "common_product_names": [],
+                "description": "The aggregation and correlation of service tickets (or events) can detect potential security incidents. For example, multiple reports of system performance degradation may indicate a wide-area breach of security.",
+                "name": "Low Level Correlated Events",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Ticket Management"
+    },
+    "DS014WebServer": {
+        "description": "A web server is a server designed to respond to HTTP requests, serving content for websites to requesting clients. Web servers typically support at least one server-side language (e.g., Python, Ruby, Javascript, PHP) to facilitate the delivery of dynamic content based on business logic developed by the site's creators. A web server may host a single website or may be host to a multitude of different websites. The websites hosted by a web server may be exposed externally to the internet or for internal use only.",
+        "eventtypes": {
+            "DS014WebServer-ET01Access": {
+                "common_product_names": ["IIS", "Apache", "NGNIX"],
+                "description": "Logs from a web server provide information on every request made including the request source, client used, content requested, and the HTTP response codes returned. These logs can be helpful in identifying web-based attacks (e.g., SQL injection, cross-site scripting), threat actors scanning for known vulnerabilities, excessive errors, and overall operational issues.",
+                "name": "Web server access logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS014WebServer-ET02InternalKnowledgeManagement": {
+                "common_product_names": ["Wiki", "Sharepoint", "Confluence"],
+                "description": "Web servers can be used internally by custom applications and commercial products as well. Obtaining the logs from these systems can be useful in identifying insider threats, breached systems, and compromised credentials.",
+                "name": "Internal Knowledge Systems",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS014WebServer-ET03SourceCode": {
+                "common_product_names": ["Git", "Subversion", "Microsoft Team Foundation Server"],
+                "description": "Source Code Management (SCM) tools are used to build, package, and deploy software. SCM tools allow software developers to simultaneously work on software code and then merge updates to the codebase upon completion. These systems contain the entire codebase for internally developed tools as well as a company's commercial products. Logs from SCM tools provide detailed information on when and by whom code is created, accessed, updated, and deleted.",
+                "name": "Source Code Systems",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Web Server"
+    },
+    "DS015ConfigurationManagement": {
+        "description": "Configuration management tools enable organizations to build, deploy, and manage changes to systems in a consistent, repeatable, and scalable manner. These configurations are typically maintained as code or visually represented as workflows or playbooks that indicate the step by step process of properly configuring a system.",
+        "eventtypes": {
+            "DS015ConfigurationManagement-ET01General": {
+                "common_product_names": ["Chef", "Puppet", "Salt", "Ansible"],
+                "description": "Logs from configuration management tools provide details on configurations applied, their time of application, who applied them, and any subsequent configuration changes made.",
+                "name": "General Config Management Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Configuration Management"
+    },
+    "DS016DataLossPrevention": {
+        "description": "Data loss prevention (DLP) is the process of securing sensitive data from being exposed to unauthorized audiences. DLP solutions provide the ability to classify critical data (e.g., HIPAA, PCI, PII, intellectual property) within an organization using predefined or custom policies and identification techniques. These policies are then enforced on endpoints, corporate networks, and cloud products to secure data at rest and in motion, preventing unauthorized access and alerting on policy violations.",
+        "eventtypes": {
+            "DS016DataLossPrevention-ET01Violation": {
+                "common_product_names": [],
+                "description": "Alerts produced by DLP solutions indicating DLP policy violations.",
+                "name": "DLP Violations",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "DLP"
+    },
+    "DS017PhysicalSecurity": {
+        "description": "Physical security refers to the act of restricting and monitoring physical access to an organization's facilities. Often organizations will employ keypads, card readers, biometric scanners, motion detectors and other means of controlling access to physical locations to ensure only authorized access occurs. Logs from these tools can be used to detect stolen access credentials (e.g., stolen id cards, keypad PINs), forced entry, and insider threats.",
+        "eventtypes": {
+            "DS017PhysicalSecurity-ET01Access": {
+                "common_product_names": [],
+                "description": "Detection of access to a specific physical location",
+                "name": "Access logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Physical Security"
+    },
+    "DS018VulnerabilityDetection": {
+        "description": "A vulnerability is a security flaw that can be exploited by a threat actor to gain access or perform unauthorized activity within a system. Vulnerability detection platforms provided scanning capabilities to look for known vulnerabilities which include software vulnerabilities and security misconfigurations. These scans result in a list of vulnerable systems, their specific vulnerabilities, and recommendations for the remediation of discovered vulnerabilities.",
+        "eventtypes": {
+            "DS018VulnerabilityDetection-ET01SigDetected": {
+                "common_product_names": [],
+                "description": "Detected vulnerability on a system",
+                "name": "Vuln Detected",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Vulnerability Detection"
+    },
+    "DS019PatchManagement": {
+        "description": "A patch is a change to an operating system or application designed to address known issues, improve and enhance functionality, and resolve discovered security vulnerabilities. Patching regularly is a critical component to maintaining a secure environment. Patch management solutions help organizations acquire, test and deploy patches on applicable systems across the enterprise.  These solutions provide visibility to systems eligible for patching,  ensure that the enterprise is compliant with patching policy (i.e., patches are applied to all applicable systems within a defined timeframe), and identify systems that were unable to be patched (e.g., patch failed, patch mechanism disabled).",
+        "eventtypes": {
+            "DS019PatchManagement-Applied": {
+                "common_product_names": [],
+                "description": "Detection of a successful patch installation",
+                "name": "Patch Applied",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS019PatchManagement-Eligible": {
+                "common_product_names": [],
+                "description": "Detection of a patch applicable to a system",
+                "name": "System eligible for patch",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "DS019PatchManagement-Failed": {
+                "common_product_names": [],
+                "description": "Detected a failed patch installation",
+                "name": "Patch Failed",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Patch Management"
+    },
+    "DS020HostIntrustionDetection": {
+        "description": "Host based Intrusion Detection Systems (HIDS) are agent-based solutions installed on hosts designed to collect and alert on activity observed. HIDS provide the ability to monitor the state of keys system files as well as changes made to the host via log file monitoring. This information can be valuable in the early identification of malicious activity, and in understanding the steps taken by threat actors after an attack has been identified.",
+        "eventtypes": {
+            "DS020HostIntrustionDetection-ET01SigDetected": {
+                "common_product_names": [],
+                "description": "HIDS analyze changes detected and log files monitored and alert on events that may be indicative of malicious activity.",
+                "name": "HIDS Event Detected",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Host-based IDS"
+    },
+    "DS021Telephony": {
+        "description": "Real-time business communications no longer are limited to voice calls provided by Plain Old Telephone Service (POTS); instead, voice, video, text messaging and web conferences are IP applications delivered over existing enterprise networks. Unlike traditional client-server or web applications, telephony and other communications applications have strict requirements on network quality of service, latency and packet loss, making service quality and reliability much more sensitive to network conditions and server responsiveness. Traditional POTS has conditioned people to expect immediate dial tone when picking up the phone and be intolerant of noise, echo or other problems that can plague IP telephony; as such, the systems and supporting infrastructure require careful monitoring and management to assure quality and reliability. Voice over IP protocol refers to several methods for transmitting real-time audio (and now video) information over an IP-based data network. Unlike traditional phone systems using dedicated, point-to-point circuits, VoIP applications use packet-based networks to carry real-time audio streams that are interspersed with other Ethernet data traffic. Since TCP packets may be delivered out of order due to data loss and retransmission, VoIP includes features to buffer and reassemble a stream. Similarly, VoIP packets are usually tagged with quality of service (QoS) headers to prioritize their delivery through the network.",
+        "eventtypes": {
+            "DS021Telephony-ET01CDR": {
+                "common_product_names": [],
+                "description": "Standard Call Detail Record logs",
+                "name": "CDR Log",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Telephony"
+    },
+    "DS022HostPerformance": {
+        "description": "Measures of system activity such as CPU load, memory and disk usage, and I/O traffic are the IT equivalent of EKGs to a doctor: the vital signs that show system health. Recording these measures provides a record of system activity over time that shows normal, baseline levels and unusual events. By registering myriad system parameters, performance logs also can highlight mismatches between system capacity and application requirements.",
+        "eventtypes": {
+            "DS022HostPerformance-ET01General": {
+                "common_product_names": [],
+                "description": "Standard performance data",
+                "name": "Host Performance",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Host Performance"
+    },
+    "DS023CrashReporting": {
+        "description": "Crash reports including summary of dumps, exceptions, and hangs can indicate attempts at exploitation of processes by malicious code or significant programing errors allowing possible future exploitation or failure of business services.",
+        "eventtypes": {
+            "DS023CrashReporting-ET01General": {
+                "common_product_names": [],
+                "description": "Crash Report data",
+                "name": "Crash Report",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Crash Reporting"
+    },
+    "DS024ApplicationServer": {
+        "description": "Application server logs, considering the actual business application, middleware such as Tomcat, and run time logs such as java runtime. contain a wealth of information created when users and systems interact. Anomalies in the logs can indicate potential failures or compromise attempts.",
+        "eventtypes": {
+            "DS024ApplicationServer-ET01General": {
+                "common_product_names": [],
+                "description": "Generic app server logs",
+                "name": "App Server Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "App Server"
+    },
+    "DS025IPAddressAssignment": {
+        "description": "In order to access network resources, every device on the network must possess a unique IP address. IP addresses are assigned to devices either dynamically or statically upon joining the network. Dynamic Host Configuration Protocol (DHCP) and Virtual Private Network (VPN) play the role of automatically allocating IP addresses and lease duration. Additionally, IP Address Management (IPAM) tools tie Domain Name Server (DNS) entries to DHCP changes for further enriched information about how and when IP addresses are assigned. Audit logging of DHCP, VPN, and IPAM are critical for investigations and can provide insights into suspicious activity, and other warning signs of of an attacker on the network.",
+        "eventtypes": {
+            "DS025IPAddressAssignment-ET01General": {
+                "common_product_names": [],
+                "description": "In order to access network resources, every device on the network must possess a unique IP address. IP addresses are assigned to devices either dynamically or statically upon joining the network. Dynamic Host Configuration Protocol (DHCP) and Virtual Private Network (VPN) play the role of automatically allocating IP addresses and lease duration. Additionally, IP Address Management (IPAM) tools tie Domain Name Server (DNS) entries to DHCP changes for further enriched information about how and when IP addresses are assigned. Audit logging of DHCP, VPN, and IPAM are critical for investigations and can provide insights into suspicious activity, and other warning signs of of an attacker on the network.",
+                "name": "IP Address Assignment",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "IP Address Assignment"
+    },
+    "DS026WebApplicationFW": {
+        "description": "Web Application Firewalls (WAF) represents a technology used to detect attacks explicitly targeted at web applications. WAFs are deployed as network appliances, cloud-based reverse proxies, or software-based server installs. WAF's most commonly address the Open Web Application Security Project (OWASP) top 10  security risks to web applications, among a variety of other security exploits, flaws, and misconfigurations. WAFs can be run in monitor, alert, and block modes depending on the needs of a security organization, and typically provide many out-of-the-box detections as well as the ability to create specific alerts that are custom to the functionality of the web application.",
+        "eventtypes": {
+            "DS025IPAddressAssignment-ET01General": {
+                "common_product_names": [],
+                "description": "Web Application Firewall (WAF) Alert logs indicate detected and blocked events based rules applied to web traffic monitored by the WAF.",
+                "name": "Web Application Firewall Alert Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Web Application Firewall"
+    },
+    "DS027EndpointBackup": {
+        "description": "A backup is the action of archiving data for restore in the event of data loss.  Data loss may occur for a variety of reasons (e.g., inadvertent deletion, physical destruction, theft, malware). Having complete and accurate backups is critical to ensuring a swift recovery from such an event.",
+        "eventtypes": {
+            "DS027EndpointBackup-ET01General": {
+                "common_product_names": [],
+                "description": "Backup logs provide information on successful backups as well as any errors that have occurred. These logs facilitate ensuring compliance with corporate backup policy, while also the quick discovery of failures in the backup process.",
+                "name": "Backup Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Backup"
+    },
+    "DS028NetworkDeviceAssociation": {
+        "description": "Network device association occurs when a new device is attached to a wired or wireless lan. The association process will record the mac address of the device connection (regardless of successful authentication). When correlated with \"IP Address Assignment\" and \"Authentication,\" the rapid identification of an asset owner is possible.",
+        "eventtypes": {
+            "DS028NetworkDeviceAssociation-ET01General": {
+                "common_product_names": [],
+                "description": "Network device association occurs when a new device is attached to a wired or wireless lan. The association process will record the mac address of the device connection (regardless of successful authentication). When correlated with \"IP Address Assignment\" and \"Authentication,\" the rapid identification of an asset owner is possible.",
+                "name": "Nework Device Association",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Nework Device Association"
+    },
+    "DS029DatabaseServer": {
+        "description": "Database Server logs and metrics present utilization data which can be used to predict future capacity and performance.",
+        "eventtypes": {
+            "DS029DatabaseServer-ET01General": {
+                "common_product_names": [],
+                "description": "Generic database logs system logs and metrics (queries show up under \"Audit Trail.\" Database Server logs and metrics present utilization data which can be used to predict future capacity and performance.",
+                "name": "Database System Logs and Metrics",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Database System Logs and Metrics"
+    },
+    "DS031ApplicationLoadBalancer": {
+        "description": "An Application Load Balancer functions at the application layer, the seventh layer of the Open Systems Interconnection (OSI) model. After the load balancer receives a request, it evaluates the listener rules in priority order to determine which rule to apply, and then selects a target from the target group for the rule action. You can configure listener rules to route requests to different target groups based on the content of the application traffic. Routing is performed independently for each target group, even when a target is registered with multiple target groups.",
+        "eventtypes": {
+            "DS031ApplicationLoadBalancer-ET01General": {
+                "common_product_names": [],
+                "description": "An Application Load Balancer functions at the application layer, the seventh layer of the Open Systems Interconnection (OSI) model. After the load balancer receives a request, it evaluates the listener rules in priority order to determine which rule to apply, and then selects a target from the target group for the rule action. You can configure listener rules to route requests to different target groups based on the content of the application traffic. Routing is performed independently for each target group, even when a target is registered with multiple target groups.",
+                "name": "Application Load Balancer",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Application Load Balancer"
+    },
+    "DS032DNSGlobalLoadBalancer": {
+        "description": "DNS Global Load Balancer (more commonly known as GSLB for Global Server Load Balancing) works at the DNS level to distribute requests. Each datacenter has its own GSLB server, and all of the servers broadcast an identical IP address to the Internet. Any request for this IP address is automatically routed to the closest server via BGP. That server then chooses where to direct the user depending on the designated load-balancing ratio. Once a site has been chosen, the server responds to the user's request with the IP address of the local load-balancing pool at that site.",
+        "eventtypes": {
+            "DS032DNSGlobalLoadBalancer-ET01General": {
+                "common_product_names": [],
+                "description": "DNS Global Load Balancer (more commonly known as GSLB for Global Server Load Balancing) works at the DNS level to distribute requests. Each datacenter has its own GSLB server, and all of the servers broadcast an identical IP address to the Internet. Any request for this IP address is automatically routed to the closest server via BGP. That server then chooses where to direct the user depending on the designated load-balancing ratio. Once a site has been chosen, the server responds to the user's request with the IP address of the local load-balancing pool at that site.",
+                "name": "DNS Global Load Balancer",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "DNS Global Load Balancer"
+    },
+    "DS033SystemLogs": {
+        "description": "Includes activities such as service control, batch processing launch and other non security activities logged by the host operating system.",
+        "eventtypes": {
+            "DS033SystemLogs-ET01General": {
+                "common_product_names": [],
+                "description": "Includes activities such as service control, batch processing launch and other non security activities logged by the host operating system.",
+                "name": "System Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "System Logs"
+    },
+    "DS034ApplicationLogs": {
+        "description": "Organizations employ a variety of commercial and custom, in-house built applications to help their operations run efficiently.",
+        "eventtypes": {
+            "DS034ApplicationLogs-ET01General": {
+                "common_product_names": [],
+                "description": "In-house and commercial applications employed by organizactions typically produce log files which may include things like status, error messages, detailed execution notes, and authentication data. Logs from these tools can be used to detect operational issues, as well as potential malicious activity.",
+                "name": "Application Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Application Data"
+    },
+    "DS035NetworkFlow": {
+        "description": "Network Flow data is distinct from \"Network Communication\" as is not stateful individual events can be generated for each direction of traffic flow and is generally sampled that is an event is logged periodically for flow between the last event and current time. As such it can not be used for detections such as number of connections. Most organizations do not log Network Flow data.",
+        "eventtypes": {
+            "DS035NetworkFlow-ET01General": {
+                "common_product_names": [],
+                "description": "Network Flow data is distinct from \"Network Communication\" as is not stateful individual events can be generated for each direction of traffic flow and is generally sampled that is an event is logged periodically for flow between the last event and current time. As such it can not be used for detections such as number of connections. Most organizations do not log Network Flow data.",
+                "name": "Network Flow Data",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Network Flow Data"
+    },
+    "VendorSpecific": {
+        "description": "While we focus efforts on making detections as generic as we can, sometimes there are capabilities that are vendor-specific.",
+        "eventtypes": {
+            "VendorSpecific-sfdc-elf": {
+                "common_product_names": [],
+                "legacy_name": "Audit Trail",
+                "description": "Salesforce is a cloud-based customer relationship management (CRM) platform. Salesforce audit logs are available via the Event Log File product, whose event logs monitor activity performed by users against the web-based user interface, as well as actions performed via the API. Information recorded includes authentication information (i.e., logins/logouts), page clicks, API calls, Apex executions (i.e., Salesforce control language), and report exports. This information can be used to identify insider threats, compromised accounts, unauthorized access, and exfiltration of company data.",
+                "name": "Salesforce Event Log File",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-winsec": {
+                "common_product_names": [],
+                "description": "The Windows Security log is extremely verbose, with years of development. If you have a Windows environment, you're sure to want to get Windows Security Logs.",
+                "name": "Windows Security Logs",
+                "legacy_name": "Windows Security",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-winsec-domaincontroller": {
+                "description": "The Domain Controller is the server responsible for responding to authentication requests to resources within a Windows domain. Due to the sensitive nature of domain controllers collecting Windows security logs from them is of paramount importance. This can provide detailed information on user accounts accessing and attempting to access the domain controller, as well as additional activity that could be useful in ascertaining malicious intent.",
+                "name": "Domain Controller's Windows Security Logs",
+                "legacy_name": "Windows Security",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-winsec-powershell": {
+                "description": "PowerShell is a powerful Windows command-line shell and scripting language used primarily by system administrators for configuration and administration. Since PowerShell is builtin to the Windows OS, and by default, has minimal logging enabled, it is oft leveraged by threat actors. Enabling PowerShell logs can provide details of specific code executed, and inputs and outputs provided at run-time. These details make it much more difficult for malicious PowerShell activity to go undetected.",
+                "name": "Microsoft Powershell Logs",
+                "legacy_name": "Windows Security",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-aws-cloudtrail": {
+                "description": "AWS CloudTrail logs provide visibility into user and resource activity by recording activity performed via API or the AWS management console. Detailed information is recorded such as account used, time of day, source IP, and the specific action performed. These logs provide a great deal of utility for compliance, security, identifying data exfiltration, and overall cloud ops related use cases.",
+                "name": "AWS Cloudtrail",
+                "legacy_name": "Audit Trail|AWS",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-Cerner": {
+                "common_product_names": [],
+                "legacy_name": "Audit Trail",
+                "description": "Cerner Electronic Medical Record (EMR) audit logs provide details information on the access, modification, creation, and deletion of medical records within the Cerner platform.",
+                "name": "Cerner EMR",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-AnySplunk": {
+                "common_product_names": [],
+                "legacy_name": "Any Splunk Logs",
+                "description": "Splunk is a powerful data analytics tool. Even without providing specific log types many useful insights and inferences can be drawn from any logs ingested. Spikes in event volume from individual log sources can be used to incite further investigation; an absence of log data can indicate that a system has gone offline; similar events across multiples systems can be indicative of broadscale attacks.",
+                "name": "Any Logs in Splunk",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-SplunkInternal": {
+                "common_product_names": [],
+                "legacy_name": "Any Splunk Logs",
+                "description": "Splunk has verbose internal logs tracking system health, web accesses, and more. These are automatically enabled on all Splunk search heads and indexers.",
+                "name": "Splunk's Internal Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            },
+            "VendorSpecific-Box": {
+                "common_product_names": [],
+                "legacy_name": "Audit Trail",
+                "description": "Box is a cloud-based content management and file sharing service. Box audit logs contain a detailed history of activity performed by users (e.g. login attempts, failed logins, file downloads/uploads/modifications, changes in permissions). This information can be used to identify insider threats, compromised accounts, unauthorized access, and exfiltration of company data.",
+                "name": "Box Audit Logs",
+                "products": {
+                    "cim": {
+                        "basesearch": "index=placeholder",
+                        "errordescription": "...",
+                        "name": "Common Information Model",
+                        "validation": "earliest=-4h | head 100 | stats count"
+                    }
+                },
+                "readyForUse": false
+            }
+        },
+        "name": "Vendor-Specific Data"
+    }
+}

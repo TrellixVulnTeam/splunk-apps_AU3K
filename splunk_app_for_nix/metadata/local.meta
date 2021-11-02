@@ -1,0 +1,99 @@
+[app/install/install_source_checksum]
+version = 8.0.0
+modtime = 1594471539.147482000
+
+[macros/os_index]
+version = 8.0.0
+modtime = 1594471841.561814000
+
+[macros/syslog_sourcetype]
+version = 8.0.0
+modtime = 1594471841.598667000
+
+[macros/cpu_sourcetype]
+version = 8.0.0
+modtime = 1594471841.677400000
+
+[macros/df_sourcetype]
+version = 8.0.0
+modtime = 1594471841.713262000
+
+[macros/hardware_sourcetype]
+version = 8.0.0
+modtime = 1594471841.752232000
+
+[macros/interfaces_sourcetype]
+version = 8.0.0
+modtime = 1594471841.791411000
+
+[macros/iostat_sourcetype]
+version = 8.0.0
+modtime = 1594471841.830062000
+
+[macros/lastlog_sourcetype]
+version = 8.0.0
+modtime = 1594471841.876724000
+
+[macros/lsof_sourcetype]
+version = 8.0.0
+modtime = 1594471841.925966000
+
+[macros/memory_sourcetype]
+version = 8.0.0
+modtime = 1594471841.969228000
+
+[macros/netstat_sourcetype]
+version = 8.0.0
+modtime = 1594471842.004749000
+
+[macros/open_ports_sourcetype]
+version = 8.0.0
+modtime = 1594471842.043281000
+
+[macros/package_sourcetype]
+version = 8.0.0
+modtime = 1594471842.097682000
+
+[macros/ps_sourcetype]
+version = 8.0.0
+modtime = 1594471842.179942000
+
+[macros/rlog_sourcetype]
+version = 8.0.0
+modtime = 1594471842.230335000
+
+[macros/time_sourcetype]
+version = 8.0.0
+modtime = 1594471842.266142000
+
+[macros/top_sourcetype]
+version = 8.0.0
+modtime = 1594471842.300587000
+
+[macros/users_with_login_privs_sourcetype]
+version = 8.0.0
+modtime = 1594471842.335792000
+
+[macros/who_sourcetype]
+version = 8.0.0
+modtime = 1594471842.390716000
+
+[app/ui]
+version = 8.0.0
+modtime = 1594471842.423522000
+
+[app/launcher]
+version = 8.0.0
+modtime = 1594471842.426474000
+
+[app/install/is_configured]
+version = 8.0.0
+modtime = 1594471842.427191000
+
+[unix_setup/install]
+version = 8.0.0
+modtime = 1594471842.471851000
+
+[app/install/state]
+version = 8.0.0
+modtime = 1624394324.838198000

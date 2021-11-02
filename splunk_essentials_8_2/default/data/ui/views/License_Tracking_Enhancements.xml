@@ -1,0 +1,46 @@
+<dashboard>
+
+  <label>License Tracking Enhancements</label>
+
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+
+        <p> Many large customers have several licenses, each funded by different departments and for a myriad of different use cases. Thus, licenses can easily become mixed up in deployments, making it difficult for administrators to manage. </p>
+
+        <p> In the case of a bulk license purchase that gets split into a batch of smaller licenses across deployments, this feature also satisfies an important use case. For admins to know which keys were issued and to whom, the user can now add an ID to the license keys. This enables Splunk to do distributed REST calls to pull back licenses, while also enabling the customer to continuously track which license belongs in which environment. </p>
+
+        <p><strong>Accessing the Feature</strong></p>
+         <ol>
+          <li> Click on “Settings” in the global banner. In the Settings modal, click on “Licensing”. </li>
+           <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/16_licensing.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+          <li> On any license listed in the dashboard, click on the “Notes” link to annotate a custom description. </li>
+                     <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/17_licensing.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+
+                   <ul>
+                  <div style="margin-left:10px">
+                   <img src="/static/app/splunk_essentials_8_2/images/18_licensing.png" style="margin: 10px 0" width="700px"/>
+                  </div>
+                  <br/>
+                 </ul>
+         </ol>
+
+         <br/>
+        </html>
+    </panel>
+  </row>
+</dashboard>

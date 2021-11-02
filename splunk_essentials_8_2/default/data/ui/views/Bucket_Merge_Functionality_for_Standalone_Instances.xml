@@ -1,0 +1,54 @@
+<dashboard>
+
+  <label>Bucket Merge Functionality for Standalone Instances</label>
+
+  <row>
+    <panel>
+      <html>
+
+        <p><strong>Description</strong></p>
+
+        <p> Indexer clustering performance and stability increasingly suffers as the number of buckets increases. Additionally, several activities like restarts may cause a side effect of multiplication of small buckets.  </p>
+
+<p> This feature combats these issues in standalone instances. Moreover, an added benefit of this feature is it also enables customers to achieve larger bucket sizes to more  optimally scale their deployment. The service itself is exposed as a CLI endpoint, and the user can call the endpoint with the name of an index and/or a list of buckets to be merged. The endpoint returns with either a success message with a new bucket ID or an error message. </p>
+
+<p> To merge buckets, the following process and CLI command can be used:
+</p>
+
+         <ol>
+            <li> Stop your splunk instance. </li>
+	    <li> Run the following command in your CLI: </li>
+	    <p> <pre> $SPLUNK_HOME/bin/splunk merge-buckets </pre> </p>
+		<p> 
+		<pre>--index-name=&lt;index_name&gt; The index that contains the buckets you want to merge.
+[--buckets=&lt;comma_separated_bucket_paths&gt;] The list of buckets you want to merge, separated by a comma
+[--filter] When specified, this option will filter out the list of buckets provided using --buckets. The filter will consider the following options: --min-size, --max-size, --max-timespan, --max-count, --startdate, --enddate.
+[--json-out] Format stdout as JSON.
+[--debug] Enable debug mode.
+[--min-size=&lt;min size (MB)&gt;] Prevent bucket merge if the combined buckets are less than this value.
+[--max-size=&lt;max size (MB)&gt;] Prevent adding additional buckets to merge if the combined buckets are more than this value.
+[--max-timespan=&lt;max timespan (seconds)&gt;] The maximum timespan allowed for all buckets when merging.
+[--max-count=&lt;max count of source buckets&gt;] The maximum number of buckets to merge. The default is 24.
+[--dryrun/-D] Use 'dryrun' to preview the merged buckets and new buckets, but not actually do the merge job.
+[--startdate=&lt;date (yyyy/mm/dd)&gt;] Use 'startdate' to merge buckets created between now and the time chosen.
+[--enddate=&lt;date (yyyy/mm/dd)&gt;] Use 'enddate' to merge buckets created prior to the time chosen.
+		</pre>
+		</p> 
+	     <li> To list buckets, run the following command in your CLI: </li>
+	     <p> <pre> $SPLUNK_HOME/bin/splunk merge-buckets </pre> </p>
+		<p>
+		<pre>
+--index-name=&lt;index_name&gt; The index that contains merged buckets.
+--listbuckets=&lt;number&gt; Lists the most recently merged &lt;number&gt; of buckets in the index homePath. Use '0' to display all merged buckets found.
+[--debug] Enable debug mode to display a list of buckets that contributed to the merged bucket.
+[--buckets=&lt;comma_separated_bucket_paths&gt;] Use this switch to report on a specific merged bucket, or a comma-separated list of merged buckets. You must provide a full path and bucket name. When using 'buckets', all other switches are overridden except for 'debug'. This parameter if set overwrites all other filter parameters.
+[--startdate=&lt;date (yyyy/mm/dd)&gt;] Use 'startdate' to report on merged buckets created between now and the time chosen.
+[--enddate=&lt;date (yyyy/mm/dd)&gt;] Use 'enddate' to report on merged buckets created prior to the time chosen. To list merged buckets in a specific time span, use both 'startdate' and 'enddate' to define the time span.
+		</pre>
+		</p>
+	 </ol> 
+            
+        </html>
+    </panel>
+  </row>
+</dashboard>

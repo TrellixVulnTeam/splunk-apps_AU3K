@@ -1,0 +1,19 @@
+<dashboard>
+
+  <label>Scheduler Observability and Performance Improvements</label>
+  <row>
+    <panel>
+      <html>
+        <p><strong>Description</strong></p>
+       <p> New additions in Splunk 8.2 include </p>
+         <ol>
+          <li> 10X faster scheduling of searches that can improve scheduled search performance in cases where a large number of searches are scheduled every minute and saved searches configuration files are updated frequently. 
+ </li>
+          <li> Additional logging to monitor scheduler cycle and load time.
+ </li>
+          <li> The feature is turned OFF by default and can be turned on using the <code>’async_saved_search_fetch’</code> configuration in limits.conf. </li>
+         </ol>
+        </html>
+    </panel>
+  </row>
+</dashboard>

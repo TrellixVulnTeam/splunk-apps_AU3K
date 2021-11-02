@@ -1,0 +1,2 @@
+Event Time,Site Name,Server Name,Domain Name,Admin Name,Event Description,Policy Name
+##Event_Time##,Site: ##Site_Name##,Server: ##Server_Name##,Domain: ##Domain_Name##,Admin: ##Admin_Name##,##Event_Description##,##Policy_Name##

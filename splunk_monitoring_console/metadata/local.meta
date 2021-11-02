@@ -1,0 +1,27 @@
+[splunk_monitoring_console_assets/settings]
+version = 8.0.0
+modtime = 1575488653.080692000
+
+[app/ui]
+version = 8.0.0
+modtime = 1575488653.197307000
+
+[app/launcher]
+version = 8.0.0
+modtime = 1575488653.199817000
+
+[app/package/check_for_updates]
+version = 8.0.0
+modtime = 1575488653.204904000
+
+[app/install/is_configured]
+version = 8.0.0
+modtime = 1575488653.205461000
+
+[nav/default]
+version = 8.0.0
+modtime = 1575488653.310765000
+
+[savedsearches/DMC%20Asset%20-%20Build%20Standalone%20Asset%20Table]
+version = 8.0.0
+modtime = 1575488653.344578000

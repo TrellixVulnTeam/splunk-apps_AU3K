@@ -1,0 +1,24 @@
+<dashboard>
+
+  <label>Performance Improvements for Searchable Rolling Restarts</label>
+
+  <row>
+
+    <panel>
+
+      <html>
+
+        <p><strong>Description</strong></p>
+
+       <p> New additions in Splunk 8.2 include </p>
+         <ol>
+          <li> The time to complete a searchable rolling restart on a multi-site cluster that qualifies is now proportional to the number of sites instead of the number of peers. </li>
+          <li> Previously for a large deployment, the number of peers that could be restarted in parallel was dependent on a cluster’s search factor. This dependency generally meant that the time to restart a deployment was equal to the number of peers in an environment divided by the search factor.* </li>
+          <li> Thus if a cluster environment with 4 sites has 300 peers and a search factor of 3, then it would take 100 rounds of rolling restarts to complete the task (300 peers / 3 (search factor) = 100 rounds of rolling restarts). Assuming a peer takes 5 minutes to restart, it would take roughly 8 hours and 20 minutes for the entire deployment to restart (5 minutes x 100 rounds). </li>
+          <li> Given this new improvement however, an entire site regardless of the number of peers can restart within 2 rounds. Thus, the same 4-site cluster would restart in 8 rounds total (4 sites x 2 rounds per site). Assuming again that peers take 5 minutes to restart, the entire deployment would finish restarting in 40 minutes (8 rounds x 5 minutes per round). In this example, the time-to-finish improves by over an order of magnitude. </li>
+          <li> <i>* The only exception to this rule is if the number of peers is less than 10. In this case, the number of restarts required is equal to the number of peers.</i></li>
+         </ol>
+        </html>
+    </panel>
+  </row>
+</dashboard>

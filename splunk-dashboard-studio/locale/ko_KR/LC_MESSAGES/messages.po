@@ -1,0 +1,3539 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-05 10:50-0800\n"
+"PO-Revision-Date: 2021-03-19 15:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:102
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:106
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:338
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:342
+msgid " and "
+msgstr "및"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:100
+msgid " is currently being used by "
+msgstr "현재 다음에서 사용 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:117
+msgid ""
+" is not being used by any visualizations, chain searches, or inputs. Are you sure you want to "
+"${dataSourceRemoveVerb} this data source?"
+msgstr ""
+"은(는) 시각화, 체인 검색 또는 입력에서 사용되고 있지 않습니다. 이 데이터 원본으로 ${dataSourceRemoveVerb}하시겠습니"
+"까?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:344
+msgid " will be updated"
+msgstr "이(가) 업데이트됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/FormatByTypeEditor.tsx:118
+msgid ""
+" || ''\n"
+"                                            }${rItr}_${iItr}"
+msgstr ""
+" || ''\n"
+"                                            }${rItr}_${iItr}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/utils/gridUtils.js:827
+msgid "\"${item.item}\" expected a viz or canvas edge directly ${positionType} at ${positionString}"
+msgstr "\"${item.item}\"에서 viz 또는 canvas edge가 ${positionString}에서 직접 ${positionType}해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DataSourceConfig.jsx:115
+msgid "${_('Data Configurations')}"
+msgstr "${_('Data Configurations')}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:217
+msgid "${key} (${schema.type.join(', ')})"
+msgstr "${key}(${schema.type.join(', ')})"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:352
+msgid "${msg} and ${lastKey} have the same token (${token})"
+msgstr "${msg} 및 ${lastKey}에 동일한 토큰(${token})이 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:343
+msgid "${references} chained data sources exceeds the maximum of ${MAX_CHAIN_LENGTH}"
+msgstr "${references}개의 연결된 데이터 원본이 ${MAX_CHAIN_LENGTH}의 최댓값을 초과합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Inputs.jsx:75
+msgid "${type} Input"
+msgstr "${type}개의 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:99
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:162
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:183
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/preset/Preset.js:226
+msgid "${type} is not defined"
+msgstr "${type}이(가) 정의되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:133
+msgid "${upperFirst(dataSourceRemoveVerb)} '${dsName}'"
+msgstr "${upperFirst(dataSourceRemoveVerb)} '${dsName}'"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:760
+#, python-format
+msgid "%(earliestDateTime)s to %(latestDateTime)s"
+msgstr "%(earliestDateTime)s ~ %(latestDateTime)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:687
+#, python-format
+msgid "%(earliestMonth)s through %(latestMonth)s, %(inYear)s"
+msgstr "%(earliestMonth)s ~ %(latestMonth)s, %(inYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:775
+#, python-format
+msgid "%(earliestTime)s to %(latestTime)s, %(date)s"
+msgstr "%(earliestTime)s ~ %(latestTime)s, %(date)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:681
+#, python-format
+msgid "%(earliestYear)s through %(latestYear)s"
+msgstr "%(earliestYear)s ~ %(latestYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:696
+#, python-format
+msgid "%(month)s %(earliestDayOfMonth)s through %(latestDayOfMonth)s, %(inYear)s"
+msgstr "%(month)s %(earliestDayOfMonth)s ~ %(latestDayOfMonth)s, %(inYear)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:655
+#, python-format
+msgid "%(month)s %(year)s"
+msgstr "%(month)s %(year)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:957
+#, python-format
+msgid "%(numberOf)d days"
+msgstr "%(numberOf)d일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:958
+#, python-format
+msgid "%(numberOf)d hours"
+msgstr "%(numberOf)d시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:963
+#, python-format
+msgid "%(numberOf)d milliseconds"
+msgstr "%(numberOf)d밀리초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:959
+#, python-format
+msgid "%(numberOf)d minutes"
+msgstr "%(numberOf)d분"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:956
+#, python-format
+msgid "%(numberOf)d months"
+msgstr "%(numberOf)d개월"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:960
+#, python-format
+msgid "%(numberOf)d seconds"
+msgstr "%(numberOf)d초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:955
+#, python-format
+msgid "%(numberOf)d years"
+msgstr "%(numberOf)d년"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:489
+#, python-format
+msgid "%(time)d day window"
+msgstr "%(time)d일 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:488
+#, python-format
+msgid "%(time)d hour window"
+msgstr "%(time)d시간 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:487
+#, python-format
+msgid "%(time)d minute window"
+msgstr "%(time)d분 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:491
+#, python-format
+msgid "%(time)d month window"
+msgstr "%(time)d개월 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:492
+#, python-format
+msgid "%(time)d quarter window"
+msgstr "%(time)d분기 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:486
+#, python-format
+msgid "%(time)d second window"
+msgstr "%(time)d초 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:490
+#, python-format
+msgid "%(time)d week window"
+msgstr "%(time)d주 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:493
+#, python-format
+msgid "%(time)d year window"
+msgstr "%(time)d년 윈도우"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ColumnSelectorFooterMessage.tsx:20
+msgid "%1 of %2 fields"
+msgstr "%1/%2 필드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:108
+msgid ". Are you sure you want to ${dataSourceRemoveVerb} this data source?"
+msgstr "이 데이터 원본을 ${dataSourceRemoveVerb}하시겠습니까?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:31
+msgid "...Z"
+msgstr "...Z"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:459
+msgid "0 chain searches"
+msgstr "0개의 체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:465
+msgid "0 inputs"
+msgstr "0개의 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:453
+msgid "0 visualizations"
+msgstr "0개의 시각화"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:957
+msgid "1 day"
+msgstr "1일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:958
+msgid "1 hour"
+msgstr "1시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1052
+msgid "1 hour window"
+msgstr "1시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:962
+msgid "1 millisecond"
+msgstr "1밀리초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:959
+msgid "1 minute"
+msgstr "1분"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1049
+msgid "1 minute window"
+msgstr "1분 실시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:956
+msgid "1 month"
+msgstr "1개월"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:960
+msgid "1 second"
+msgstr "1초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:955
+msgid "1 year"
+msgstr "1년"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1051
+msgid "30 minute window"
+msgstr "30분 실시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1048
+msgid "30 second window"
+msgstr "30초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1050
+msgid "5 minute window"
+msgstr "5분 실시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:283
+msgid "A new builder to create visually-rich, customizable dashboards"
+msgstr "시각적으로 풍부한 사용자 지정 대시보드를 만들 수 있는 새 작성기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:29
+msgid "A..."
+msgstr "A..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:30
+msgid "A...Z"
+msgstr "A...Z"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:206
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:156
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:54
+msgid "Absolute"
+msgstr "절대"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/VizStatusBar.jsx:73
+msgid "Action Required:"
+msgstr "작업 필요:"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:109
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/groups/ActionsGroup.tsx:23
+msgid "Actions"
+msgstr "작업"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:21
+msgid "Actual Size"
+msgstr "실제 크기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddChart.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddChartDropdown.jsx:25
+msgid "Add Chart"
+msgstr "차트 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DrilldownList.jsx:1
+msgid "Add Drilldown"
+msgstr "드릴다운 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddIcon.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddIconDropdown.jsx:8
+msgid "Add Icon"
+msgstr "아이콘 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ImageGallery.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Image.jsx:30
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ImageGallery.jsx:26
+msgid "Add Image"
+msgstr "이미지 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddInput.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddInputDropdown.jsx:25
+msgid "Add Input"
+msgstr "입력 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/AddAndReverseRanges.tsx:1
+msgid "Add Range"
+msgstr "범위 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddShape.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddShapeDropdown.jsx:25
+msgid "Add Shape"
+msgstr "모양 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Text.jsx:28
+msgid "Add Text"
+msgstr "텍스트 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/AddThreshold.jsx:1
+msgid "Add threshold level"
+msgstr "임계값 수준 추가"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:22
+msgid "Advanced Panel Settings"
+msgstr "고급 패널 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:308
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:94
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:12
+msgid "After"
+msgstr "이후"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutItemEditor.jsx:74
+msgid "Align"
+msgstr "정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignBottom.jsx:10
+msgid "Align Bottom"
+msgstr "하단 정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignCenterHorizontal.jsx:10
+msgid "Align Center Horizontal"
+msgstr "가운데 가로 정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignCenterVertical.jsx:10
+msgid "Align Center Vertical"
+msgstr "가운데 세로 정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignLeft.jsx:8
+msgid "Align Left"
+msgstr "왼쪽 정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignRight.jsx:8
+msgid "Align Right"
+msgstr "오른쪽 정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AlignTop.jsx:8
+msgid "Align Top"
+msgstr "상단 정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:235
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:149
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:32
+msgid "All"
+msgstr "모두"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:124
+msgid "All Events"
+msgstr "모든 이벤트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:879
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1044
+msgid "All time"
+msgstr "전체 시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1053
+msgid "All time (real-time)"
+msgstr "항상(실시간)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:186
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:111
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:87
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:151
+msgid "App"
+msgstr "앱"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:5
+msgid "Appearance"
+msgstr "모양"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:59
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:60
+msgid "Area"
+msgstr "영역형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:44
+msgid "Arrows"
+msgstr "화살표"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:69
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:78
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:67
+msgid "Auto"
+msgstr "자동"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:4
+msgid "Axes"
+msgstr "축"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:183
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/DashboardSourceEditor.jsx:169
+msgid "Back"
+msgstr "뒤로"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:244
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:225
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:466
+msgid "Background"
+msgstr "백그라운드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/BackgroundColor.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:85
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:53
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:66
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/BackgroundColorConfig.js:4
+msgid "Background Color"
+msgstr "배경색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:64
+msgid "Background Image"
+msgstr "백그라운드 이미지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:64
+msgid "Bar"
+msgstr "막대형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/FormatterEditor.tsx:174
+msgid "Based on"
+msgstr "기준"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:391
+msgid ""
+"Because the user has navigated away from the dashboard, all running searches have been stopped. Please refresh the "
+"dashboard to rerun the searches."
+msgstr ""
+"사용자가 대시보드에서 멀리 이동했으므로 실행 중인 모든 검색이 중지되었습니다. 검색을 다시 실행하려면 대시보드를 새로 "
+"고치십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:306
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:93
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:11
+msgid "Before"
+msgstr "이전"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:862
+#, python-format
+msgid "Before %(dateTime)s"
+msgstr "%(dateTime)s 이전"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:865
+msgid "Before Date-time"
+msgstr "날짜 시간 이전"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:307
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:172
+msgid "Below"
+msgstr "이하"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:843
+msgid "Between Date-times"
+msgstr "날짜 시간 사이"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:66
+msgid "Bold"
+msgstr "굵게"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:29
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:29
+msgid "Border"
+msgstr "더 굵게"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:16
+msgid "Bottom"
+msgstr "아래"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ArrowLayer.tsx:28
+msgid "Bottom range"
+msgstr "하단 범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:119
+msgid "Bring to front"
+msgstr "앞으로 가져오기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:69
+msgid "Bubble"
+msgstr "버블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:88
+msgid "Bubble Color"
+msgstr "버블 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:41
+msgid "Bubble Row Scale"
+msgstr "버블 행 눈금"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:54
+msgid "Bubble Scale"
+msgstr "버블 눈금"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1026
+msgid "Business week to date"
+msgstr "영업일 기준 주간 누계"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:47
+msgid "By Row"
+msgstr "행 기준"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:6
+msgid "Can not parse data correctly."
+msgstr "데이터를 올바르게 구문 분석할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:162
+msgid "Can not upload icons to the standard icon provider."
+msgstr "표준 아이콘 제공자에 아이콘을 업로드할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:106
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:134
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:224
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:143
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:178
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:193
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:371
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:153
+msgid "Cancel"
+msgstr "취소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:11
+msgid "Cannot create ${parameter} with name \"${name}\"."
+msgstr "\"${name}\" 이름으로 ${parameter}을(를) 만들 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:167
+msgid "Cannot find parent dataSource: ${parentDataSourceId}"
+msgstr "상위 데이터 원본을 찾을 수 없습니다. ${parentDataSourceId}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoRegistry.js:40
+msgid "Cannot get geoJson data."
+msgstr "geoJson 데이터를 가져올 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:140
+msgid "Cannot save dashboard"
+msgstr "대시보드를 저장할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:12
+msgid "Canvas"
+msgstr "캔버스"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:37
+msgid "Canvas Height"
+msgstr "캔버스 높이"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:29
+msgid "Canvas Width"
+msgstr "캔버스 너비"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:381
+msgid "Canvas is not supported"
+msgstr "캔버스를 지원하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:80
+msgid "Categorical"
+msgstr "범주형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:337
+msgid "Chain Search"
+msgstr "체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:179
+msgid "Chain Searches"
+msgstr "체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:327
+msgid "Chain data source ${dataSourceId} must have valid extend property"
+msgstr "체인 데이터 원본 ${dataSourceId}에 유효한 확장 속성이 있어야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:36
+msgid "Choropleth Maps"
+msgstr "단계구분도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:249
+msgid "Classic Dashboards"
+msgstr "클래식 대시보드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/VizStatusBar.jsx:76
+msgid "Click here to review the query before running"
+msgstr "실행하기 전에 쿼리를 검토하려면 여기를 클릭하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/CloneButton.jsx:27
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Clone.jsx:8
+msgid "Clone"
+msgstr "복제"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:95
+msgid "Clone in Dashboard Studio"
+msgstr "Dashoboard Studio에서 복제"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:52
+msgid ""
+"Clones the report's search string and time range. The inline search exists only in the dashboard and has no external "
+"dependencies."
+msgstr "보고서의 검색 문자열과 시간 범위를 복제합니다. 인라인 검색은 대시보드에만 존재하면 외부 종속성이 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/CombinedCodeIdEditor.jsx:87
+msgid "Code"
+msgstr "코드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/CollapsibleGroup.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CollapsibleGroup.jsx:53
+msgid "Collapse"
+msgstr "축소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:49
+msgid "Collapse Threshold"
+msgstr "임계값 축소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:45
+msgid "Collapse to Summary"
+msgstr "요약으로 축소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/CollapsibleToolbar.tsx:127
+msgid "Collapsed"
+msgstr "축소됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:61
+msgid "Collapsed Slice Label"
+msgstr "축소된 슬라이스 레이블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:11
+msgid "Color"
+msgstr "색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:69
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:74
+msgid "Color Mode"
+msgstr "색상 모드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:127
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:316
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:255
+msgid "Coloring"
+msgstr "색상 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:74
+msgid "Column"
+msgstr "세로막대형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/FormatByTypeEditor.tsx:1
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:450
+msgid "Column Formatting"
+msgstr "컬럼 형식 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:66
+msgid "Columns"
+msgstr "컬럼"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:30
+msgid "Comparisons"
+msgstr "비교"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Configuration.jsx:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Config.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:249
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:290
+msgid "Configuration"
+msgstr "설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:13
+msgid ""
+"Configured in source code beyond what can be shown here. Resetting to default will overwrite this custom "
+"configurations."
+msgstr "여기에 표시할 수 있는 원본 코드로 설정됩니다. 기본값으로 재설정하면 이 사용자 지정 설정을 덮어씁니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:21
+msgid "Connect"
+msgstr "연결"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:142
+msgid "Connected Line"
+msgstr "연결된 선"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:26
+msgid "Contain"
+msgstr "포함"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ContentExport.jsx:10
+msgid "Content Export"
+msgstr "콘텐츠 내보내기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:186
+msgid "Continue Anyway"
+msgstr "계속하기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:156
+msgid "Continue using the same standard Splunk visualizations and explore additional tools."
+msgstr "동일한 표준 Splunk 시각화를 계속 사용하고 추가 도구를 살펴보십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:112
+msgid "Convert & Save"
+msgstr "변환 및 저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:28
+msgid "Cover"
+msgstr "커버"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:138
+msgid "Create"
+msgstr "만들기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:122
+msgid "Create New Dashboard"
+msgstr "새 대시보드 만들기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:177
+msgid "Create new dashboard"
+msgstr "새 대시보드 만들기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:182
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:145
+msgid "Creator"
+msgstr "작성자"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:153
+msgid "Ctrl Alt -"
+msgstr "Ctrl Alt -"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:129
+msgid "Ctrl Alt 0"
+msgstr "Ctrl Alt 0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:143
+msgid "Ctrl Alt ="
+msgstr "Ctrl Alt ="
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:153
+msgid "Ctrl Cmd -"
+msgstr "Ctrl Cmd -"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:129
+msgid "Ctrl Cmd 0"
+msgstr "Ctrl Cmd 0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:143
+msgid "Ctrl Cmd ="
+msgstr "Ctrl Cmd ="
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:1
+msgid "Currently referencing"
+msgstr "현재 참조 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:57
+msgid "Currently using"
+msgstr "현재 사용 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:53
+msgid "Currently using Untitled input"
+msgstr "현재 제목 없는 입력 사용 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:37
+msgid "Currently using static time range"
+msgstr "현재 정적 시간 범위 사용 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:27
+msgid "Custom"
+msgstr "사용자 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/advanced/examples/CustomIcon.jsx:8
+msgid "Custom Icon"
+msgstr "사용자 지정 아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:924
+msgid "Custom time"
+msgstr "사용자 지정 시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:162
+msgid "Custom visualizations & Trellis not yet supported"
+msgstr "사용자 지정 시각화 및 격자는 아직 지원되지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "Customize with shapes,"
+msgstr "도형으로 사용자 지정,"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:133
+msgid "Customize with shapes, images, and text without coding with Absolute layout."
+msgstr "절대 레이아웃을 사용하여 코딩하지 않고 도형, 이미지 및 텍스트로 사용자 지정합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/CustomizedInSourceEditor.tsx:45
+msgid "Customized in source"
+msgstr "소스에서 사용자 지정됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:153
+msgid "Dark"
+msgstr "어둡게"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:69
+msgid "Dash Style"
+msgstr "대시 스타일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:61
+msgid "Dashboard ID"
+msgstr "대시보드 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:19
+msgid "Dashboard ID can only use letters, numbers, dashes, & underscores."
+msgstr "대시보드 ID는 문자, 숫자, 대시 및 밑줄만 사용할 수 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:277
+msgid "Dashboard Studio"
+msgstr "Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:13
+msgid "Dashboard Studio does not support Trellis."
+msgstr "Dashboard Studio에서 격자를 지원하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:17
+msgid "Dashboard Studio does not support categorical colors in Choropleth Maps."
+msgstr "Dashboard Studio는 단계구분도에서 범주형 색상을 지원하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:9
+msgid "Dashboard Studio does not support the selected visualization type."
+msgstr "Dashboard Studio에서 선택한 시각화 유형을 지원하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:30
+msgid "Dashboard Title"
+msgstr "대시보드 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:163
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:189
+msgid "Dashboards"
+msgstr "대시보드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:165
+msgid "Dashboards include searches, visualizations, and input controls that capture and present available data."
+msgstr "대시보드에는 사용 가능한 데이터를 캡처하고 표시하는 검색, 시각화 및 입력 컨트롤이 포함됩니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DataInput.jsx:8
+msgid "Data Icon"
+msgstr "데이터 아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Data.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:254
+msgid "Data Overview"
+msgstr "데이터 개요"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:6
+msgid "Data Settings"
+msgstr "데이터 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:421
+msgid "Data Source ID"
+msgstr "데이터 원본 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:425
+msgid "Data Source IDs must start with \"ds_\" and contain only letters, numbers, dash, and underscore"
+msgstr "데이터 원본 ID는 \"ds_\"로 시작해야 하며 문자, 숫자, 대시 및 밑줄만 포함해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:269
+msgid "Data Source Name"
+msgstr "데이터 원본 이름"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceRegistry.js:336
+msgid ""
+"Data source ${currentId} creates an invalid circular reference; check parent data sources referenced by extend "
+"property."
+msgstr ""
+"데이터 원본 ${currentId}에서 잘못된 순환 참조를 만듭니다. 확장 속성으로 참조되는 상위 데이터 원본을 확인하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/FillerGauge.jsx:64
+msgid ""
+"Data type for \"${propInWrongType}\" encoding is incorrect. Expected: \"${expectedType}\", Received: "
+"\"${receivedType}\""
+msgstr ""
+"\"${propInWrongType}\" 인코딩의 데이터 유형이 잘못되었습니다. 예상: \"${expectedType}\", 수신: \"${receivedType}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/MarkerGauge.jsx:30
+msgid "Data type for value encoding is incorrect. Expected: \"number\", Received: \"${propsFromEncoding.valueType}\""
+msgstr "값 인코딩의 데이터 유형이 잘못되었습니다. 예상: \"number\", 수신: \"${propsFromEncoding.valueType}\""
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/datasources/DataSourceController.js:291
+msgid "DataSource is not set up."
+msgstr "데이터 원본이 설정되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:826
+msgid "Date Range"
+msgstr "날짜 범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/utils/OptionsDoc.jsx:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/OptionsDoc.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:220
+msgid "Default"
+msgstr "기본값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:134
+msgid "Default Text"
+msgstr "기본 텍스트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/EnterpriseTimeRangePicker/EnterpriseTimeRangePicker.jsx:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:119
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:120
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/TimeRangePicker/TimeRangePicker.jsx:34
+msgid "Default Value"
+msgstr "기본 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:103
+msgid "Default module used if no value specified."
+msgstr "값이 지정되지 않은 경우 기본 모듈이 사용됩니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:11
+msgid "Degrees"
+msgstr "범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:113
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:131
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/DeleteButton.jsx:26
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/components/DataSourceItem.tsx:9
+msgid "Delete"
+msgstr "삭제"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:72
+msgid "Delta Font Size (px)"
+msgstr "델타 글꼴 크기(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/DescriptionEditor.jsx:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:179
+msgid "Description"
+msgstr "설명"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:8
+msgid "Digit Precision"
+msgstr "자릿수 정밀도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:16
+msgid "Display Mode"
+msgstr "디스플레이 모드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:35
+msgid "Distributions"
+msgstr "분포"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:191
+msgid "Done"
+msgstr "완료"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:16
+msgid "Donut"
+msgstr "도넛"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Download.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:126
+msgid "Download"
+msgstr "다운로드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:87
+msgid "Drilldown"
+msgstr "드릴다운"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DrilldownList.jsx:71
+msgid "Drilldown Settings"
+msgstr "드릴다운 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:93
+msgid ""
+"Drilldown is disabled when you save a visualization to a dashboard. After saving, open the dashboard editor to "
+"access configuration options for the visualization."
+msgstr ""
+"시각화를 대시보드에 저장하면 드릴다운이 비활성화됩니다. 저장한 후 대시보드 편집기를 열어 시각화의 설정 옵션에 액세스"
+"합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:144
+msgid "Dropdown"
+msgstr "드롭다운"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DropdownIcon.jsx:24
+msgid "Dropdown Icon"
+msgstr "드롭다운 아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/DropdownInput.jsx:27
+msgid "Dropdown Input"
+msgstr "드롭다운 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:155
+msgid "Dropdown Input Title"
+msgstr "드롭다운 입력 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:5
+msgid "Dynamic Background"
+msgstr "동적 백그라운드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/DynamicColorEditor.tsx:117
+msgid "Dynamic Coloring"
+msgstr "동적 색상 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:12
+msgid "Dynamic Coloring: Background"
+msgstr "동적 색상 지정: 백그라운드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:12
+msgid "Dynamic Coloring: Major Value"
+msgstr "동적 색상 지정: 주요 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:12
+msgid "Dynamic Coloring: Trend"
+msgstr "동적 색상 지정: 동향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:274
+msgid "Dynamic Icon"
+msgstr "동적 아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:5
+msgid "Dynamic Major Value"
+msgstr "동적 주요 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:12
+msgid "Dynamic Option: Customized in source"
+msgstr "동적 옵션: 원본으로 사용자 지정됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:5
+msgid "Dynamic Trend"
+msgstr "동적 동향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:21
+msgid "Dynamic options are being used by this input. Please edit in source mode."
+msgstr "동적 옵션이 이 입력에서 사용 중입니다. 원본 모드로 편집하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:105
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Edit.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ModeSwitch.jsx:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/EditableListItem.jsx:118
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/EditIcon.tsx:6
+msgid "Edit"
+msgstr "편집"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:266
+msgid "Edit Data Source"
+msgstr "데이터 원본 편집"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:41
+msgid "Edit ID"
+msgstr "ID 편집"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/EditSourceButton.jsx:16
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/EditSourceButton.jsx:18
+msgid "Edit Source"
+msgstr "원본 편집"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:57
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:113
+msgid "Ellipse"
+msgstr "타원"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:246
+msgid "Enable"
+msgstr "활성화"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:227
+msgid "Encoding Settings"
+msgstr "인코딩 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:63
+msgid ""
+"Encoding specifies which and what type of datasources and fields are supported for visualization.\n"
+"                Type of each encoding indicates the expected data type returned by the datasource for "
+"visualization.\n"
+"                Default indicates the default datasource and field for visualization if encoding is not specified.\n"
+"                Checking Examples tab on how to use encoding to specify datasource in each visualization."
+msgstr ""
+"인코딩은 시각화에 지원되는 데이터 원본 및 필드와 그 유형을 지정합니다.\n"
+"                각 인코딩 유형은 데이터 원본이 시각화를 위해 반환한 예상 데이터 유형을 나타냅니다.\n"
+"                기본값은 인코딩을 지정하지 않은 경우 시각화를 위한 기본 데이터 원본 및 필드를 나타냅니다.\n"
+"                인코딩을 사용하여 각 시각화에서 데이터 원본을 지정하는 방법에 대한 예제 탭을 선택합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:58
+msgid "Ending Point"
+msgstr "끝점"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:149
+msgid "Enter URL"
+msgstr "URL 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/Text.jsx:53
+msgid "Enter text here"
+msgstr "여기에 텍스트 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:72
+msgid "Error encountered while downloading"
+msgstr "다운로드 중 오류가 발생했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:54
+msgid "Error retrieving ${url} from Image Registry, error was '${e.message}'"
+msgstr "이미지 레지스트리에서 ${url}을(를) 검색하는 동안 오류가 발생했습니다. 오류는 ‘${e.message}'입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:349
+msgid "Error: Token duplicated across multiple inputs"
+msgstr "오류: 여러 입력에 걸쳐 토큰이 중복되었습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:374
+msgid "Error: Visualization duplicated in layout structure"
+msgstr "오류: 레이아웃 구조에 시각화가 중복되었습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:384
+msgid "Error: Visualization in layout structure does not exist"
+msgstr "오류: 레이아웃 구조의 시각화가 존재하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:7
+msgid "Errors occurred during conversion"
+msgstr "변환하는 동안 오류가 발생했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:98
+msgid "Even Row Fill Color"
+msgstr "짝수 행 채우기 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:51
+msgid "Even Row Text Color"
+msgstr "짝수 행 텍스트 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:117
+msgid "Event"
+msgstr "이벤트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/CollapsibleGroup.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CollapsibleGroup.jsx:55
+msgid "Expand"
+msgstr "확장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/CollapsibleToolbar.tsx:127
+msgid "Expanded"
+msgstr "확장됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/ExportButton.jsx:68
+msgid "Export"
+msgstr "내보내기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Eyedropper.jsx:10
+msgid "Eyedropper"
+msgstr "스포이드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:9
+msgid "Failed to add to existing dashboard"
+msgstr "기존 대시보드에 추가하지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:13
+msgid "Failed to clone dashboard"
+msgstr "대시보드를 복제하지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:26
+msgid "Failed to fetch dashboard content for ${id}"
+msgstr "${id}에 대한 대시보드 콘텐츠를 가져오지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:11
+msgid "Failed to save to dashboard"
+msgstr "대시보드에 저장하지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:20
+msgid "Failed to update"
+msgstr "업데이트하지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:93
+msgid "Fetching dashboards"
+msgstr "대시보드를 가져오는 중입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:129
+msgid "Field to enter a number"
+msgstr "숫자를 입력할 필드입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:131
+msgid "Field to enter text"
+msgstr "텍스트를 입력할 필드입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:81
+msgid "File size must be 16MB or smaller"
+msgstr "파일 크기는 16MB 이하여야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Threshold.js:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:62
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/Threshold.js:9
+msgid "Fill"
+msgstr "채우기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FillerGauge.jsx:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:79
+msgid "Filler Gauge"
+msgstr "필러 게이지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Filter.jsx:10
+msgid "Filter"
+msgstr "필터"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:134
+msgid "Fit"
+msgstr "맞춤"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:22
+msgid "Fit to Width"
+msgstr "너비에 맞춤"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:427
+msgid "Fixed"
+msgstr "고정됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:116
+msgid "Flexible layout options to freely place objects or organize & resize (Absolute and Grid)."
+msgstr "개체를 자유롭게 배치하거나 설정 및 크기 조정(절대값 및 그리드)할 수 있는 유연한 레이아웃 옵션입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FlipHorizontal.jsx:10
+msgid "FlipHorizontal"
+msgstr "FlipHorizontal"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FlipVertical.jsx:10
+msgid "FlipVertical"
+msgstr "FlipVertical"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:26
+msgid "Font"
+msgstr "글꼴"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:58
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:21
+msgid "Font Settings"
+msgstr "글꼴 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:42
+msgid "Font Size (px)"
+msgstr "글꼴 크기(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:83
+msgid "Friday"
+msgstr "금요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:83
+msgid "Fridays"
+msgstr "금요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:206
+msgid "Full layout control"
+msgstr "전체 레이아웃 제어"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/FullscreenButton.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Fullscreen.jsx:8
+msgid "Fullscreen"
+msgstr "전체 화면"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/FullscreenExit.jsx:9
+msgid "Fullscreen Exit"
+msgstr "전체 화면 종료"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:19
+msgid "Gaps"
+msgstr "간격"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:33
+msgid "Gauge"
+msgstr "게이지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:12
+msgid "Gauge Color"
+msgstr "게이지 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:13
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:10
+msgid "General"
+msgstr "일반"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:85
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:46
+msgid "Global"
+msgstr "전역"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:395
+msgid "Global Formatting"
+msgstr "전역 형식 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:81
+msgid "Global Time Range"
+msgstr "세계 시간 범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:212
+msgid "Grid"
+msgstr "그리드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:73
+msgid "Grid Height"
+msgstr "그리드 높이"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:37
+msgid "Gridlines"
+msgstr "그리드선"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:41
+msgid "Gridlines displayed"
+msgstr "그리드선이 표시됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/GridLineSwitch.jsx:42
+msgid "Gridlines not displayed"
+msgstr "그리드선이 표시되지 않음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:76
+msgid "Header Fill Color"
+msgstr "헤더 채우기 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:421
+msgid "Header Row"
+msgstr "헤더 행"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:29
+msgid "Header Text Color"
+msgstr "헤더 텍스트 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:127
+msgid "Height"
+msgstr "높이"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:428
+msgid "Hidden"
+msgstr "숨겨짐"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Hide.jsx:8
+msgid "Hide"
+msgstr "숨기기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:1
+msgid "Hide list"
+msgstr "리스트 숨기기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/History.jsx:8
+msgid "History"
+msgstr "이력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:28
+msgid "Horizontal"
+msgstr "가로"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:230
+msgid "How do you want to build your dashboard?"
+msgstr "대시보드를 어떻게 작성하시겠습니까?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:12
+msgid "ID already in use. Edit the ID or choose a different title."
+msgstr "ID가 이미 사용 중입니다. ID를 편집하거나 다른 제목을 선택하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:5
+msgid "ID cannot be empty."
+msgstr "ID를 비워둘 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/IdEditor.jsx:17
+msgid "ID does not match specified rules"
+msgstr "ID가 지정된 규칙과 일치하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/source/IdEditor.jsx:18
+msgid "ID duplicates an existing ID"
+msgstr "ID가 기존 ID와 중복됩니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:213
+msgid "INPUT OPTIONS"
+msgstr "입력 옵션"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:167
+msgid "Icon"
+msgstr "아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:209
+msgid "Icon & Major Value"
+msgstr "아이콘 및 주요 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:7
+msgid "Icon Color"
+msgstr "아이콘 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:172
+msgid "If these commands are unexpected to you, you should not run this query without further investigation."
+msgstr "이러한 명령어를 예상하지 못한 경우 추가 조사 없이 이 쿼리를 실행하면 안 됩니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:123
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/Image.jsx:10
+msgid "Image"
+msgstr "이미지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/AddImage.jsx:12
+msgid "Image Gallery"
+msgstr "이미지 갤러리"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:183
+msgid "Image Height"
+msgstr "이미지 높이"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:174
+msgid "Image Width"
+msgstr "이미지 너비"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/RemoteImage.jsx:88
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/Image.jsx:121
+msgid "Image not found"
+msgstr "이미지를 찾을 수 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:426
+msgid "Inline"
+msgstr "인라인"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:48
+msgid "Inline Search"
+msgstr "인라인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Input.jsx:24
+msgid "Input"
+msgstr "입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:184
+msgid "Input ID"
+msgstr "입력 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:188
+msgid "Input IDs must start with \"input_\" and contain only letters, numbers, dash, and underscore"
+msgstr "입력 ID는 \"input_\"으로 시작해야 하며 문자, 숫자, 대시 및 밑줄만 포함해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:94
+msgid "Introducing Dashboard Studio"
+msgstr "Dashboard Studio 소개"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:27
+msgid "Invalid Provider"
+msgstr "잘못된 제공자"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:22
+msgid "Invalid input for ${parameter}. Expected ${expectedType}, but received ${actualType}"
+msgstr "${parameter}에 대한 잘못된 입력. ${expectedType}이(가) 예상되지만 ${actualType}(이)가 수신됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:17
+msgid "Invalid layout field, requires \"absolute\" or \"grid\""
+msgstr "잘못된 레이아웃 필드입니다. \"절댓값\" 또는 \"그리드\"가 필요합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoJsonProvider.js:28
+msgid "Invalid mapId."
+msgstr "잘못된 매핑 ID입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:124
+msgid "Invalid url"
+msgstr "잘못된 URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoRegistry.js:20
+msgid "Invalid url."
+msgstr "잘못된 URL입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:236
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:150
+msgid "Item 1"
+msgstr "항목 1"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:237
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:151
+msgid "Item 2"
+msgstr "항목 2"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:238
+msgid "Item 3"
+msgstr "항목 3"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:43
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:182
+msgid "Label"
+msgstr "레이블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:24
+msgid "Labels"
+msgstr "레이블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:564
+#, python-format
+msgid "Last %(amount)d %(unit)s"
+msgstr "마지막 %(amount)d %(unit)s"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1038
+msgid "Last 15 minutes"
+msgstr "최근 15분"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1041
+msgid "Last 24 hours"
+msgstr "최근 24시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1043
+msgid "Last 30 days"
+msgstr "최근 30일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1040
+msgid "Last 4 hours"
+msgstr "최근 4시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1039
+msgid "Last 60 minutes"
+msgstr "최근 60분"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1042
+msgid "Last 7 days"
+msgstr "최근 7일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:164
+msgid "Last Edited"
+msgstr "마지막 편집"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:93
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Layers.jsx:8
+msgid "Layers"
+msgstr "레이어"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/containers/layouts/LayoutContainer.jsx:116
+msgid "Layout ${type} is not defined"
+msgstr "레이아웃 ${type}이(가) 정의되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/DynamicEditor.jsx:121
+msgid "Layout transformation failed"
+msgstr "레이아웃을 변환하지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:175
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:209
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:177
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:53
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:167
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:265
+msgid "Learn More."
+msgstr "자세히 알아보십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:14
+msgid "Left"
+msgstr "왼쪽"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:4
+msgid "Legend"
+msgstr "범례"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:152
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:67
+msgid "Light"
+msgstr "라이트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:84
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:133
+msgid "Line"
+msgstr "꺾은선형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:59
+msgid "Link to custom URL"
+msgstr "사용자 지정 URL에 연결"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:68
+msgid "Loaded from report"
+msgstr "보고서에서 로드됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:40
+msgid "Loading Data Source..."
+msgstr "데이터 원본 로드 중..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:136
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:21
+msgid "Loading menu items..."
+msgstr "메뉴 항목 로드 중..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:42
+msgid "MENU CONFIGURATION"
+msgstr "메뉴 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:63
+msgid "Major Font Size (px)"
+msgstr "주요 글꼴 크기(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:200
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:181
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:302
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:32
+msgid "Major Value"
+msgstr "주요 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:228
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:292
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:242
+msgid "Major Value & Trend"
+msgstr "주요 값 및 동향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:36
+msgid "Major Value Size (px)"
+msgstr "주요 값 크기(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:119
+msgid "Markdown"
+msgstr "마크다운"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/MarkerGauge.jsx:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:89
+msgid "Marker Gauge"
+msgstr "마커 게이지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:103
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:33
+msgid "Max"
+msgstr "최대"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/FormatterEditor.tsx:162
+msgid "Method"
+msgstr "방법"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:97
+msgid "Min"
+msgstr "최소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:52
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:33
+msgid "Min/Max"
+msgstr "최소/최대"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:43
+msgid "Missing Image Context"
+msgstr "누락된 이미지 컨텍스트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/components/MissingPropsMessage.tsx:51
+msgid "Missing property: ${missingProps.join(', ')}"
+msgstr "누락된 속성: ${missingProps.join(', ')}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:18
+msgid "Missing required parameters: id, simpleXmlDefinition"
+msgstr "필수 매개변수(id, simpleXmlDefinition)가 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:16
+msgid "Missing required parameters: id, simpleXmlVizDef"
+msgstr "필수 매개변수(id, simpleXmlVizDef)가 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/TestDataSourceEditor.jsx:14
+msgid "Mock Data"
+msgstr "모의 데이터"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:75
+msgid "Monday"
+msgstr "월요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:75
+msgid "Mondays"
+msgstr "월요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1027
+msgid "Month to date"
+msgstr "월간 누계"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:128
+msgid "Move backward"
+msgstr "뒤로 이동"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:110
+msgid "Move forward"
+msgstr "앞으로 이동"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:230
+msgid "Multiselect"
+msgstr "다중선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/MultiselectInput.jsx:29
+msgid "Multiselect Input"
+msgstr "다중선택 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:242
+msgid "Multiselect Input Title"
+msgstr "다중선택 입력 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:660
+msgid "My Dashboard"
+msgstr "내 대시보드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:278
+msgid "NEW"
+msgstr "신규"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:273
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:282
+msgid "New Data Source"
+msgstr "새 데이터 원본"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:191
+msgid "Next"
+msgstr "다음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:204
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:175
+msgid "Next Scheduled Time"
+msgstr "다음 예약 시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:96
+msgid "No Action"
+msgstr "작업 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/common/Charting.jsx:325
+msgid "No DataSource"
+msgstr "데이터 원본 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/utils/enhancer.jsx:88
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/components/IconPlaceholder.tsx:61
+msgid "No DataSource Connected"
+msgstr "연결된 데이터 원본 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Choropleth/Choropleth.tsx:133
+msgid "No GeoRegistry provided in context"
+msgstr "컨텍스트에 제공된 GeoRegistry 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/PureSingleValueIcon/SingleValueIcon.jsx:85
+msgid "No Icon"
+msgstr "아이콘 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:158
+msgid "No Icons. Please upload icons."
+msgstr "아이콘이 없습니다. 아이콘을 업로드하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Inputs.jsx:111
+msgid "No Inputs"
+msgstr "입력 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/common/Charting.jsx:326
+msgid "No Result"
+msgstr "결과 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:89
+msgid "No action"
+msgstr "작업 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:97
+msgid "No dashboard"
+msgstr "대시보드 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/PureTable.tsx:167
+msgid "No data!"
+msgstr "데이터 없음!"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:57
+msgid "No icon registry found"
+msgstr "아이콘 레지스트리를 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:126
+msgid "No icons found."
+msgstr "아이콘을 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:223
+msgid "No icons. Please upload icons."
+msgstr "아이콘이 없습니다. 아이콘을 업로드하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:55
+msgid "No image registry found"
+msgstr "이미지 레지스트리를 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:118
+msgid "No images found."
+msgstr "이미지를 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:142
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:210
+msgid "No images. Please upload images."
+msgstr "이미지가 없습니다. 이미지를 업로드하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/visualizations/SvgChoroplethDynamic/SvgChoroplethDynamic.tsx:15
+msgid "No literal SVG is provided"
+msgstr "리터럴 SVG가 제공되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/ChoroplethSvg.tsx:97
+msgid "No literal SVG or URL to SVG is provided"
+msgstr "리터럴 SVG 또는 URL이 SVG에 제공되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/VisualizationPicker.jsx:200
+msgid "No match found"
+msgstr "일치 항목을 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:4
+msgid "No valid dataSources."
+msgstr "유효한 데이터 원본이 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-encoding-parsers/src/errorMsgs.js:5
+msgid "No valid encoding."
+msgstr "유효한 인코딩이 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:136
+msgid "No valid provider was found. Please add a provider"
+msgstr "유효한 제공자를 찾을 수 없습니다. 제공자를 추가하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:192
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:159
+msgid "None"
+msgstr "없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:65
+msgid "Normal"
+msgstr "정상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:248
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:277
+msgid "Not a valid threshold. Must be a number"
+msgstr "유효한 임계값이 없습니다. 임계값은 숫자여야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:36
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:19
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:184
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:200
+msgid "Not stacked"
+msgstr "비스택형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:167
+msgid ""
+"Note: For any visualizations depending on real-time data, accuracy will be dependent on the progress of the search."
+msgstr "참고: 실시간 데이터에 따라 시각화하는 경우에는 검색 진행 상황에 따라 정확도가 달라집니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/GalleryUpload.jsx:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:25
+msgid "Note: Uploaded image files can be accessed and deleted by others in your organization"
+msgstr "참고: 업로드된 이미지 파일은 조직의 다른 사용자가 액세스하고 삭제할 수 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:17
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:14
+msgid "Null Values"
+msgstr "Null 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:128
+msgid "Number"
+msgstr "숫자"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:4
+msgid "Number Formatting"
+msgstr "숫자 형식 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/NumberInput.jsx:25
+msgid "Number Input"
+msgstr "숫자 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:134
+msgid "Number Input Title"
+msgstr "숫자 입력 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:88
+msgid "Odd Row Fill Color"
+msgstr "홀수 행 채우기 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:41
+msgid "Odd Row Text Color"
+msgstr "홀수 행 텍스트 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:50
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:33
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/ColumnColorEditor.tsx:223
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:305
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:516
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:55
+msgid "Off"
+msgstr "끄기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:517
+msgid "On"
+msgstr "켜기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:108
+msgid "On Click"
+msgstr "클릭 시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/common/ErrorViz.jsx:34
+msgid ""
+"Oops! The dashboard that you tried to convert uses components that are not yet supported in Dashboard Studio. We "
+"apologize for any inconvenience."
+msgstr ""
+"죄송합니다. 변환하려는 대시보드는 Dashboard Studio에서 아직 지원되지 않는 구성 요소를 사용합니다. 불편을 끼쳐 드려 죄"
+"송합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:18
+msgid "Opacity"
+msgstr "불투명도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueIcon/editorConfig.js:20
+msgid "Opacity (%)"
+msgstr "Opacity (%)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:152
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/OpenSearchButton.jsx:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:113
+msgid "Open in Search"
+msgstr "검색에서 열기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:53
+msgid "Open in new tab"
+msgstr "새 탭에서 열기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:50
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:153
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:127
+msgid "Optional"
+msgstr "선택 사항"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:22
+msgid "Orientation"
+msgstr "방향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:29
+msgid "Original Size"
+msgstr "원래 크기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:173
+msgid "Outside"
+msgstr "외부"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:110
+msgid "Owner"
+msgstr "소유자"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:87
+msgid "Padding"
+msgstr "안쪽 여백"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Pan.jsx:8
+msgid "Pan"
+msgstr "팬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:27
+msgid "Panel Powered By"
+msgstr "패널 제공"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:125
+msgid "Panel Title"
+msgstr "패널 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:14
+msgid "Parameter \"${parameter}\" must be less than ${length} characters."
+msgstr "매개변수 \"${parameter}\"은(는) ${length}자 미만이어야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:143
+msgid "Parent Search"
+msgstr "상위 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:835
+msgid "Part of a Day"
+msgstr "일중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:101
+msgid "Path ID Field Formatting"
+msgstr "경로 ID 필드 형식 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:133
+msgid "Path ID Field Formatting: Value"
+msgstr "경로 ID 필드 형식 지정: 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:155
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:53
+msgid "Percent"
+msgstr "백분율"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:156
+msgid "Permission"
+msgstr "권한"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:68
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:170
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:190
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:157
+msgid "Permissions"
+msgstr "권한"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:49
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:15
+msgid "Pie"
+msgstr "원형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:37
+msgid "Please set up valid Data Source to select"
+msgstr "선택할 올바른 데이터 원본을 설정하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:46
+msgid "Please upload a valid svg with viewBox attribute."
+msgstr "viewBox 속성이 있는 유효한 svg를 업로드하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:23
+msgid "Position"
+msgstr "위치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutItemEditor.jsx:80
+msgid "Position & Size"
+msgstr "위치 및 크기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:503
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:26
+msgid "Precision"
+msgstr "정밀도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:76
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:53
+msgid "Preferences"
+msgstr "기본 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:90
+msgid "Preparing download..."
+msgstr "다운로드를 준비하는 중..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Image/editorConfig.js:17
+msgid "Preserve Aspect Ratio"
+msgstr "가로 세로 비율 유지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/Palettes/PresetPaletteTheme.tsx:25
+msgid "Preset Palette"
+msgstr "팔레트 사전 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1032
+msgid "Previous business week"
+msgstr "이전 영업 주"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1036
+msgid "Previous month"
+msgstr "이전 월"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1030
+msgid "Previous week"
+msgstr "이전 주"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1037
+msgid "Previous year"
+msgstr "이전 연도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:55
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:132
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:161
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:89
+msgid "Private"
+msgstr "비공개"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/BaseRegistry.js:83
+msgid "Provider not found"
+msgstr "제공자를 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:10
+msgid "Pulsate Max Value"
+msgstr "진동수 최댓값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Punchcard.jsx:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:54
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/Punchcard.jsx:7
+msgid "Punchcard"
+msgstr "펀치카드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:212
+msgid "Quick organization"
+msgstr "빠른 조직"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/RadialGauge.jsx:6
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:99
+msgid "Radial Gauge"
+msgstr "방사형 게이지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:59
+msgid "Radius"
+msgstr "반지름"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:59
+msgid "Radius (px)"
+msgstr "반지름(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:12
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:136
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:284
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:472
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicMajorColorEditor.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:15
+msgid "Ranges"
+msgstr "범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:516
+msgid "Real-time"
+msgstr "실시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:19
+msgid "Real-time search is running"
+msgstr "실시간 검색을 실행하는 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:59
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Shapes.jsx:121
+msgid "Rectangle"
+msgstr "직사각형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Redo.jsx:8
+msgid "Redo"
+msgstr "다시 실행"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:398
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/RefreshButton.jsx:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Refresh.jsx:8
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:108
+msgid "Refresh rates of less than 60 seconds might impact search performance."
+msgstr "새로 고침 빈도가 60초 미만일 경우 검색 성능에 영향을 미칠 수 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:111
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Remove.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/EditableListItem.jsx:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/RemoveIcon.tsx:6
+msgid "Remove"
+msgstr "제거"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:68
+msgid "Report"
+msgstr "보고서"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:48
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:70
+msgid "Required"
+msgstr "필수"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/CustomizedInSourceMessage.tsx:16
+msgid "Reset to default"
+msgstr "기본값으로 재설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:13
+msgid "Right"
+msgstr "오른쪽"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:6
+msgid "Rotation"
+msgstr "회전"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:410
+msgid "Row Numbers"
+msgstr "행 번호"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:399
+msgid "Rows Displayed"
+msgstr "행이 표시됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:364
+msgid "Run & Save"
+msgstr "실행 및 저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:187
+msgid "Run Query"
+msgstr "쿼리 실행"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:159
+msgid "SVG (deprecated)"
+msgstr "SVG(지원되지 않음)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SvgChoropleth.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/ChoroplethSvg.jsx:7
+msgid "SVG Choropleth"
+msgstr "SVG 단계구분도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:84
+msgid "SVG Data"
+msgstr "SVG 데이터"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:84
+msgid "Saturday"
+msgstr "토요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:84
+msgid "Saturdays"
+msgstr "토요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:128
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:365
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DrilldownEditor.jsx:159
+msgid "Save"
+msgstr "저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:187
+msgid "Save Panel to Existing Dashboard"
+msgstr "패널을 기존 대시보드에 저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:122
+msgid "Save Panel to New Dashboard"
+msgstr "패널을 새 대시보드에 저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:138
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/index.jsx:231
+msgid "Save to Dashboard"
+msgstr "대시보드에 저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSavedSearch.js:295
+msgid "Saved Search"
+msgstr "저장된 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:144
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:105
+msgid "Saved Search with SPL"
+msgstr "SPL로 검색 저장"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:94
+msgid "Scatter"
+msgstr "산포도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Search.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/VisualizationPicker.jsx:187
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:695
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:337
+msgid "Search"
+msgstr "검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:242
+msgid "Search By Title"
+msgstr "제목을 기준으로 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/IconGallery.jsx:239
+msgid "Search Icons"
+msgstr "검색 아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ImageGallery.jsx:226
+msgid "Search Images"
+msgstr "검색 이미지"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:40
+msgid "Search is not yet running, queued on client"
+msgstr "검색이 아직 실행되지 않았습니다. 클라이언트에서 대기열에 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:31
+msgid "Search is not yet running, queued on server"
+msgstr "검색이 아직 실행되지 않았습니다. 서버에서 대기열에 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:30
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:22
+msgid "Search is running, but not enough data to render visualization"
+msgstr "검색이 실행 중이지만 시각화를 렌더링할 데이터가 부족합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:36
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/utils/SplunkSearchUtils.js:34
+msgid "Search ran successfully, but no results were returned"
+msgstr "검색이 성공적으로 실행되었지만 결과가 반환되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:194
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSearchEditor.jsx:45
+msgid "Search with SPL"
+msgstr "SPL로 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:86
+msgid "Search with SPL2"
+msgstr "SPL2로 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:161
+msgid "Searches"
+msgstr "검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Select.jsx:10
+msgid "Select"
+msgstr "선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/Dashboard.jsx:260
+msgid "Select Data"
+msgstr "데이터 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:145
+msgid "Select a single list value"
+msgstr "단일 리스트 값 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:173
+msgid "Select a time range"
+msgstr "시간 범위 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Select/Select.jsx:111
+msgid "Select a value"
+msgstr "값 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:215
+msgid "Select an Existing Dashboard"
+msgstr "기존 대시보드 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:197
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:243
+msgid "Select layout mode"
+msgstr "레이아웃 모드 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Multiselect/Multiselect.jsx:231
+msgid "Select multiple list values"
+msgstr "다중 리스트 값 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:261
+msgid "Selected Data Field"
+msgstr "선택된 데이터 필드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-action-buttons/src/LayerButton.jsx:137
+msgid "Send to back"
+msgstr "이전으로 보내기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:79
+msgid "Sequential"
+msgstr "순차형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:152
+msgid "Set Permission"
+msgstr "권한 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/columnSelectionUtils.ts:34
+msgid "Set up Data Source to select"
+msgstr "데이터 원본을 설정하여 선택"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Settings.jsx:8
+msgid "Settings"
+msgstr "설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:39
+msgid "Shapes"
+msgstr "모양"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Share.jsx:8
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ShareDashboard.jsx:8
+msgid "Share"
+msgstr "공유"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:61
+msgid "Shared in App"
+msgstr "앱에서 공유됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:166
+msgid "Shared in app"
+msgstr "앱에서 공유됨"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:112
+msgid "Sharing"
+msgstr "공유 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Show.jsx:8
+msgid "Show"
+msgstr "표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:27
+msgid "Show Bubble Labels"
+msgstr "버블 레이블 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:45
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:26
+msgid "Show Data Values"
+msgstr "데이터 값 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:10
+msgid "Show Header"
+msgstr "헤더 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:35
+msgid "Show Labels"
+msgstr "레이블 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:97
+msgid "Show Legend"
+msgstr "범례 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Pie/editorConfig.js:28
+msgid "Show Percent"
+msgstr "백분율 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Table/editorConfig.js:17
+msgid "Show Row Numbers"
+msgstr "행 번호 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:34
+msgid "Show Sparkline"
+msgstr "Sparkline 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/AbsoluteLayoutEditor.jsx:80
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:56
+msgid "Show Title & Description"
+msgstr "제목 및 설명 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:11
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:11
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:143
+msgid "Show Trending Value"
+msgstr "동향 값 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:8
+msgid "Show Value"
+msgstr "값 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Header.jsx:61
+msgid "Show less"
+msgstr "더 간단히 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:1
+msgid "Show list"
+msgstr "리스트 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Header.jsx:67
+msgid "Show more"
+msgstr "더 자세히 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:853
+#, python-format
+msgid "Since %(dateTime)s"
+msgstr "%(dateTime)s 이후"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:854
+msgid "Since Date-time"
+msgstr "날짜 시간 이후"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SingleValueTrend.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:32
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/SingleValue.jsx:24
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/SingleValueTrend.jsx:8
+msgid "Single Value"
+msgstr "단일 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:104
+msgid "Single Value (deprecated)"
+msgstr "단일 값(지원되지 않음)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:109
+msgid "Single Value Icon (deprecated)"
+msgstr "단일 값 아이콘(지원되지 않음)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/SingleValueRadial.jsx:9
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:114
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-icons/src/SingleValueRadial.jsx:8
+msgid "Single Value Radial"
+msgstr "단일 값 반지름"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:125
+msgid ""
+"Some custom formatting and configurations to your dashboard may be lost during the cloning and conversion process. "
+"Your original dashboard will not be affected."
+msgstr ""
+"복제 및 변환 프로세스 중에 대시보드에 대한 일부 사용자 지정 형식 및 설정이 손실될 수 있습니다. 원래 대시보드는 영향"
+"을 받지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:490
+msgid "Some external images can not be downloaded."
+msgstr "일부 외부 이미지는 다운로드할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:191
+msgid ""
+"Some visualizations have not loaded since we detected potential security risks. To learn more, click on the icon in "
+"the bottom-right corner of the visualization."
+msgstr ""
+"잠재적인 보안 위험을 감지한 이후 일부 시각화가 로드되지 않았습니다. 자세한 내용을 보려면 시각화 오른쪽 아래에 있는 아"
+"이콘을 클릭하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:162
+msgid "Some visualizations will be incomplete or inaccurate. Are you sure you want to continue?"
+msgstr "일부 시각화가 불완전하거나 부정확합니다. 계속하시겠습니까?"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:217
+msgid "Sort"
+msgstr "정렬"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Source.jsx:29
+msgid "Source"
+msgstr "원본"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/LegacyGridLayoutEditor.jsx:80
+msgid "Spacing"
+msgstr "띄어쓰기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:296
+msgid "Sparkline"
+msgstr "Sparkline"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:99
+msgid "Specify Data Source Module"
+msgstr "데이터 원본 모듈 지정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/main/resources/splunk/default/app.conf:3
+msgid "Splunk Dashboard Studio"
+msgstr "Splunk Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/main/resources/splunk/default/app.conf:8
+msgid "Splunk dashboard studio"
+msgstr "Splunk Dashboard Studio"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:14
+msgid "Stack Mode"
+msgstr "정적 모드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:201
+msgid "Stacked"
+msgstr "스택형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:38
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Bar/editorConfig.js:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Column/editorConfig.js:21
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/RadioBarEditor.test.jsx:186
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/stories/editor.stories.jsx:202
+msgid "Stacked 100%"
+msgstr "100% 스택형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:39
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:171
+msgid "Standard"
+msgstr "표준"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:48
+msgid "Starting Point"
+msgstr "시작점"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticBackgroundColorEditor.js:5
+msgid "Static Background"
+msgstr "정적 백그라운드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticIconColorEditor.js:7
+msgid "Static Icon"
+msgstr "정적 아이콘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorColorEditor.js:5
+msgid "Static Major Value"
+msgstr "정적 주요 값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/table/ColumnColorEditor.tsx:248
+msgid "Static Text Color"
+msgstr "정적 텍스트 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticTrendColorEditor.js:5
+msgid "Static Trend"
+msgstr "정적 동향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:55
+msgid "Statistics Table"
+msgstr "통계 테이블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusError.jsx:11
+msgid "Status Error"
+msgstr "상태 오류"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusInfo.jsx:11
+msgid "Status Info"
+msgstr "상태 정보"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusWarning.jsx:11
+msgid "Status Warning"
+msgstr "상태 경고"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/StatusOk.jsx:11
+msgid "Status ok"
+msgstr "상태 정상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:109
+msgid "Step"
+msgstr "단계"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:5
+msgid "Stroke"
+msgstr "스트로크"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:377
+msgid "Structure item ${idx} has the same key \"${item.item}\" as another structure item"
+msgstr "구조 항목 ${idx}이(가) 다른 구조 항목과 동일한 키 “${item.item}\"을(를) 가집니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-definition/src/DashboardDefinition.js:387
+msgid "Structure item ${idx} references a visualization \"${item.item}\" that does not exist"
+msgstr "구조 항목 ${idx}이(가) 존재하지 않는 시각화 \"${item.item}\"을(를) 참조합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/SubmitButton.jsx:26
+msgid "Submit"
+msgstr "제출"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:8
+msgid "Successfully added to existing dashboard"
+msgstr "기존 대시보드에 추가했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:12
+msgid "Successfully cloned dashboard"
+msgstr "대시보드를 복제했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:3
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:5
+msgid "Successfully converted dashboard"
+msgstr "대시보드를 변환했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:6
+msgid "Successfully converted visualization"
+msgstr "시각화를 변환했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-api/src/util/returnUtils.js:10
+msgid "Successfully saved to dashboard"
+msgstr "대시보드에 저장했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:85
+msgid "Sunday"
+msgstr "일요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:85
+msgid "Sundays"
+msgstr "일요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:34
+msgid "Table"
+msgstr "테이블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:44
+msgid "Table (deprecated)"
+msgstr "테이블(지원되지 않음)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Text.jsx:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:130
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:138
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:462
+msgid "Text"
+msgstr "텍스트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:50
+msgid "Text Color"
+msgstr "텍스트 색상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:13
+msgid "Text Input"
+msgstr "텍스트 입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:327
+msgid ""
+"The \"collect\" command cannot be used in a base search. Use an ad-hoc search for data source ${this.context.id} to "
+"use the \"collect\" command."
+msgstr ""
+"기본 검색에는 \"collect\" 명령어를 사용할 수 없습니다. 데이터 원본 ${this.context.id}에 대한 임시 검색을 사용하여 "
+"\"collect\" 명령어를 사용합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:83
+msgid "The Dashboard ID \"${title.replace(/W/g, '_').toLowerCase()}\" is already taken."
+msgstr "대시보드 ID “${title.replace(/W/g, '_').toLowerCase()}”을(를) 이미 가져왔습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:64
+msgid ""
+"The Dashboard ID is used as the filename on disk.\n"
+"This cannot be changed later."
+msgstr ""
+"대시보드 ID는 디스크에서 파일 이름으로 사용됩니다.\n"
+"나중에 변경할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:163
+msgid "The SPL query for this visualization contains commands that has been flagged as risky."
+msgstr "이 시각화에 대한 SPL 쿼리에 위험 플래그가 지정된 명령어가 포함되어 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:55
+msgid "The dashboard you selected no longer exists."
+msgstr "선택한 대시보드가 더 이상 존재하지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/ImageRegistry.js:37
+msgid ""
+"The format of the uploaded file is not supported. Please upload ${validMediaType.join(\n"
+"                        ', '\n"
+"                    )}."
+msgstr ""
+"업로드된 파일의 형식은 지원되지 않습니다. ${validMediaType.join(\n"
+"                        ', '\n"
+"                    )}(을)를 업로드하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/IconRegistry.js:33
+msgid "The format of the uploaded file is not supported. Please upload svg file."
+msgstr "업로드된 파일의 형식은 지원되지 않습니다. svg 파일을 업로드하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/GeoJsonProvider.js:38
+msgid "The geoJson is not found."
+msgstr "geoJson을 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/RemoteIcon.jsx:149
+msgid "The icon cannot be colored properly."
+msgstr "아이콘 색상을 적절하게 지정할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:240
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:137
+msgid "The icon cannot be deleted."
+msgstr "아이콘을 삭제할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:66
+msgid "The icon cannot be uploaded. Please check whether your localStorage is full."
+msgstr "아이콘을 업로드할 수 없습니다. 로컬 저장소가 가득 찼는지 확인하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:232
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:122
+msgid "The icon ids cannot be listed."
+msgstr "아이콘 ID를 나열할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/StandardIconProvider.tsx:173
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalIconProvider.js:79
+msgid "The icon is not found."
+msgstr "아이콘을 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:82
+msgid "The ids cannot be listed."
+msgstr "ID를 나열할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:77
+msgid "The image cannot be deleted."
+msgstr "이미지를 삭제할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:36
+msgid "The image cannot be uploaded. Please check whether your localStorage is full."
+msgstr "이미지를 업로드할 수 없습니다. 로컬 저장소가 가득 찼는지 확인하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:62
+msgid "The image ids cannot be listed."
+msgstr "이미지 ID를 나열할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/LocalImageProvider.js:50
+msgid "The image is not found."
+msgstr "이미지를 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:35
+msgid "The inline search exists only in the dashboard and has no external dependencies."
+msgstr "인라인 검색은 대시보드에만 존재하면 외부 종속성이 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:32
+#, python-format
+msgid ""
+"The new dashboard experience has been integrated into the core Splunk platform as %(studio)s. As a result, the "
+"%(beta)s will no longer be receiving updates and we have disabled the ability to create new dashboards."
+msgstr ""
+"새 대시보드 환경이 주요 Splunk 플랫폼에 %(studio)s(으)로 통합되었습니다. 그 결과 %(beta)s은(는) 더 이상 업데이트를 받"
+"지 않게 되고 새 대시보드를 만들 수 없게 되었습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:95
+msgid "The obj cannot be deleted."
+msgstr "obj를 삭제할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:32
+msgid "The obj cannot be uploaded."
+msgstr "obj를 업로드할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-context/src/MockedProvider.js:43
+msgid "The obj is not found."
+msgstr "obj를 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/dashboard/index.js:13
+msgid "The total size of a dashboard must be 7MB or smaller. Please remove some images and icons."
+msgstr "대시보드의 총 크기는 7MB 이하여야 합니다. 일부 이미지와 아이콘을 제거하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:252
+msgid "The traditional Splunk dashboard builder"
+msgstr "기존 Splunk 대시보드 작성기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:72
+msgid ""
+"The visualization and its configuration will be loaded from the report by default. It can be modified later within "
+"the dashboard or in the report itself."
+msgstr ""
+"시각화 및 해당 설정은 기본적으로 보고서에서 로드됩니다. 나중에 대시보드 또는 보고서 자체에서 수정할 수 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:151
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/utils/interactiveDocsUtils.ts:247
+msgid "Theme"
+msgstr "테마"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/visualizations/ConnectedLineEditorConfig.js:25
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Ellipse/editorConfig.js:51
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Rectangle/editorConfig.js:51
+msgid "Thickness (px)"
+msgstr "두께(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DynamicItemEditor.jsx:51
+msgid "This input has dynamic items. Please edit in source mode."
+msgstr "입력에 동적 항목이 있습니다. 원본 모드에서 편집하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/header/Description.jsx:79
+msgid "This is for the dashboard description."
+msgstr "대시보드 설명을 위한 내용입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/GridLayoutConstants.js:3
+msgid "This panel is too small to be split into duplicates. Stretch or move the panel to make it bigger first."
+msgstr "이 패널은 너무 작아서 중복으로 분할할 수 없습니다. 패널을 늘리거나 움직여 먼저 크게 만듭니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/RiskyWarningPopover.jsx:152
+msgid "This visualization has a potential security risk"
+msgstr "시각화에는 잠재적인 보안 위험이 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:511
+msgid "Thousand Separators"
+msgstr "천 단위 구분자"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/ThresholdEditor.jsx:85
+msgid "Threshold"
+msgstr "임계값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Threshold.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/FillerGauge/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/MarkerGauge/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/Threshold.js:4
+msgid "Threshold Settings"
+msgstr "임계값 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:82
+msgid "Thursday"
+msgstr "목요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:82
+msgid "Thursdays"
+msgstr "목요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/editors/EnterpriseSavedSearchEditor.jsx:170
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/CloudSearchEditor.jsx:115
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:218
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSavedSearchEditor.jsx:133
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseSearchEditor.jsx:60
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:172
+msgid "Time Range"
+msgstr "시간 범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/BaseTimeRange.jsx:178
+msgid "Time Range Input Title"
+msgstr "시간 범위 입력 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/index.jsx:108
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/TitleEditor.jsx:22
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:165
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/InputConfigPanel.jsx:214
+msgid "Title"
+msgstr "제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:30
+msgid "Title (A - Z)"
+msgstr "제목(A - Z)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:35
+msgid "Title (Z - A)"
+msgstr "제목(Z - A)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:68
+msgid "Title and Description are not displayed"
+msgstr "제목 및 설명이 표시되지 않습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/GridLayoutEditor.jsx:64
+msgid "Title and Description displayed"
+msgstr "제목 및 설명이 표시됩니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:4
+msgid "Title cannot be empty."
+msgstr "제목을 비워둘 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/toolbar/SaveButton.jsx:57
+msgid "Title is required"
+msgstr "제목은 필수 항목입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:15
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:14
+msgid "To continue, remove Trellis."
+msgstr "계속하려면 격자를 제거하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:20
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:18
+msgid "To continue, remove categorical colors or select another visualization such as 'Statistics Table'."
+msgstr "계속하려면 범주형 색상을 제거하거나 '통계 테이블'과 같은 다른 시각화를 선택하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/src/util/Constants.js:10
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-conversion/util/Constants.js:10
+msgid "To continue, select another visualization such as 'Statistics Table'."
+msgstr "계속하려면 '통계 테이블'과 같은 다른 시각화를 선택하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboards/UpgradeBanner.jsx:38
+#, python-format
+msgid ""
+"To ensure your current dashboards stay supported with the latest features, please move them out of the '%(beta)s' "
+"and into '%(search)s' or another app."
+msgstr ""
+"현재 대시보드가 최신 기능으로 계속 지원되도록 하려면 '%(beta)s'에서 '%(search)s'(으)로 또는 다른 앱으로 이동하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1024
+msgid "Today"
+msgstr "오늘"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/EnterpriseTimeRangePicker/EnterpriseTimeRangePicker.jsx:31
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Number/Number.jsx:90
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/Text/Text.jsx:113
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/TimeRangePicker/TimeRangePicker.jsx:27
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/DropdownEditorConfig.js:34
+msgid "Token Name"
+msgstr "토큰 이름"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/react-visualizations/src/visualizations/FillerGauge/FillerGauge.jsx:83
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/PureSingleValue/SingleValue.jsx:120
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/PureSingleValueIcon/SingleValueIcon.jsx:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/PureSingleValueRadial/SingleValueRadial.jsx:73
+msgid "Too small to render content"
+msgstr "너무 작아서 콘텐츠를 렌더링할 수 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:15
+msgid "Top"
+msgstr "위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/shared/ArrowLayer.tsx:29
+msgid "Top range"
+msgstr "상위 범위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValue/config.ts:214
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueIcon/config.ts:306
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicBackgroundColorEditor.js:37
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/DynamicTrendColorEditor.js:24
+msgid "Trend"
+msgstr "동향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:48
+msgid "Trend Display"
+msgstr "동향 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:150
+msgid "Trend Display as"
+msgstr "다음으로 동향 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:34
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:166
+msgid "Trend Indicator Position"
+msgstr "동향 표시기 위치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:61
+msgid "Trend Size (px)"
+msgstr "동향 크기(px)"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:31
+msgid "Trends"
+msgstr "동향"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Legend.js:24
+msgid "Truncation"
+msgstr "잘라내기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:76
+msgid "Tuesday"
+msgstr "화요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:76
+msgid "Tuesdays"
+msgstr "화요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-docs/src/utils/OptionsDoc.jsx:46
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/OptionsDoc.jsx:42
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:219
+msgid "Type"
+msgstr "유형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:36
+msgid "URL"
+msgstr "URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/USMap.jsx:7
+msgid "US Map"
+msgstr "미국 지도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:147
+msgid "USA"
+msgstr "USA"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:668
+msgid "Unable to export the dashboard as ${fileType}"
+msgstr "대시보드를 ${fileType}(으)로 내보낼 수 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:578
+msgid "Unable to export the visualization  id=${vizId} type=${vizType} as png."
+msgstr "시각화 id=${vizId} type=${vizType}을(를) png로 내보낼 수 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/Undo.jsx:8
+msgid "Undo"
+msgstr "실행 취소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/NumberFormatting.js:18
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/NumberFormatting.js:18
+msgid "Unit"
+msgstr "단위"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:100
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/editorConfig/StaticMajorAndTrendLayout.js:18
+msgid "Unit Label"
+msgstr "단위 레이블"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/Table/config.ts:88
+msgid "Units Position"
+msgstr "단위 위치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:61
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:83
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DefaultDataSourcePanel.tsx:266
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/components/DataSourceItem.tsx:28
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:172
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:185
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/DataSourceConfig.jsx:72
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:501
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/CloudSearch.js:701
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSavedSearch.js:302
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/datasources/src/SplunkSearch.js:343
+msgid "Unnamed"
+msgstr "이름 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations-shared/src/Downloader.ts:51
+msgid "Unsupported MIME type ${mime} for url ${url}"
+msgstr "URL ${url}에 대해 지원되지 않는 MIME 유형 ${mime}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/utils/enhancer.jsx:163
+msgid "Untitled"
+msgstr "제목 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/components/DashboardTitle.jsx:66
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/components/DashboardTitle.jsx:74
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/header/Title.jsx:77
+msgid "Untitled Dashboard"
+msgstr "제목 없는 대시보드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/DashboardSourceEditor.jsx:164
+msgid "Untitled Name"
+msgstr "제목이 없는 이름"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/DynamicEditor.jsx:130
+msgid "Untitled Section"
+msgstr "제목이 없는 섹션"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:25
+msgid "Updated ${time}"
+msgstr "업데이트된 ${time}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:23
+msgid "Updating"
+msgstr "업데이트 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/components/LastUpdateTime.jsx:48
+msgid "Updating live"
+msgstr "실시간 업데이트 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/editorConfig.js:10
+msgid "Upload SVG"
+msgstr "SVG 업로드"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:283
+msgid "Upper boundary must exceed lower boundary"
+msgstr "상위 경계는 하위 경계를 초과해야 함"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:10
+msgid "Use a relative URL or absolute URL, for example, /app/search/datasets, or https://www.splunk.com"
+msgstr "예를 들어 /app/search/datasets 또는 https://www.splunk.com 같은 상대 URL 또는 절대 URL을 사용합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/AdvancedPanelSettings/index.jsx:72
+msgid "Uses the report. Retains all report metadata such as schedule, acceleration, and permissions."
+msgstr "보고서를 사용합니다. 스케줄, 가속, 권한 등 모든 보고서 메타데이터를 유지합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:45
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-inputs/src/components/StaticItemEditor.jsx:193
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/ChoroplethSvg/config.ts:154
+msgid "Value"
+msgstr "값"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:114
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/utils/threshold.js:254
+msgid "Value already exists"
+msgstr "값이 이미 존재함"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:27
+msgid "Vertical"
+msgstr "세로"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/components/panels/DataSourcesPanelListItem.jsx:101
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ModeSwitch.jsx:18
+msgid "View"
+msgstr "보기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:35
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:56
+msgid "Visible only to you"
+msgstr "사용자에게만 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CloneDashboard/index.jsx:41
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:62
+msgid "Visible to app users"
+msgstr "앱 사용자에게만 표시"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:172
+msgid "Visit the Splunk Documentation to learn more."
+msgstr "자세한 내용은 Splunk 매뉴얼을 참조하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/ContentExporter.js:536
+msgid "Visualization ${vizType} not found."
+msgstr "시각화 ${vizType}을(를) 찾을 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/VizConfigPanel.jsx:219
+msgid "Visualization ID"
+msgstr "시각화 ID"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/panels/VizConfigPanel.jsx:223
+msgid "Visualization IDs must start with \"viz_\" and contain only letters, numbers, dash, and underscore"
+msgstr "시각화 ID는 \"viz_\"로 시작해야 하며 문자, 숫자, 대시 및 밑줄만 포함해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:155
+msgid "Visualization Options"
+msgstr "시각화 옵션"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Gauge.js:4
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/ChoroplethSvg/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Punchcard/editorConfig.js:5
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValue/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/SingleValueRadial/editorConfig.js:7
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-interactive-docs/src/components/InteractiveDocsPage/mocks.jsx:14
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/SingleValueRadial/config.ts:139
+msgid "Visualization Settings"
+msgstr "시각화 설정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/PanelOptions/index.jsx:102
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/VizOptions.jsx:43
+msgid "Visualization Type"
+msgstr "시각화 유형"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-core/src/utils/token.ts:19
+msgid "Waiting for input..."
+msgstr "입력을 기다리는 중..."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/splunk-dashboard-studio/src/web/pages/dashboard/Dashboard.jsx:168
+#, python-format
+msgid ""
+"We are no longer making updates to the %(beta)s. To ensure this dashboard stays supported with the latest features, "
+"please move it out of '%(beta)s' and into '%(search)s' or another app"
+msgstr ""
+"더 이상 %(beta)s에 대한 업데이트를 수행하지 않습니다. 최신 기능과 함께 이 대시보드를 계속 지원하려면 '%(beta)s'에서 "
+"'%(search)s'(으)로 또는 다른 앱으로 이동하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/components/UploadImageEditor.jsx:176
+msgid "We can't find an image with this URL. Please enter a new URL."
+msgstr "이 URL로 이미지를 찾을 수 없습니다. 새 URL을 입력하십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:79
+msgid "Wednesday"
+msgstr "수요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:80
+msgid "Wednesdays"
+msgstr "수요일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1025
+msgid "Week to date"
+msgstr "주간 누계"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Text/editorConfig.js:60
+msgid "Weight"
+msgstr "가중치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/CreateNewDashboard/index.jsx:233
+msgid "What's this?"
+msgstr "이 기능 소개"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:117
+msgid "Width"
+msgstr "너비"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-presets/src/utils/withMeta.js:153
+msgid "World"
+msgstr "세계"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/WorldMap.jsx:7
+msgid "World Map"
+msgstr "세계 지도"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:8
+msgid "X Axis title"
+msgstr "X축 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:195
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:92
+msgid "X Position"
+msgstr "X 위치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/editorConfig/Axes.js:15
+msgid "Y Axis title"
+msgstr "Y축 제목"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/BackgroundImageEditor.jsx:204
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/layouts/PositionAndSizeEditor.jsx:104
+msgid "Y Position"
+msgstr "Y 위치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1028
+msgid "Year to date"
+msgstr "연간 누계"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/time.ts:1029
+msgid "Yesterday"
+msgstr "어제"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/EditTitleAndId/index.jsx:67
+msgid "You can use letters, numbers, dashes, and underscores."
+msgstr "문자, 숫자, 대시 및 밑줄을 사용할 수 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:6
+msgid "You cannot use < or > in a dashboard name."
+msgstr "< or >을(를) 대시보드 이름에 사용할 수 없습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:59
+msgid ""
+"You do not have the permissions or role to perform this action. Only those with the admin or power roles can remove "
+"images"
+msgstr ""
+"이 작업을 수행할 수 있는 권한이나 역할이 없습니다. Admin 또는 Power 역할을 가진 사용자만 이미지를 제거할 수 있습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-service/src/kvstore/index.js:14
+msgid ""
+"You do not have the permissions or role to perform this action. Only those with the admin or power roles can upload "
+"images"
+msgstr ""
+"이 작업을 수행할 수 있는 권한이나 역할이 없습니다. Admin 또는 Power 역할을 가진 사용자만 이미지를 업로드할 수 있습니"
+"다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/SaveToExistingDashboard/SelectDashboardList.jsx:270
+msgid "You have no writable dashboards for the app: ${app}"
+msgstr "앱에 대해 쓰기 가능한 대시보드가 없습니다. ${app}"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:8
+msgid "You must select a dashboard layout."
+msgstr "대시보드 레이아웃을 선택해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:7
+msgid "You must select a dashboard type."
+msgstr "대시보드 유형을 선택해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/util/ErrorMessages.js:9
+msgid "You must select an existing dashboard."
+msgstr "기존 대시보드를 선택해야 합니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:157
+msgid "Your dashboard is still loading"
+msgstr "대시보드가 여전히 로드 중입니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/ExportDashboardButton.jsx:61
+msgid "Your download has started"
+msgstr "다운로드가 시작되었습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Area/editorConfig.js:23
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/visualizations/Line/editorConfig.js:20
+msgid "Zero"
+msgstr "0"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ZoomIn.jsx:8
+msgid "Zoom In"
+msgstr "확대"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-icons/src/ZoomOut.jsx:8
+msgid "Zoom Out"
+msgstr "축소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:147
+msgid "Zoom in"
+msgstr "확대"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:179
+msgid "Zoom level"
+msgstr "확대/축소 수준"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-toolbar/src/buttons/Zoom.tsx:157
+msgid "Zoom out"
+msgstr "축소"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualizations/src/common/OptionsDoc.jsx:205
+msgid "[fieldName]:"
+msgstr "[fieldName]:"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:81
+msgid "and"
+msgstr "및"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:78
+msgid "and above"
+msgstr "및 이상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:32
+msgid "and greater"
+msgstr "및 이상"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:1
+msgid "below"
+msgstr "이하"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:44
+msgid "chain search"
+msgstr "체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:457
+msgid "chain search "
+msgstr "체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:45
+msgid "chain searches"
+msgstr "체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:458
+msgid "chain searches "
+msgstr "체인 검색"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/datasources/EnterpriseChainSearchEditor.jsx:198
+msgid "could not find parent SPL"
+msgstr "부모 SPL을 찾을 수 없음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:14
+msgid "day"
+msgstr "day"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:14
+msgid "days"
+msgstr "일"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-datasource-panel/src/DataSourceModal.tsx:77
+msgid "delete"
+msgstr "삭제"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:153
+msgid "explore additional tools."
+msgstr "추가 도구를 살펴보십시오."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/ErrorBoundary.jsx:48
+msgid "failed to render react component"
+msgstr "반응 구성 요소를 렌더링하지 못했습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:114
+msgid "freely place objects"
+msgstr "자유롭게 개체 배치"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:13
+msgid "hour"
+msgstr "시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:13
+msgid "hours"
+msgstr "시간"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "images,"
+msgstr "이미지,"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-context/src/BaseContentExportClient.ts:10
+msgid "initiateExport() not implemented."
+msgstr "initiateExport()가 구현되지 않았습니다."
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/components/TimeRangeType.jsx:57
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:463
+msgid "input"
+msgstr "입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:47
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:464
+msgid "inputs"
+msgstr "입력"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-editors/src/drilldowns/CustomUrl.jsx:61
+msgid "invalid Url"
+msgstr "잘못된 URL"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-layouts/src/utils/gridUtils.js:674
+msgid "is outside of canvas bounds"
+msgstr "캔버스 범위 벗어남"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/dashboard-visualizations/src/common/EncodingDoc.jsx:43
+msgid "isRequired"
+msgstr "isRequired"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:1
+msgid "less than"
+msgstr "보다 작음"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/Gallery.jsx:67
+msgid "loading"
+msgstr "로드 중"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:10
+msgid "minute"
+msgstr "분"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:11
+msgid "minutes"
+msgstr "분"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:18
+msgid "month"
+msgstr "월"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:19
+msgid "months"
+msgstr "개월"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:107
+msgid "or"
+msgstr "또는"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:114
+msgid "organize & resize"
+msgstr "조직 및 크기 조정"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:23
+msgid "quarter"
+msgstr "분기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:24
+msgid "quarters"
+msgstr "분기"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:5
+msgid "second"
+msgstr "초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:6
+msgid "seconds"
+msgstr "초"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:152
+msgid "standard Splunk visualizations"
+msgstr "표준 Splunk 시각화"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/enterprise-dashboard-dialogs/src/components/DashboardStudioTooltip/index.jsx:131
+msgid "text"
+msgstr "텍스트"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/formatters/RangeValue/RangeValueConfigurer.tsx:1
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/vision/visualization-editors/src/editors/threshold/ThresholdTo.jsx:64
+msgid "to"
+msgstr "끝"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:39
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:451
+msgid "visualization"
+msgstr "시각화"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-ui/src/utils/textUtils.js:40
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard/src/components/editors/DataSourceEditor.jsx:452
+msgid "visualizations"
+msgstr "시각화"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:15
+msgid "week"
+msgstr "주"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:15
+msgid "weeks"
+msgstr "주"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:28
+msgid "year"
+msgstr "년"
+
+#: /Users/yzeng/builds/main/etc/apps/splunk-dashboard-studio/udf/dashboard-utils/src/timeUnits.ts:29
+msgid "years"
+msgstr "년"

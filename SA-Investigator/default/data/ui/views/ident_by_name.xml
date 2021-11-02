@@ -1,0 +1,1536 @@
+<form script="tabs.js" stylesheet="tabs.css">
+  <label>Investigate Identity Artifacts</label>
+  <description>Enter a Single User Account - For example: jsmith or ACME\jsmith or john.smith@acme.com. Wildcards can be used as well.  If the identity matches values in the asset &amp; identity data model, other matching identities will be available. Select the time and click Submit.</description>
+  <!--
+  <row id="tab_changes">
+    <panel>
+      <html>User field denotes the user or entity performing the change (can be UID or PID).  src_user is the user associated with the source.</html>
+    </panel>
+  </row>
+  <row id="tab_changes_2">
+    <panel>
+      <title>Account Management Changes By Action - src_user</title>
+      <chart>
+        <search>
+          <query>| $control_changes$ tstats summariesonly=true count from datamodel=Change_Analysis.All_Changes where nodename=All_Changes.Account_Management All_Changes.Account_Management.src_user IN $s_mident$ groupby _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")` | `drop_dm_object_name("Account_Management")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Change_Analysis.Account_Management" | search src_user IN $s_mident$ action=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Account Management Changes By Action - user</title>
+      <chart>
+        <search>
+          <query>| $control_changes$ tstats summariesonly=true count from datamodel=Change_Analysis.All_Changes where nodename=All_Changes.Account_Management All_Changes.user IN $s_mident$ groupby _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Change_Analysis.Account_Management" | search user IN $s_mident$ action=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_changes_3">
+    <panel>
+      <title>Account Management Changes - Detail - src_user</title>
+      <table>
+        <search>
+          <query>| $control_changes$ tstats summariesonly=true count from datamodel=Change_Analysis.All_Changes where nodename=All_Changes.Account_Management All_Changes.Account_Management.src_user IN $s_mident$ groupby _time span=1s All_Changes.vendor_product All_Changes.dest All_Changes.user All_Changes.src All_Changes.action All_Changes.status All_Changes.change_type All_Changes.command All_Changes.dvc All_Changes.object All_Changes.object_attrs All_Changes.object_category All_Changes.object_id All_Changes.object_path All_Changes.result All_Changes.result_id |`drop_dm_object_name("All_Changes")` |`drop_dm_object_name("Account_Management")` | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*)| table _time vendor_product result_id result status dest user src action change_type command dvc object object_attrs object_category object_id object_path | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_changes_4">
+    <panel>
+      <title>Endpoint Changes By Action - user</title>
+      <chart>
+        <title>Low logging - field generally contains process (firefox.exe) performing changes</title>
+        <search>
+          <query>| $control_changes$ tstats summariesonly=true count from datamodel=Change_Analysis.All_Changes where nodename=All_Changes.Endpoint_Changes All_Changes.user IN $s_mident$ groupby _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")` | `drop_dm_object_name("Endpoint_Changes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Change_Analysis.Endpoint_Changes" | search user IN $s_mident$ action=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Endpoint Changes - Detail - user</title>
+      <table>
+        <title>Low logging - field generally contains process (firefox.exe) performing changes</title>
+        <search>
+          <query>| $control_changes$ tstats summariesonly=true  count from datamodel=Change_Analysis.All_Changes where nodename=All_Changes.Endpoint_Changes All_Changes.user IN $s_mident$ groupby All_Changes.dest All_Changes.action All_Changes.result All_Changes.result_id All_Changes.src All_Changes.status All_Changes.user All_Changes.vendor_product _time span=1s | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | `drop_dm_object_name(All_Changes)` | `drop_dm_object_name(Account_Management)` | table _time dest action status vendor_product user src result result_id | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_changes_5">
+    <panel>
+      <title>Audit Changes - Detail - user</title>
+      <table>
+        <search>
+          <query>| $control_changes$ tstats summariesonly=true  count from datamodel=Change_Analysis.All_Changes where nodename=All_Changes.Auditing_Changes All_Changes.user IN $s_mident$ groupby All_Changes.dest All_Changes.action All_Changes.result All_Changes.result_id All_Changes.src All_Changes.status All_Changes.user All_Changes.vendor_product _time span=1s | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | `drop_dm_object_name(All_Changes)` | `drop_dm_object_name(Auditing_Changes)` | table _time dest action status vendor_product user src result result_id | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_appstate">
+    <panel>
+      <title>Processes Run Over Time</title>
+      <chart>
+        <search>
+          <query>| $control_appstate$ tstats summariesonly=true count from datamodel=Application_State where nodename=All_Application_State All_Application_State.user IN $s_mident$ groupby _time All_Application_State.process span=10m  | lookup process_exclusions.csv process AS All_Application_State.process OUTPUTNEW process | search NOT(process=*) | timechart span=10m limit=10 sum(count) as count by All_Application_State.process | `drop_dm_object_name("Application_State")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Application_State.All_Application_State" |search user IN $s_mident$ process="$click.name2$"&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Processes Run by System</title>
+      <chart>
+        <search>
+          <query>| $control_appstate$ tstats summariesonly=true count from datamodel=Application_State where nodename=All_Application_State All_Application_State.user IN $s_mident$ groupby All_Application_State.dest _time span=10m  | lookup process_exclusions.csv process AS All_Application_State.process OUTPUTNEW process | search NOT(process=*) | search All_Application_State.dest!=unknown  | timechart span=10m limit=10 sum(count) as count by All_Application_State.dest</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Application_State.All_Application_State" |search [| from datamodel:"Identity_Management.All_Identities" | search $s_ident$ | mvexpand identity | append [ | makeresults | eval $s_ident$ ] | dedup identity| rename identity AS user | table user] dest=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_appstate_2">
+    <panel>
+      <title>Application State Details</title>
+      <table>
+        <title>Click on process_name to get more details</title>
+        <search>
+          <query>| $control_appstate$ tstats summariesonly=true count from datamodel=Application_State.All_Application_State where All_Application_State.user IN $s_mident$ groupby _time span=1s All_Application_State.process All_Application_State.process_name  All_Application_State.dest All_Application_State.user All_Application_State.Ports.dest_port All_Application_State.Ports.transport  | lookup process_exclusions.csv process AS All_Application_State.process OUTPUTNEW process | search NOT(process=*) |`drop_dm_object_name("All_Application_State")` |`drop_dm_object_name("Ports")` | table _time process process_name  user dest dest_port transport | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=index=* _time=$click.value$ $click.value2$ user IN $s_mident$&amp;earliest=$time.earliest$&amp;latest=$time.latest$&amp;display.page.search.mode=smart</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  -->
+  <fieldset submitButton="true" autoRun="false">
+    <input type="text" token="s_ident" searchWhenChanged="false">
+      <label>User Account</label>
+      <change>
+        <unset token="form.s_mident"></unset>
+      </change>
+    </input>
+    <input type="dropdown" token="s_mident" searchWhenChanged="false">
+      <label>Correlated Identities (if applicable)</label>
+      <search>
+        <query>| `reverse_identity_lookup("$s_ident$")` | append [ | makeresults | eval key="$s_ident$" | eval seed="$s_ident$" ] | dedup key | rex field=identity mode=sed "s/\\\/\\\\\\\/" | eval s_mident=if(isnull(identity),seed,mvjoin(identity, ",")) | table s_mident</query>
+        <earliest>0</earliest>
+        <latest></latest>
+      </search>
+      <selectFirstChoice>true</selectFirstChoice>
+      <fieldForLabel>s_mident</fieldForLabel>
+      <fieldForValue>s_mident</fieldForValue>
+      <prefix>(</prefix>
+      <suffix>)</suffix>
+    </input>
+    <input type="time" token="time">
+      <label>Time</label>
+      <default>
+        <earliest>1503460800</earliest>
+        <latest>1503547200</latest>
+      </default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <html>
+        <a href="/app/SplunkEnterpriseSecuritySuite/ess_gt_editor?id=57d00b60b1715bdabd0f6e0f&amp;action=viewer" class="btn btn-primary" target="_blank">View Glass Table Network Diagram in a New Tab</a>
+      	<h2>
+        	Replace the id in the html code above with the id of your glass table!
+      	</h2>
+      </html>
+    </panel>
+  </row>
+  <row id="tabs">
+    <panel>
+      <html>
+				<ul id="tabs" class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_identity,tab_identity_2" data-token="control_identity">Details</a>
+                    </li>
+					          <li>
+						            <a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_auth,tab_auth_2,tab_auth_3" data-token="control_authentication">Authentication</a>
+					          </li>
+					          <li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_change,tab_change_2,tab_change_3,tab_change_4,tab_change_5,tab_change_6,tab_change_7" data-token="control_change">Change</a>
+			          		</li>
+					          <li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_endpoint,tab_endpoint_2,tab_endpoint_3,tab_endpoint_4,tab_endpoint_5,tab_endpoint_6,tab_endpoint_7" data-token="control_endpoint">Endpoint</a>
+			          		</li>
+					          <!--
+					          <li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_changes,tab_changes_2,tab_changes_3,tab_changes_4,tab_changes_5" data-token="control_changes">Endpoint Changes</a>
+			          		</li>
+					          <li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_appstate,tab_appstate_2" data-token="control_appstate">Application State</a>
+			          		</li>
+			          		-->
+					          <li>
+                        <a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_malware,tab_malware_2" data-token="control_malware">Malware</a>
+                    </li>
+					          <li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_email,tab_email_2,tab_email_3,tab_email_4" data-token="control_email">Email</a>
+			        		</li>
+					          <li>
+                        <a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_intrusion,tab_intrusion_2" data-token="control_intrusion">Intrusion</a>
+                    </li>
+					          <li>
+					            	<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_network,tab_network_2,tab_network_3,tab_network_4" data-token="control_network">Network Traffic</a>
+				          	</li>
+			          		<li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_vuln" data-token="control_vuln">Vulnerabilities</a>
+			        		</li>
+			        		<li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_session,tab_session_2" data-token="control_session">Network Sessions</a>
+			        		</li>
+				          <li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_web,tab_web_2,tab_web_3,tab_web_4,tab_web_5" data-token="control_web">Web</a>
+			        		</li>
+			        		<li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_risk,tab_risk_2" data-token="control_risk">Risk</a>
+			        		</li>
+			        		<li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_eventcode_search" data-token="control_eventcode_search">Windows Event Code Search</a>
+			        		</li>
+			        		<li>
+			            			<a href="#" class="toggle-tab" data-toggle="tab" data-elements="tab_search,tab_search_2" data-token="control_search">Search</a>
+			        		</li>
+				</ul>
+			</html>
+    </panel>
+  </row>
+  <row id="tab_identity">
+    <panel>
+      <table>
+        <title>Identity Details</title>
+        <search>
+          <query>| $control_identity$ from datamodel:"Identity_Management.All_Identities" | search identity=$s_ident$ | eval fullname=if(isnull(first),last,first." ".last) | table fullname identity email phone priority bunit category work_city work_country</query>
+          <earliest>$earliest$</earliest>
+          <latest>$latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <format type="color" field="priority">
+          <colorPalette type="map">{"critical":0xD25B3B,"high":0xFF8800,"medium":0xF0BE1B,"low":0x98BF3B,"informational":0x5378AD,"unknown":0x999999}</colorPalette>
+        </format>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/identity_center?form.username=$row.email$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_identity_2">
+    <panel>
+      <title>Notable Events</title>
+      <table>
+        <search>
+          <query>$control_identity$ index=notable `notable` | search user IN $s_mident$ |rename rule_id AS notable_link |table _time src dest dvc rule_name urgency  status_description notable_link | eval sort_field=case(urgency=="critical",1, urgency=="high",2, urgency=="medium",3, urgency=="low",4, urgency=="informational",5, urgency=="unknown",6) | sort sort_field | fields - sort_field</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <format type="color" field="urgency">
+          <colorPalette type="map">{"critical":0xD25B3B,"high":0xFF8800,"medium":0xF0BE1B,"low":0x98BF3B,"informational":0x5378AD,"unknown":0x999999}</colorPalette>
+        </format>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/incident_review?form.status_form=*&amp;form.owner_form=*&amp;form.security_domain_form=*&amp;form.srch=rule_id%3D$row.notable_link$&amp;form.selected_urgency=critical&amp;form.selected_urgency=high&amp;form.selected_urgency=medium&amp;form.selected_urgency=low&amp;form.selected_urgency=informational</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_malware">
+    <panel>
+      <title>Malware By Destination</title>
+      <chart>
+        <search>
+          <query>| $control_malware$ tstats summariesonly=true count from datamodel=Malware.Malware_Attacks where Malware_Attacks.user IN $s_mident$ groupby _time Malware_Attacks.dest span=10m | timechart span=10m sum(count) as count by Malware_Attacks.dest | `drop_dm_object_name("Malware_Attacks")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Malware.Malware_Attacks" | search dest=$click.name2$ user IN $s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Malware By File</title>
+      <table>
+        <search>
+          <query>| $control_malware$ tstats summariesonly=true count values(Malware_Attacks.file_name) as file_name values(Malware_Attacks.file_path) as file_path values(Malware_Attacks.file_hash) as file_hash from datamodel=Malware where nodename=Malware_Attacks Malware_Attacks.user IN $s_mident$ groupby Malware_Attacks.dest _time span=1s | `drop_dm_object_name("Malware_Attacks")` |table _time dest file_name file_path file_hash count | sort - _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">5</option>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_malware_2">
+    <panel>
+      <title>Malware By Signature</title>
+      <chart>
+        <search>
+          <query>| $control_malware$ tstats summariesonly=true count from datamodel=Malware.Malware_Attacks where Malware_Attacks.user IN $s_mident$ groupby _time Malware_Attacks.signature span=10m | timechart span=10m sum(count) as count by Malware_Attacks.signature | `drop_dm_object_name("Malware_Attacks")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Malware.Malware_Attacks" | search signature="$click.name2$" user IN $s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Malware By Action</title>
+      <chart>
+        <search>
+          <query>| $control_malware$ tstats summariesonly=true count from datamodel=Malware.Malware_Attacks where Malware_Attacks.user IN $s_mident$ groupby _time Malware_Attacks.action span=10m | timechart span=10m  sum(count) as count by Malware_Attacks.action | `drop_dm_object_name("Malware_Attacks")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Malware.Malware_Attacks" | search action=$click.name2$ user IN $s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_intrusion">
+    <panel>
+      <title>Intrusions By Severity</title>
+      <chart>
+        <search>
+          <query>| $control_intrusion$ tstats summariesonly=true count from datamodel=Intrusion_Detection where nodename=IDS_Attacks IDS_Attacks.user IN $s_mident$ groupby IDS_Attacks.severity | `drop_dm_object_name("IDS_Attacks")` | eval sort_field=case(severity=="critical",1, severity=="high",2, severity=="medium",3, severity=="low",4, severity=="informational",5, severity=="unknown",6) | sort sort_field | fields - sort_field</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">bar</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.fieldColors">{"critical":0xD25B3B,"high":0xFF8800,"medium":0xF0BE1B,"low":0x98BF3B,"informational":0x5378AD,"unknown":0x999999}</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.legend.placement">none</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Intrusion_Detection.IDS_Attacks" | search severity=$click.value$ user IN $s_mident$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Intrusions Detail</title>
+      <table>
+        <search>
+          <query>| $control_intrusion$ tstats summariesonly=true count values(IDS_Attacks.signature) as signature from datamodel=Intrusion_Detection.IDS_Attacks where IDS_Attacks.user IN $s_mident$ groupby _time IDS_Attacks.action span=1s IDS_Attacks.src IDS_Attacks.dest IDS_Attacks.severity | `drop_dm_object_name("IDS_Attacks")` | sort - _time | table _time src dest signature action severity count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_intrusion_2">
+    <panel>
+      <title>Intrusions by Signature</title>
+      <chart>
+        <search>
+          <query>| $control_intrusion$ tstats summariesonly=true count from datamodel=Intrusion_Detection.IDS_Attacks where IDS_Attacks.user IN $s_mident$ groupby _time IDS_Attacks.signature span=10m | timechart span=10m sum(count) as count by IDS_Attacks.signature | `drop_dm_object_name("IDS_Attacks")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.fieldColors">{"critical":0xD25B3B,"high":0xFF8800,"medium":0xF0BE1B,"low":0x98BF3B,"informational":0x5378AD,"unknown":0x999999}</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Intrusion_Detection.IDS_Attacks" | search signature="$click.name2$" user IN $s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Intrusions By Category</title>
+      <chart>
+        <search>
+          <query>| $control_intrusion$ tstats summariesonly=true count from datamodel=Intrusion_Detection.IDS_Attacks where IDS_Attacks.user IN $s_mident$ by IDS_Attacks.category | `drop_dm_object_name("IDS_Attacks")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">pie</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Intrusion_Detection.IDS_Attacks" | search category="$click.value$" user IN $s_mident$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_network">
+    <panel>
+      <title>Network Traffic By Action</title>
+      <chart>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby _time All_Traffic.action span=10m | timechart span=10m sum(count) as count by All_Traffic.action | `drop_dm_object_name("All_Traffic")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Network_Traffic.All_Traffic" | search user IN $s_mident$ action=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Network Traffic By Protocol</title>
+      <chart>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby _time All_Traffic.protocol span=10m | timechart span=10m sum(count) as count by All_Traffic.protocol | `drop_dm_object_name("All_Traffic")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel "Network_Traffic.All_Traffic" | search user IN $s_mident$ protocol=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_network_2">
+    <panel>
+      <title>Network Traffic by App</title>
+      <!--
+      <input type="time" token="time_range_panel_1" searchWhenChanged="true">
+        <label>Time for App</label>
+        <default>
+          <earliest>-4h@h</earliest>
+          <latest>now</latest>
+        </default>
+      </input>
+      -->
+      <chart>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby All_Traffic.app | `drop_dm_object_name("All_Traffic")`</query>
+          <!--
+          <earliest>$time_range_panel_1.earliest$</earliest>
+          <latest>$time_range_panel_1.latest$</latest>
+          -->
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">-45</option>
+        <option name="charting.chart">pie</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel%20%22Network_Traffic.All_Traffic%22%20%7C%20search%20user%20IN%20$s_mident$%20app=$click.value$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Network Traffic by Destination Port</title>
+      <!--
+      <input type="time" token="time_range_panel_2" searchWhenChanged="true">
+        <label>Time for Destination Port</label>
+        <default>
+          <earliest>-4h@h</earliest>
+          <latest>now</latest>
+        </default>
+      </input>
+      -->
+      <chart>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby All_Traffic.dest_port | `drop_dm_object_name("All_Traffic")`</query>
+          <!--
+          <earliest>$time_range_panel_2.earliest$</earliest>
+          <latest>$time_range_panel_2.latest$</latest>
+          -->
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">-45</option>
+        <option name="charting.chart">pie</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel%20%22Network_Traffic.All_Traffic%22%20%7C%20search%20user%20IN%20$s_mident$%20dest_port=$click.value$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_network_3">
+    <panel>
+      <title>Top Sources/Destinations by Event Count</title>
+      <table>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby _time All_Traffic.src All_Traffic.dest span=10m | `drop_dm_object_name("All_Traffic")` | stats sparkline(sum(count),60m) as sparkline,sum(count) as count by src dest | sort - count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=| tstats count values(All_Traffic.app) AS app values(All_Traffic.bytes_in) AS bytes_in values(All_Traffic.bytes_out) AS bytes_out values(All_Traffic.direction) as direction values(All_Traffic.dest_port) as dest_port values(All_Traffic.src_port) as src_port values(All_Traffic.action) as action from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ All_Traffic.src=$click.value$ All_Traffic.dest=$row.dest$ groupby _time span=1s All_Traffic.src   All_Traffic.dest |`drop_dm_object_name("All_Traffic")` | table _time action app src src_port bytes_in bytes_out dest dest_port direction&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+    <panel>
+      <title>Top Sources/Destinations by Total MB</title>
+      <table>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count sum(All_Traffic.bytes_in) as bytes_in sum(All_Traffic.bytes_out) as bytes_out sum(All_Traffic.bytes) as total_bytes from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby All_Traffic.src All_Traffic.dest | `drop_dm_object_name("All_Traffic")` | eval mb_in=round((bytes_in/1024/1024),2) |eval mb_out=round((bytes_out/1024/1024),2) | eval mb_total=round((total_bytes/1024/1024),2) | stats values(mb_in) AS "MB  In" values(mb_out) AS "MB Out" values(mb_total) AS "Total MB"  by src dest | sort - "Total MB"</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=| tstats count values(All_Traffic.app) AS app values(All_Traffic.bytes_in) AS bytes_in values(All_Traffic.bytes_out) AS bytes_out values(All_Traffic.direction) as direction values(All_Traffic.dest_port) as dest_port values(All_Traffic.src_port) as src_port values(All_Traffic.action) as action from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ All_Traffic.src=$click.value$ All_Traffic.dest=$row.dest$ groupby _time span=1s All_Traffic.src   All_Traffic.dest |`drop_dm_object_name("All_Traffic")` | table _time action app src src_port bytes_in bytes_out dest dest_port direction&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_network_4">
+    <panel>
+      <title>Network Traffic By MB</title>
+      <!--
+      <input type="time" token="time_range_panel_3" searchWhenChanged="true">
+        <label>Time</label>
+        <default>
+          <earliest>-4h@h</earliest>
+          <latest>now</latest>
+        </default>
+      </input>
+      -->
+      <chart>
+        <search>
+          <query>| $control_network$ tstats summariesonly=true count sum(All_Traffic.bytes_in) as bytes_in sum(All_Traffic.bytes_out) as bytes_out sum(All_Traffic.bytes) as total_bytes from datamodel=Network_Traffic.All_Traffic where All_Traffic.user IN $s_mident$ groupby All_Traffic.src All_Traffic.dest | `drop_dm_object_name("All_Traffic")` | eval mb_in=round((bytes_in/1024/1024),2) |eval mb_out=round((bytes_out/1024/1024),2) | eval mb_total=round((total_bytes/1024/1024),2) | stats values(mb_in) AS "MB  In" values(mb_out) AS "MB Out" values(mb_total) AS "Total MB"  by src dest | sort 15 - "Total MB"</query>
+          <!--
+          <earliest>$time_range_panel_3.earliest$</earliest>
+          <latest>$time_range_panel_3.latest$</latest>
+          -->
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">-45</option>
+        <option name="charting.axisY.scale">log</option>
+        <option name="charting.chart">bubble</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel%20%22Network_Traffic.All_Traffic%22%20%7C%20search%20user%20IN%20$s_mident$%20src=$click.value$%20dest=$row.dest$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_change">
+    <panel>
+      <title>Auditing Changes By Action</title>
+      <chart>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Auditing_Changes All_Changes.user IN $s_mident$ groupby _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")` | `drop_dm_object_name("Auditing_Changes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Auditing_Changes%22%20%7C%20search%20action=$click.name2$%20user%20IN%20$s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Endpoint Changes By Action - user</title>
+      <chart>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Endpoint_Changes All_Changes.user IN $s_mident$ by _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")` | `drop_dm_object_name("Endpoint_Changes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Endpoint_Changes%22%20%7C%20search%20action=$click.name2$%20user%20IN%20$s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_change_2">
+    <panel>
+      <title>Account Management Changes By Action - src_user</title>
+      <chart>
+        <title>src_user is the user or entity performing the change</title>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Account_Management All_Changes.Account_Management.src_user IN $s_mident$ groupby _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")` | `drop_dm_object_name("Account_Management")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Account_Management%22%20%7C%20search%20action=$click.name2$%20src_user%20IN%20$s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Network Changes By Action</title>
+      <chart>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change where nodename=All_Changes.Network_Changes All_Changes.user IN $s_mident$ groupby _time All_Changes.action span=10m | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")` | `drop_dm_object_name("Network_Changes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Network_Changes%22%20%7C%20search%20action=$click.name2$%20user%20IN%20$s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_change_3">
+    <panel>
+      <title>Account Management Changes By Action - user</title>
+      <chart>
+        <title>User is the account that was changed</title>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Account_Management All_Changes.user IN $s_mident$ groupby _time All_Changes.action span=10m | lookup windows_event_code_exclusions.csv win_evt_code AS All_Changes.result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | timechart span=10m sum(count) as count by All_Changes.action | `drop_dm_object_name("All_Changes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Change.Account_Management" | search user IN $s_mident$ action=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Account Management Changes - Detail - user</title>
+      <table>
+        <title>User is the account that was changed</title>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Account_Management All_Changes.user IN $s_mident$ groupby _time span=1s All_Changes.vendor_product All_Changes.dest All_Changes.user All_Changes.src All_Changes.action All_Changes.status All_Changes.dvc All_Changes.Account_Management.src_user All_Changes.object All_Changes.object_category All_Changes.result All_Changes.result_id |`drop_dm_object_name("All_Changes")` |`drop_dm_object_name("Account_Management")` | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | table _time object  result_id result status src_user action dest vendor_product | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">3</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Account_Management%22%20%7C%20search%20user%20IN%20$s_mident$%20object=$row.object$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_change_4">
+    <panel>
+      <title>Auditing Changes - Detail - user</title>
+      <table>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Auditing_Changes All_Changes.user IN $s_mident$ groupby All_Changes.dest All_Changes.action All_Changes.result All_Changes.src All_Changes.status All_Changes.user All_Changes.vendor_product _time span=1s | `drop_dm_object_name(All_Changes)` | `drop_dm_object_name(Auditing_Changes)` | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | table _time dest action status vendor_product user src result | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_change_5">
+    <panel>
+      <title>Account Management Changes - Detail - src_user</title>
+      <table>
+        <title>src_user is the user or entity performing the change</title>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Account_Management All_Changes.Account_Management.src_user IN $s_mident$ groupby _time span=1s All_Changes.vendor_product All_Changes.dest All_Changes.user All_Changes.src All_Changes.action All_Changes.status All_Changes.dvc All_Changes.Account_Management.src_user All_Changes.object All_Changes.object_category All_Changes.result All_Changes.result_id |`drop_dm_object_name("All_Changes")` |`drop_dm_object_name("Account_Management")` | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | table _time vendor_product result_id result status user src_user action dvc object object_category src dest | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Account_Management%22%20%7C%20search%20src_user%20IN%20$s_mident$%20object=$row.object$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_change_6">
+    <panel>
+      <title>Endpoint Changes - Detail - user</title>
+      <table>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change.All_Changes where nodename=All_Changes.Endpoint_Changes All_Changes.user IN $s_mident$ groupby All_Changes.dest All_Changes.action All_Changes.change_type All_Changes.object_category All_Changes.object_path All_Changes.object All_Changes.result All_Changes.src All_Changes.status All_Changes.user All_Changes.vendor_product _time span=1s | `drop_dm_object_name(All_Changes)` | `drop_dm_object_name(Endpoint_Changes)` | lookup windows_event_code_exclusions.csv win_evt_code AS result_id OUTPUTNEW win_evt_code | search NOT(win_evt_code=*) | table _time dest action change_type object_category object_path object status vendor_product user src result | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Change.Endpoint_Changes%22%20%7C%20search%20dest=$row.dest$%20vendor_product=$row.vendor_product$%20user%20IN%20$s_mident$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_change_7">
+    <panel>
+      <title>Network Changes - Detail</title>
+      <table>
+        <search>
+          <query>| $control_change$ tstats summariesonly=true count from datamodel=Change where nodename=All_Changes.Network_Changes All_Changes.user IN $s_mident$ groupby _time span=1s All_Changes.src All_Changes.dest All_Changes.action All_Changes.user All_Changes.vendor_product | `drop_dm_object_name(All_Changes)` | `drop_dm_object_name(Network_Changes)` | table _time dest src action vendor_product user | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_endpoint">
+    <panel>
+      <title>Processes Run Over Time</title>
+      <chart>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count from datamodel=Endpoint.Processes where Processes.user IN $s_mident$ groupby _time Processes.process span=10m  | lookup process_exclusions.csv process AS All_Application_State.process OUTPUTNEW process | search NOT(process=*) | timechart span=10m limit=10 sum(count) as count by Processes.process | `drop_dm_object_name("Processes")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Application_State.All_Application_State" |search user IN $s_mident$ process="$click.name2$"&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Processes Run by System</title>
+      <chart>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count from datamodel=Endpoint.Processes where Processes.user IN $s_mident$ groupby Processes.dest _time span=10m  | lookup process_exclusions.csv process AS Processes.process OUTPUTNEW process | search NOT(process=*) | search Processes.dest!=unknown  | timechart span=10m limit=10 sum(count) as count by Processes.dest</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Application_State.All_Application_State" |search [| from datamodel:"Identity_Management.All_Identities" | search $s_ident$ | mvexpand identity | append [ | makeresults | eval $s_ident$ ] | dedup identity| rename identity AS user | table user] dest=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_endpoint_2">
+    <panel>
+      <title>Services Associated with User By Destination</title>
+      <table>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count from datamodel=Endpoint.Services where Services.user IN $s_mident$  groupby Services.dest Services.service Services.status Services.start_mode Services.user Services.vendor_product _time | `drop_dm_object_name("Services")` | stats last(_time) AS _time last(status) AS status last(start_mode) AS start_mode last(user) AS user last(vendor_product) AS vendor_product by dest service</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Endpoint.Services%22%20%7C%20search%20user%20IN%20$s_mident$%20service=%22$click.value$%22&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+    <panel>
+      <title>Endpoint Registry Events By Destination and Action</title>
+      <table>
+        <search>
+          <query>| $control_endpoint$  tstats summariesonly=true count from datamodel=Endpoint.Registry where Registry.user IN $s_mident$ groupby Registry.action Registry.dest Registry.user Registry.registry_value_type Registry.registry_value_name Registry.registry_value_data Registry.registry_key_name Registry.registry_path Registry.vendor_product _time | `drop_dm_object_name("Registry")` | stats count by dest action</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=%7C%20from%20datamodel:%22Endpoint.Registry%22%20%7C%20search%20user%20IN%20$s_mident$%20user=%22$click.value$%22%20action=$row.action$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_endpoint_3">
+    <panel>
+      <title>Endpoint Process Events - Detail</title>
+      <table>
+        <title>Click on row to drill down to Investigate Process</title>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count values(Processes.process_hash) AS Processes.process_hash values(Processes.process_id) AS Processes.process_id values(Processes.process_path) AS Processes.process_path values(Processes.process_exec) AS Processes.process_exec values(Processes.os) AS Processes.os values(Processes.parent_process_exec) AS Processes.parent_process_exec values(Processes.parent_process_id) AS Processes.parent_process_id values(Processes.parent_process_path) AS Processes.parent_process_path from datamodel=Endpoint.Processes where Processes.user IN $s_mident$ groupby _time span=1s Processes.process Processes.dest Processes.user Processes.vendor_product  Processes.parent_process | lookup process_exclusions.csv process AS Processes.process OUTPUTNEW process | search NOT(process=*) |`drop_dm_object_name("Processes")`  | table _time process user dest process_id parent_process_id parent_process vendor_product process_hash process_path process_exec os parent_process_exec parent_process_path  | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/file_artifacts?form.time.earliest=$earliest$&amp;form.time.latest=$latest$&amp;form.s_file=$row.process$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_endpoint_4">
+    <panel>
+      <title>Endpoint Filesystem Events - Detail</title>
+      <table>
+        <title>Click on row to drill down on asset</title>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count values(Filesystem.process_id) AS Filesystem.process_id values(Filesystem.file_size) AS Filesystem.file_size from datamodel=Endpoint.Filesystem where Filesystem.user IN $s_mident$ groupby Filesystem.dest Filesystem.action Filesystem.user Filesystem.file_hash Filesystem.file_name Filesystem.file_path Filesystem.file_acl Filesystem.vendor_product _time | `drop_dm_object_name("Filesystem")` | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/asset_artifacts?form.time.earliest=$earliest$&amp;form.time.latest=$latest$&amp;form.s_asset=$row.dest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_endpoint_5">
+    <panel>
+      <title>Filesystem Event - Details by File_Create_Date</title>
+      <table>
+        <title>Click on row to drill down on file</title>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count values(Filesystem.process_id) AS Filesystem.process_id values(Filesystem.file_size) AS Filesystem.file_size values(Filesystem.file_create_time) AS Filesystem.file_create_time from datamodel=Endpoint.Filesystem where Filesystem.user IN $s_mident$ Filesystem.file_create_time&lt;$time.latest$ Filesystem.file_create_time&gt;$time.earliest$ groupby Filesystem.dest Filesystem.action Filesystem.user Filesystem.file_hash Filesystem.file_name Filesystem.file_path Filesystem.file_acl Filesystem.vendor_product | `drop_dm_object_name("Filesystem")` | eval file_create_time=strftime(file_create_time,"%Y-%m-%d %H:%M:%S") | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/file_artifacts?form.time.earliest=$earliest$&amp;form.time.latest=$latest$&amp;form.s_file=$row.file_name$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_endpoint_6">
+    <panel>
+      <title>Filesystem Event - Details by File_Modification_Date</title>
+      <table>
+        <title>Click on row to drill down on file</title>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count values(Filesystem.process_id) AS Filesystem.process_id values(Filesystem.file_size) AS Filesystem.file_size values(Filesystem.file_modify_time) AS Filesystem.file_modify_time from datamodel=Endpoint.Filesystem where Filesystem.user IN $s_mident$ Filesystem.file_modify_time&lt;$time.latest$ Filesystem.file_modify_time&gt;$time.earliest$ groupby Filesystem.dest Filesystem.action Filesystem.user Filesystem.file_hash Filesystem.file_name Filesystem.file_path Filesystem.file_acl Filesystem.vendor_product | `drop_dm_object_name("Filesystem")` | eval file_modify_time=strftime(file_modify_time,"%Y-%m-%d %H:%M:%S") | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/file_artifacts?form.time.earliest=$row.file_name$&amp;form.time.latest=$latest$&amp;form.s_file=$row.file_name$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_endpoint_7">
+    <panel>
+      <title>Filesystem Event - Details by File_Access_Date</title>
+      <table>
+        <title>Click on row to drill down on file</title>
+        <search>
+          <query>| $control_endpoint$ tstats summariesonly=true count values(Filesystem.process_id) AS Filesystem.process_id values(Filesystem.file_size) AS Filesystem.file_size values(Filesystem.file_access_time) AS Filesystem.file_access_time from datamodel=Endpoint.Filesystem where Filesystem.user IN $s_mident$ Filesystem.file_access_time&lt;$time.latest$ Filesystem.file_access_time&gt;$time.earliest$ groupby Filesystem.dest Filesystem.action Filesystem.user Filesystem.file_hash Filesystem.file_name Filesystem.file_path Filesystem.file_acl Filesystem.vendor_product | `drop_dm_object_name("Filesystem")` | eval file_access_time=strftime(file_access_time,"%Y-%m-%d %H:%M:%S") | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/file_artifacts?form.time.earliest=$earliest$&amp;form.time.latest=$latest$&amp;form.s_file=$row.file_name$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_vuln">
+    <panel>
+      <title>Vulnerabilities By Severity</title>
+      <chart>
+        <search>
+          <query>| $control_vuln$ tstats summariesonly=true dc(Vulnerabilities.signature) as vuln_count from datamodel=Vulnerabilities.Vulnerabilities where Vulnerabilities.user IN $s_mident$ groupby Vulnerabilities.severity | `drop_dm_object_name("Vulnerabilities")` | stats sum(vuln_count) as count by severity | `stats2chart(severity)` | table count critical, high, medium, low, informational, unknown</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">bar</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.fieldColors">{"critical":0xD25B3B,"high":0xFF8800,"medium":0xF0BE1B,"low":0x98BF3B,"informational":0x5378AD,"unknown":0x999999}</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Vulnerabilities.Vulnerabilities" | search user IN $s_mident$ severity=$click.name2$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Vulnerability Detail</title>
+      <table>
+        <search>
+          <query>| $control_vuln$ tstats summariesonly=true max(_time) as _time,values(Vulnerabilities.category) as category,values(Vulnerabilities.severity) as severity,values(Vulnerabilities.cve) as cve,count from datamodel=Vulnerabilities.Vulnerabilities where Vulnerabilities.user IN $s_mident$ groupby Vulnerabilities.signature Vulnerabilities.dest | `drop_dm_object_name("Vulnerabilities")` | sort - count | fields _time dest category severity signature cve count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_auth">
+    <panel>
+      <title>Access by Action</title>
+      <chart>
+        <search>
+          <query>| $control_authentication$ tstats summariesonly=true count from datamodel=Authentication.Authentication where Authentication.app=* Authentication.user IN $s_mident$ by _time,Authentication.action span=10m | timechart span=10m  sum(count) as count by Authentication.action | `drop_dm_object_name("Authentication")`</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Authentication.Authentication" |search user IN $s_mident$ action=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+    <panel>
+      <title>Access by App</title>
+      <chart>
+        <search>
+          <query>| $control_authentication$ tstats summariesonly=true count from datamodel=Authentication.Authentication where Authentication.app=* Authentication.user IN $s_mident$ groupby _time Authentication.app span=10m | timechart span=10m sum(count) as count by Authentication.app</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.nullValueMode">zero</option>
+        <option name="charting.chart.stackMode">stacked</option>
+        <option name="charting.drilldown">all</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Authentication.Authentication" | search user IN $s_mident$ app=$click.name2$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </chart>
+    </panel>
+  </row>
+  <row id="tab_auth_2">
+    <panel>
+      <title>Access by Source</title>
+      <table>
+        <search>
+          <query>| $control_authentication$ tstats summariesonly=true count from datamodel=Authentication.Authentication where Authentication.app=* Authentication.user IN $s_mident$ groupby _time Authentication.src span=10m | `drop_dm_object_name("Authentication")` | stats sparkline(sum(count),60m) as sparkline,sum(count) as count by src | iplocation src | sort - count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Authentication.Authentication" | search user IN $s_mident$ src=$click.value$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+    <panel>
+      <title>Logins and Escalations by User - src_user initiates escalation</title>
+      <table>
+        <search>
+          <query>| $control_authentication$ tstats summariesonly=true count values(Authentication.app) as app values(Authentication.action) as action values(Authentication.user) as user values(Authentication.src_user) as src_user values(Authentication.src) as src from datamodel=Authentication.Authentication where Authentication.app=* Authentication.user IN $s_mident$ groupby _time span=1s | `drop_dm_object_name("Authentication")` | table _time user src_user app action src | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_auth_3">
+    <panel>
+      <title>Logins and Escalations by src_user - src_user initiates escalation</title>
+      <table>
+        <search>
+          <query>| $control_authentication$ tstats summariesonly=true count values(Authentication.app) as app values(Authentication.action) as action values(Authentication.user) as user values(Authentication.src_user) as src_user values(Authentication.src) as src from datamodel=Authentication.Authentication where Authentication.app=* Authentication.src_user IN $s_mident$ by _time span=1s | `drop_dm_object_name("Authentication")` | table _time user src_user app action src | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_email">
+    <panel>
+      <title>Email Attachments - src_user</title>
+      <table>
+        <search>
+          <query>| $control_email$ tstats summariesonly=true count values(All_Email.recipient) as recipient values(All_Email.file_name) as file_name values(All_Email.file_size) as file_size from datamodel=Email where nodename=All_Email All_Email.file_name=* All_Email.src_user IN $s_mident$ groupby All_Email.subject All_Email.src_user _time span=1s  |`drop_dm_object_name(All_Email)` | table _time src_user recipient subject file_name file_size | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/email_search?form.sender=$row.src_user$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+    <panel>
+      <title>Email Attachments - recipient</title>
+      <table>
+        <search>
+          <query>| $control_email$ tstats summariesonly=true count values(All_Email.file_name) as file_name values(All_Email.file_size) as file_size from datamodel=Email where nodename=All_Email All_Email.file_name=* All_Email.recipient IN $s_mident$ groupby All_Email.subject All_Email.recipient All_Email.src_user _time span=1s  |`drop_dm_object_name(All_Email)` | table _time src_user recipient subject file_name file_size | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/email_search?form.sender=$row.src_user$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_email_2">
+    <panel>
+      <title>Least Often Seen Recipients</title>
+      <table>
+        <search>
+          <query>| $control_email$ tstats summariesonly=true dc(All_Email.src) as src_count, dc(All_Email.src_user) as src_user_count, count from datamodel=Email where nodename = All_Email All_Email.src_user IN $s_mident$ groupby All_Email.recipient |`drop_dm_object_name(All_Email)` | sort 100 + count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/email_search?form.recipient=$row.recipient$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+    <panel>
+      <title>Least Often Seen Senders</title>
+      <table>
+        <search>
+          <query>| $control_email$ tstats summariesonly=true dc(All_Email.src) as src_count, dc(All_Email.recipient) as recipient_count, count from datamodel=Email where nodename = All_Email All_Email.recipient IN $s_mident$ groupby All_Email.src_user |`drop_dm_object_name(All_Email)` | sort 100 + count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/email_search?form.sender=$row.src_user$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_email_3">
+    <panel>
+      <title>Email Metadata - src_user</title>
+      <table>
+        <search>
+          <query>| $control_email$ tstats summariesonly=true count values(All_Email.recipient) as recipient from datamodel=Email where nodename = All_Email All_Email.src_user IN $s_mident$ groupby _time span=1s All_Email.src All_Email.dest All_Email.subject All_Email.src_user All_Email.action All_Email.size |`drop_dm_object_name(All_Email)` |table _time src dest subject recipient src_user action size count | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/email_search?form.src=$row.src$&amp;form.dest=$row.dest$&amp;form.sender=$row.src_user$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_email_4">
+    <panel>
+      <title>Email Metadata - recipient</title>
+      <table>
+        <search>
+          <query>| $control_email$ tstats summariesonly=true count values(All_Email.recipient) as recipient from datamodel=Email where nodename = All_Email All_Email.recipient IN $s_mident$ groupby _time span=1s All_Email.src All_Email.dest All_Email.subject All_Email.src_user All_Email.action All_Email.size |`drop_dm_object_name(All_Email)` |table _time src dest subject recipient src_user action size count | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/email_search?form.src=$row.src$&amp;form.dest=$row.dest$&amp;form.sender=$row.src_user$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_session">
+    <panel>
+      <title>DHCP Sessions By Source IP and MAC</title>
+      <table>
+        <search>
+          <query>| $control_session$ tstats summariesonly=true values(All_Sessions.action) as action values(All_Sessions.signature) as signature values(DHCP.lease_duration) as lease_duration values(All_Sessions.vendor_product) as vendor from datamodel=Network_Sessions.All_Sessions where nodename=All_Sessions.DHCP All_Sessions.user IN $s_mident$  groupby All_Sessions.src_ip All_Sessions.src_mac All_Sessions.dest_ip _time  span=1s | `drop_dm_object_name("All_Sessions")` | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=| tstats summariesonly=true latest(All_Sessions.src_ip) as src_ip,latest(All_Sessions.src_mac) as src_mac,latest(All_Sessions.src_nt_host) as src_nt_host,latest(All_Sesions.src_dns) as src_dns from datamodel=Network_Sessions.All_Sessions where All_Sessions.user IN $s_mident$  groupby _time All_Sessions.dest_ip All_Sessions.dest_mac All_Sessions.dest_nt_host All_Sessions.dest_dns All_Sessions.user span=1s | `drop_dm_object_name("All_Sessions")` | `unprepend_assets("dest")` | `mvappend_field(src,src_ip)` | `mvappend_field(src,src_mac)` | `mvappend_field(src,src_nt_host)` | `mvappend_field(src,src_dns)` | sort - _time | fields _time  ip mac nt_host dns&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+    <panel>
+      <title>VPN Connections</title>
+      <table>
+        <search>
+          <query>| $control_session$ tstats summariesonly=true values(All_Sessions.action) as action values(All_Sessions.vendor_product) as vendor from datamodel=Network_Sessions.All_Sessions where nodename=All_Sessions.VPN All_Sessions.user IN $s_mident$ groupby All_Sessions.dest_ip All_Sessions.src_ip _time  span=1s | `drop_dm_object_name("Network_Sessions")` |rename All_Sessions.dest_ip as dest_ip |rename All_Sessions.src_ip as src_ip |table _time dest_ip src_ip action vendor |sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_session_2">
+    <panel>
+      <title>Network Sessions</title>
+      <table>
+        <search>
+          <query>|   $control_session$ tstats summariesonly=true count values(All_Sessions.src_dns) as src_dns values(All_Sessions.dest_dns) as dest_dns from datamodel=Network_Sessions.All_Sessions where nodename=All_Sessions.Session_End All_Sessions.user IN $s_mident$ groupby _time span=1s All_Sessions.action All_Sessions.vendor_product All_Sessions.src_ip All_Sessions.dest_ip  All_Sessions.user All_Sessions.duration |`drop_dm_object_name("All_Sessions")` | table _time action src_ip src_dns dest_ip dest_dns user duration vendor_product | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_web">
+    <panel>
+      <html tokens="true">
+      <h4>A few panels on this tab leverage URLToolbox to parse URLs. Please install URLToolbox for these panels to search properly.</h4>
+    </html>
+    </panel>
+  </row>
+  <row id="tab_web_2">
+    <panel>
+      <title>Blocked Web Traffic</title>
+      <table>
+        <search>
+          <query>| $control_web$ tstats summariesonly=true count from datamodel=Web.Web where Web.user IN $s_mident$ Web.action="blocked" groupby _time span=1s Web.app Web.url Web.vendor_product Web.src Web.dest Web.user |`drop_dm_object_name("Web")` | rex field=uri_path "^.*\/(?&lt;web_filename&gt;[^\.\/]+\.(?:[^\.\/]){2,4})$" | lookup web_exclusions.csv filename AS web_filename OUTPUTNEW filename | search NOT(filename=*) |table _time src dest vendor_product url user | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">/app/SplunkEnterpriseSecuritySuite/web_search?form.src=$row.src$&amp;form.dest=$row.dest$&amp;form.url=$row.url$&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_web_3">
+    <panel>
+      <title>Non-Blocked Web Traffic</title>
+      <table>
+        <search>
+          <query>| $control_web$ tstats summariesonly=true values(Web.app) as app values(Web.src) as src values(Web.bytes_in) as bytes_in values(Web.bytes_out) as bytes_out values(Web.dest) as dest values(Web.url) as url values(Web.action) as action from datamodel=Web.Web  where Web.user IN $s_mident$ Web.action!=blocked groupby _time span=1s Web.user Web.vendor_product  | `drop_dm_object_name("Web")` | eval list="mozilla" | `ut_parse_extended(url,list)`  | rex field=ut_path "^.*\/(?&lt;web_filename&gt;[^\.\/]+\.(?:[^\.\/]){2,4})$" | lookup web_exclusions.csv filename AS web_filename OUTPUTNEW filename | search NOT(filename=*) | table _time bytes_in bytes_out src dest vendor_product url action user | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_web_4">
+    <panel>
+      <title>User Agent Strings and HTTP Status</title>
+      <table>
+        <search>
+          <query>| $control_web$ tstats summariesonly=true count from datamodel=Web.Web  where Web.user IN $s_mident$ groupby Web.http_user_agent Web.status  | `drop_dm_object_name("Web")` | sort - count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+        <drilldown>
+          <link target="_blank">search?q=| from datamodel:"Web.Web" | search user IN $s_mident$ http_user_agent="$click.value$" status=$row.status$&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_web_5">
+    <panel>
+      <title>HTTP Referrer Strings</title>
+      <table>
+        <search>
+          <query>| $control_web$ tstats summariesonly=true values(Web.app) as app values(Web.http_method) as method values(Web.http_referrer) as http_referrer values(Web.http_content_type) as http_content_type values(Web.dest) as dest values(Web.url) as url from datamodel=Web.Web  where Web.user IN $s_mident$ Web.action!=blocked groupby _time span=10m Web.dest Web.src | `drop_dm_object_name("Web")` | eval list="mozilla" | `ut_parse_extended(url,list)`  | rex field=ut_path "^.*\/(?&lt;web_filename&gt;[^\.\/]+\.(?:[^\.\/]){2,4})$" | lookup web_exclusions.csv filename AS web_filename OUTPUTNEW filename | search NOT(filename=*)  | table  _time src dest app method http_referrer http_content_type url | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="wrap">false</option>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_risk">
+    <panel>
+      <single>
+        <title>Risk Score (All Time)</title>
+        <search>
+          <query>$control_risk$ | tstats sum(All_Risk.risk_score) as risk_score from datamodel=Risk.All_Risk where All_Risk.risk_object IN $s_mident$ groupby All_Risk.risk_object | `drop_dm_object_name("All_Risk")` | stats sum(risk_score) as risk_score</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="refresh.display">progressbar</option>
+      </single>
+    </panel>
+    <panel>
+      <single>
+        <title>Risk Score - Past 30 Days</title>
+        <search>
+          <query>$control_risk$ | tstats sum(All_Risk.risk_score) as risk_score from datamodel=Risk.All_Risk where All_Risk.risk_object IN $s_mident$ by All_Risk.risk_object | `drop_dm_object_name("All_Risk")` | stats sum(risk_score) as risk_score</query>
+          <earliest>-30d@d</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="refresh.display">progressbar</option>
+      </single>
+    </panel>
+    <panel>
+      <single>
+        <title>Risk Score - Past 7 Days</title>
+        <search>
+          <query>$control_risk$ | tstats sum(All_Risk.risk_score) as risk_score from datamodel=Risk.All_Risk where All_Risk.risk_object IN $s_mident$ by All_Risk.risk_object | `drop_dm_object_name("All_Risk")` | stats sum(risk_score) as risk_score</query>
+          <earliest>-7d@d</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="refresh.display">progressbar</option>
+      </single>
+    </panel>
+  </row>
+  <row id="tab_risk_2">
+    <panel>
+      <chart>
+        <title>Risk Score Over Time (All Time)</title>
+        <search>
+          <query>| $control_risk$ tstats values(All_Risk.risk_score) as risk_score values(source) as source from datamodel=Risk.All_Risk where All_Risk.risk_object IN $s_mident$ groupby _time  | `drop_dm_object_name("All_Risk")` | streamstats sum(risk_score) as risk_score</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="charting.axisTitleY.visibility">collapsed</option>
+        <option name="charting.chart">line</option>
+        <option name="charting.chart.nullValueMode">connect</option>
+        <option name="charting.chart.showDataLabels">all</option>
+        <option name="charting.drilldown">none</option>
+        <option name="charting.legend.placement">none</option>
+        <option name="refresh.display">progressbar</option>
+      </chart>
+    </panel>
+    <panel>
+      <table>
+        <title>Risk Sources - Past 30 Days</title>
+        <search>
+          <query>| $control_risk$ tstats values(All_Risk.risk_score) as risk_score values(source) as source from datamodel=Risk.All_Risk where All_Risk.risk_object IN $s_mident$ groupby _time  | `drop_dm_object_name("All_Risk")` | sort - _time</query>
+          <earliest>-30d@d</earliest>
+          <latest>now</latest>
+        </search>
+      </table>
+    </panel>
+    <panel>
+      <table>
+        <title>Risk Sources - Past 7 Days</title>
+        <search>
+          <query>| $control_risk$ tstats values(All_Risk.risk_score) as risk_score values(source) as source from datamodel=Risk.All_Risk where All_Risk.risk_object IN $s_mident$ groupby _time  | `drop_dm_object_name("All_Risk")` | sort - _time</query>
+          <earliest>-7d@d</earliest>
+          <latest>now</latest>
+        </search>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_eventcode_search">
+    <panel>
+      <title>Windows Event Code Search - Specify One or More Comma Separated Event Codes</title>
+      <input type="text" token="s_eventcode" searchWhenChanged="true">
+        <label>Windows Event Code</label>
+        <prefix>(</prefix>
+        <suffix>)</suffix>
+      </input>
+      <input type="multiselect" token="s_index_3" searchWhenChanged="true">
+        <label>Index</label>
+        <fieldForLabel>index</fieldForLabel>
+        <fieldForValue>index</fieldForValue>
+        <search>
+          <query>| eventcount summarize=false index=* | dedup index | fields index</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <valuePrefix>index="</valuePrefix>
+        <valueSuffix>"</valueSuffix>
+        <delimiter> OR </delimiter>
+        <default>main</default>
+      </input>
+      <event>
+        <search>
+          <query>$control_eventcode_search$ $s_index_3$ (source=wineventlog:* OR sourcetype=WinEventLog:*) (EventCode IN $s_eventcode$) (user IN $s_mident$) | fields + * | sort + _time</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=$s_index_3$%20(source=wineventlog:*%20OR%20sourcetype=WinEventLog:*)*%20EventCode%20IN%20$s_eventcode$%20user%20IN%20$s_mident$%20%7C%20fields%20+%20*%20%7C%20sort%20+%20_time&amp;display.page.search.mode=smart&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </event>
+    </panel>
+  </row>
+  <row id="tab_search">
+    <panel>
+      <title>All sourcetypes That Reference User Account</title>
+      <input type="multiselect" token="s_index_1" searchWhenChanged="true">
+        <label>Index</label>
+        <fieldForLabel>index</fieldForLabel>
+        <fieldForValue>index</fieldForValue>
+        <search>
+          <query>| eventcount summarize=false index=* | dedup index | fields index</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <valuePrefix>index="</valuePrefix>
+        <valueSuffix>"</valueSuffix>
+        <delimiter> OR </delimiter>
+        <default>main</default>
+      </input>
+      <table>
+        <search>
+          <query>$control_search$ $s_index_1$ (user IN $s_mident$) | stats count by sourcetype | sort - count</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">10</option>
+        <drilldown>
+          <link target="_blank">search?q=$s_index_1$%20sourcetype=$click.value$%20user%20IN%20$s_mident$&amp;display.page.search.mode=smart&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row id="tab_search_2">
+    <panel>
+      <title>All Events That Reference User Based on Index and Sourcetype</title>
+      <input type="multiselect" token="s_index_2" searchWhenChanged="true">
+        <label>Index</label>
+        <fieldForLabel>index</fieldForLabel>
+        <fieldForValue>index</fieldForValue>
+        <search>
+          <query>| eventcount summarize=false index=* | dedup index | fields index</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <valuePrefix>index="</valuePrefix>
+        <valueSuffix>"</valueSuffix>
+        <delimiter> OR </delimiter>
+        <default>main</default>
+      </input>
+      <input type="multiselect" token="s_sourcetype" searchWhenChanged="true">
+        <label>Sourcetype</label>
+        <fieldForLabel>sourcetype</fieldForLabel>
+        <fieldForValue>sourcetype</fieldForValue>
+        <search>
+          <query>| metadata type=sourcetypes index IN $s_index_2$ | dedup sourcetype</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <choice value="*">ALL</choice>
+        <valuePrefix>sourcetype="</valuePrefix>
+        <valueSuffix>"</valueSuffix>
+        <delimiter> OR </delimiter>
+        <prefix>(</prefix>
+        <suffix>)</suffix>
+      </input>
+      <event>
+        <search>
+          <query>$control_search$ $s_index_2$ $s_sourcetype$ (user IN $s_mident$) | fields *</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="count">5</option>
+        <option name="refresh.display">progressbar</option>
+        <drilldown>
+          <link target="_blank">search?q=$s_index_2$%20user%20IN%20$s_mident$%20%7C%20fields%20*&amp;display.page.search.mode=smart&amp;earliest=$time.earliest$&amp;latest=$time.latest$</link>
+        </drilldown>
+      </event>
+    </panel>
+  </row>
+</form>

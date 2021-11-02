@@ -1,0 +1,2 @@
+Event Time,Severity,Host Name,Category,Event Source,Event Description
+##Event_Time##,##Severity##,##Host_Name##,Category: ##Category##,##Event_Source##,##Event_Description##

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<view template="python_upgrade_readiness_app:/templates/instance_scan.html" type="html">
+	<label>Instance Scan</label>
+</view>
+

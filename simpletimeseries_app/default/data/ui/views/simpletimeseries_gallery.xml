@@ -1,0 +1,51 @@
+<form>
+  <label>Simple Timeseries Gallery</label>
+  <row>
+    <panel>
+      <title>Multiple time-series via table command: _time seriesName value</title>
+      <viz type="simpletimeseries_app.simpletimeseries"><search>
+          <query>| inputlookup battery_data.csv | sort -trackerid | head 100  | table _time trackerid battery</query>
+          <earliest>0</earliest>
+        </search>
+        <option name="simpletimeseries_app.simpletimeseries.showLegend">true</option>
+        <option name="simpletimeseries_app.simpletimeseries.showDatapoints">false</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Highlight specific series w/ color: _time seriesName value color</title>
+      <viz type="simpletimeseries_app.simpletimeseries"><search>
+          <query>| inputlookup battery_data.csv | sort -trackerid | head 5000  | eval color = if(trackerid=="ff:fc:3b:f7:14:4a","red", "rgba(0,0,0,.1)") |  table _time trackerid battery color</query>
+          <earliest>0</earliest>
+        </search>
+        <option name="simpletimeseries_app.simpletimeseries.showLegend">false</option>
+        <option name="simpletimeseries_app.simpletimeseries.showDatapoints">false</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Multiple time-series via table command: _time seriesName value, no legend, datapoints</title>
+      <viz type="simpletimeseries_app.simpletimeseries"><search>
+          <query>| inputlookup battery_data.csv | sort -trackerid | head 100  | table _time trackerid battery</query>
+          <earliest>0</earliest>
+        </search>
+        <option name="simpletimeseries_app.simpletimeseries.showLegend">false</option>
+        <option name="simpletimeseries_app.simpletimeseries.showDatapoints">true</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Overplotting: _time seriesName value color, no legend, no datapoints</title>
+      <viz type="simpletimeseries_app.simpletimeseries"><search>
+          <query>| inputlookup battery_data.csv | sort -trackerid | head 10000  | eval color = "rgba(0,0,0,.1)" |  table _time trackerid battery color</query>
+          <earliest>0</earliest>
+        </search>
+        <option name="simpletimeseries_app.simpletimeseries.showLegend">false</option>
+        <option name="simpletimeseries_app.simpletimeseries.showDatapoints">false</option>
+      </viz>
+    </panel>
+  </row>
+</form>

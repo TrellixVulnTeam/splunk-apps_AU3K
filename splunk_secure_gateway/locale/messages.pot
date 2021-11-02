@@ -1,0 +1,926 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-04-14 09:34-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/opt_in.xml
+msgid " SOC2 Compliance Opt In Page "
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:133
+msgid "(Click on panel to get full trace of request)"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/alerts/ssg_mobile_alert.html
+msgid ""
+"<!-- (C) 2019 Splunk Inc. All rights reserved. -->\n"
+"<form class=\"form-horizontal form-complex\">\n"
+"    <div class=\"control-group\">\n"
+"        <label class=\"control-label\" "
+"for=\"alert_recipients\">To</label>\n"
+"        <div class=\"controls\">\n"
+"            <splunk-search-dropdown "
+"name=\"action.ssg_mobile_alert.param.alert_recipients\"\n"
+"                                    search='| stats count\n"
+"                                            | fields - count\n"
+"                                            | append [| rest "
+"/services/authorization/roles | table id | rex field=id "
+"\"roles\\/(?<role>.+)\"\n"
+"                                            | eval id=role\n"
+"                                            | table id role\n"
+"                                            | where role != \"splunk-"
+"system-role\" and role != \"can_delete\" and role != \"user\" and role !="
+" \"power\" ]\n"
+"                                            | dedup id, role'\n"
+"                                    value-field=\"id\" label-"
+"field=\"role\" style=\"vertical-align: top\"\n"
+"            />\n"
+"        </div>\n"
+"        <span style=\"margin-top:-15px !important;\" class=\"help-"
+"block\">Select the role that should receive this alert. All users with "
+"the selected role will receive this alert.</span>\n"
+"    </div>\n"
+"    <div class=\"control-group\">\n"
+"        <splunk-control-group label=\"Severity\">\n"
+"                <splunk-select "
+"name=\"action.ssg_mobile_alert.param.alert_severity\">\n"
+"                    <option value=\"0\">Info</option>\n"
+"                    <option value=\"1\">Low</option>\n"
+"                    <option value=\"2\">Medium</option>\n"
+"                    <option value=\"3\">High</option>\n"
+"                    <option value=\"4\">Critical</option>\n"
+"                </splunk-select>\n"
+"        </splunk-control-group>\n"
+"    </div>\n"
+"    <div class=\"control-group\">\n"
+"        <label class=\"control-label\" "
+"for=\"alert_subject\">Title</label>\n"
+"        <div class=\"controls\">\n"
+"            <input type=\"text\" "
+"name=\"action.ssg_mobile_alert.param.alert_subject\" id=\"alert_subject\""
+" placeholder=\"Title\" maxlength=\"25\"/>\n"
+"            <span style=\"margin-left:10px\" class=\"help-block\">Max 25 "
+"characters</span>\n"
+"        </div>\n"
+"    </div>\n"
+"    <div class=\"control-group\">\n"
+"        <label class=\"control-label\" "
+"for=\"alert_message\">Description</label>\n"
+"        <div class=\"controls\">\n"
+"            <textarea "
+"name=\"action.ssg_mobile_alert.param.alert_message\" id=\"alert_messge\" "
+"placeholder=\"Optional\" maxlength=\"150\"></textarea>\n"
+"            <span style=\"margin-left:10px\" class=\"help-block\">Max 150"
+" characters</span>\n"
+"        </div>\n"
+"    </div>\n"
+"    <div class=\"control-group\">\n"
+"        <label class=\"control-label\">Visualization</label>\n"
+"        <div class=\"controls\">\n"
+"            <label class=\"radio\" for=\"visualization_type\">\n"
+"                <input id=\"visualization_type\"\n"
+"                       type=\"radio\"\n"
+"                       "
+"name=\"action.ssg_mobile_alert.param.dashboard_toggle\"\n"
+"                       value=\"0\"/>\n"
+"                None\n"
+"            </label>\n"
+"            <label class=\"radio\" for=\"dashboard_toggle\" "
+"style=\"width: 80%\">\n"
+"                Dashboard\n"
+"                <input id=\"dashboard_toggle\"\n"
+"                       "
+"name=\"action.ssg_mobile_alert.param.dashboard_toggle\"\n"
+"                       type=\"radio\"\n"
+"                       value=\"1\"\n"
+"                       checked/>\n"
+"\n"
+"                <div style=\"margin-top: 5px\">\n"
+"                    <splunk-search-dropdown "
+"name=\"action.ssg_mobile_alert.param.alert_dashboard_id\"\n"
+"                                            search='| rest "
+"/servicesNS/-/search/data/ui/views\n"
+"                                                    | join [rest "
+"/services/authentication/current-context/context | fields + username]\n"
+"                                                    | rename  "
+"eai:acl.sharing as sharing\n"
+"                                                    | rename "
+"eai:acl.owner as owner\n"
+"                                                    | where "
+"((isDashboard=1 AND isVisible=1) AND ((sharing=\"user\" AND "
+"owner=username) OR (sharing!=\"user\")))\n"
+"                                                    | table label id'\n"
+"                                            value-field=\"id\" label-"
+"field=\"label\" placeholder=\"Dashboard\" style=\"vertical-align: top\"\n"
+"                    />\n"
+"                </div>\n"
+"\n"
+"\n"
+"            </label>\n"
+"            <span style=\"margin-left:20px; margin-top:-15px "
+"!important;\" class=\"help-block\">\n"
+"                Select a supported dashboard to display the events "
+"data.<br/>\n"
+"                <a "
+"href=\"{{SPLUNKWEB_URL_PREFIX}}/help?location=[$app_name$:$app_version$]CX.viz.support\""
+" target=\"_blank\" title=\"Splunk help\">Learn more <i class=\"icon-"
+"external\"></i></a>\n"
+"            </span>\n"
+"        </div>\n"
+"        <div class=\"controls\">\n"
+"            <label class=\"radio\" for=\"dashboard_toggle\" "
+"style=\"width: 80%\">\n"
+"                <div class=\"token\">\n"
+"                    <span class=\"token\">Token Name</span>\n"
+"                </div>\n"
+"                <div style=\"margin-bottom: 8px\">\n"
+"                    <input type=\"text\" "
+"name=\"action.ssg_mobile_alert.param.token_name\" id=\"alert_token\" "
+"placeholder=\"optional\" style=\"width:100%;\" />\n"
+"                </div>\n"
+"                <div class=\"Fieldname\">\n"
+"                    <span class=\"token\">Result Fieldname</span>\n"
+"                    <input type=\"text\" "
+"name=\"action.ssg_mobile_alert.param.result_fieldname\" "
+"id=\"alert_fieldname\" placeholder=\"optional\" style=\"width:100%;\" />"
+"\n"
+"                </div>\n"
+"            </label>\n"
+"            <span style=\"margin-left:20px; margin-top: 10px "
+"!important;\" class=\"help-block\">\n"
+"                If your dashboard supports\n"
+"                input tokens, you can specify\n"
+"                a token name and a\n"
+"                corresponding token value\n"
+"                using the result field name.\n"
+"                <a "
+"href=\"{{SPLUNKWEB_URL_PREFIX}}/help?location=[$app_name$:$app_version$]viz.tokens\""
+" target=\"_blank\" title=\"Splunk help\">Learn more <i class=\"icon-"
+"external\"></i></a>\n"
+"            </span>\n"
+"        </div>\n"
+"    </div>\n"
+"    <div class=\"control-group\" style=\"margin-top: 20px\">\n"
+"        <label class=\"control-label\" "
+"for=\"alert_call_to_action_label\">Action Label</label>\n"
+"        <div class=\"controls\">\n"
+"            <input type=\"text\" "
+"name=\"action.ssg_mobile_alert.param.alert_call_to_action_label\" "
+"id=\"alert_call_to_action_label\" placeholder=\"Optional\"/>\n"
+"        </div>\n"
+"    </div>\n"
+"    <div class=\"control-group\">\n"
+"        <label class=\"control-label\" "
+"for=\"alert_call_to_action_url\">Action URL</label>\n"
+"        <div class=\"controls\">\n"
+"            <input type=\"text\" "
+"name=\"action.ssg_mobile_alert.param.alert_call_to_action_url\" "
+"id=\"alert_call_to_action_url\" placeholder=\"Optional\"/>\n"
+"            <span style=\"margin-top:10px !important;\" class=\"help-"
+"block\">Specify a label and URL to open when action label is "
+"tapped.</span>\n"
+"        </div>\n"
+"    </div>\n"
+"</form>\n"
+"\n"
+msgstr ""
+
+#. html
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:122
+msgid "<h1>Secure Gateway Reachability</h1>"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:24
+msgid "Alerts List Request"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:32
+msgid "All Requests: Click on row to trace particular request"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:37
+msgid "All Subscriptions"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:45
+msgid "App"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:22
+msgid "App List Request"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/app_selection.xml
+msgid "App Selection"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:33
+msgid "Auth Code Validation"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:248
+msgid "Average Request Latency By Type"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:111
+msgid "Average Update Latency"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:588
+msgid "Batch save requires input be a list, actual data input={0}"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:632
+msgid "Batch save to KV store failed with code {0}. Error details: {1}"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1051
+msgid "Both values in point must be float or int"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:407
+msgid "Cannot change permissions from 'app' to 'user' without cloning."
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:27
+msgid "Client Subscribe Request"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:56
+msgid "Collection"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/configure.xml
+msgid "Configure"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:741
+msgid "Could not convert {0}. Time zone offsets not allowed."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:740
+msgid "Could not convert {0}. Time zone required but not found."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:216
+msgid "Could not interpret the value as a list"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:737
+msgid "Could not parse {0}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:639
+msgid "Could not parse {0}. Should be ISO 8601 (YYYY-MM-DD)."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:735
+msgid "Could not parse {0}. Should be ISO 8601 or timestamp."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:739
+msgid "Could not parse {0}. Time zone offset not allowed."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:738
+msgid "Could not parse {0}. Time zone offset required."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:640
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:736
+msgid "Could not parse {0}. Valid formats: {1}"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/contrib/enum_type.py:33
+msgid "Couldn't interpret '{0}' as member of {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:385
+msgid "Couldn't interpret '{0}' as string."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:981
+msgid "Couldn't interpret '{0}' value as Timedelta."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:354
+msgid "Couldn't interpret '{0}' value as UUID."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/union.py:34
+msgid "Couldn't interpret value '{0}' as any of {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/contrib/mongo.py:27
+msgid "Couldn't interpret value as an ObjectId."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1092
+msgid "Couldn't interpret value as string."
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:91
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:84
+msgid "Current User"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:124
+msgid "Currently Subscribed"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:26
+msgid "Dashboard List Request"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/nav/default.xml
+msgid "Dashboards"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:23
+msgid "Delete"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:99
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:92
+msgid "Device ID"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/all_devices.xml
+msgid "Devices"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:285
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:488
+msgid "Empty field received - Rejecting filter."
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:2
+msgid "End-to-End Websocket Test"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:281
+msgid "Error Count By Module Name"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:117
+msgid "Error Message"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/common.py:50
+#, python-format
+msgid "Error. Captain is not ready even after 5 minutes. node=`%s`."
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:87
+msgid "Field Name"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:91
+msgid "Field Value"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:25
+msgid "Generic Message Request"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1046
+msgid "GeoPointType can only accept tuples, lists, or dicts"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:22
+msgid "Get"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:145
+msgid "HTTP Call Response Time Buckets (seconds)"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:174
+msgid "HTTPS (Async)"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:152
+msgid "HTTPS (Sync)"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:556
+msgid "Hash value is not hexadecimal."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:555
+msgid "Hash value is wrong length."
+msgstr ""
+
+#. description
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:3
+msgid ""
+"If you’re running into issues with the Connected Experiences apps, Splunk"
+" Support might ask you to use this dashboard to check the KV Store "
+"status."
+msgstr ""
+
+#. description
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:3
+msgid ""
+"Initiate a sample request to run an end-to-end websocket test for Splunk "
+"Secure Gateway, device authentication, and Spacebridge messaging. This "
+"dashboard requires JSON Web Tokens (JWT) to be enabled."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:155
+#, python-format
+msgid "Input must be a mapping or '%s' instance"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:24
+msgid "Insert"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/net.py:65
+#, python-format
+msgid "Invalid IP%s address"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/net.py:113
+msgid "Invalid MAC address"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:386
+msgid "Invalid UTF-8 data."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/common.py:25
+msgid "Invalid session key."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:96
+msgid "JSON payload is invalid."
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:2
+msgid "KV Store Collections Status"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:101
+msgid "KV Store Response"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:50
+msgid "KV Store Status"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:85
+msgid "License Status"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/mdm_saml.xml
+msgid "MDM with SAML"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:78
+msgid "Max Number of Results"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:199
+msgid "Messages Received and Sent by Secure Gateway"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:21
+msgid "Method"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:23
+msgid "Minimal Dashboard List"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/mobile_tags.xml
+msgid "Mobile Tags"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:14
+msgid "Mode"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:143
+msgid "Model conversion requires a model or dict"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:358
+msgid "Most Recent Error Messages"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:624
+msgid "Must be either true or false."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1097
+msgid "Name of locale {0} did not match validation regex."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1096
+msgid "No default or explicit locales were given."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1095
+msgid "No requested locale was available."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/net.py:265
+msgid "Not a well-formed email address."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:417
+#, python-format
+msgid "Object with ID: %s does not exist in statestore."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:108
+#, python-format
+msgid ""
+"Object you are trying to save is too large (%s bytes). KV store only "
+"supports documents within 16MB sizes."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:299
+msgid "Only mappings may be used in a DictType"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:66
+msgid "Owner"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:95
+msgid "Payload"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:236
+#, python-format
+msgid "Please provide at least %d item."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:237
+#, python-format
+msgid "Please provide at least %d items."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:243
+#, python-format
+msgid "Please provide no more than %d item."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:244
+#, python-format
+msgid "Please provide no more than %d items."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/compound.py:393
+msgid "Please use a mapping for this field or an instance of {}"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:158
+msgid "Raw Events: $requestId$"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:155
+msgid "Raw Events: $subscriptionId$"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/register.xml
+msgid "Register"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:64
+msgid "Request Errors for $requestId$"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:25
+msgid "Request ID"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:2
+msgid "Request Tracing"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:20
+msgid "Request Type"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:109
+msgid "Rest API Call Timing"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:15
+msgid "Secure Gateway Status"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:2
+msgid "Secure Gateway Status Dashboard"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/self_register.xml
+msgid "Self Register"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/alert_actions.conf:5
+msgid "Send a notification to Splunk Mobile recipients"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/alert_actions.conf:4
+msgid "Send to Splunk Mobile"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:61
+msgid "Server Side Registration"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:15
+msgid "Single Request"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/test_dashboard_single_value.xml:6
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/test_dashboard_single_value.xml:8
+msgid "Single Value"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/test_dashboard_single_value.xml:2
+msgid "Single Value Test"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/kvstore_dashboard_client.xml:83
+msgid "Sort By"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/props.conf:5
+msgid "Splunk App Secure Gateway Internal Log"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/app.conf:3
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/app.conf:7
+msgid "Splunk Secure Gateway"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:389
+msgid "String value did not match validation regex."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1098
+msgid "String value in locale {0} did not match validation regex."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1093
+msgid "String value in locale {0} is too long."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1094
+msgid "String value in locale {0} is too short."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:387
+msgid "String value is too long."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:388
+msgid "String value is too short."
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:57
+msgid "Subscription Errors for $subscriptionId$"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:30
+msgid "Subscription ID"
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:16
+msgid "Subscription Message"
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:2
+msgid "Subscription Tracing"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:167
+msgid "This field is required."
+msgstr ""
+
+#. description
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/test_dashboard_single_value.xml:3
+msgid ""
+"This single-value panel is a test to check if a simple dashboard loads in"
+" Splunk Secure Gateway. It helps identify possible causes for issues "
+"during troubleshooting."
+msgstr ""
+
+#. label
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:5
+msgid "Time Interval"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:743
+msgid "Time zone information not allowed."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:742
+msgid "Time zone information required but not found."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:744
+msgid "Time zone must be UTC but was None."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:745
+msgid "Time zone must be UTC."
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:120
+msgid "Total Latency"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:102
+msgid "Total Updates"
+msgstr ""
+
+#. description
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:3
+msgid ""
+"Troubleshoot and trace a particular request. Select a time range and a "
+"request ID to get troubleshooting logs and a stack trace. "
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/nav/default.xml
+msgid "Troubleshooting Dashboards"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/request_tracing_dashboard.xml:83
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:76
+msgid "Type"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:370
+msgid "Unable to decode response from statestore for {0} {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:471
+msgid "Unable to delete {0} {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:435
+msgid "Unable to edit {0} {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:640
+msgid "Unable to parse batch response from statestore for batch_edit"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:239
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:366
+msgid "Unable to parse response from statestore for {0} {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/bin/spacebridgeapp/util/splunk_utils/statestore.py:231
+msgid "Unable to save {0}, request failed. "
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:138
+msgid "Updates: $subscriptionId$"
+msgstr ""
+
+#. description
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/subscription_tracing_dashboard.xml:3
+msgid ""
+"Use this dashboard to troubleshoot a panel that isn’t loading. Select a "
+"time range and a panel ID to get troubleshooting logs and a stack trace."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:442
+msgid "Value '{0}' is not {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1120
+msgid "Value must be a dict or None"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1049
+msgid "Value must be a two-dimensional point"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:168
+msgid "Value must be one of {0}."
+msgstr ""
+
+#. input/choice
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:21
+msgid "Version Get Request"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:130
+msgid "Websocket"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/secure_gateway_status_dashboard.xml:307
+msgid "Websocket Disconnections Count"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:131
+msgid "Websocket Response"
+msgstr ""
+
+#. title
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/default/data/ui/views/ssg_e2e_wss_test.xml:89
+msgid "Websocket Test"
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:443
+msgid "{0} value should be greater than or equal to {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:444
+msgid "{0} value should be less than or equal to {1}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1027
+msgid "{0} value {1} should be greater than or equal to {2}."
+msgstr ""
+
+#: /Applications/Splunk/etc/apps/splunk_secure_gateway/lib/schematics/types/base.py:1028
+msgid "{0} value {1} should be less than or equal to {2}."
+msgstr ""
+

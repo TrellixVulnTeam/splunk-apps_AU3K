@@ -1,0 +1,10 @@
+[inputs/http]
+version = 7.0.0
+modtime = 1541772681.784631000
+
+[inputs/http%3A%2F%2Fstreamfwd]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 7.3.0
+modtime = 1564556152.967079000

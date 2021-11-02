@@ -1,0 +1,68 @@
+{
+   "Fraud Detection" : {
+      "name" : "+++++ +++++++++",
+      "description" : "",
+      "id" : "fraud_detection",
+      "order" : 9
+   },
+   "Incident Response" : {
+      "description" : "",
+      "id" : "incident_response",
+      "name" : "++++++++ ++++++++",
+      "order" : 7
+   },
+   "Application Security" : {
+      "description" : "+++++++++++ ++++++++ ++ +++ +++ ++ +++++++++ +++++++++ +++ ++++++++++ +++++++ ++ +++++++ ++++++++++++ ++++ ++++++++ +++++++ +++++++++ +++++ +++ +++++++++++ ++ ++++++++++ +++ +++++++ +++++++ +++++ ++ +++++++ ++++++++++++++++ ++++++ +++ ++++ ++++++++ ++++++++++++ ++++++++",
+      "id" : "application_security",
+      "name" : "+++++++++++ ++++++++",
+      "icon" : "/static/app/Splunk_Security_Essentials/images/general_images/appsec-icon.png",
+      "order" : 5
+   },
+   "Compliance" : {
+      "order" : 4,
+      "icon" : "/static/app/Splunk_Security_Essentials/images/general_images/compliance-icon.png",
+      "name" : "++++++++++",
+      "description" : "++ ++++++ +++ +++++++++++++ +++++ +++ ++++++++++ ++++++++++++ ++ +++ ++++ ++ +++++++ + ++++ +++++++ ++++ +++ +++++ ++ +++++ ++++++ ++++ ++++ +++ ++++ +++ ++ ++++++++ ++++++++ +++++++++ ++++++ +++++++ +++++++++ ++ ++++++ +++++++++++ +++++ +++ +++++++ ++ ++++++++ +++++++ ++ +++++++++ ++++ ++ +++ +++++++++ +++ ++ +++++++++++++ +++++++++++ +++++++++++",
+      "id" : "compliance"
+   },
+   "Advanced Threat Detection" : {
+      "icon" : "/static/app/Splunk_Security_Essentials/images/general_images/atd-icon.png",
+      "description" : "++ ++++++++ ++++++ +++++ ++ + +++ ++ ++++++++ +++ ++++++++++ ++++++++ +++++++ ++++++++++ +++++ ++++++++++++ ++ + ++++++ ++ +++++++ +++++++++ + ++++++++ +++++++ ++++ +++++++ +++++++ ++++++ +++++++ ++++++++++++++ ++++++ ++ ++++ +++ ++++++++ ++ +++++++++ ++++++++",
+      "name" : "++++++++ ++++++ +++++++++",
+      "id" : "advanced_threat_detection",
+      "order" : 2
+   },
+   "Insider Threat" : {
+      "icon" : "/static/app/Splunk_Security_Essentials/images/general_images/insider-icon.png",
+      "name" : "+++++++ ++++++",
+      "description" : "+++++++ +++++++ ++++ ++++ +++++++ ++ ++++++ ++++++++++ ++++++++++++ ++ ++++++++ +++ ++++ ++++++ ++ +++ +++++++++ +++++++ +++ +++++++++++++ ++ ++++++++++++ +++++++++++ ++++++ ++ +++++++ +++++++++ +++++ ++++ +++++ ++++ ++++++++++ ++++++ ++ ++++++ +++ ++++++++ +++++++++ +++++++++ ++++++ +++++++ +++++++++++ ++++++++ +++++++++ +++++++ ++ +++++ ++++++ +++ ++++ ++++ +++++",
+      "id" : "insider_threat",
+      "order" : 3
+   },
+   "Other" : {
+      "order" : 10,
+      "icon" : "/static/app/Splunk_Security_Essentials/images/general_images/other-icon.png",
+      "id" : "other",
+      "description" : "++++ ++++++ ++ +++ ++++++++++ +++++++ +++ ++++++++ ++++ +++++ ++++ ++++++ +++ +++ +++++ +++++++ +++ +++++ +++++++ + +++ ++ ++++++",
+      "name" : "+++++"
+   },
+   "Security Monitoring" : {
+      "id" : "security_monitoring",
+      "description" : "++++++++ ++++++++++++ ++++++++++ +++++++ +++ ++ +++++++ + ++++++++++ ++++++ ++ ++++ +++++++++ +++++++++ ++ +++ +++++ ++ ++++ ++ ++++ ++++++++ +++++ +++ ++++++++ ++++++++++ ++ ++++ ++ +++++ ++++++++ +++++++ +++ +++++++++++++",
+      "name" : "++++++++ ++++++++++",
+      "icon" : "/static/app/Splunk_Security_Essentials/images/general_images/secmon-icon.png",
+      "order" : 1
+   },
+   "Incident Investigation & Forensics" : {
+      "order" : 6,
+      "description" : "",
+      "id" : "incident_investigation",
+      "name" : "++++++++ +++++++++++++ + +++++++++"
+   },
+   "SOC Automation" : {
+      "id" : "soc_automation",
+      "description" : "",
+      "name" : "+++ ++++++++++",
+      "order" : 8
+   }
+}
